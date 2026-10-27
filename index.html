@@ -159,8 +159,23 @@ section{margin-top:64px}
 .sec-h p{color:var(--muted);font-size:1.05rem}
 .move{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:22px;align-items:center;padding:18px}
 .move svg{width:100%;height:auto;display:block;background:var(--surface2);border-radius:16px}
-.mvfig{min-width:0}
-.media{display:none;width:100%;max-width:560px;max-height:78vh;object-fit:contain;margin:0 auto;border-radius:16px;background:var(--paper)}
+.mvfig{min-width:0;max-width:560px;width:100%;margin:0 auto;position:relative;touch-action:pan-y;user-select:none}
+.mvfig.hasv{cursor:ew-resize}
+.mvbadge{display:none;position:absolute;top:12px;right:14px;font:600 clamp(1.6rem,4vw,2.4rem)/1 var(--f-mono);color:#1c2f52;background:rgba(250,243,233,.82);border-radius:12px;padding:6px 12px;pointer-events:none}
+.mvbadge small{display:block;font:500 11px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;opacity:.7}
+.mvfig.hasv .mvbadge{display:block}
+.mvhint{display:none;text-align:center;font-size:.8rem;color:var(--muted);margin-top:8px}
+.mvfig.hasv .mvhint{display:block}
+.seg{display:inline-flex;border:1.5px solid var(--ink);border-radius:999px;overflow:hidden;justify-self:start}
+.seg button{padding:8px 16px;font-weight:600;background:transparent;color:var(--ink);border:0}
+.seg button[aria-pressed=true]{background:var(--ink);color:var(--bg)}
+.bars{display:grid;gap:7px}
+.eb{display:grid;grid-template-columns:112px 1fr 72px;align-items:center;gap:10px;font-size:.85rem}
+.eb .tr{display:block;height:9px;border-radius:5px;background:var(--surface2);overflow:hidden}
+.eb .tr .fl{display:block;height:100%;width:0;background:var(--c);transition:width .12s}
+.eb span:last-child{font:500 12px var(--f-mono);color:var(--muted);text-align:right}
+.bars-n{font-size:.76rem;color:var(--muted)}
+.media{display:none;width:100%;max-width:560px;max-height:78vh;object-fit:contain;margin:0 auto;border-radius:16px;background:#faf3e9}
 .mvfig.hasv svg{display:none}
 .mvfig.hasv .media.on{display:block}
 .mv-ctrl{display:grid;gap:18px}
@@ -350,19 +365,21 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;max-width:70ch}
     <p>Mova o joelho e a coxa e veja os quatro músculos trabalhando. O reto femoral só encurta de verdade quando o quadril também flexiona.</p>
   </div>
   <div class="card move">
-    <div class="mvfig"><svg id="mv" viewBox="0 0 560 380" role="img" aria-label="Figura lateral sentada com joelho e quadril móveis"></svg><video id="vKnee" class="media" src="img/movimento/joelho.mp4" muted playsinline preload="auto" aria-label="Extensão do joelho com o quadríceps em destaque"></video><video id="vHip" class="media" src="img/movimento/quadril.mp4" muted playsinline preload="auto" aria-label="Elevação da coxa com o reto femoral em destaque"></video></div>
+    <div class="mvfig"><svg id="mv" viewBox="0 0 560 380" role="img" aria-label="Figura lateral sentada com joelho e quadril móveis"></svg><video id="vKnee" class="media" src="img/movimento/joelho.mp4" muted playsinline preload="auto" aria-label="Extensão do joelho com o quadríceps em destaque"></video><video id="vHip" class="media" src="img/movimento/quadril.mp4" muted playsinline preload="auto" aria-label="Elevação da coxa com o reto femoral em destaque"></video><div class="mvbadge" id="mvBadge" aria-hidden="true"></div><div class="mvhint">Arraste a figura para os lados para mover</div></div>
     <div class="mv-ctrl">
+      <div class="seg" role="group" aria-label="Movimento"><button type="button" id="mKnee" aria-pressed="true">Joelho</button><button type="button" id="mHip" aria-pressed="false">Quadril</button></div>
       <div class="layer">
         <label class="t eyebrow" for="sf">Joelho · <span class="val" id="sfv" style="color:var(--ink)"></span></label>
-        <input type="range" id="sf" min="0" max="100" value="90">
-        <div class="ticks"><span>Estendido</span><span>Flexionado</span></div>
+        <input type="range" id="sf" min="0" max="90" value="90">
+        <div class="ticks"><span>Estendido · 0°</span><span>Flexionado · 90°</span></div>
       </div>
       <div class="layer">
         <label class="t eyebrow" for="sh">Coxa elevada (flexão do quadril) · <span class="val" id="shv" style="color:var(--ink)"></span></label>
         <input type="range" id="sh" min="0" max="50" value="0">
-        <div class="ticks"><span>Sentado</span><span>Coxa no ar</span></div>
+        <div class="ticks"><span>Sentado · 0°</span><span>Coxa no ar · 50°</span></div>
       </div>
       <button class="play" id="play">▶ Estender o joelho</button>
+      <div class="bars" id="mvBars"></div><div class="bars-n">Nível de ativação qualitativo, baseado no padrão descrito na literatura. Não é medida de eletromiografia.</div>
       <div class="legend" style="margin-top:0;display:flex;flex-wrap:wrap;gap:6px 14px"><span><i style="background:var(--rf)"></i>Reto femoral</span><span><i style="background:var(--vl)"></i>Vasto lateral</span><span><i style="background:var(--vm)"></i>Vasto medial</span><span><i style="background:var(--vi)"></i>Vasto intermédio</span></div>
       <div class="mv-say" id="mvSay"></div>
     </div>
@@ -887,28 +904,61 @@ function mvDraw(){
 }
 /* vídeo real: o controle deslizante percorre os quadros do vídeo (img/movimento/*.mp4) */
 const vK=$("#vKnee"),vH=$("#vHip"),mvFig=$(".mvfig");let mvActive="knee";
+let mvT=0,mvCur=0;
+const mvTarget=()=>mvActive==="hip"?Math.min(+sh.value,50)/50:(90-Math.min(+sf.value,90))/90;
 function mvSync(){
   const v=mvActive==="hip"?vH:vK;
   mvFig.classList.toggle("hasv",!!v.dataset.ok);
   vK.classList.toggle("on",v===vK);vH.classList.toggle("on",v===vH);
-  if(!v.dataset.ok||!v.duration)return;
-  const t=v===vK?(90-Math.min(+sf.value,90))/90:Math.min(+sh.value,50)/50;
-  v.currentTime=Math.max(0,Math.min(.999,t))*v.duration;
+  $("#mKnee").setAttribute("aria-pressed",v===vK);$("#mHip").setAttribute("aria-pressed",v===vH);
+  mvT=mvTarget();
+  const deg=v===vK?Math.round(+sf.value):Math.round(+sh.value);
+  $("#mvBadge").innerHTML=`${deg}°<small>${v===vK?"flexão do joelho":"flexão do quadril"}</small>`;
+  const e=1-Math.min(+sf.value,90)/90,p=Math.min(+sh.value,50)/50;
+  const L={rf:15+50*e*(1-.4*p)+55*p,vl:15+70*e,vm:15+70*e*e,vi:15+65*e};
+  const N={rf:"Reto femoral",vl:"Vasto lateral",vm:"Vasto medial",vi:"Vasto intermédio"};
+  const LV=x=>x<35?0:x<65?1:2,LN=["Baixo","Moderado","Alto"];
+  $("#mvBars").innerHTML=Object.keys(L).map(k=>{const n=LV(L[k]);return `<div class="eb" style="--c:var(--${k})"><span>${N[k]}</span><div class="tr"><div class="fl" style="width:${(n+1)*33.4}%"></div></div><span>${LN[n]}</span></div>`}).join("");
 }
+/* a posição do vídeo acompanha o alvo com suavização */
+setInterval(function tick(){
+  const v=mvActive==="hip"?vH:vK;
+  if(v.dataset.ok&&v.duration){
+    mvCur+=(mvT-mvCur)*.35; if(Math.abs(mvT-mvCur)<.0015)mvCur=mvT;
+    const n=Math.round(v.duration*24),ct=(Math.round(Math.max(0,Math.min(1,mvCur))*(n-1))+.5)/24;
+    if(Math.abs(v.currentTime-ct)>.004&&!v.seeking)v.currentTime=ct;
+  }
+},16);
+/* servidores sem suporte a Range (ex.: python -m http.server) não deixam buscar quadros: carrega como blob */
+[vK,vH].forEach(v=>{fetch(v.getAttribute("src")).then(r=>r.blob()).then(b=>{v.src=URL.createObjectURL(b)}).catch(()=>{})});
 [vK,vH].forEach(v=>{const ok=()=>{v.dataset.ok="1";mvSync()};v.addEventListener("loadeddata",ok);v.addEventListener("error",()=>{delete v.dataset.ok});if(v.readyState>=2)ok()});
+function mvMode(m){if(raf){cancelAnimationFrame(raf);raf=null;$("#play").textContent=playTxt()}mvActive=m;$("#play").textContent=playTxt();mvCur=mvTarget();mvDraw();mvSync()}
+const playTxt=()=>mvActive==="hip"?"▶ Elevar a coxa":"▶ Estender o joelho";
+$("#mKnee").addEventListener("click",()=>mvMode("knee"));$("#mHip").addEventListener("click",()=>mvMode("hip"));
 sf.addEventListener("input",()=>{mvActive="knee";mvDraw();mvSync()}); sh.addEventListener("input",()=>{mvActive="hip";mvDraw();mvSync()});
+/* arrastar a figura */
+mvFig.addEventListener("pointerdown",e=>{
+  if(!mvFig.classList.contains("hasv"))return;
+  const r=mvFig.getBoundingClientRect(),el=mvActive==="hip"?sh:sf,x0=e.clientX,v0=+el.value;
+  if(raf){cancelAnimationFrame(raf);raf=null;$("#play").textContent=playTxt()}
+  mvFig.setPointerCapture(e.pointerId);
+  const mv_=ev=>{const d=(ev.clientX-x0)/r.width,rg=+el.max;
+    el.value=Math.max(0,Math.min(rg,v0+(el===sf?-d:d)*rg*1.6));el.dispatchEvent(new Event("input"))};
+  const up=()=>{mvFig.removeEventListener("pointermove",mv_);mvFig.removeEventListener("pointerup",up);mvFig.removeEventListener("pointercancel",up)};
+  mvFig.addEventListener("pointermove",mv_);mvFig.addEventListener("pointerup",up);mvFig.addEventListener("pointercancel",up);
+});
 let raf=null;
 $("#play").addEventListener("click",()=>{
-  const btn=$("#play");mvActive="knee";
-  if(raf){cancelAnimationFrame(raf);raf=null;btn.textContent="▶ Estender o joelho";return}
+  const btn=$("#play"),el=mvActive==="hip"?sh:sf,rg=+el.max;
+  if(raf){cancelAnimationFrame(raf);raf=null;btn.textContent=playTxt();return}
   btn.textContent="■ Parar";
-  let dir=-1,last=performance.now();
+  let dir=el===sf?-1:1,last=performance.now();
   const step=t=>{
-    const dt=(t-last)/1000; last=t;
-    let v=+sf.value+dir*dt*45;
+    const dt=Math.min(.05,(t-last)/1000); last=t;
+    let v=+el.value+dir*dt*rg*.5;
     if(v<=0){v=0;dir=1}
-    if(v>=90){v=90;dir=-1}
-    sf.value=v; mvDraw(); raf=requestAnimationFrame(step);
+    if(v>=rg){v=rg;dir=-1}
+    el.value=v;el.dispatchEvent(new Event("input"));raf=requestAnimationFrame(step);
   };
   raf=requestAnimationFrame(step);
 });

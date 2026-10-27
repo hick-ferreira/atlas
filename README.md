@@ -32,7 +32,7 @@ python3 -m http.server 8000
 ```
 index.html                single page (HTML, CSS and JS)
 img/quad-perna.jpg        main thigh illustration
-img/movimento/            knee and hip videos + source sheet
+img/movimento/            knee and hip scrub videos + source sheet
 img/alongamentos/         images (and one video) for each stretch
 docs/                     prompts used to generate the images (in Portuguese)
 ```
