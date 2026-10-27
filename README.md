@@ -1,6 +1,11 @@
 # Atlas
 
-An interactive anatomy atlas for study and reference, with animated illustrations. The first region is the **thigh**: the quadriceps muscles and the extensor, flexor, adductor and abductor groups. More body regions will be added.
+An interactive anatomy atlas for study and reference, with animated illustrations. A bar at the top switches between regions.
+
+- **Thigh** (`coxa/`): the quadriceps muscles and the extensor, flexor, adductor and abductor groups.
+- **Arm and shoulder** (`ombro/`): deltoid, rotator cuff, biceps, brachialis, coracobrachialis and triceps, front and back views, with palpation notes, stretches and a quiz. Movement animation and stretch illustrations are still to come.
+
+More body regions will be added.
 
 The site content is in Brazilian Portuguese.
 
@@ -30,10 +35,14 @@ python3 -m http.server 8000
 ## Structure
 
 ```
-index.html                single page (HTML, CSS and JS)
-img/quad-perna.jpg        main thigh illustration
-img/movimento/            knee and hip scrub videos + source sheet
-img/alongamentos/         images (and one video) for each stretch
+index.html                region picker (home)
+shared/nav.js             region bar shared by all pages (add new regions here)
+coxa/index.html           thigh page (HTML, CSS and JS)
+coxa/img/quad-perna.jpg   main thigh illustration
+coxa/img/movimento/       knee and hip scrub videos + source sheet
+coxa/img/alongamentos/    images (and one video) for each stretch
+ombro/index.html          arm and shoulder page
+ombro/img/                front and back illustrations (stretch images go in img/alongamentos/)
 docs/                     prompts used to generate the images (in Portuguese)
 ```
 

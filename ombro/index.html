@@ -1,0 +1,850 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Atlas interativo do ombro e do braço: deltoide, manguito rotador, bíceps, braquial, coracobraquial e tríceps, com palpação, alongamentos e desafio.">
+<meta property="og:title" content="Atlas do Ombro e do Braço">
+<meta property="og:description" content="Estude os músculos do ombro e do braço com ilustrações animadas, palpação, alongamentos e desafio.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='4' y='6' width='5' height='22' rx='2.5' fill='%23e0434f'/%3E%3Crect x='11' y='10' width='5' height='18' rx='2.5' fill='%231792d1'/%3E%3Crect x='18' y='8' width='5' height='20' rx='2.5' fill='%23e89a0c'/%3E%3Crect x='25' y='13' width='4' height='15' rx='2' fill='%237c4dea'/%3E%3C/svg%3E">
+<title>Ombro e braço · Atlas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: palco anatômico sticky à esquerda, ficha do músculo à direita; abaixo movimento, desafio e resumo. */
+:root{
+  --bg:#edf1f5; --surface:#ffffff; --surface2:#f4f7fa; --ink:#0f1d2b; --muted:#53657a; --line:#d2dce6;
+  --skin:#e8dcd4; --bone:#fbf8f0; --bone-line:#b9ae98; --tendon:#f3efe3;
+  --rf:#e0434f; --vl:#1792d1; --vm:#e89a0c; --vi:#7c4dea;
+  --rf-t:#b3202c; --vl-t:#0b6a9c; --vm-t:#8f5a00; --vi-t:#5a2fc4;
+  --g-ext:#12a38f; --g-flx:#e0407f; --g-add:#7f9a00; --g-abd:#4a6cf0; --g-ext-t:#0a7566; --g-flx-t:#b5225c; --g-add-t:#586b00; --g-abd-t:#2f4bc4;
+  --tc:#7d8aa0; --paper:#fbf8f3; --paper-ink:#1d2733; --fig-skin:#e8bd9b; --fig-skinF:#c99e7e; --shirt:#51657d; --shorts:#2d3b4e; --hair:#3a2a22; --shoe:#f2f4f7;
+  --ok:#14863f; --bad:#c42b2b; --shadow:0 1px 2px rgba(15,29,43,.06),0 8px 28px rgba(15,29,43,.07);
+  --f-display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;
+  --f-body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"DM Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0c141d; --surface:#142030; --surface2:#1a2a3c; --ink:#e8eef5; --muted:#93a6ba; --line:#263a50;
+  --skin:#2b3745; --bone:#cfd6dd; --bone-line:#8b97a4; --tendon:#e6e1d2;
+  --rf:#ff6b72; --vl:#3db4f0; --vm:#ffb830; --vi:#a98bff;
+  --rf-t:#ff8f94; --vl-t:#74ccf7; --vm-t:#ffc95c; --vi-t:#c4adff;
+  --g-ext:#3ad1bb; --g-flx:#ff7fb1; --g-add:#c3dc4a; --g-abd:#8da4ff; --g-ext-t:#6fe3d1; --g-flx-t:#ff9fc6; --g-add-t:#d6ea78; --g-abd-t:#b0c0ff;
+  --tc:#aab6c8; --paper:#fbf8f3; --paper-ink:#1d2733; --fig-skin:#d6a583; --fig-skinF:#aa7f62; --shirt:#7a8ea6; --shorts:#3c4c60; --hair:#1b1411; --shoe:#dfe5ec;
+  --ok:#4cd07d; --bad:#ff7a7a; --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0c141d; --surface:#142030; --surface2:#1a2a3c; --ink:#e8eef5; --muted:#93a6ba; --line:#263a50;
+  --skin:#2b3745; --bone:#cfd6dd; --bone-line:#8b97a4; --tendon:#e6e1d2;
+  --rf:#ff6b72; --vl:#3db4f0; --vm:#ffb830; --vi:#a98bff;
+  --rf-t:#ff8f94; --vl-t:#74ccf7; --vm-t:#ffc95c; --vi-t:#c4adff;
+  --g-ext:#3ad1bb; --g-flx:#ff7fb1; --g-add:#c3dc4a; --g-abd:#8da4ff; --g-ext-t:#6fe3d1; --g-flx-t:#ff9fc6; --g-add-t:#d6ea78; --g-abd-t:#b0c0ff;
+  --tc:#aab6c8; --paper:#fbf8f3; --paper-ink:#1d2733; --fig-skin:#d6a583; --fig-skinF:#aa7f62; --shirt:#7a8ea6; --shorts:#3c4c60; --hair:#1b1411; --shoe:#dfe5ec;
+  --ok:#4cd07d; --bad:#ff7a7a; --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.55 var(--f-body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 56px}
+.wrap{max-width:1200px;margin:0 auto}
+h1,h2,h3{font-family:var(--f-display);margin:0;text-wrap:balance;letter-spacing:-.02em;line-height:1.05}
+p{margin:0}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:6px}
+.eyebrow{font:500 12px/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+
+/* hero */
+header{padding-block:44px 28px;display:grid;grid-template-columns:1fr;gap:22px}
+.brand{display:flex;gap:6px;align-items:flex-end;height:22px}
+.brand i{width:8px;border-radius:3px}
+.brand i:nth-child(1){height:22px;background:var(--rf)}.brand i:nth-child(2){height:16px;background:var(--vl)}
+.brand i:nth-child(3){height:20px;background:var(--vm)}.brand i:nth-child(4){height:12px;background:var(--vi)}
+h1{font-size:clamp(2.6rem,7.5vw,5.4rem);font-weight:800}
+h1 span{display:block;font-weight:500;color:var(--muted);font-size:.42em;letter-spacing:-.01em;margin-top:.5em;line-height:1.25;max-width:30ch}
+.chips{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.chip{background:var(--surface);border:1.5px solid var(--line);border-radius:14px;padding:12px 14px;text-align:left;
+  display:flex;flex-direction:column;gap:2px;transition:transform .15s,border-color .15s,box-shadow .15s;min-width:0}
+.chip b{font:700 1.05rem/1.15 var(--f-display);display:flex;align-items:center;gap:8px}
+.chip b::before{content:"";width:12px;height:12px;border-radius:50%;background:var(--c);flex:none}
+.chip small{color:var(--muted);font-size:.82rem}
+.chip:hover{transform:translateY(-2px)}
+.chip[aria-pressed="true"]{border-color:var(--c);box-shadow:0 0 0 3px color-mix(in srgb,var(--c) 28%,transparent)}
+
+/* palco */
+.stage{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:22px;align-items:start}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow)}
+.figure{position:sticky;top:max(68px,env(safe-area-inset-top,0px));padding:16px 16px 18px}
+.figure svg{width:100%;height:auto;max-height:76vh;display:block}
+.hint{font:500 12px/1.3 var(--f-mono);color:var(--muted);text-align:center;margin:2px 0 10px}
+.controls{display:grid;gap:14px;border-top:1px solid var(--line);padding-top:14px;margin-top:6px}
+.layer{display:grid;gap:6px}
+.layer label.t{font:500 12px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.layer .val{font:700 1rem var(--f-display)}
+input[type=range]{width:100%;accent-color:var(--ink);height:28px}
+.ticks{display:flex;justify-content:space-between;font-size:.78rem;color:var(--muted)}
+.toggles{display:flex;flex-wrap:wrap;gap:8px}
+.tg{display:inline-flex;gap:8px;align-items:center;border:1.5px solid var(--line);border-radius:999px;padding:7px 14px 7px 10px;background:var(--surface2);font-size:.9rem;font-weight:500;user-select:none}
+.tg input{accent-color:var(--ink);width:16px;height:16px;margin:0}
+.tg:has(input:checked){border-color:var(--ink)}
+
+/* svg anatomia */
+.mus{cursor:pointer;transition:opacity .35s,filter .2s}
+.mus .base{fill-opacity:.94;stroke:color-mix(in srgb,var(--c) 45%,#000);stroke-width:2;stroke-linejoin:round;transition:fill-opacity .2s}
+.mus .fib{pointer-events:none}
+.mus:hover .base,.mus:focus-visible .base{fill-opacity:1}
+.mus:focus-visible{outline:none}
+.mus:focus-visible .base{stroke:var(--ink);stroke-width:4}
+svg.has-sel .mus:not(.sel) .base{fill-opacity:.32}
+.mus.sel{filter:drop-shadow(0 0 7px var(--c))}
+.mus.sel .base{fill-opacity:1}
+svg[data-layer="1"] .mus[data-m="rf"]{opacity:.1}
+svg[data-layer="2"] .mus{opacity:.07}
+svg[data-layer="2"] .tendon-g{opacity:.2}
+.lbl{font:700 17px var(--f-display);fill:var(--ink);cursor:pointer}
+.lbl small{font:500 12px var(--f-mono);fill:var(--muted)}
+.lead{stroke:var(--muted);stroke-width:1.4;fill:none}
+.pin circle{stroke:var(--surface);stroke-width:2.5}
+.pin text{font:700 11px var(--f-mono);fill:#fff;text-anchor:middle;dominant-baseline:central;pointer-events:none}
+.guide{stroke:var(--ink);stroke-width:2;stroke-dasharray:6 5;fill:none;opacity:.8}
+.lm circle{fill:var(--ink);stroke:var(--surface);stroke-width:2}
+.lm text{font:500 12.5px var(--f-mono);fill:var(--ink);paint-order:stroke;stroke:var(--surface);stroke-width:4px;stroke-linejoin:round}
+.vmo{fill:none;stroke:var(--ink);stroke-width:2.2;stroke-dasharray:4 4;opacity:0;transition:opacity .25s;pointer-events:none}
+svg[data-sel="vm"] .vmo{opacity:1}
+.vmo-t{font:700 12px var(--f-mono);fill:var(--ink);opacity:0;pointer-events:none}
+svg[data-sel="vm"] .vmo-t{opacity:1}
+.hide{display:none}
+.show-pins .pins,.show-guides .guides,.show-names .names{display:block}
+.pins,.guides,.names{display:none}
+
+/* painel */
+.panel{padding:22px 22px 26px;min-height:480px}
+.tabs{display:flex;gap:4px;background:var(--surface2);padding:4px;border-radius:12px;margin-bottom:20px;overflow-x:auto}
+.tab{flex:1;border:0;background:transparent;border-radius:9px;padding:9px 12px;font-weight:600;font-size:.92rem;color:var(--muted);white-space:nowrap}
+.tab[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.mname{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+.mname .sw{width:14px;align-self:stretch;border-radius:5px;background:var(--c);flex:none}
+.mname h2{font-size:clamp(1.9rem,4vw,2.7rem);font-weight:800}
+.latin{font:500 13px var(--f-mono);color:var(--muted);margin-bottom:14px}
+.lead-p{font-size:1.08rem;margin-bottom:18px;max-width:60ch}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fact{background:var(--surface2);border-radius:14px;padding:12px 14px;min-width:0}
+.fact.wide{grid-column:1/-1}
+.fact h3{font:500 11px/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.fact p{font-size:.95rem;line-height:1.45}
+.tag{display:inline-block;font:500 12px var(--f-mono);padding:3px 9px;border-radius:999px;background:color-mix(in srgb,var(--c) 18%,transparent);color:var(--ct);margin:0 6px 6px 0}
+.find{display:grid;grid-template-columns:minmax(170px,230px) minmax(0,1fr);gap:20px;align-items:start}
+.body-svg{background:var(--surface2);border-radius:16px;padding:8px}
+.body-svg svg{width:100%;height:auto;display:block}
+.steps{list-style:none;counter-reset:s;margin:0;padding:0;display:grid;gap:12px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:30px 1fr;gap:12px;align-items:start}
+.steps li::before{content:counter(s);width:30px;height:30px;border-radius:50%;background:var(--c);color:#fff;font:700 .95rem var(--f-display);display:grid;place-items:center}
+.callout{margin-top:16px;border-radius:14px;padding:12px 14px;background:color-mix(in srgb,var(--c) 14%,transparent);border:1px solid color-mix(in srgb,var(--c) 40%,transparent);font-size:.95rem}
+.callout b{font-family:var(--f-display)}
+.legend{margin-top:16px;display:grid;gap:6px;font-size:.88rem;color:var(--muted)}
+.legend span{display:flex;gap:8px;align-items:center}
+.legend i{width:20px;height:20px;border-radius:50%;background:var(--ink);color:var(--surface);font:700 11px/20px var(--f-mono);text-align:center;font-style:normal;flex:none}
+.clin{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.clin li{background:var(--surface2);border-radius:14px;padding:12px 14px 12px 16px;border-left:5px solid var(--c)}
+.clin b{display:block;font-family:var(--f-display);margin-bottom:2px}
+@keyframes pulse{0%{r:3;opacity:.9}100%{r:14;opacity:0}}
+.pulse{animation:pulse 1.6s ease-out infinite}
+
+/* seções */
+section{margin-top:64px}
+.sec-h{display:grid;gap:10px;margin-bottom:22px;max-width:62ch}
+.sec-h h2{font-size:clamp(1.8rem,4.6vw,3rem);font-weight:800}
+.sec-h p{color:var(--muted);font-size:1.05rem}
+.move{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:22px;align-items:center;padding:18px}
+.move svg{width:100%;height:auto;display:block;background:var(--surface2);border-radius:16px}
+.mvfig{min-width:0;max-width:560px;width:100%;margin:0 auto;position:relative;touch-action:pan-y;user-select:none}
+.mvfig.hasv{cursor:ew-resize}
+.mvbadge{display:none;position:absolute;top:12px;right:14px;font:600 clamp(1.6rem,4vw,2.4rem)/1 var(--f-mono);color:#1c2f52;background:rgba(250,243,233,.82);border-radius:12px;padding:6px 12px;pointer-events:none}
+.mvbadge small{display:block;font:500 11px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;opacity:.7}
+.mvfig.hasv .mvbadge{display:block}
+.mvhint{display:none;text-align:center;font-size:.8rem;color:var(--muted);margin-top:8px}
+.mvfig.hasv .mvhint{display:block}
+.seg{display:inline-flex;border:1.5px solid var(--ink);border-radius:999px;overflow:hidden;justify-self:start}
+.seg button{padding:8px 16px;font-weight:600;background:transparent;color:var(--ink);border:0}
+.seg button[aria-pressed=true]{background:var(--ink);color:var(--bg)}
+.bars{display:grid;gap:7px}
+.eb{display:grid;grid-template-columns:112px 1fr 72px;align-items:center;gap:10px;font-size:.85rem}
+.eb .tr{display:block;height:9px;border-radius:5px;background:var(--surface2);overflow:hidden}
+.eb .tr .fl{display:block;height:100%;width:0;background:var(--c);transition:width .12s}
+.eb span:last-child{font:500 12px var(--f-mono);color:var(--muted);text-align:right}
+.bars-n{font-size:.76rem;color:var(--muted)}
+.media{display:none;width:100%;max-width:560px;max-height:78vh;object-fit:contain;margin:0 auto;border-radius:16px;background:#faf3e9}
+.mvfig.hasv svg{display:none}
+.mvfig.hasv .media.on{display:block}
+.mv-ctrl{display:grid;gap:18px}
+.play{border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);border-radius:999px;padding:10px 18px;font-weight:600;justify-self:start}
+.mv-say{background:var(--surface2);border-radius:14px;padding:14px 16px;min-height:96px;font-size:.98rem}
+.mv-say b{font-family:var(--f-display);display:block;margin-bottom:2px}
+.quiz{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1fr);gap:22px;padding:18px;align-items:center}
+.quiz svg{width:100%;height:auto;max-height:640px;display:block}
+.q-box{display:grid;gap:16px}
+.q-meta{display:flex;justify-content:space-between;gap:10px;font:500 13px var(--f-mono);color:var(--muted)}
+.q-text{font:700 clamp(1.3rem,3vw,1.8rem)/1.2 var(--f-display);min-height:3.6em;text-wrap:balance}
+.q-fb{border-radius:14px;padding:14px 16px;background:var(--surface2);min-height:92px}
+.q-fb.good{background:color-mix(in srgb,var(--ok) 16%,transparent);border:1px solid var(--ok)}
+.q-fb.bad{background:color-mix(in srgb,var(--bad) 14%,transparent);border:1px solid var(--bad)}
+.btn{border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);border-radius:999px;padding:10px 20px;font-weight:600;justify-self:start}
+.btn[disabled]{opacity:.35;cursor:default}
+.bar{height:8px;border-radius:99px;background:var(--surface2);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--ink);width:0;transition:width .3s}
+.tablewrap{overflow-x:auto;padding:6px 6px 10px}
+table{border-collapse:collapse;width:100%;min-width:760px;font-size:.93rem}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 11px var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+td:first-child{font:700 1rem var(--f-display);white-space:nowrap}
+td:first-child::before{content:"";display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--c);margin-right:8px}
+tr:last-child td{border-bottom:0}
+footer{margin-top:48px;color:var(--muted);font-size:.85rem;max-width:70ch}
+
+@media (max-width:900px){
+  .stage,.move,.quiz{grid-template-columns:1fr}
+  .figure{position:static}
+  .figure svg{max-height:none}
+  .chips{grid-template-columns:repeat(2,1fr)}
+  .quiz svg{max-height:520px;margin:0 auto}
+}
+@media (max-width:520px){
+  .find{grid-template-columns:1fr}
+  .body-svg{max-width:220px;margin:0 auto}
+  .facts{grid-template-columns:1fr}
+  .panel{padding:18px 16px 22px}
+}
+/* grupos */
+.snav{display:flex;flex-wrap:wrap;gap:8px}
+.snav button{border:1.5px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 14px;font-size:.88rem;font-weight:500;color:var(--muted)}
+.snav button:hover{color:var(--ink);border-color:var(--ink)}
+.gnav{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px}
+.gbtn{background:var(--surface);border:1.5px solid var(--line);border-radius:14px;padding:12px 14px;text-align:left;min-width:0;transition:transform .15s}
+.gbtn:hover{transform:translateY(-2px)}
+.gbtn b{display:flex;align-items:center;gap:8px;font:700 1.05rem/1.15 var(--f-display)}
+.gbtn b::before{content:"";width:12px;height:12px;border-radius:4px;background:var(--c);flex:none}
+.gbtn small{color:var(--muted);font-size:.82rem;display:block;margin-top:2px}
+.gbtn[aria-pressed="true"]{border-color:var(--c);box-shadow:0 0 0 3px color-mix(in srgb,var(--c) 28%,transparent)}
+.gtop{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:14px}
+.seg{display:inline-flex;background:var(--surface2);padding:4px;border-radius:12px;gap:4px}
+.seg button{border:0;background:transparent;border-radius:9px;padding:7px 14px;font-weight:600;font-size:.9rem;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.14)}
+.gwrap{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.5fr);gap:18px;align-items:start}
+.mlist{display:grid;gap:8px;padding:12px}
+.mbtn{background:var(--surface2);border:1.5px solid transparent;border-radius:14px;padding:10px 14px;text-align:left;min-width:0}
+.mbtn b{display:block;font:700 1rem var(--f-display)}
+.mbtn small{color:var(--muted);font-size:.82rem}
+.mbtn:hover{border-color:var(--line)}
+.mbtn[aria-pressed="true"]{background:var(--surface);border-color:var(--c);box-shadow:0 0 0 3px color-mix(in srgb,var(--c) 22%,transparent)}
+.gdet{padding:22px}
+.gdet h2{font-size:clamp(1.7rem,3.4vw,2.4rem);font-weight:800}
+.acts{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 14px}
+.act{font:500 12px var(--f-mono);border-radius:999px;padding:3px 10px;border:1.5px solid var(--ac);color:var(--act)}
+.strech{margin-top:18px;border-top:1px dashed var(--line);padding-top:18px;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:18px;align-items:start}
+.strech h3{font:800 1.3rem var(--f-display);margin-bottom:10px}
+.pose{background:var(--surface2);border-radius:18px;padding:6px}
+.pose svg{width:100%;height:auto;display:block}
+.sinais{background:color-mix(in srgb,var(--c) 12%,transparent);border-radius:14px;padding:10px 14px;margin-top:12px;font-size:.93rem}
+.dose{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.dose span{font:500 12px var(--f-mono);background:var(--surface2);border-radius:8px;padding:5px 10px}
+.matrix td,.matrix th{padding:10px 8px;text-align:center}
+.matrix td:first-child,.matrix th:first-child{text-align:left}
+.matrix td:first-child::before{display:none}
+.dot{display:inline-block;width:14px;height:14px;border-radius:50%;background:var(--c)}
+.matrix tr.sel td{background:var(--surface2)}
+.note{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 16px;font-size:.92rem;color:var(--muted);margin-bottom:14px}
+@media (max-width:900px){.gwrap,.strech{grid-template-columns:1fr}.gnav{grid-template-columns:repeat(2,1fr)}}
+/* gravuras */
+.plates{padding:18px}
+.ptabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.ptabs button{border:1.5px solid var(--line);background:var(--surface2);border-radius:999px;padding:7px 14px;font-weight:600;font-size:.9rem;color:var(--muted)}
+.ptabs button[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.pgrid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:22px;align-items:start}
+.paper{background:#f7f4ec;border-radius:16px;padding:10px;position:relative;box-shadow:inset 0 0 0 1px rgba(0,0,0,.06);margin:0 auto;width:100%}
+.paper svg{display:block;width:100%;height:auto}
+.paper image{pointer-events:none}
+.spot{fill:var(--c);fill-opacity:0;stroke:var(--c);stroke-opacity:0;stroke-width:3;stroke-linejoin:round;cursor:pointer;transition:fill-opacity .15s,stroke-opacity .15s}
+.spot:hover,.spot:focus-visible{fill-opacity:.38;stroke-opacity:1;outline:none}
+.spot.on{fill-opacity:.5;stroke-opacity:1}
+.paper.all .spot{fill-opacity:.26;stroke-opacity:.9}
+.paper.all .spot.on{fill-opacity:.55}
+.pinfo{display:grid;gap:14px}
+.plist{display:flex;flex-wrap:wrap;gap:6px}
+.plist button{border:1.5px solid var(--line);background:var(--surface2);border-radius:999px;padding:5px 12px;font-size:.85rem;font-weight:500;display:flex;gap:7px;align-items:center}
+.plist button::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--c)}
+.plist button[aria-pressed="true"]{border-color:var(--c);background:var(--surface)}
+.pcard{background:var(--surface2);border-radius:16px;padding:16px 18px;border-left:6px solid var(--c)}
+.pcard h3{font:800 1.6rem var(--f-display);margin-bottom:2px}
+.pcard p{margin:8px 0 12px}
+.pcredit{margin-top:14px;font-size:.78rem;color:var(--muted)}
+@media (max-width:900px){.pgrid{grid-template-columns:1fr}}
+/* ilustração real */
+.figure svg{background:var(--paper);border-radius:16px}
+.mus .hs{fill:var(--c);fill-opacity:0;stroke:var(--c);stroke-opacity:0;stroke-width:3;stroke-linejoin:round;cursor:pointer;transition:fill-opacity .2s,stroke-opacity .2s}
+.mus:hover .hs,.mus:focus-visible .hs{fill-opacity:.28;stroke-opacity:.9}
+.mus:focus-visible{outline:none}
+.mus.sel .hs{fill-opacity:.3;stroke-opacity:1;animation:glow 2.2s ease-in-out infinite}
+@keyframes glow{50%{fill-opacity:.1;stroke-width:6}}
+.veil{fill:var(--paper);opacity:0;transition:opacity .5s;pointer-events:none}
+.heat{fill:var(--c);fill-opacity:calc(var(--heat,0)*.3);pointer-events:none}
+.bl{opacity:0;pointer-events:none}
+.lbl-g{cursor:pointer}
+.lbl-g text{font:700 38px var(--f-display);fill:var(--paper-ink);transition:fill .2s}
+.lbl-g .sm{font:500 25px var(--f-mono);fill:#5a6878}
+.lbl-g .lead{stroke:#3a4656;stroke-width:3;fill:none;stroke-dasharray:1;stroke-dashoffset:0;animation:draw .9s ease backwards;animation-delay:var(--d,0s)}
+.lbl-g .dotl{fill:#3a4656;animation:fadeIn .4s ease backwards;animation-delay:var(--d,0s)}
+.lbl-g text{animation:fadeIn .6s ease backwards;animation-delay:calc(var(--d,0s) + .5s)}
+.lbl-g:hover text,.lbl-g.sel text{fill:color-mix(in srgb,var(--c) 70%,#000)}
+.lbl-g.sel .lead{stroke:var(--c);stroke-width:5}
+@keyframes draw{from{stroke-dashoffset:1}}
+@keyframes fadeIn{from{opacity:0}}
+.pin circle{stroke:#fff}
+.guide{stroke:#1d2733}
+.lm text{fill:#1d2733;stroke:var(--paper);stroke-width:6px;paint-order:stroke;font-size:30px}
+.lm circle{fill:#1d2733;stroke:var(--paper)}
+.pin text{font-size:20px}
+.vmo,.vmo-t{display:none}
+.pulsehl{animation:glow 2.2s ease-in-out infinite}
+.mini svg{width:100%;height:auto;display:block;background:var(--paper);border-radius:14px}
+.slot{position:relative}
+.slot img{display:none}
+.slot.hasimg img{display:block;width:100%;border-radius:14px;animation:kb 9s ease-in-out infinite alternate}
+.slot.hasimg svg{display:none}
+.slot video{display:none}
+.slot.hasimg video{display:block;width:100%;border-radius:14px}
+@keyframes kb{to{transform:scale(1.045)}}
+.pose .fig{animation:breathe 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes breathe{50%{transform:scale(1.018,1.01)}}
+.pose .arr{animation:arrp 1.3s ease-in-out infinite}
+@keyframes arrp{50%{opacity:.3}}
+.cbtn{border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);border-radius:999px;padding:8px 16px;font-weight:600;font-size:.9rem}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<style>
+:root{--del:#e0563f;--sup:#3b6fd0;--inf:#27a068;--tmi:#9b4fd0;--sub:#e6b800;--tma:#f08e76;--bic:#f08a24;--bra:#e8689c;--cor:#22b39a;--tri:#3d5f94;
+ --del-t:#b33a26;--sup-t:#234fa8;--inf-t:#17724a;--tmi-t:#6e2fa3;--sub-t:#8a6d00;--tma-t:#b8503a;--bic-t:#a85a0a;--bra-t:#b02e66;--cor-t:#0f7868;--tri-t:#2b4673;
+ --g-rot:#9b4fd0;--g-rot-t:#6e2fa3}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--del:#ff7a63;--sup:#6d9bff;--inf:#4fd490;--tmi:#c28cf0;--sub:#ffd23d;--tma:#ffa58f;--bic:#ffa04a;--bra:#ff8fbb;--cor:#4fd9c0;--tri:#7f9fd6;
+ --del-t:#ff9c8a;--sup-t:#9dbcff;--inf-t:#7fe3ae;--tmi-t:#d9b3f7;--sub-t:#ffe27a;--tma-t:#ffc2b3;--bic-t:#ffbd7d;--bra-t:#ffb3d1;--cor-t:#86e8d6;--tri-t:#a9c2ea;--g-rot:#c49bff;--g-rot-t:#d9bfff}}
+:root[data-theme="dark"]{--del:#ff7a63;--sup:#6d9bff;--inf:#4fd490;--tmi:#c28cf0;--sub:#ffd23d;--tma:#ffa58f;--bic:#ffa04a;--bra:#ff8fbb;--cor:#4fd9c0;--tri:#7f9fd6;
+ --del-t:#ff9c8a;--sup-t:#9dbcff;--inf-t:#7fe3ae;--tmi-t:#d9b3f7;--sub-t:#ffe27a;--tma-t:#ffc2b3;--bic-t:#ffbd7d;--bra-t:#ffb3d1;--cor-t:#86e8d6;--tri-t:#a9c2ea;--g-rot:#c49bff;--g-rot-t:#d9bfff}
+.brand i:nth-child(1){background:var(--del)}.brand i:nth-child(2){background:var(--sup)}.brand i:nth-child(3){background:var(--bic)}.brand i:nth-child(4){background:var(--tri)}
+.chips{grid-template-columns:repeat(5,1fr)}
+@media (max-width:900px){.chips{grid-template-columns:repeat(2,1fr)}}
+.vbar{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:6px}
+.phold{display:none;aspect-ratio:4/3;place-items:center;text-align:center;padding:16px;border-radius:14px;background:var(--surface2);color:var(--muted);font:500 12px/1.4 var(--f-mono);letter-spacing:.08em;text-transform:uppercase}
+.slot:not(.hasimg) .phold{display:grid}
+.q-view{font:500 12px var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.lbl-g text{font-size:36px}
+svg.has-sel .pin:not(.sel){display:none}
+.stage{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}
+@media (max-width:900px){.stage{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<script src="../shared/nav.js"></script>
+<div class="wrap">
+<header>
+  <div class="brand" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <h1>Atlas do Ombro e do Braço<span>Do deltoide ao tríceps: toque na ilustração, veja o que cada músculo faz e como senti-lo com as próprias mãos.</span></h1>
+  <div class="chips" id="chips" role="group" aria-label="Escolha um músculo"></div>
+  <nav class="snav" aria-label="Seções"><button data-go="stageFig">Atlas</button><button data-go="secGroups">Abdutores, flexores, extensores e rotadores</button><button data-go="secQuiz">Desafio</button></nav>
+</header>
+
+<main>
+<div class="stage">
+  <div class="card figure" id="stageFig">
+    <div class="vbar">
+      <div class="eyebrow" id="viewName">Ombro e braço direitos · vista anterior</div>
+      <div class="seg" id="vseg" role="group" aria-label="Vista"><button type="button" data-v="frente" aria-pressed="true">Frente</button><button type="button" data-v="costas" aria-pressed="false">Costas</button></div>
+    </div>
+    <div class="hint">toque em um músculo para explorar</div>
+    <div id="mainSvg"></div>
+    <div class="controls">
+      <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center"><button class="cbtn" id="cbtn">▶ Contrair os músculos desta vista</button><span class="hint" style="margin:0;text-align:left">ou escolha um músculo: ele contrai sozinho</span></div>
+      <div class="toggles">
+        <label class="tg"><input type="checkbox" id="tgNames" checked> Nomes</label>
+        <label class="tg"><input type="checkbox" id="tgPins"> Origem e inserção</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="card panel" id="panel">
+    <div class="tabs" role="tablist" id="tabs">
+      <button class="tab" role="tab" data-tab="ficha" aria-selected="true">Ficha</button>
+      <button class="tab" role="tab" data-tab="achar" aria-selected="false">Onde achar</button>
+      <button class="tab" role="tab" data-tab="clinica" aria-selected="false">Na clínica</button>
+    </div>
+    <div id="panelBody"></div>
+  </div>
+</div>
+
+<section id="secGroups">
+  <div class="sec-h">
+    <span class="eyebrow">Grupos musculares</span>
+    <h2>Abdutores, flexores, extensores e rotadores</h2>
+    <p>Escolha o movimento, depois o músculo. Cada um traz origem, inserção, sinais de encurtamento e um alongamento passo a passo.</p>
+  </div>
+  <div class="note"><b>Como alongar:</b> mantenha cada posição por 20 a 30 segundos, repita de 2 a 4 vezes por lado e vá só até sentir um estiramento firme, sem dor. Dor aguda, formigamento ou queimação são sinais para reduzir a amplitude ou parar. Em ombros com luxação prévia ou dor persistente, alongue com orientação profissional.</div>
+  <div class="gnav" id="gnav"></div>
+  <div class="gtop"><div class="seg" id="gsub" role="group" aria-label="Movimento"></div><span class="eyebrow" id="gblurb"></span></div>
+  <div class="gwrap">
+    <div class="card mlist" id="mlist"></div>
+    <div class="card gdet" id="gdet"></div>
+  </div>
+  <div class="sec-h" style="margin-top:36px"><h2 style="font-size:1.6rem">Quem faz o quê</h2><p>Cada ponto marca um movimento em que o músculo participa.</p></div>
+  <div class="card tablewrap"><table class="matrix" id="matrix"></table></div>
+</section>
+
+<section id="secQuiz">
+  <div class="sec-h">
+    <span class="eyebrow">Desafio</span>
+    <h2>Você acha cada músculo?</h2>
+    <p>Leia a pista e clique no músculo certo na ilustração. A vista muda entre frente e costas conforme a pergunta. São dez perguntas.</p>
+  </div>
+  <div class="card quiz">
+    <div id="quizSvg"></div>
+    <div class="q-box">
+      <div class="bar"><i id="qBar"></i></div>
+      <div class="q-meta"><span id="qNum">Pergunta 1 de 10</span><span id="qScore">Acertos: 0</span></div>
+      <div class="q-view" id="qView"></div>
+      <div class="q-text" id="qText"></div>
+      <div class="q-fb" id="qFb">Escolha um músculo na figura.</div>
+      <button class="btn" id="qNext" disabled>Próxima</button>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-h">
+    <span class="eyebrow">Resumo</span>
+    <h2>Os dez lado a lado</h2>
+  </div>
+  <div class="card tablewrap"><table id="tbl"></table></div>
+</section>
+</main>
+
+<footer>Material de estudo baseado em anatomia clássica. Os pontos de palpação variam de pessoa para pessoa e este atlas não substitui avaliação profissional.</footer>
+</div>
+
+<script>
+const HS={"frente": {"del": {"d": "M474,215 452,213 414,234 403,235 382,257 367,283 343,343 330,403 328,461 333,497 339,505 346,505 358,498 363,488 378,485 388,456 397,453 408,438 425,425 465,384 471,372 513,324 530,293 531,282 521,268 515,249 508,241 482,226Z", "c": [417, 341], "p": [439, 301], "bb": [328, 212, 531, 505]}, "bic": {"d": "M502,449 497,450 492,464 493,490 486,501 475,501 469,492 452,485 437,490 428,503 417,502 412,489 401,490 381,507 349,575 332,625 318,685 315,746 320,796 337,820 346,821 355,828 379,826 409,784 432,736 458,656 471,657 473,686 490,686 494,689 491,718 495,716 498,703 498,673 513,671 517,675 517,683 521,683 521,613 518,609 506,607 505,579 494,572 497,510 500,505 510,503 511,490 516,485 515,480 504,478 500,474 500,461 504,454Z", "c": [410, 643], "p": [424, 588], "bb": [315, 448, 523, 828]}, "bra": {"d": "M339,542 334,545 304,640 297,692 298,738 292,745 287,776 287,812 291,835 304,872 317,881 323,879 323,854 312,762 312,705 324,636 345,575ZM466,649 462,650 447,705 424,764 374,848 376,879 390,913 398,910 428,866 457,798 466,753 469,718Z", "c": [377, 769], "p": [403, 853], "bb": [287, 541, 469, 914]}, "cor": {"d": "M558,385 522,379 509,369 485,374 477,392 466,394 442,421 428,430 419,505 423,506 444,466 455,467 476,487 482,485 488,446 498,417 505,407 531,408 564,416Z", "c": [481, 424], "p": [462, 441], "bb": [419, 369, 565, 508]}, "sub": {"d": "M695,233 636,261 604,272 592,282 577,288 573,312 562,340 570,361 591,397 633,495 643,510 665,518 671,517 704,452 718,405 725,360 726,336 721,303Z", "c": [652, 366], "p": [649, 339], "bb": [562, 232, 726, 518]}}, "costas": {"del": {"d": "M657,241 629,263 615,279 578,291 560,320 542,329 539,336 526,345 522,354 537,388 560,425 593,459 623,480 639,486 687,521 704,521 721,514 730,475 734,406 729,368 719,328 705,296 683,264Z", "c": [644, 382], "p": [636, 372], "bb": [521, 241, 734, 522]}, "sup": {"d": "M361,307 369,315 397,306 404,296 428,289 435,281 513,262 515,258 502,254 479,255 467,252 456,244 403,239 392,245 376,261 372,273 365,280Z", "c": [420, 270], "p": [411, 266], "bb": [361, 239, 516, 315]}, "inf": {"d": "M525,284 499,288 482,295 473,305 461,308 433,325 383,334 373,340 363,352 356,375 362,445 371,481 389,523 399,521 431,493 456,462 493,405 521,372 517,343 522,334 522,304 528,292Z", "c": [434, 394], "p": [421, 394], "bb": [356, 284, 528, 524]}, "tmi": {"d": "M530,385 519,388 504,401 477,436 471,453 455,470 455,475 506,447 523,444 539,429 550,424 548,414Z", "c": [508, 427], "p": [522, 415], "bb": [453, 384, 551, 476]}, "tma": {"d": "M524,453 515,456 497,473 480,475 449,493 434,498 431,506 423,509 420,517 430,556 449,551 455,542 481,532 492,532 500,538 503,523 517,524 518,540 512,547 512,568 506,594 506,605 517,616 526,611 528,599 537,596 537,593 528,588 529,578 537,572 525,564 525,552 533,541 533,525 528,520 528,509 534,502 535,489 530,464Z", "c": [488, 520], "p": [481, 505], "bb": [419, 453, 538, 617]}, "tri": {"d": "M563,468 541,485 539,497 542,589 554,668 550,672 537,670 531,660 534,643 528,638 526,627 519,627 516,652 521,662 520,691 523,701 536,714 541,715 545,711 548,685 563,685 577,713 577,727 614,831 634,866 652,888 658,891 655,871 623,777 619,715 629,693 634,688 645,688 675,722 688,761 701,871 704,872 720,822 728,759 728,680 718,616 697,555 679,527 655,511 627,501 602,502 588,478Z", "c": [630, 648], "p": [606, 638], "bb": [516, 468, 728, 892]}}};
+const ORDER=["del","sup","inf","tmi","sub","tma","bic","bra","cor","tri"];
+const M={
+  del:{nome:"Deltoide",latin:"M. deltoideus",c:"var(--del)",ct:"var(--del-t)",camada:"Ombro",views:["frente","costas"],
+    resumo:"O músculo que arredonda o ombro. Tem três porções: a anterior, a lateral e a posterior. Juntas formam um capuz sobre a articulação e levam o braço para longe do corpo.",
+    origem:"Terço lateral da clavícula (porção anterior), acrômio (lateral) e espinha da escápula (posterior)",
+    insercao:"Tuberosidade deltóidea, no meio da face lateral do úmero",
+    nervo:"Nervo axilar (C5–C6)",
+    acao:"Abduz o ombro (porção lateral). A anterior flexiona e gira para dentro; a posterior estende e gira para fora",
+    tags:["Três porções","Superficial","Abdutor principal"],
+    steps:["Ache a ponta do ombro, o acrômio, e a parte lateral da clavícula.","Desça o dedo pelo contorno arredondado do ombro até a metade externa do braço, onde o músculo termina.","Afaste o braço de lado com a palma para baixo. O volume do ombro endurece sob a mão."],
+    confirma:"Com o braço a 90° de abdução, compare as três porções: a da frente (clavicular), a do meio (acromial) e a de trás (espinal) endurecem quando você muda a direção do movimento.",
+    clinica:[["Lesão do nervo axilar","Fraturas do colo cirúrgico do úmero e luxações do ombro podem lesar esse nervo. O deltoide atrofia e o ombro perde o contorno arredondado."],["Região de injeção","A parte média do deltoide é um local comum de injeção intramuscular. A punção deve ficar bem abaixo do acrômio para poupar o nervo axilar."],["Fraqueza na abdução","Quando o manguito está lesado, o deltoide sozinho não segura a cabeça do úmero e o movimento fica limitado."]],
+    quiz:"Dá o contorno arredondado do ombro e é o principal abdutor do braço."},
+  sup:{nome:"Supraespinal",latin:"M. supraspinatus",c:"var(--sup)",ct:"var(--sup-t)",camada:"Manguito rotador",views:["costas"],
+    resumo:"Pequeno músculo no alto da escápula, sob o trapézio. Inicia a abdução e mantém a cabeça do úmero encaixada na cavidade glenoidal. É o tendão do manguito mais lesado.",
+    origem:"Fossa supraespinal da escápula",
+    insercao:"Faceta superior do tubérculo maior do úmero",
+    nervo:"Nervo supraescapular (C5–C6)",
+    acao:"Inicia a abdução do ombro e estabiliza a cabeça do úmero",
+    tags:["Manguito rotador","Profundo ao trapézio","Estabilizador"],
+    steps:["Ache a espinha da escápula, a crista óssea que cruza a parte alta das costas.","Logo acima dela, na parte de cima da escápula, está a fossa supraespinal. Pressione fundo sob o trapézio.","Abduza o braço contra uma resistência leve nos primeiros graus: o músculo se contrai sob os dedos."],
+    confirma:"Não dá para isolá-lo com a mão, porque está sob o trapézio. O tendão é mais fácil de sentir logo à frente do acrômio, no tubérculo maior.",
+    clinica:[["Tendinopatia e ruptura","É o tendão do manguito mais acometido. Dói ao elevar o braço, sobretudo entre 60° e 120°, o chamado arco doloroso."],["Teste da lata vazia","Com os braços a 90° no plano da escápula e os polegares para baixo, a fraqueza ou a dor sugere lesão do supraespinal."],["Síndrome do impacto","O tendão passa sob o acrômio e é comprimido quando o espaço subacromial diminui."]],
+    quiz:"Inicia os primeiros graus da abdução do braço e fica sobre a escápula."},
+  inf:{nome:"Infraespinal",latin:"M. infraspinatus",c:"var(--inf)",ct:"var(--inf-t)",camada:"Manguito rotador",views:["costas"],
+    resumo:"O maior músculo do manguito. Ocupa a fossa abaixo da espinha da escápula e é o principal rotador externo do ombro.",
+    origem:"Fossa infraespinal da escápula",
+    insercao:"Faceta média do tubérculo maior do úmero",
+    nervo:"Nervo supraescapular (C5–C6)",
+    acao:"Gira o braço para fora (rotação externa) e estabiliza a cabeça do úmero",
+    tags:["Manguito rotador","Rotador externo","Superficial"],
+    steps:["Ache a espinha da escápula e deslize o dedo para baixo, para a parte plana da escápula.","O ventre do infraespinal ocupa essa área, abaixo da espinha e acima do redondo menor.","Com o cotovelo a 90° colado ao corpo, gire o antebraço para fora contra uma resistência leve. Você sente o ventre endurecer."],
+    confirma:"Deitado de lado, gire o antebraço para fora com o cotovelo fletido. A massa abaixo da espinha da escápula contrai com firmeza.",
+    clinica:[["Tendinopatia","Dor na parte de trás e lateral do ombro, comum em atletas de arremesso e em quem trabalha com os braços acima da cabeça."],["Atrofia","A atrofia da fossa infraespinal aparece na compressão do nervo supraescapular e em lesões extensas do manguito."],["Equilíbrio muscular","A fraqueza do rotador externo em relação ao interno favorece a anteriorização da cabeça do úmero."]],
+    quiz:"Rotador externo mais volumoso do manguito, ocupa a fossa abaixo da espinha da escápula."},
+  tmi:{nome:"Redondo menor",latin:"M. teres minor",c:"var(--tmi)",ct:"var(--tmi-t)",camada:"Manguito rotador",views:["costas"],
+    resumo:"Pequeno músculo logo abaixo do infraespinal. Ajuda na rotação externa e, junto com o infraespinal, segura a cabeça do úmero para trás.",
+    origem:"Parte superior da borda lateral da escápula",
+    insercao:"Faceta inferior do tubérculo maior do úmero",
+    nervo:"Nervo axilar (C5–C6)",
+    acao:"Gira o braço para fora e aduz levemente",
+    tags:["Manguito rotador","Rotador externo","Nervo axilar"],
+    steps:["Ache a borda lateral da escápula, perto da axila.","O redondo menor corre dessa borda para o úmero, logo abaixo do infraespinal e acima do redondo maior.","Gire o braço para fora contra uma resistência leve: uma faixa fina endurece perto da axila."],
+    confirma:"Ele é difícil de separar do infraespinal. A região sob a borda lateral da escápula é o melhor ponto para sentir.",
+    clinica:[["Nervo axilar","Compartilha a inervação com o deltoide. Lesões do nervo afetam os dois."],["Espaço quadrangular","O nervo axilar passa pelo espaço quadrangular, bordeado pelo redondo menor, pelo redondo maior, pelo úmero e pela cabeça longa do tríceps."],["Sinal do trompetista","Em lesões do manguito, a fraqueza da rotação externa impede levar a mão à boca sem elevar o cotovelo."]],
+    quiz:"Pequeno rotador externo logo abaixo do infraespinal, inervado pelo nervo axilar."},
+  sub:{nome:"Subescapular",latin:"M. subscapularis",c:"var(--sub)",ct:"var(--sub-t)",camada:"Manguito rotador",views:["frente"],
+    resumo:"O maior e mais forte do manguito. Fica na face anterior da escápula, entre ela e as costelas, e é o rotador interno do ombro.",
+    origem:"Fossa subescapular, na face anterior da escápula",
+    insercao:"Tubérculo menor do úmero",
+    nervo:"Nervos subescapulares superior e inferior (C5–C7)",
+    acao:"Gira o braço para dentro e impede a cabeça do úmero de deslizar para a frente",
+    tags:["Manguito rotador","Rotador interno","Estabilizador anterior"],
+    steps:["Ele não pode ser palpado diretamente, porque fica sob a escápula.","Ache o tubérculo menor do úmero, logo à frente da cabeça do úmero, sob o processo coracoide.","Gire o braço para dentro contra uma resistência e sinta a região anterior do ombro firmar."],
+    confirma:"O teste de lift-off (levar a mão às costas e afastá-la da região lombar) avalia a força do subescapular.",
+    clinica:[["Lift-off e teste de pressão no abdome","Se a mão não se afasta das costas ou o cotovelo recua ao pressionar o abdome, pode haver lesão do subescapular."],["Instabilidade anterior","Em luxações para a frente, o subescapular é um dos principais freios. Ele pode se romper."],["Encurtamento","Limita a rotação externa e pode explicar a dificuldade de elevar o braço acima da cabeça."]],
+    quiz:"Rotador interno do manguito, na face anterior da escápula, sob o peitoral."},
+  tma:{nome:"Redondo maior",latin:"M. teres major",c:"var(--tma)",ct:"var(--tma-t)",camada:"Escápula",views:["costas"],
+    resumo:"O “pequeno ajudante do latíssimo do dorso”. Forma a borda inferior da axila por trás e leva o braço para baixo e para dentro.",
+    origem:"Ângulo inferior e parte inferior da borda lateral da escápula",
+    insercao:"Crista do tubérculo menor do úmero (lábio medial do sulco intertubercular)",
+    nervo:"Nervo subescapular inferior (C5–C6)",
+    acao:"Aduz, estende e gira o braço para dentro",
+    tags:["Não é manguito","Rotador interno","Aduz e estende"],
+    steps:["Ache o ângulo inferior da escápula, na parte de baixo.","Siga a borda lateral até a axila. O redondo maior é a faixa grossa na borda inferior, por trás da axila.","Puxe o braço para trás e para baixo contra uma resistência: o ventre salta ao lado do latíssimo."],
+    confirma:"Ele aparece como um cordão grosso na prega posterior da axila, ao lado do latíssimo do dorso.",
+    clinica:[["Espaço quadrangular","É o limite inferior do espaço por onde passam o nervo axilar e a artéria circunflexa posterior do úmero."],["Distensão","Pode ser lesado em esportes de remo e de arremesso, junto com o latíssimo."],["Diferença do redondo menor","O redondo maior não é do manguito: não segura a cabeça do úmero, apenas move o braço."]],
+    quiz:"“Ajudante do latíssimo”: aduz e gira o braço para dentro, na borda inferior da escápula."},
+  bic:{nome:"Bíceps braquial",latin:"M. biceps brachii",c:"var(--bic)",ct:"var(--bic-t)",camada:"Braço",views:["frente"],
+    resumo:"Dois ventres que nascem na escápula e cruzam o ombro e o cotovelo. Dobram o cotovelo e giram o antebraço com a palma para cima. É o músculo que mais aparece na frente do braço.",
+    origem:"Cabeça longa: tubérculo supraglenoidal da escápula. Cabeça curta: ápice do processo coracoide",
+    insercao:"Tuberosidade do rádio e fáscia do antebraço (aponeurose bicipital)",
+    nervo:"Nervo musculocutâneo (C5–C6)",
+    acao:"Flexiona o cotovelo, supina o antebraço e ajuda na flexão do ombro",
+    tags:["Biarticular","Duas cabeças","Supinador"],
+    steps:["Dobre o cotovelo e ache a prega da dobra do cotovelo, na frente.","Siga o tendão bem firme que sai daí para cima: é o tendão do bíceps. Mais acima começa o ventre.","Dobre o cotovelo com a palma para cima. O ventre endurece e as duas cabeças se destacam."],
+    confirma:"Com a palma para cima, a força do bíceps é maior. Com a palma para baixo, o braquial e o braquiorradial assumem mais.",
+    clinica:[["Ruptura da cabeça longa","É a mais comum. O ventre desce e forma o “sinal de Popeye”, uma bola no meio do braço."],["Tendinopatia","Dor na frente do ombro, sobre o sulco bicipital, em atividades de elevação repetida."],["Reflexo bicipital","A batida no tendão testa o nível C5–C6."]],
+    quiz:"Tem duas cabeças que nascem na escápula e gira o antebraço para a posição de palma para cima."},
+  bra:{nome:"Braquial",latin:"M. brachialis",c:"var(--bra)",ct:"var(--bra-t)",camada:"Braço",views:["frente"],
+    resumo:"Fica sob o bíceps, colado ao úmero. É o principal flexor do cotovelo, em qualquer posição do antebraço, e por isso é chamado de “cavalo de carga”.",
+    origem:"Metade distal da face anterior do úmero",
+    insercao:"Tuberosidade da ulna e processo coronoide",
+    nervo:"Nervo musculocutâneo (C5–C6) e ramo do nervo radial (parte lateral)",
+    acao:"Flexiona o cotovelo",
+    tags:["Profundo ao bíceps","Monoarticular","Flexor principal"],
+    steps:["Dobre o cotovelo e ache o bíceps. O braquial aparece dos dois lados dele, perto do cotovelo.","Pressione a lateral do braço logo acima da dobra do cotovelo, ao lado do bíceps.","Dobre o cotovelo com a palma para baixo. O bíceps trabalha menos e o braquial fica mais saliente."],
+    confirma:"Na rosca martelo (polegar para cima) ou com a palma para baixo, o braquial sobressai nas laterais do bíceps.",
+    clinica:[["Hipertrofia","Ao crescer, empurra o bíceps para cima e dá mais volume ao braço."],["Dupla inervação","A parte medial é do nervo musculocutâneo e a lateral do radial. Lesões de um nervo deixam o outro compensar."],["Encurtamento","Limita a extensão total do cotovelo."]],
+    quiz:"Fica sob o bíceps e flexiona o cotovelo em qualquer posição do antebraço."},
+  cor:{nome:"Coracobraquial",latin:"M. coracobrachialis",c:"var(--cor)",ct:"var(--cor-t)",camada:"Braço",views:["frente"],
+    resumo:"Pequeno músculo da face interna do braço, perto do ombro. Nasce no mesmo ponto da cabeça curta do bíceps e é perfurado pelo nervo musculocutâneo.",
+    origem:"Ápice do processo coracoide da escápula",
+    insercao:"Terço médio da face medial do úmero",
+    nervo:"Nervo musculocutâneo (C5–C7)",
+    acao:"Flexiona e aduz o ombro",
+    tags:["Perfurado pelo nervo","Medial","Pequeno"],
+    steps:["Ache o processo coracoide, logo abaixo da clavícula, na frente do ombro.","Desça pela face interna do braço, até a axila. O coracobraquial forma a parede de cima desse corredor.","Leve o braço para a frente e para dentro contra uma resistência: o cordão se contrai sob os dedos."],
+    confirma:"Ao lado do tendão da cabeça curta do bíceps, na parte alta da face interna do braço.",
+    clinica:[["Nervo musculocutâneo","O nervo atravessa o músculo. Por isso o coracobraquial é um ponto de referência cirúrgico."],["Compressão","Em casos raros, o músculo comprime o nervo e causa formigamento no antebraço."],["Estabilizador","Ajuda a manter a cabeça do úmero em sua posição na flexão do ombro."]],
+    quiz:"Nasce no processo coracoide e é perfurado pelo nervo musculocutâneo."},
+  tri:{nome:"Tríceps braquial",latin:"M. triceps brachii",c:"var(--tri)",ct:"var(--tri-t)",camada:"Braço",views:["costas"],
+    resumo:"O grande extensor do cotovelo, na parte de trás do braço. As três cabeças se unem em um tendão que se prende no olécrano.",
+    origem:"Cabeça longa: tubérculo infraglenoidal. Lateral: face posterior do úmero acima do sulco do nervo radial. Medial: face posterior do úmero abaixo do sulco",
+    insercao:"Olécrano da ulna, pelo tendão comum do tríceps",
+    nervo:"Nervo radial (C6–C8)",
+    acao:"Estende o cotovelo. A cabeça longa também estende e aduz o ombro",
+    tags:["Três cabeças","Biarticular (cabeça longa)","Extensor"],
+    steps:["Ache o olécrano, a ponta óssea do cotovelo, e siga o tendão para cima pela parte de trás do braço.","A cabeça lateral forma a ferradura do lado de fora. A longa fica no centro, perto da axila.","Estenda o cotovelo contra uma resistência leve, por exemplo empurrando a parede. As três cabeças endurecem."],
+    confirma:"Com o braço elevado e o cotovelo fletido atrás da cabeça, a cabeça longa é a mais alongada. É por isso que o alongamento do tríceps é feito assim.",
+    clinica:[["Reflexo tricipital","A batida no tendão acima do olécrano testa o nível C7."],["Lesão do nervo radial","Fraturas do meio do úmero podem lesar o nervo radial e fazer o cotovelo perder a extensão ativa."],["Tendinopatia","Dor logo atrás do cotovelo, em esportes de arremesso e em quem faz muita extensão com carga."]],
+    quiz:"Tem três cabeças e estende o cotovelo."}
+};
+const ACT={ab:["Abdução","abd"],fl:["Flexão do ombro","flx"],ex:["Extensão do ombro","ext"],re:["Rot. externa","rot"],ri:["Rot. interna","rot"],ad:["Adução","add"],cf:["Flex. cotovelo","flx"],ce:["Ext. cotovelo","ext"]};
+const G={
+  abd:{nome:"Abdutores",sub:{ombro:["dellat","supra"]},blurb:"Elevam o braço para o lado, afastando-o do corpo"},
+  flx:{nome:"Flexores",sub:{ombro:["delant","corac","bic"],cotovelo:["bic","braq"]},blurb:"Levam o braço à frente ou dobram o cotovelo"},
+  ext:{nome:"Extensores",sub:{ombro:["delpos","redmai","tric"],cotovelo:["tric"]},blurb:"Levam o braço para trás ou esticam o cotovelo"},
+  rot:{nome:"Rotadores",sub:{externa:["infra","redmen","delpos"],interna:["subesc","redmai"]},blurb:"Giram o braço para fora ou para dentro"}
+};
+const GT={abd:"Abdutores",flx:"Flexores",ext:"Extensores",rot:"Rotadores"};
+const SUBL={ombro:"No ombro",cotovelo:"No cotovelo",externa:"Rotação externa",interna:"Rotação interna"};
+const TEMPO="20–30 s · 2 a 4 repetições por lado";
+const X={
+ delant:{nome:"Deltoide anterior",lat:"M. deltoideus, parte clavicular",acts:["fl","ri"],g:"flx",
+  resumo:"A porção da frente do deltoide. Leva o braço para a frente e o gira para dentro. Fica muito exigida em supino, flexões e em quem passa o dia com os ombros arredondados.",
+  origem:"Terço lateral da clavícula",insercao:"Tuberosidade deltóidea do úmero",nervo:"Nervo axilar (C5–C6)",acao:"Flexiona e gira o ombro para dentro; ajuda na adução horizontal",
+  sinais:"Ombros projetados para a frente, dificuldade de levar os braços para trás com os cotovelos esticados e dor na frente do ombro.",
+  at:"Mãos atrás das costas",passos:["Em pé, entrelace as mãos atrás das costas com os cotovelos esticados.","Leve os braços para trás e um pouco para cima, abrindo o peito.","Mantenha o queixo neutro e as costelas para baixo."],sente:"Na frente do ombro e no peito.",cuidado:"Se arquear a lombar, reduza a altura dos braços. Dor aguda na frente do ombro pede menos amplitude."},
+ dellat:{nome:"Deltoide lateral",lat:"M. deltoideus, parte acromial",acts:["ab"],g:"abd",
+  resumo:"A porção do meio do deltoide. É a que mais abduz o braço e dá a largura ao ombro. Costuma ficar tensa em quem carrega peso ou trabalha com os braços elevados.",
+  origem:"Acrômio",insercao:"Tuberosidade deltóidea do úmero",nervo:"Nervo axilar (C5–C6)",acao:"Abduz o ombro, sobretudo de 15° a 90°",
+  sinais:"Repuxar no lado do ombro ao levar o braço atrás do corpo, desconforto ao deitar sobre o ombro e fadiga ao manter o braço elevado.",
+  at:"Braço atrás do corpo",passos:["Em pé, leve um braço para trás das costas e segure o pulso com a outra mão.","Puxe suavemente o pulso para o lado oposto, mantendo o ombro baixo.","Incline a cabeça para o lado contrário ao braço alongado."],sente:"Na lateral do ombro, do acrômio ao meio do braço.",cuidado:"Evite puxar com força: o ombro não pode ser forçado em rotação interna. Pare se sentir formigamento."},
+ delpos:{nome:"Deltoide posterior",lat:"M. deltoideus, parte espinal",acts:["ex","re"],g:"ext",
+  resumo:"A porção de trás do deltoide. Leva o braço para trás e o gira para fora. Trabalha ao remar e puxar, e fica tensa em quem passa muito tempo na frente do computador.",
+  origem:"Espinha da escápula",insercao:"Tuberosidade deltóidea do úmero",nervo:"Nervo axilar (C5–C6)",acao:"Estende e gira o ombro para fora; abduz na horizontal",
+  sinais:"Repuxar atrás do ombro ao cruzar o braço na frente do peito e limitação da adução horizontal.",
+  at:"Braço cruzado",passos:["Em pé, estenda um braço na horizontal e cruze-o na frente do peito.","Com a outra mão, puxe o braço pelo cotovelo para o peito.","Mantenha o ombro do braço alongado baixo e o tronco de frente."],sente:"Na parte de trás do ombro, perto da axila.",cuidado:"Não gire o tronco para ajudar: o ombro sobe e o alongamento perde força. Evite puxar pelo antebraço."},
+ supra:{nome:"Supraespinal",lat:"M. supraspinatus",acts:["ab"],g:"abd",
+  resumo:M.sup.resumo,origem:M.sup.origem,insercao:M.sup.insercao,nervo:M.sup.nervo,acao:M.sup.acao,
+  sinais:"Dificuldade de levar a mão às costas e dor ao dormir sobre o ombro. Costuma ser alongado com cuidado, porque o tendão é sensível.",
+  at:"Mão nas costas com puxão",passos:["Em pé, leve um braço para trás e apoie a mão na região lombar.","Com a outra mão, segure o cotovelo e leve-o suavemente para a frente e para o lado oposto.","Mantenha o tronco ereto e o ombro relaxado."],sente:"No alto do ombro e na parte de trás, perto da escápula.",cuidado:"Se houver dor aguda ou sensação de pinçar na frente do ombro, reduza ou pare. O tendão do supraespinal é o mais sensível do ombro."},
+ infra:{nome:"Infraespinal",lat:"M. infraspinatus",acts:["re"],g:"rot",
+  resumo:M.inf.resumo,origem:M.inf.origem,insercao:M.inf.insercao,nervo:M.inf.nervo,acao:M.inf.acao,
+  sinais:"Limitação da rotação interna, por exemplo ao levar a mão ao meio das costas, e uma sensação de repuxar atrás do ombro.",
+  at:"Adução com rotação interna",passos:["Em pé, leve um braço à frente do peito com o cotovelo dobrado a 90° e a palma para baixo.","Com a outra mão, empurre suavemente o antebraço em direção ao corpo, girando o ombro para dentro.","Mantenha o ombro baixo e o tronco de frente."],sente:"Na parte de trás do ombro, abaixo da espinha da escápula.",cuidado:"Evite forçar a rotação. Dor na frente do ombro significa que a amplitude passou do ponto."},
+ redmen:{nome:"Redondo menor",lat:"M. teres minor",acts:["re"],g:"rot",
+  resumo:M.tmi.resumo,origem:M.tmi.origem,insercao:M.tmi.insercao,nervo:M.tmi.nervo,acao:M.tmi.acao,
+  sinais:"Repuxar na parte de trás do ombro, perto da axila, ao cruzar o braço na frente do peito.",
+  at:"Cruzar o braço na altura do peito",passos:["Em pé, estenda um braço na altura do ombro e cruze-o na frente do peito.","Segure acima do cotovelo com a outra mão e puxe para o peito.","Mantenha o ombro do braço alongado baixo e a coluna alta."],sente:"Atrás do ombro, perto da borda da escápula.",cuidado:"Não gire o tronco. Se sentir formigamento no braço, afrouxe."},
+ subesc:{nome:"Subescapular",lat:"M. subscapularis",acts:["ri"],g:"rot",
+  resumo:M.sub.resumo,origem:M.sub.origem,insercao:M.sub.insercao,nervo:M.sub.nervo,acao:M.sub.acao,
+  sinais:"Limitação da rotação externa, com o cotovelo colado ao corpo, e repuxar na frente do ombro.",
+  at:"Rotação externa na porta",passos:["Fique ao lado de um batente, com o cotovelo dobrado a 90° e o antebraço apoiado nele.","Com o cotovelo colado ao corpo, gire o tronco para o lado oposto, abrindo o ombro em rotação externa.","Mantenha o ombro baixo e o peito aberto."],sente:"Na frente do ombro e sob o peitoral.",cuidado:"Não deixe o ombro projetar à frente. Em ombros instáveis ou com luxação prévia, faça só com orientação."},
+ redmai:{nome:"Redondo maior",lat:"M. teres major",acts:["ex","ri","ad"],g:"ext",
+  resumo:M.tma.resumo,origem:M.tma.origem,insercao:M.tma.insercao,nervo:M.tma.nervo,acao:M.tma.acao,
+  sinais:"Dificuldade de elevar o braço totalmente ao lado da cabeça e repuxar na lateral da escápula.",
+  at:"Cotovelo atrás da cabeça com inclinação",passos:["Em pé, eleve um braço e dobre o cotovelo atrás da cabeça.","Segure o cotovelo com a outra mão e incline o tronco suavemente para o lado oposto.","Mantenha o abdome firme e não arqueie a lombar."],sente:"Na lateral das costas, da axila à borda inferior da escápula.",cuidado:"Pare se sentir pinçamento no alto do ombro."},
+ bic:{nome:"Bíceps braquial",lat:"M. biceps brachii",acts:["cf","fl"],g:"flx",
+  resumo:M.bic.resumo,origem:M.bic.origem,insercao:M.bic.insercao,nervo:M.bic.nervo,acao:M.bic.acao,
+  sinais:"Dificuldade de estender o cotovelo por completo com o braço para trás, repuxar na frente do braço e do ombro ao levar a palma à parede com o braço atrás.",
+  at:"Palma na parede",passos:["Em pé, ao lado de uma parede, estenda o braço para trás com a palma apoiada na parede e os dedos para trás.","Mantenha o cotovelo esticado.","Gire o tronco lentamente para o lado oposto, até sentir o alongamento."],sente:"Na frente do braço e do ombro.",cuidado:"Não rode o tronco além do ponto confortável. Dor na frente do ombro pede menos amplitude."},
+ braq:{nome:"Braquial",lat:"M. brachialis",acts:["cf"],g:"flx",
+  resumo:M.bra.resumo,origem:M.bra.origem,insercao:M.bra.insercao,nervo:M.bra.nervo,acao:M.bra.acao,
+  sinais:"Dificuldade de esticar totalmente o cotovelo e sensação de repuxar na frente do braço, perto da dobra do cotovelo.",
+  at:"Antebraço apoiado com punho fletido",passos:["Sentado, apoie o antebraço sobre uma mesa com a palma para baixo e o cotovelo estendido.","Com a outra mão, empurre suavemente o dorso da mão, flexionando o punho.","Mantenha o ombro baixo e o cotovelo apoiado."],sente:"Na frente do braço, logo acima da dobra do cotovelo.",cuidado:"Pare se sentir formigamento na mão ou dor na dobra do cotovelo."},
+ corac:{nome:"Coracobraquial",lat:"M. coracobrachialis",acts:["fl","ad"],g:"flx",
+  resumo:M.cor.resumo,origem:M.cor.origem,insercao:M.cor.insercao,nervo:M.cor.nervo,acao:M.cor.acao,
+  sinais:"Repuxar na face interna do braço, perto da axila, ao elevar o braço para o lado com a palma para frente.",
+  at:"Porta com palma para a frente",passos:["Em pé ao lado de um batente, eleve o braço na horizontal para o lado com a palma para a frente apoiada no batente.","Mantenha o cotovelo esticado.","Gire o tronco lentamente para o lado oposto, até sentir o alongamento."],sente:"Na face interna do braço, perto do ombro, e na frente da axila.",cuidado:"Formigamento no antebraço pode indicar tensão do nervo musculocutâneo: afrouxe."},
+ tric:{nome:"Tríceps braquial",lat:"M. triceps brachii",acts:["ce","ex","ad"],g:"ext",
+  resumo:M.tri.resumo,origem:M.tri.origem,insercao:M.tri.insercao,nervo:M.tri.nervo,acao:M.tri.acao,
+  sinais:"Dificuldade de levar a mão às costas entre as escápulas, repuxar atrás do braço ao dobrar o cotovelo e limitação da flexão máxima do ombro.",
+  at:"Cotovelo atrás da cabeça",passos:["Em pé, eleve um braço e dobre o cotovelo, com a mão tocando as costas entre as escápulas.","Com a outra mão, empurre o cotovelo para trás da cabeça.","Mantenha o abdome firme e o pescoço relaxado."],sente:"Atrás do braço, do cotovelo até a axila.",cuidado:"Não force o cotovelo para trás: o ombro pode irritar. Evite arquear a lombar."}
+};
+
+/* ---------- geometria: polígonos extraídos das cores da ilustração (1000 × 1241) ---------- */
+const IW=1000,IH=1241,IMG={frente:"img/frente.jpg",costas:"img/costas.jpg"},VN={frente:"vista anterior",costas:"vista posterior"};
+/* pinos de origem (O) e inserção (I), por vista */
+const PIN={
+  frente:[["del",497,208,"O"],["del",350,495,"I"],["bic",552,224,"O"],["bic",345,975,"I"],["cor",582,238,"O"],["cor",440,490,"I"],["sub",645,360,"O"],["sub",545,300,"I"],["bra",315,660,"O"],["bra",395,905,"I"]],
+  costas:[["del",600,258,"O"],["del",708,525,"I"],["sup",410,275,"O"],["sup",548,278,"I"],["inf",430,410,"O"],["inf",530,372,"I"],["tmi",482,445,"O"],["tmi",535,400,"I"],["tma",410,540,"O"],["tma",540,455,"I"],["tri",556,472,"O"],["tri",688,905,"I"]]
+};
+function shoulderSVG(p,view,o){
+  o=o||{};const H=HS[view],keys=ORDER.filter(k=>H[k]);
+  const defs=`<filter id="${p}bl" x="-50" y="-50" width="1100" height="1341" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="7"/></filter>
+    <filter id="${p}bl2" x="-50" y="-50" width="1100" height="1341" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="5"/></filter>
+    ${keys.map(k=>`<mask id="${p}m-${k}" maskUnits="userSpaceOnUse" x="0" y="0" width="${IW}" height="${IH}"><g filter="url(#${p}bl)" fill="#fff"><path d="${H[k].d}"/></g></mask>`).join("")}
+    <mask id="${p}vm" maskUnits="userSpaceOnUse" x="-400" y="0" width="1800" height="${IH}"><rect x="-400" y="0" width="1800" height="${IH}" fill="#fff"/><g class="vh" filter="url(#${p}bl2)"></g></mask>`;
+  const bulge=o.noBulge?"":keys.map(k=>`<g class="bl" data-m="${k}" data-cx="${H[k].c[0]}" data-cy="${H[k].c[1]}" mask="url(#${p}m-${k})"><image href="${IMG[view]}" width="${IW}" height="${IH}"/></g>`).join("");
+  const heat=keys.map(k=>`<g class="heat" data-m="${k}" style="--c:var(--${k})"><path d="${H[k].d}"/></g>`).join("");
+  const hot=keys.map(k=>`<g class="mus" data-m="${k}" style="--c:${M[k].c}" tabindex="0" role="button" aria-label="${M[k].nome}"><title>${M[k].nome}</title><g class="hs"><path d="${H[k].d}"/></g></g>`).join("");
+  let names="",pins="";
+  if(!o.noLabels){
+    const it=keys.map(k=>({k,x:H[k].p[0],y:H[k].p[1],s:H[k].p[0]<500?"L":"R"}));
+    ["L","R"].forEach(s=>{let last=-1e9;it.filter(i=>i.s===s).sort((a,b)=>a.y-b.y).forEach(i=>{i.ly=Math.max(i.y,last+66);last=i.ly})});
+    names=`<g class="names">${it.map((i,n)=>{const L=i.s==="L",ex=L?-20:890,tx=L?-34:904;
+      return `<g class="lbl-g" data-m="${i.k}" style="--c:${M[i.k].c};--d:${(.1+n*.15).toFixed(2)}s"><path class="lead" pathLength="1" d="M${i.x} ${i.y} L${ex} ${i.ly}"/><circle class="dotl" cx="${i.x}" cy="${i.y}" r="7"/><text x="${tx}" y="${i.ly+13}" text-anchor="${L?"end":"start"}">${M[i.k].nome}</text></g>`}).join("")}</g>`;
+    pins=`<g class="pins">${PIN[view].map(([k,x,y,t])=>`<g class="pin" data-m="${k}"><circle cx="${x}" cy="${y}" r="17" fill="${t==="O"?M[k].c:"#1d2733"}"/><text x="${x}" y="${y}" ${t==="I"?'style="fill:#fff"':""}>${t}</text><title>${t==="O"?"Origem":"Inserção"} · ${M[k].nome}</title></g>`).join("")}</g>`;
+  }
+  return `<svg viewBox="${o.noLabels?`0 0 ${IW} ${IH}`:`-320 30 1590 1130`}" data-sel="" data-view="${view}" role="img" aria-label="Ombro e braço direitos, ${VN[view]}, com os músculos coloridos" class="show-names">
+  <defs>${defs}</defs>
+  <image href="${IMG[view]}" width="${IW}" height="${IH}"/>
+  ${bulge}
+  <rect class="veil" x="-400" y="0" width="1800" height="${IH}" mask="url(#${p}vm)"/>
+  ${heat}${hot}${names}${pins}
+  </svg>`;
+}
+function setSpot(svg,k){
+  const h=svg.querySelector(".vh"),v=svg.querySelector(".veil");if(!h)return;
+  h.innerHTML="";
+  const src=k&&svg.querySelector(`.mus[data-m="${k}"] .hs`);
+  if(src){const c=src.cloneNode(true);c.querySelectorAll("*").forEach(n=>{n.setAttribute("fill","#000");n.setAttribute("stroke","#000");n.setAttribute("stroke-width","10")});h.appendChild(c);v.style.opacity=".55"}
+  else v.style.opacity="0";
+}
+/* contração: cópia da imagem dentro de cada músculo cresce e volta, com brilho */
+function makeContract(svg){
+  const L={};svg.querySelectorAll(".bl").forEach(g=>L[g.dataset.m]={g,cx:+g.dataset.cx,cy:+g.dataset.cy});
+  let raf=null,t0=0,keys=[],loop=false,dur=1700,running=false;
+  const apply=p=>{keys.forEach(k=>{const l=L[k];if(!l)return;l.g.style.opacity=p>0?1:0;l.g.setAttribute("transform",`translate(${l.cx} ${l.cy}) scale(${(1+.06*p).toFixed(4)} ${(1+.03*p).toFixed(4)}) translate(${-l.cx} ${-l.cy})`)});
+    svg.querySelectorAll(".heat").forEach(h=>h.style.setProperty("--heat",keys.includes(h.dataset.m)?p:0))};
+  const frame=t=>{const el=(t-t0)/dur;const ph=loop?el%1:Math.min(el,1);apply(Math.max(0,Math.sin(Math.PI*Math.max(0,ph)))**1.2);
+    if(!loop&&el>=1){running=false;apply(0);raf=null;return}raf=requestAnimationFrame(frame)};
+  const stop=()=>{if(raf)cancelAnimationFrame(raf);raf=null;running=false;apply(0)};
+  return{run(ks,lp){stop();keys=ks.filter(k=>L[k]);if(!keys.length)return;loop=!!lp;running=true;t0=performance.now();raf=requestAnimationFrame(frame)},stop,get on(){return running&&loop}};
+}
+
+/* ---------- palco principal ---------- */
+const $=s=>document.querySelector(s);
+let sel="del",tab="ficha",view="frente",mainSvg,mainC;
+const mainHost=$("#mainSvg"),chips=$("#chips"),panel=$("#panel");
+chips.innerHTML=ORDER.map(k=>`<button class="chip" data-m="${k}" style="--c:var(--${k})" aria-pressed="false"><b>${M[k].nome}</b><small>${M[k].camada}</small></button>`).join("");
+function drawStage(){
+  if(mainC)mainC.stop();
+  playing=false;$("#cbtn").textContent=CBTN;
+  mainHost.innerHTML=shoulderSVG("m",view);
+  mainSvg=mainHost.querySelector("svg");mainC=makeContract(mainSvg);
+  $("#viewName").textContent="Ombro e braço direitos · "+VN[view];
+  document.querySelectorAll("#vseg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===view));
+  mainSvg.addEventListener("click",e=>{const g=e.target.closest("[data-m]");if(g)select(g.dataset.m,true)});
+  mainSvg.addEventListener("keydown",e=>{if((e.key==="Enter"||e.key===" ")&&e.target.dataset.m){e.preventDefault();select(e.target.dataset.m,true)}});
+  applyToggles();
+}
+const CBTN="▶ Contrair os músculos desta vista";let playing=false;
+function bodySVG(k){
+  const m=M[k],v=m.views[0],h=HS[v][k];
+  return `<svg viewBox="0 0 ${IW} ${IH}" role="img" aria-label="${m.nome} destacado, ${VN[v]}">
+    <image href="${IMG[v]}" width="${IW}" height="${IH}"/>
+    <g class="pulsehl" fill="${m.c}" fill-opacity=".38" stroke="${m.c}" stroke-width="5"><path d="${h.d}"/></g>
+    <circle cx="${h.p[0]}" cy="${h.p[1]}" r="20" fill="none" stroke="${m.c}" stroke-width="8"><animate attributeName="r" values="20;80" dur="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="${h.p[0]}" cy="${h.p[1]}" r="22" fill="${m.c}" stroke="#fff" stroke-width="5"/>
+  </svg>`;
+}
+function renderPanel(){
+  const m=M[sel],b=$("#panelBody");
+  panel.style.setProperty("--c",m.c);panel.style.setProperty("--ct",m.ct);
+  const head=`<div class="mname"><span class="sw"></span><h2>${m.nome}</h2></div><div class="latin">${m.latin}</div>`;
+  if(tab==="ficha"){
+    b.innerHTML=head+`<p class="lead-p">${m.resumo}</p><div>${m.tags.map(t=>`<span class="tag">${t}</span>`).join("")}</div>
+    <div class="facts" style="margin-top:12px">
+      <div class="fact wide"><h3>Origem</h3><p>${m.origem}</p></div>
+      <div class="fact wide"><h3>Inserção</h3><p>${m.insercao}</p></div>
+      <div class="fact"><h3>Inervação</h3><p>${m.nervo}</p></div>
+      <div class="fact"><h3>Ação</h3><p>${m.acao}</p></div>
+    </div>`;
+  }else if(tab==="achar"){
+    b.innerHTML=head+`<div class="find"><div class="mini">${bodySVG(sel)}</div><div>
+      <ol class="steps">${m.steps.map(s=>`<li><span>${s}</span></li>`).join("")}</ol>
+      <div class="callout"><b>Para confirmar.</b> ${m.confirma}</div>
+    </div></div>`;
+  }else{
+    b.innerHTML=head+`<ul class="clin">${m.clinica.map(([t,d])=>`<li><b>${t}</b>${d}</li>`).join("")}</ul>`;
+  }
+}
+function select(k,fromUser){
+  sel=k;
+  if(!M[k].views.includes(view)){view=M[k].views[0];drawStage()}
+  mainSvg.dataset.sel=k;mainSvg.classList.add("has-sel");
+  mainSvg.querySelectorAll(".mus,.lbl-g,.pin").forEach(g=>g.classList.toggle("sel",g.dataset.m===k));
+  setSpot(mainSvg,k);
+  if(fromUser&&!mainC.on)mainC.run([k],false);
+  chips.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.m===k));
+  renderPanel();
+}
+function setTab(t){
+  tab=t;
+  document.querySelectorAll(".tab").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===t));
+  renderPanel();
+}
+const tgNames=$("#tgNames"),tgPins=$("#tgPins");
+function applyToggles(){
+  mainSvg.classList.toggle("show-pins",tgPins.checked);
+  mainSvg.classList.toggle("show-names",tgNames.checked);
+}
+[tgNames,tgPins].forEach(t=>t.addEventListener("change",applyToggles));
+$("#cbtn").addEventListener("click",()=>{playing=!playing;if(playing){mainC.run(ORDER,true);$("#cbtn").textContent="■ Parar"}else{mainC.stop();$("#cbtn").textContent=CBTN}});
+chips.addEventListener("click",e=>{const c=e.target.closest(".chip");if(c)select(c.dataset.m,true)});
+$("#tabs").addEventListener("click",e=>{const t=e.target.closest(".tab");if(t)setTab(t.dataset.tab)});
+$("#vseg").addEventListener("click",e=>{const b=e.target.closest("button");if(!b||b.dataset.v===view)return;view=b.dataset.v;drawStage();
+  if(!M[sel].views.includes(view))sel=ORDER.find(k=>M[k].views.includes(view));select(sel)});
+drawStage();select("del");
+
+/* ---------- grupos musculares e alongamentos ---------- */
+let gSel="abd",gSub="ombro",xSel="dellat";
+const gnav=$("#gnav"),gsubEl=$("#gsub"),mlist=$("#mlist"),gdet=$("#gdet");
+gnav.innerHTML=Object.keys(G).map(g=>`<button class="gbtn" data-g="${g}" style="--c:var(--g-${g})" aria-pressed="false"><b>${G[g].nome}</b><small>${G[g].blurb}</small></button>`).join("");
+function gRender(){
+  const grp=G[gSel],subs=Object.keys(grp.sub);
+  if(!grp.sub[gSub])gSub=subs[0];
+  gnav.querySelectorAll(".gbtn").forEach(b=>b.setAttribute("aria-pressed",b.dataset.g===gSel));
+  gsubEl.innerHTML=subs.map(s=>`<button data-s="${s}" aria-pressed="${s===gSub}">${SUBL[s]}</button>`).join("");
+  gsubEl.style.display=subs.length>1?"inline-flex":"none";
+  $("#gblurb").textContent=grp.nome+" · "+grp.blurb;
+  const ids=grp.sub[gSub];
+  if(!ids.includes(xSel))xSel=ids[0];
+  mlist.innerHTML=ids.map(id=>`<button class="mbtn" data-x="${id}" style="--c:var(--g-${gSel})" aria-pressed="${id===xSel}"><b>${X[id].nome}</b><small>${X[id].acts.map(a=>ACT[a][0]).join(" · ")}</small></button>`).join("");
+  gDetail();
+}
+function mediaFor(id,alt){
+  return `<img src="img/alongamentos/${id}.jpg" alt="Alongamento: ${alt}" onload="this.parentNode.classList.add('hasimg')" onerror="this.remove()">`;
+}
+function gDetail(){
+  const x=X[xSel],gc=`var(--g-${gSel})`;
+  gdet.style.setProperty("--c",gc);
+  gdet.innerHTML=`<div class="eyebrow">${GT[gSel]} · ${SUBL[gSub].toLowerCase()}</div>
+  <h2 style="margin-top:6px">${x.nome}</h2><div class="latin" style="margin-bottom:0">${x.lat}</div>
+  <div class="acts">${x.acts.map(a=>`<span class="act" style="--ac:var(--g-${ACT[a][1]});--act:var(--g-${ACT[a][1]}-t)">${ACT[a][0]}</span>`).join("")}</div>
+  <p class="lead-p" style="margin-bottom:14px">${x.resumo}</p>
+  <div class="facts">
+    <div class="fact wide"><h3>Origem</h3><p>${x.origem}</p></div>
+    <div class="fact wide"><h3>Inserção</h3><p>${x.insercao}</p></div>
+    <div class="fact"><h3>Inervação</h3><p>${x.nervo}</p></div>
+    <div class="fact"><h3>Ação</h3><p>${x.acao}</p></div>
+  </div>
+  <div class="strech">
+    <div class="pose"><div class="slot"><div class="phold">Ilustração do alongamento em preparo</div>${mediaFor(xSel,x.at)}</div></div>
+    <div>
+      <div class="eyebrow">Alongamento</div>
+      <h3 style="margin-top:6px">${x.at}</h3>
+      <ol class="steps" style="--c:${gc}">${x.passos.map(t=>`<li><span>${t}</span></li>`).join("")}</ol>
+      <div class="dose"><span>${TEMPO}</span><span>Sente: ${x.sente}</span></div>
+    </div>
+  </div>
+  <div class="sinais"><b>Sinais de encurtamento.</b> ${x.sinais}</div>
+  <div class="sinais" style="background:var(--surface2)"><b>Cuidado.</b> ${x.cuidado}</div>`;
+  document.querySelectorAll("#matrix tr[data-x]").forEach(tr=>tr.classList.toggle("sel",tr.dataset.x===xSel));
+}
+gnav.addEventListener("click",e=>{const b=e.target.closest(".gbtn");if(b){gSel=b.dataset.g;gRender()}});
+gsubEl.addEventListener("click",e=>{const b=e.target.closest("button");if(b){gSub=b.dataset.s;gRender()}});
+mlist.addEventListener("click",e=>{const b=e.target.closest(".mbtn");if(b){xSel=b.dataset.x;gRender()}});
+const MCOLS=["ab","fl","ex","re","ri","ad","cf","ce"];
+$("#matrix").innerHTML=`<thead><tr><th>Músculo</th>${MCOLS.map(c=>`<th>${ACT[c][0]}</th>`).join("")}</tr></thead><tbody>${
+  Object.keys(X).map(id=>`<tr data-x="${id}" style="cursor:pointer"><td>${X[id].nome}</td>${MCOLS.map(c=>`<td>${X[id].acts.includes(c)?`<span class="dot" style="--c:var(--g-${ACT[c][1]})" title="${ACT[c][0]}"></span>`:""}</td>`).join("")}</tr>`).join("")}</tbody>`;
+$("#matrix").addEventListener("click",e=>{
+  const tr=e.target.closest("tr[data-x]");if(!tr)return;
+  xSel=tr.dataset.x;gSel=X[xSel].g;
+  const subs=G[gSel].sub;gSub=Object.keys(subs).find(k=>subs[k].includes(xSel))||Object.keys(subs)[0];
+  gRender();$("#secGroups").scrollIntoView({behavior:"smooth",block:"start"});
+});
+document.querySelector(".snav").addEventListener("click",e=>{const b=e.target.closest("[data-go]");if(b)document.getElementById(b.dataset.go).scrollIntoView({behavior:"smooth",block:"start"})});
+gRender();
+
+/* ---------- desafio ---------- */
+const QS=[
+  ["del","frente"],["sup","costas"],["inf","costas"],["tmi","costas"],["sub","frente"],
+  ["tma","costas"],["bic","frente"],["bra","frente"],["cor","frente"],["tri","costas"]
+].map(([k,v])=>[M[k].quiz,k,v]);
+const qHost=$("#quizSvg");let qSvg;
+let qi=0,score=0,answered=false;
+function qShow(){
+  const [t,a,v]=QS[qi];
+  answered=false;
+  qHost.innerHTML=shoulderSVG("q",v,{noLabels:true,noBulge:true});
+  qSvg=qHost.querySelector("svg");
+  $("#qText").textContent=t;
+  $("#qView").textContent=VN[v][0].toUpperCase()+VN[v].slice(1);
+  $("#qNum").textContent=`Pergunta ${qi+1} de ${QS.length}`;
+  $("#qScore").textContent=`Acertos: ${score}`;
+  $("#qBar").style.width=(qi/QS.length*100)+"%";
+  const fb=$("#qFb");fb.className="q-fb";fb.textContent="Escolha um músculo na figura.";
+  const nx=$("#qNext");nx.disabled=true;nx.textContent=qi===QS.length-1?"Ver resultado":"Próxima";
+}
+function qAnswer(k){
+  if(answered)return;answered=true;
+  const [,a]=QS[qi],ok=k===a;
+  if(ok)score++;
+  qSvg.classList.add("has-sel");qSvg.dataset.sel=a;setSpot(qSvg,a);
+  qSvg.querySelectorAll(".mus").forEach(g=>g.classList.toggle("sel",g.dataset.m===a));
+  const fb=$("#qFb");fb.className="q-fb "+(ok?"good":"bad");
+  fb.innerHTML=`<b style="font-family:var(--f-display)">${ok?"Isso mesmo!":"Quase. Era o "+M[a].nome.toLowerCase()+"."}</b><br>${ok?"":("Você escolheu o "+M[k].nome.toLowerCase()+". ")}${M[a].nome}: ${M[a].quiz}`;
+  $("#qScore").textContent=`Acertos: ${score}`;
+  $("#qNext").disabled=false;
+}
+qHost.addEventListener("click",e=>{const g=e.target.closest(".mus");if(g)qAnswer(g.dataset.m)});
+qHost.addEventListener("keydown",e=>{if((e.key==="Enter"||e.key===" ")&&e.target.dataset.m){e.preventDefault();qAnswer(e.target.dataset.m)}});
+$("#qNext").addEventListener("click",()=>{
+  if(qi>=QS.length-1&&!$("#qNext").dataset.done){
+    $("#qBar").style.width="100%";
+    const pct=score/QS.length;
+    $("#qText").textContent=`Você acertou ${score} de ${QS.length}.`;
+    $("#qFb").className="q-fb";
+    $("#qFb").textContent=pct>=.8?"Você já se orienta bem no ombro e no braço. Agora tente achar cada um com as mãos.":pct>=.5?"Bom caminho. Reveja a aba “Onde achar” dos músculos que escaparam.":"Volte ao atlas, alterne entre frente e costas e refaça o desafio.";
+    $("#qNext").textContent="Jogar de novo";$("#qNext").dataset.done="1";
+    qSvg.classList.remove("has-sel");setSpot(qSvg,null);qSvg.querySelectorAll(".mus").forEach(g=>g.classList.remove("sel"));
+    return;
+  }
+  if($("#qNext").dataset.done){delete $("#qNext").dataset.done;qi=0;score=0;qShow();return}
+  qi++;qShow();
+});
+qShow();
+
+/* ---------- tabela ---------- */
+$("#tbl").innerHTML=`<thead><tr><th>Músculo</th><th>Origem</th><th>Inserção</th><th>Inervação</th><th>Ação</th></tr></thead><tbody>${
+  ORDER.map(k=>{const m=M[k];return `<tr style="--c:var(--${k})"><td>${m.nome}</td><td>${m.origem}</td><td>${m.insercao}</td><td>${m.nervo}</td><td>${m.acao}</td></tr>`}).join("")}</tbody>`;
+
+</script>
+</body>
+</html>
