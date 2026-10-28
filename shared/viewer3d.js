@@ -34,6 +34,7 @@ const CSS=`
 .v3-info dl{margin:0;display:grid;gap:6px}
 .v3-info dt{font:500 10.5px/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .v3-info dd{margin:2px 0 0}
+.v3-back{display:none}
 .v3-note{font-size:.76rem;color:var(--muted)}
 @keyframes v3pop{from{transform:scale(.4);opacity:0}}
 .v3-pins{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:1}
@@ -42,7 +43,7 @@ const CSS=`
 .v3-pin.in{animation:v3pop .25s ease-out}
 .v3-leg{display:flex;gap:14px;flex-wrap:wrap;font-size:.8rem;color:var(--muted)}
 .v3-leg i{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;font:700 10px var(--f-mono);color:#fff;font-style:normal;margin-right:5px;vertical-align:middle}
-@media (max-width:820px){.v3{grid-template-columns:1fr}.v3-stage{min-height:400px}.v3-side{border-left:0;border-top:1px solid var(--line)}}
+@media (max-width:820px){.v3-back{display:inline-block!important}.v3{grid-template-columns:1fr}.v3-stage{min-height:400px}.v3-side{border-left:0;border-top:1px solid var(--line)}}
 `;
 
 const esc=s=>String(s??"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
@@ -140,8 +141,15 @@ export function mount3D(o){
   function select(k,silent){
     S.sel=k;
     paintList();aplica();showInfo();montaPins();
+    if(!silent&&celular())requestAnimationFrame(()=>{const r=info.getBoundingClientRect();if(r.top<barra()||r.bottom>innerHeight)rola(info)});
     if(!silent&&o.onSelect)o.onSelect(k);
     if(S.contract)startPulse();
+  }
+  const celular=()=>matchMedia("(max-width:820px)").matches;
+  const barra=()=>(document.querySelector(".rnav")?.offsetHeight||0)+10;
+  function rola(el,onde){
+    const r=el.getBoundingClientRect();
+    window.scrollTo({top:scrollY+r.top-barra()-(onde==="fim"?0:0),behavior:"smooth"});
   }
   function showInfo(){
     const k=S.sel;
@@ -149,7 +157,7 @@ export function mount3D(o){
     const x=o.info(k);info.hidden=false;info.style.setProperty("--c",css(k));
     info.innerHTML=`<div><h3>${esc(x.nome)}</h3><div class="lat">${esc(x.latin)}</div></div><p style="margin:0">${x.resumo}</p>
     <dl><div><dt>Origem</dt><dd>${x.origem}</dd></div><div><dt>Inserção</dt><dd>${x.insercao}</dd></div><div><dt>Ação</dt><dd>${x.acao}</dd></div></dl>
-    <button class="v3-btn" data-a="ficha" style="justify-self:start">Abrir a ficha completa</button>`;
+    <div class="v3-row"><button class="v3-btn" data-a="ficha">Abrir a ficha completa</button><button class="v3-btn v3-back" data-a="back">↑ Voltar ao modelo</button></div>`;
   }
 
   /* ---- carregamento ---- */
@@ -346,6 +354,7 @@ export function mount3D(o){
     const v=e.target.closest("[data-v]");if(v){goView(v.dataset.v);return}
     const k=e.target.closest("[data-k]");if(k){select(k.dataset.k);return}
     const a=e.target.closest("[data-a]");if(!a)return;
+    if(a.dataset.a==="back"){rola(stage);return}
     if(a.dataset.a==="ficha"){if(o.onOpen)o.onOpen(S.sel);return}
     const on=a.getAttribute("aria-pressed")!=="true";a.setAttribute("aria-pressed",on);
     if(a.dataset.a==="spin")ctl.autoRotate=on;
