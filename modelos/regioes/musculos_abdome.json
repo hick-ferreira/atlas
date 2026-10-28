@@ -1,0 +1,152 @@
+{
+ "Rectus abdominis muscle.r": {
+  "nome": "Reto abdominal (direito)",
+  "latim": "Musculus rectus abdominis",
+  "ta2": 2357,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus abdominis muscle.l": {
+  "nome": "Reto abdominal (esquerdo)",
+  "latim": "Musculus rectus abdominis",
+  "ta2": 2357,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "External abdominal oblique muscle.r": {
+  "nome": "Abdominal oblíquo externo (direito)",
+  "latim": "Musculus obliquus externus abdominis",
+  "ta2": 2364,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inguinal ligament.r": {
+  "nome": "Ligamento inguinal (direito)",
+  "latim": "Ligamentum inguinale",
+  "ta2": 2365,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "External abdominal oblique muscle.l": {
+  "nome": "Abdominal oblíquo externo (esquerdo)",
+  "latim": "Musculus obliquus externus abdominis",
+  "ta2": 2364,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inguinal ligament.l": {
+  "nome": "Ligamento inguinal (esquerdo)",
+  "latim": "Ligamentum inguinale",
+  "ta2": 2365,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Internal abdominal oblique muscle.r": {
+  "nome": "Abdominal oblíquo interno (direito)",
+  "latim": "Musculus obliquus internus abdominis",
+  "ta2": 2373,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Internal abdominal oblique muscle.l": {
+  "nome": "Abdominal oblíquo interno (esquerdo)",
+  "latim": "Musculus obliquus internus abdominis",
+  "ta2": 2373,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transversus abdominis muscle.r": {
+  "nome": "Transverso abdominal (direito)",
+  "latim": "Musculus transversus abdominis",
+  "ta2": 2375,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transversus abdominis muscle.l": {
+  "nome": "Transverso abdominal (esquerdo)",
+  "latim": "Musculus transversus abdominis",
+  "ta2": 2375,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Linea alba": {
+  "nome": "Linea alba",
+  "latim": "Linea alba",
+  "ta2": 2377,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pyramidalis muscle.r": {
+  "nome": "Piramidal (direito)",
+  "latim": "Musculus pyramidalis",
+  "ta2": 2363,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Quadratus lumborum muscle.r": {
+  "nome": "Quadrado lombar (direito)",
+  "latim": "Musculus quadratus lumborum",
+  "ta2": 2382,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pyramidalis muscle.l": {
+  "nome": "Piramidal (esquerdo)",
+  "latim": "Musculus pyramidalis",
+  "ta2": 2363,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Quadratus lumborum muscle.l": {
+  "nome": "Quadrado lombar (esquerdo)",
+  "latim": "Musculus quadratus lumborum",
+  "ta2": 2382,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ }
+}

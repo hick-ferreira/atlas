@@ -1,0 +1,4852 @@
+{
+ "Lateral rectus muscle.l": {
+  "nome": "Reto lateral (esquerdo)",
+  "latim": "Musculus rectus lateralis bulbi oculi",
+  "ta2": 2045,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral rectus muscle.r": {
+  "nome": "Reto lateral (direito)",
+  "latim": "Musculus rectus lateralis bulbi oculi",
+  "ta2": 2045,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior oblique muscle.l": {
+  "nome": "Oblíquo superior (esquerdo)",
+  "latim": "Musculus obliquus superior bulbi oculi",
+  "ta2": 2048,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior oblique muscle.r": {
+  "nome": "Oblíquo superior (direito)",
+  "latim": "Musculus obliquus superior bulbi oculi",
+  "ta2": 2048,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Common tendinous ring.r": {
+  "nome": "Anel tendíneo comum (direito)",
+  "latim": "Anulus tendineus communis",
+  "ta2": 2047,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior oblique muscle.r": {
+  "nome": "Oblíquo inferior (direito)",
+  "latim": "Musculus obliquus inferior bulbi oculi",
+  "ta2": 2051,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior rectus muscle.r": {
+  "nome": "Reto inferior (direito)",
+  "latim": "Musculus rectus inferior",
+  "ta2": 2043,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior tarsus.r": {
+  "nome": "Tarso inferior (direito)",
+  "latim": "Tarsus inferior",
+  "ta2": 6829,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator palpebrae superioris.r": {
+  "nome": "Levantador da palpebra superior (direito)",
+  "latim": "Levator palpebrae superioris",
+  "ta2": 2052,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial rectus muscle.r": {
+  "nome": "Reto medial (direito)",
+  "latim": "Musculus rectus medialis",
+  "ta2": 2044,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior rectus muscle.r": {
+  "nome": "Reto superior (direito)",
+  "latim": "Musculus rectus superior",
+  "ta2": 2042,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior tarsus.r": {
+  "nome": "Tarso superior (direito)",
+  "latim": "Tarsus superior",
+  "ta2": 6827,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Trochlea of superior oblique muscle.r": {
+  "nome": "Tróclea do músculo oblíquo superior (direito)",
+  "latim": "Trochlea musculi obliqui superioris",
+  "ta2": 2049,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Common tendinous ring.l": {
+  "nome": "Anel tendíneo comum (esquerdo)",
+  "latim": "Anulus tendineus communis",
+  "ta2": 2047,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior oblique muscle.l": {
+  "nome": "Oblíquo inferior (esquerdo)",
+  "latim": "Musculus obliquus inferior bulbi oculi",
+  "ta2": 2051,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior rectus muscle.l": {
+  "nome": "Reto inferior (esquerdo)",
+  "latim": "Musculus rectus inferior",
+  "ta2": 2043,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior tarsus.l": {
+  "nome": "Tarso inferior (esquerdo)",
+  "latim": "Tarsus inferior",
+  "ta2": 6829,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator palpebrae superioris.l": {
+  "nome": "Levantador da palpebra superior (esquerdo)",
+  "latim": "Levator palpebrae superioris",
+  "ta2": 2052,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial rectus muscle.l": {
+  "nome": "Reto medial (esquerdo)",
+  "latim": "Musculus rectus medialis",
+  "ta2": 2044,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior rectus muscle.l": {
+  "nome": "Reto superior (esquerdo)",
+  "latim": "Musculus rectus superior",
+  "ta2": 2042,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior tarsus.l": {
+  "nome": "Tarso superior (esquerdo)",
+  "latim": "Tarsus superior",
+  "ta2": 6827,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Trochlea of superior oblique muscle.l": {
+  "nome": "Tróclea do músculo oblíquo superior (esquerdo)",
+  "latim": "Trochlea musculi obliqui superioris",
+  "ta2": 2049,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Frontalis muscle.r": {
+  "nome": "Frontal (direito)",
+  "latim": "Musculus frontalis",
+  "ta2": 2056,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Occipitalis muscle.r": {
+  "nome": "Occipital (direito)",
+  "latim": "Musculus occipitalis",
+  "ta2": 2057,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Epicranial aponeurosis.r": {
+  "nome": "Aponeurose epicraniana (direito)",
+  "latim": "Galea aponeurotica",
+  "ta2": 2059,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Frontalis muscle.l": {
+  "nome": "Frontal (esquerdo)",
+  "latim": "Musculus frontalis",
+  "ta2": 2056,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Occipitalis muscle.l": {
+  "nome": "Occipital (esquerdo)",
+  "latim": "Musculus occipitalis",
+  "ta2": 2057,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Epicranial aponeurosis.l": {
+  "nome": "Aponeurose epicraniana (esquerdo)",
+  "latim": "Galea aponeurotica",
+  "ta2": 2059,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Temporoparietalis muscle.r": {
+  "nome": "Temporoparietal (direito)",
+  "latim": "Musculus temporoparietalis",
+  "ta2": 2058,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Temporoparietalis muscle.l": {
+  "nome": "Temporoparietal (esquerdo)",
+  "latim": "Musculus temporoparietalis",
+  "ta2": 2058,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Nasalis muscle.r": {
+  "nome": "Nasal (direito)",
+  "latim": "Musculus nasalis",
+  "ta2": 2062,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Nasalis muscle.l": {
+  "nome": "Nasal (esquerdo)",
+  "latim": "Musculus nasalis",
+  "ta2": 2062,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Orbital part of orbicularis oculi.r": {
+  "nome": "Parte orbital do músculo orbicular do olho (direito)",
+  "latim": "Pars orbitalis musculi orbicularis oculi",
+  "ta2": 2070,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palpebral part of orbicularis oculi.r": {
+  "nome": "Parte palpebral do músculo orbicular dos olhos (direito)",
+  "latim": "Pars palpebralis musculi orbicularis oculi",
+  "ta2": 2067,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Orbital part of orbicularis oculi.l": {
+  "nome": "Parte orbital do músculo orbicular do olho (esquerdo)",
+  "latim": "Pars orbitalis musculi orbicularis oculi",
+  "ta2": 2070,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palpebral part of orbicularis oculi.l": {
+  "nome": "Parte palpebral do músculo orbicular dos olhos (esquerdo)",
+  "latim": "Pars palpebralis musculi orbicularis oculi",
+  "ta2": 2067,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Orbicularis oris muscle.r": {
+  "nome": "Orbicular da boca (direito)",
+  "latim": "Musculus orbicularis oris",
+  "ta2": 2073,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Orbicularis oris muscle.l": {
+  "nome": "Orbicular da boca (esquerdo)",
+  "latim": "Musculus orbicularis oris",
+  "ta2": 2073,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Zygomaticus major muscle.r": {
+  "nome": "Zigomático maior (direito)",
+  "latim": "Musculus zygomaticus major",
+  "ta2": 2079,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Corrugator supercilii.r": {
+  "nome": "Corrugador do supercílio (direito)",
+  "latim": "Musculus corrugator supercilii",
+  "ta2": 2071,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Depressor anguli oris.r": {
+  "nome": "Depressor do ângulo da boca (direito)",
+  "latim": "Depressor anguli oris",
+  "ta2": 2076,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Depressor labii inferioris.r": {
+  "nome": "Depressor do lábio inferior (direito)",
+  "latim": "Depressor labii inferioris",
+  "ta2": 2083,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator anguli oris.r": {
+  "nome": "Levantador do ângulo da boca (direito)",
+  "latim": "Levator anguli oris",
+  "ta2": 2084,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Procerus muscle.r": {
+  "nome": "Prócero (direito)",
+  "latim": "Musculus procerus",
+  "ta2": 2061,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Risorius muscle.r": {
+  "nome": "Risório (direito)",
+  "latim": "Musculus risorius",
+  "ta2": 2078,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Zygomaticus minor muscle.r": {
+  "nome": "Zigomático menor (direito)",
+  "latim": "Musculus zygomaticus minor",
+  "ta2": 2080,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator labii superioris.r": {
+  "nome": "Levantador do lábio superior (direito)",
+  "latim": "Levator labii superioris",
+  "ta2": 2081,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Depressor septi nasi.r": {
+  "nome": "Depressor do septo nasal (direito)",
+  "latim": "Depressor septi nasi",
+  "ta2": 2065,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Mentalis muscle.r": {
+  "nome": "Mentual (direito)",
+  "latim": "Musculus mentalis",
+  "ta2": 2087,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator nasolabialis.r": {
+  "nome": "Levantador nasolabial (direito)",
+  "latim": "Levator nasolabialis",
+  "ta2": 2082,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Bucinator.r": {
+  "nome": "Bucinador (direito)",
+  "latim": "Bucinator",
+  "ta2": 2086,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Zygomaticus major muscle.l": {
+  "nome": "Zigomático maior (esquerdo)",
+  "latim": "Musculus zygomaticus major",
+  "ta2": 2079,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Corrugator supercilii.l": {
+  "nome": "Corrugador do supercílio (esquerdo)",
+  "latim": "Musculus corrugator supercilii",
+  "ta2": 2071,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Depressor anguli oris.l": {
+  "nome": "Depressor do ângulo da boca (esquerdo)",
+  "latim": "Depressor anguli oris",
+  "ta2": 2076,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Depressor labii inferioris.l": {
+  "nome": "Depressor do lábio inferior (esquerdo)",
+  "latim": "Depressor labii inferioris",
+  "ta2": 2083,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator anguli oris.l": {
+  "nome": "Levantador do ângulo da boca (esquerdo)",
+  "latim": "Levator anguli oris",
+  "ta2": 2084,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Procerus muscle.l": {
+  "nome": "Prócero (esquerdo)",
+  "latim": "Musculus procerus",
+  "ta2": 2061,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Risorius muscle.l": {
+  "nome": "Risório (esquerdo)",
+  "latim": "Musculus risorius",
+  "ta2": 2078,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Zygomaticus minor muscle.l": {
+  "nome": "Zigomático menor (esquerdo)",
+  "latim": "Musculus zygomaticus minor",
+  "ta2": 2080,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator labii superioris.l": {
+  "nome": "Levantador do lábio superior (esquerdo)",
+  "latim": "Levator labii superioris",
+  "ta2": 2081,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Depressor septi nasi.l": {
+  "nome": "Depressor do septo nasal (esquerdo)",
+  "latim": "Depressor septi nasi",
+  "ta2": 2065,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Mentalis muscle.l": {
+  "nome": "Mentual (esquerdo)",
+  "latim": "Musculus mentalis",
+  "ta2": 2087,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator nasolabialis.l": {
+  "nome": "Levantador nasolabial (esquerdo)",
+  "latim": "Levator nasolabialis",
+  "ta2": 2082,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Bucinator.l": {
+  "nome": "Bucinador (esquerdo)",
+  "latim": "Bucinator",
+  "ta2": 2086,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superficial part of masseter.r": {
+  "nome": "Parte superficial do masseter (direito)",
+  "latim": "Pars superficialis masseteris",
+  "ta2": 2106,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Deep part of masseter.r": {
+  "nome": "Parte profunda do masseter (direito)",
+  "latim": "Pars profunda masseteris",
+  "ta2": 2107,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superficial part of masseter.l": {
+  "nome": "Parte superficial do masseter (esquerdo)",
+  "latim": "Pars superficialis masseteris",
+  "ta2": 2106,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Deep part of masseter.l": {
+  "nome": "Parte profunda do masseter (esquerdo)",
+  "latim": "Pars profunda masseteris",
+  "ta2": 2107,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial pterygoid muscle.r": {
+  "nome": "Pterigóideo medial (direito)",
+  "latim": "Musculus pterygoideus medialis",
+  "ta2": 2113,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial pterygoid muscle.l": {
+  "nome": "Pterigóideo medial (esquerdo)",
+  "latim": "Musculus pterygoideus medialis",
+  "ta2": 2113,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior head of lateral pterygoid muscle.r": {
+  "nome": "Cabeça inferior do músculo pterigóideo lateral (direito)",
+  "latim": "Caput inferius musculi pterygoidei lateralis",
+  "ta2": 2111,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior head of lateral pterygoid muscle.r": {
+  "nome": "Cabeça superior do músculo pterigóideo lateral (direito)",
+  "latim": "Caput superius musculi pterygoidei lateralis",
+  "ta2": 2110,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior head of lateral pterygoid muscle.l": {
+  "nome": "Cabeça inferior do músculo pterigóideo lateral (esquerdo)",
+  "latim": "Caput inferius musculi pterygoidei lateralis",
+  "ta2": 2111,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior head of lateral pterygoid muscle.l": {
+  "nome": "Cabeça superior do músculo pterigóideo lateral (esquerdo)",
+  "latim": "Caput superius musculi pterygoidei lateralis",
+  "ta2": 2110,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Temporalis muscle.r": {
+  "nome": "Temporal (direito)",
+  "latim": "Musculus temporalis",
+  "ta2": 2108,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Temporalis muscle.l": {
+  "nome": "Temporal (esquerdo)",
+  "latim": "Musculus temporalis",
+  "ta2": 2108,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Hyoglossus muscle.r": {
+  "nome": "Hioglosso (direito)",
+  "latim": "Musculus hyoglossus",
+  "ta2": 2118,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Hyoglossus muscle.l": {
+  "nome": "Hioglosso (esquerdo)",
+  "latim": "Musculus hyoglossus",
+  "ta2": 2118,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Genioglossus muscle.r": {
+  "nome": "Genioglosso (direito)",
+  "latim": "Musculus genioglossus",
+  "ta2": 2117,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Genioglossus muscle.l": {
+  "nome": "Genioglosso (esquerdo)",
+  "latim": "Musculus genioglossus",
+  "ta2": 2117,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palatopharyngeus muscle.r": {
+  "nome": "Palatofaríngeo (direito)",
+  "latim": "Musculus palatopharyngeus",
+  "ta2": 2132,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palatopharyngeus muscle.l": {
+  "nome": "Palatofaríngeo (esquerdo)",
+  "latim": "Musculus palatopharyngeus",
+  "ta2": 2132,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sternocleidomastoid muscle.r": {
+  "nome": "Esternocleidomastóideo (direito)",
+  "latim": "Musculus sternocleidomastoideus",
+  "ta2": 2156,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sternocleidomastoid muscle.l": {
+  "nome": "Esternocleidomastóideo (esquerdo)",
+  "latim": "Musculus sternocleidomastoideus",
+  "ta2": 2156,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Platysma.r": {
+  "nome": "Platisma (direito)",
+  "latim": "Platysma",
+  "ta2": 2147,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scalenus medius muscle.r": {
+  "nome": "Escaleno médio (direito)",
+  "latim": "Musculus scalenus medius",
+  "ta2": 2153,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scalenus posterior muscle.r": {
+  "nome": "Escaleno posterior (direito)",
+  "latim": "Musculus scalenus posterior",
+  "ta2": 2154,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scalenus anterior muscle.r": {
+  "nome": "Escaleno anterior (direito)",
+  "latim": "Musculus scalenus anterior",
+  "ta2": 2152,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longus capitis muscle.r": {
+  "nome": "Longo da cabeça (direito)",
+  "latim": "Musculus longus capitis",
+  "ta2": 2149,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longus colli muscle.r": {
+  "nome": "Longo do pescoço (direito)",
+  "latim": "Musculus longus colli",
+  "ta2": 2148,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus anterior capitis muscle.r": {
+  "nome": "Reto anterior da cabeça (direito)",
+  "latim": "Musculus rectus anterior capitis",
+  "ta2": 2150,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus lateralis capitis muscle.r": {
+  "nome": "Reto lateral da cabeça (direito)",
+  "latim": "Musculus rectus lateralis capitis",
+  "ta2": 2151,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Platysma.l": {
+  "nome": "Platisma (esquerdo)",
+  "latim": "Platysma",
+  "ta2": 2147,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scalenus medius muscle.l": {
+  "nome": "Escaleno médio (esquerdo)",
+  "latim": "Musculus scalenus medius",
+  "ta2": 2153,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scalenus posterior muscle.l": {
+  "nome": "Escaleno posterior (esquerdo)",
+  "latim": "Musculus scalenus posterior",
+  "ta2": 2154,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scalenus anterior muscle.l": {
+  "nome": "Escaleno anterior (esquerdo)",
+  "latim": "Musculus scalenus anterior",
+  "ta2": 2152,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longus capitis muscle.l": {
+  "nome": "Longo da cabeça (esquerdo)",
+  "latim": "Musculus longus capitis",
+  "ta2": 2149,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longus colli muscle.l": {
+  "nome": "Longo do pescoço (esquerdo)",
+  "latim": "Musculus longus colli",
+  "ta2": 2148,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus anterior capitis muscle.l": {
+  "nome": "Reto anterior da cabeça (esquerdo)",
+  "latim": "Musculus rectus anterior capitis",
+  "ta2": 2150,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus lateralis capitis muscle.l": {
+  "nome": "Reto lateral da cabeça (esquerdo)",
+  "latim": "Musculus rectus lateralis capitis",
+  "ta2": 2151,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Mylohyoid muscle.r": {
+  "nome": "Milohióideo (direito)",
+  "latim": "Musculus mylohyoideus",
+  "ta2": 2165,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Stylohyoid muscle.r": {
+  "nome": "Estilohióideo (direito)",
+  "latim": "Musculus stylohyoideus",
+  "ta2": 2164,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Geniohyoid muscle.r": {
+  "nome": "Geniohióideo (direito)",
+  "latim": "Musculus geniohyoideus",
+  "ta2": 2166,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Mylohyoid muscle.l": {
+  "nome": "Milohióideo (esquerdo)",
+  "latim": "Musculus mylohyoideus",
+  "ta2": 2165,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Stylohyoid muscle.l": {
+  "nome": "Estilohióideo (esquerdo)",
+  "latim": "Musculus stylohyoideus",
+  "ta2": 2164,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Geniohyoid muscle.l": {
+  "nome": "Geniohióideo (esquerdo)",
+  "latim": "Musculus geniohyoideus",
+  "ta2": 2166,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Intermediate tendon of digastric muscle.r": {
+  "nome": "Tendão intermediário do músculo digástrico (direito)",
+  "latim": "Tendo intermedius musculi digastrici",
+  "ta2": 2162,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Anterior belly of digastric muscle.r": {
+  "nome": "Ventre anterior do músculo digástrico (direito)",
+  "latim": "Venter anterior musculi digastrici",
+  "ta2": 2161,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Posterior belly of digastric muscle.r": {
+  "nome": "Ventre posterior do músculo digástrico (direito)",
+  "latim": "Venter posterior musculi digastrici",
+  "ta2": 2163,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Intermediate tendon of digastric muscle.l": {
+  "nome": "Tendão intermediário do músculo digástrico (esquerdo)",
+  "latim": "Tendo intermedius musculi digastrici",
+  "ta2": 2162,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Anterior belly of digastric muscle.l": {
+  "nome": "Ventre anterior do músculo digástrico (esquerdo)",
+  "latim": "Venter anterior musculi digastrici",
+  "ta2": 2161,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Posterior belly of digastric muscle.l": {
+  "nome": "Ventre posterior do músculo digástrico (esquerdo)",
+  "latim": "Venter posterior musculi digastrici",
+  "ta2": 2163,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Omohyoid muscle.r": {
+  "nome": "Omohióideo (direito)",
+  "latim": "Musculus omohyoideus",
+  "ta2": 2169,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Omohyoid muscle.l": {
+  "nome": "Omohióideo (esquerdo)",
+  "latim": "Musculus omohyoideus",
+  "ta2": 2169,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sternohyoid muscle.r": {
+  "nome": "Esternohióideo (direito)",
+  "latim": "Musculus sternohyoideus",
+  "ta2": 2168,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sternothyroid muscle.r": {
+  "nome": "Esternotireóideo (direito)",
+  "latim": "Musculus sternothyreoideus",
+  "ta2": 2173,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Thyrohyoid muscle.r": {
+  "nome": "Tirohióideo (direito)",
+  "latim": "Musculus thyreohyoideus",
+  "ta2": 2174,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sternohyoid muscle.l": {
+  "nome": "Esternohióideo (esquerdo)",
+  "latim": "Musculus sternohyoideus",
+  "ta2": 2168,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sternothyroid muscle.l": {
+  "nome": "Esternotireóideo (esquerdo)",
+  "latim": "Musculus sternothyreoideus",
+  "ta2": 2173,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Thyrohyoid muscle.l": {
+  "nome": "Tirohióideo (esquerdo)",
+  "latim": "Musculus thyreohyoideus",
+  "ta2": 2174,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior pharyngeal constrictor.r": {
+  "nome": "Constritor superior da faringe (direito)",
+  "latim": "Constrictor superior pharyngis",
+  "ta2": 2179,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior pharyngeal constrictor.l": {
+  "nome": "Constritor superior da faringe (esquerdo)",
+  "latim": "Constrictor superior pharyngis",
+  "ta2": 2179,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle pharyngeal constrictor.r": {
+  "nome": "Constritor médio da faringe (direito)",
+  "latim": "Constrictor medius pharyngis",
+  "ta2": 2184,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle pharyngeal constrictor.l": {
+  "nome": "Constritor médio da faringe (esquerdo)",
+  "latim": "Constrictor medius pharyngis",
+  "ta2": 2184,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior pharyngeal constrictor.r": {
+  "nome": "Constritor inferior da faringe (direito)",
+  "latim": "Constrictor inferior pharyngis",
+  "ta2": 2187,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior pharyngeal constrictor.l": {
+  "nome": "Constritor inferior da faringe (esquerdo)",
+  "latim": "Constrictor inferior pharyngis",
+  "ta2": 2187,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Stylopharyngeus muscle.r": {
+  "nome": "Estilofaríngeo (direito)",
+  "latim": "Musculus stylopharyngeus",
+  "ta2": 2190,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Stylopharyngeus muscle.l": {
+  "nome": "Estilofaríngeo (esquerdo)",
+  "latim": "Musculus stylopharyngeus",
+  "ta2": 2190,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Oblique part of cricothyroid muscle.r": {
+  "nome": "Parte oblíqua do músculo cricotireóideo (direito)",
+  "latim": "Pars obliqua musculi cricothyreoidei",
+  "ta2": 2195,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Straight part of cricothyroid muscle.r": {
+  "nome": "Parte reta do músculo cricotireóideo (direito)",
+  "latim": "Pars recta musculi cricothyreoidei",
+  "ta2": 2194,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Oblique part of cricothyroid muscle.l": {
+  "nome": "Parte oblíqua do músculo cricotireóideo (esquerdo)",
+  "latim": "Pars obliqua musculi cricothyreoidei",
+  "ta2": 2195,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Straight part of cricothyroid muscle.l": {
+  "nome": "Parte reta do músculo cricotireóideo (esquerdo)",
+  "latim": "Pars recta musculi cricothyreoidei",
+  "ta2": 2194,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "External part of thyro-arytenoid muscle.r": {
+  "nome": "Parte externa do músculo tireo-aritenóideo (direito)",
+  "latim": "Pars externa musculi thyreoarytenoidei",
+  "ta2": 2200,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "External part of thyro-arytenoid muscle.l": {
+  "nome": "Parte externa do músculo tireo-aritenóideo (esquerdo)",
+  "latim": "Pars externa musculi thyreoarytenoidei",
+  "ta2": 2200,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ary-epiglottic part of oblique arytenoid muscle.r": {
+  "nome": "Parte ari-epiglótica do músculo aritenóideo oblíquo (direito)",
+  "latim": "Pars aryepiglottica musculi arytenoidei obliqui",
+  "ta2": 2204,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Thyro-epiglottic part of thyro-arytenoid muscle.r": {
+  "nome": "Parte tireo-epiglótica do músculo tireo-aritenóideo (direito)",
+  "latim": "Pars thyreoepiglottica musculi thyreoarytenoidei",
+  "ta2": 2201,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ary-epiglottic part of oblique arytenoid muscle.l": {
+  "nome": "Parte ari-epiglótica do músculo aritenóideo oblíquo (esquerdo)",
+  "latim": "Pars aryepiglottica musculi arytenoidei obliqui",
+  "ta2": 2204,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Thyro-epiglottic part of thyro-arytenoid muscle.l": {
+  "nome": "Parte tireo-epiglótica do músculo tireo-aritenóideo (esquerdo)",
+  "latim": "Pars thyreoepiglottica musculi thyreoarytenoidei",
+  "ta2": 2201,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transverse arytenoid muscle": {
+  "nome": "Aritenóideo transverso",
+  "latim": "Musculus arytenoideus transversus",
+  "ta2": 2205,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral crico-arytenoid muscle.r": {
+  "nome": "Crico-aritenóideo lateral (direito)",
+  "latim": "Musculus cricoarytendoideus lateralis",
+  "ta2": 2198,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral crico-arytenoid muscle.l": {
+  "nome": "Crico-aritenóideo lateral (esquerdo)",
+  "latim": "Musculus cricoarytendoideus lateralis",
+  "ta2": 2198,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Posterior crico-arytenoid muscle.r": {
+  "nome": "Crico-aritenóide posterior (direito)",
+  "latim": "Musculus cricoarytenoideus posterior",
+  "ta2": 2196,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Posterior crico-arytenoid muscle.l": {
+  "nome": "Crico-aritenóide posterior (esquerdo)",
+  "latim": "Musculus cricoarytenoideus posterior",
+  "ta2": 2196,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Dorsal parts of lateral intertransversarii lumborum muscles.r": {
+  "nome": "Partes dors. dos músculos intertransv. lombares lat. (direito)",
+  "latim": "Partes dors. musculorum intertransversariorum lat. lumborum",
+  "ta2": 2240,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ventral parts of lateral intertransversarii lumborum muscles.r": {
+  "nome": "Partes vent. dos músculos lombares intertransv. lat. (direito)",
+  "latim": "Partes vent. musculorum intertransversariorum lat. lumborum",
+  "ta2": 2241,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Dorsal parts of lateral intertransversarii lumborum muscles.l": {
+  "nome": "Partes dors. dos músculos intertransv. lombares lat. (esquerdo)",
+  "latim": "Partes dors. musculorum intertransversariorum lat. lumborum",
+  "ta2": 2240,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ventral parts of lateral intertransversarii lumborum muscles.l": {
+  "nome": "Partes vent. dos músculos lombares intertransv. lat. (esquerdo)",
+  "latim": "Partes vent. musculorum intertransversariorum lat. lumborum",
+  "ta2": 2241,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator scapulae.r": {
+  "nome": "Levantador da escápula (direito)",
+  "latim": "Levator scapulae",
+  "ta2": 2234,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rhomboid major muscle.r": {
+  "nome": "Rombóide principal (direito)",
+  "latim": "Musculus rhomboideus major",
+  "ta2": 2232,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rhomboid minor muscle.r": {
+  "nome": "Rombóide menor (direito)",
+  "latim": "Musculus rhomboideus minor",
+  "ta2": 2233,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Latissimus dorsi muscle.r": {
+  "nome": "Grande dorsal (direito)",
+  "latim": "Musculus latissimus dorsi",
+  "ta2": 2231,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Serratus posterior inferior muscle.r": {
+  "nome": "Serrátil postero-inferior (direito)",
+  "latim": "Musculus serratus posterior inferior",
+  "ta2": 2235,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Serratus posterior superior muscle.r": {
+  "nome": "Serrátil postero-superior (direito)",
+  "latim": "Musculus serratus posterior superior",
+  "ta2": 2236,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator scapulae.l": {
+  "nome": "Levantador da escápula (esquerdo)",
+  "latim": "Levator scapulae",
+  "ta2": 2234,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rhomboid major muscle.l": {
+  "nome": "Rombóide principal (esquerdo)",
+  "latim": "Musculus rhomboideus major",
+  "ta2": 2232,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rhomboid minor muscle.l": {
+  "nome": "Rombóide menor (esquerdo)",
+  "latim": "Musculus rhomboideus minor",
+  "ta2": 2233,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Latissimus dorsi muscle.l": {
+  "nome": "Grande dorsal (esquerdo)",
+  "latim": "Musculus latissimus dorsi",
+  "ta2": 2231,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Serratus posterior inferior muscle.l": {
+  "nome": "Serrátil postero-inferior (esquerdo)",
+  "latim": "Musculus serratus posterior inferior",
+  "ta2": 2235,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Serratus posterior superior muscle.l": {
+  "nome": "Serrátil postero-superior (esquerdo)",
+  "latim": "Musculus serratus posterior superior",
+  "ta2": 2236,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ascending part of trapezius muscle.r": {
+  "nome": "Parte ascendente do músculo trapézio (direito)",
+  "latim": "Pars ascendens musculi trapezii",
+  "ta2": 2229,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Descending part of trapezius muscle.r": {
+  "nome": "Parte descendente do músculo trapézio (direito)",
+  "latim": "Pars descendens musculi trapezii",
+  "ta2": 2227,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transverse part of trapezius muscle.r": {
+  "nome": "Parte transversal do músculo trapézio (direito)",
+  "latim": "Pars transversa musculi trapezii",
+  "ta2": 2228,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ascending part of trapezius muscle.l": {
+  "nome": "Parte ascendente do músculo trapézio (esquerdo)",
+  "latim": "Pars ascendens musculi trapezii",
+  "ta2": 2229,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Descending part of trapezius muscle.l": {
+  "nome": "Parte descendente do músculo trapézio (esquerdo)",
+  "latim": "Pars descendens musculi trapezii",
+  "ta2": 2227,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transverse part of trapezius muscle.l": {
+  "nome": "Parte transversal do músculo trapézio (esquerdo)",
+  "latim": "Pars transversa musculi trapezii",
+  "ta2": 2228,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Obliquus inferior capitis muscle.r": {
+  "nome": "Inferior oblíquo da cabeça (direito)",
+  "latim": "Musculus obliquus inferior capitis",
+  "ta2": 2252,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Obliquus superior capitis muscle.r": {
+  "nome": "Superior oblíquo da cabeça (direito)",
+  "latim": "Musculus obliquus superior capitis",
+  "ta2": 2251,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus posterior major capitis muscle.r": {
+  "nome": "Reto posterior maior da cabeça (direito)",
+  "latim": "Musculus rectus posterior major capitis",
+  "ta2": 2249,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus posterior minor capitis muscle.r": {
+  "nome": "Reto posterior menor da cabeça (direito)",
+  "latim": "Musculus rectus posterior minor capitis",
+  "ta2": 2250,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Obliquus inferior capitis muscle.l": {
+  "nome": "Inferior oblíquo da cabeça (esquerdo)",
+  "latim": "Musculus obliquus inferior capitis",
+  "ta2": 2252,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Obliquus superior capitis muscle.l": {
+  "nome": "Superior oblíquo da cabeça (esquerdo)",
+  "latim": "Musculus obliquus superior capitis",
+  "ta2": 2251,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus posterior major capitis muscle.l": {
+  "nome": "Reto posterior maior da cabeça (esquerdo)",
+  "latim": "Musculus rectus posterior major capitis",
+  "ta2": 2249,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus posterior minor capitis muscle.l": {
+  "nome": "Reto posterior menor da cabeça (esquerdo)",
+  "latim": "Musculus rectus posterior minor capitis",
+  "ta2": 2250,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Splenius capitis muscle.r": {
+  "nome": "Esplênio da cabeça (direito)",
+  "latim": "Musculus splenius capitis",
+  "ta2": 2273,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Splenius colli muscle.r": {
+  "nome": "Esplênio do pescoço (direito)",
+  "latim": "Musculus splenius colli",
+  "ta2": 2274,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Splenius capitis muscle.l": {
+  "nome": "Esplênio da cabeça (esquerdo)",
+  "latim": "Musculus splenius capitis",
+  "ta2": 2273,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Splenius colli muscle.l": {
+  "nome": "Esplênio do pescoço (esquerdo)",
+  "latim": "Musculus splenius colli",
+  "ta2": 2274,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliocostalis lumborum muscle.r": {
+  "nome": "Iliocostal lombar (direito)",
+  "latim": "Musculus iliocostalis lumborum",
+  "ta2": 2258,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliocostalis thoracis muscle.r": {
+  "nome": "Iliocostal do tórax (direito)",
+  "latim": "Musculus iliocostalis thoracis",
+  "ta2": 2260,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliocostalis colli muscle.r": {
+  "nome": "Iliocostalis do pescoço (direito)",
+  "latim": "Musculus iliocostalis colli",
+  "ta2": 2261,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliocostalis lumborum muscle.l": {
+  "nome": "Iliocostal lombar (esquerdo)",
+  "latim": "Musculus iliocostalis lumborum",
+  "ta2": 2258,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliocostalis thoracis muscle.l": {
+  "nome": "Iliocostal do tórax (esquerdo)",
+  "latim": "Musculus iliocostalis thoracis",
+  "ta2": 2260,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliocostalis colli muscle": {
+  "nome": "Iliocostalis do pescoço",
+  "latim": "Musculus iliocostalis colli",
+  "ta2": 2261,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longissimus thoracis muscle.r": {
+  "nome": "Longuíssimo do tórax (direito)",
+  "latim": "Musculus longissimus thoracis",
+  "ta2": 2263,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longissimus thoracis muscle.l": {
+  "nome": "Longuíssimo do tórax (esquerdo)",
+  "latim": "Musculus longissimus thoracis",
+  "ta2": 2263,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longissimus capitis muscle.r": {
+  "nome": "Longuíssimo da cabeça (direito)",
+  "latim": "Musculus longissimus capitis",
+  "ta2": 2266,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longissimus colli muscle.r": {
+  "nome": "Longuíssimo do pescoço (direito)",
+  "latim": "Musculus longissimus colli",
+  "ta2": 2265,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longissimus capitis muscle.l": {
+  "nome": "Longuíssimo da cabeça (esquerdo)",
+  "latim": "Musculus longissimus capitis",
+  "ta2": 2266,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longissimus colli muscle.l": {
+  "nome": "Longuíssimo do pescoço (esquerdo)",
+  "latim": "Musculus longissimus colli",
+  "ta2": 2265,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Spinalis capitis muscle.r": {
+  "nome": "Espinhal da cabeça (direito)",
+  "latim": "Musculus spinalis capitis",
+  "ta2": 2270,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Spinalis colli muscle.r": {
+  "nome": "Espinhal do pescoço (direito)",
+  "latim": "Musculus spinalis colli",
+  "ta2": 2269,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Spinalis thoracis muscle.r": {
+  "nome": "Espinhal do tórax (direito)",
+  "latim": "Musculus spinalis thoracis",
+  "ta2": 2268,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Spinalis capitis muscle.l": {
+  "nome": "Espinhal da cabeça (esquerdo)",
+  "latim": "Musculus spinalis capitis",
+  "ta2": 2270,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Spinalis colli muscle.l": {
+  "nome": "Espinhal do pescoço (esquerdo)",
+  "latim": "Musculus spinalis colli",
+  "ta2": 2269,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Spinalis thoracis muscle.l": {
+  "nome": "Espinhal do tórax (esquerdo)",
+  "latim": "Musculus spinalis thoracis",
+  "ta2": 2268,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Multifidus colli muscle.r": {
+  "nome": "Multífido do pescoço (direito)",
+  "latim": "Musculus multifidus colli",
+  "ta2": 2279,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Multifidus thoracis muscle.r": {
+  "nome": "Multífido do tórax (direito)",
+  "latim": "Musculus multifidus thoracis",
+  "ta2": 2278,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Multifidus lumborum muscle.r": {
+  "nome": "Multífico lombar (direito)",
+  "latim": "Musculus multifidus lumborum",
+  "ta2": 2277,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Multifidus colli muscle.l": {
+  "nome": "Multífido do pescoço (esquerdo)",
+  "latim": "Musculus multifidus colli",
+  "ta2": 2279,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Multifidus thoracis muscle.l": {
+  "nome": "Multífido do tórax (esquerdo)",
+  "latim": "Musculus multifidus thoracis",
+  "ta2": 2278,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Multifidus lumborum muscle.l": {
+  "nome": "Multífico lombar (esquerdo)",
+  "latim": "Musculus multifidus lumborum",
+  "ta2": 2277,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Semispinalis thoracis muscle.r": {
+  "nome": "Semi-espinal do tórax (direito)",
+  "latim": "Musculus semispinalis thoracis",
+  "ta2": 2281,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Semispinalis colli muscle.r": {
+  "nome": "Semi-espinal do pescoço (direito)",
+  "latim": "Musculus semispinalis colli",
+  "ta2": 2282,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Semispinalis thoracis muscle.l": {
+  "nome": "Semi-espinal do tórax (esquerdo)",
+  "latim": "Musculus semispinalis thoracis",
+  "ta2": 2281,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Semispinalis colli muscle.l": {
+  "nome": "Semi-espinal do pescoço (esquerdo)",
+  "latim": "Musculus semispinalis colli",
+  "ta2": 2282,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rotatores.l": {
+  "nome": "Rotatores (esquerdo)",
+  "latim": "Rotatores",
+  "ta2": 2284,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rotatores.r": {
+  "nome": "Rotatores (direito)",
+  "latim": "Rotatores",
+  "ta2": 2284,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Interspinales colli muscles.r": {
+  "nome": "Músculos interspinales do pescoço (direito)",
+  "latim": "Musculi interspinales colli",
+  "ta2": 2293,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Interspinales thoracis muscles.r": {
+  "nome": "Músculos intervertebrais do tórax (direito)",
+  "latim": "Musculi interspinales thoracis",
+  "ta2": 2292,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Interspinales lumborum muscles.r": {
+  "nome": "Músculos interespinhais lombares (direito)",
+  "latim": "Musculi interspinales lumborum",
+  "ta2": 2291,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Interspinales colli muscles.l": {
+  "nome": "Músculos interspinales do pescoço (esquerdo)",
+  "latim": "Musculi interspinales colli",
+  "ta2": 2293,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Interspinales thoracis muscles.l": {
+  "nome": "Músculos intervertebrais do tórax (esquerdo)",
+  "latim": "Musculi interspinales thoracis",
+  "ta2": 2292,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Interspinales lumborum muscles.l": {
+  "nome": "Músculos interespinhais lombares (esquerdo)",
+  "latim": "Musculi interspinales lumborum",
+  "ta2": 2291,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Diaphragm": {
+  "nome": "Diafragma",
+  "latim": "Diaphragma",
+  "ta2": 2327,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pectoralis minor muscle.r": {
+  "nome": "Peitoral menor (direito)",
+  "latim": "Musculus pectoralis minor",
+  "ta2": 2305,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "External intercostal muscles.r": {
+  "nome": "Músculos intercostais externos (direito)",
+  "latim": "Musculi intercostales externi",
+  "ta2": 2311,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Internal intercostal muscles.r": {
+  "nome": "Músculos intercostais internos (direito)",
+  "latim": "Musculi intercostales interni",
+  "ta2": 2312,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Serratus anterior muscle.r": {
+  "nome": "Serrátil anterior (direito)",
+  "latim": "Musculus serratus anterior",
+  "ta2": 2307,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Innermost intercostal muscles.r": {
+  "nome": "Músculos intercostais íntimos (direito)",
+  "latim": "Musculi intercostales intimi",
+  "ta2": 2313,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Subclavius muscle.r": {
+  "nome": "Subclávio (direito)",
+  "latim": "Musculus subclavius",
+  "ta2": 2306,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transversus thoracis muscle.r": {
+  "nome": "Transverso do tórax (direito)",
+  "latim": "Musculus transversus thoracis",
+  "ta2": 2315,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pectoralis minor muscle.l": {
+  "nome": "Peitoral menor (esquerdo)",
+  "latim": "Musculus pectoralis minor",
+  "ta2": 2305,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "External intercostal muscles.l": {
+  "nome": "Músculos intercostais externos (esquerdo)",
+  "latim": "Musculi intercostales externi",
+  "ta2": 2311,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Internal intercostal muscles.l": {
+  "nome": "Músculos intercostais internos (esquerdo)",
+  "latim": "Musculi intercostales interni",
+  "ta2": 2312,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Serratus anterior muscle.l": {
+  "nome": "Serrátil anterior (esquerdo)",
+  "latim": "Musculus serratus anterior",
+  "ta2": 2307,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Innermost intercostal muscles.l": {
+  "nome": "Músculos intercostais íntimos (esquerdo)",
+  "latim": "Musculi intercostales intimi",
+  "ta2": 2313,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Subclavius muscle.l": {
+  "nome": "Subclávio (esquerdo)",
+  "latim": "Musculus subclavius",
+  "ta2": 2306,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transversus thoracis muscle.l": {
+  "nome": "Transverso do tórax (esquerdo)",
+  "latim": "Musculus transversus thoracis",
+  "ta2": 2315,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Clavicular head of pectoralis major muscle.r": {
+  "nome": "Cabeça clavicular do músculo peitoral maior (direito)",
+  "latim": "Pars clavicularis musculi pectoralis majoris",
+  "ta2": 2302,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sternocostal head of pectoralis major muscle.r": {
+  "nome": "Cabeça esternocostal do músculo peitoral maior (direito)",
+  "latim": "Pars sternocostalis musculi pectoralis majoris",
+  "ta2": 2303,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "(Abdominal part of pectoralis major muscle).r": {
+  "nome": "(Parte abdominal do músculo peitoral maior) (direito)",
+  "latim": "(Pars abdominalis musculi pectoralis majoris)",
+  "ta2": 2304,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Clavicular head of pectoralis major muscle.l": {
+  "nome": "Cabeça clavicular do músculo peitoral maior (esquerdo)",
+  "latim": "Pars clavicularis musculi pectoralis majoris",
+  "ta2": 2302,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sternocostal head of pectoralis major muscle.l": {
+  "nome": "Cabeça esternocostal do músculo peitoral maior (esquerdo)",
+  "latim": "Pars sternocostalis musculi pectoralis majoris",
+  "ta2": 2303,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "(Abdominal part of pectoralis major muscle).l": {
+  "nome": "(Parte abdominal do músculo peitoral maior) (esquerdo)",
+  "latim": "(Pars abdominalis musculi pectoralis majoris)",
+  "ta2": 2304,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levatores longi costarum.r": {
+  "nome": "Levantadores longos das costelas (direito)",
+  "latim": "Levatores longi costarum",
+  "ta2": 2309,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levatores breves costarum.r": {
+  "nome": "Levantadores curtos das costelas (direito)",
+  "latim": "Levatores breves costarum",
+  "ta2": 2310,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levatores longi costarum.l": {
+  "nome": "Levantadores longos das costelas (esquerdo)",
+  "latim": "Levatores longi costarum",
+  "ta2": 2309,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levatores breves costarum.l": {
+  "nome": "Levantadores curtos das costelas (esquerdo)",
+  "latim": "Levatores breves costarum",
+  "ta2": 2310,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus abdominis muscle.r": {
+  "nome": "Reto abdominal (direito)",
+  "latim": "Musculus rectus abdominis",
+  "ta2": 2357,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus abdominis muscle.l": {
+  "nome": "Reto abdominal (esquerdo)",
+  "latim": "Musculus rectus abdominis",
+  "ta2": 2357,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "External abdominal oblique muscle.r": {
+  "nome": "Abdominal oblíquo externo (direito)",
+  "latim": "Musculus obliquus externus abdominis",
+  "ta2": 2364,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inguinal ligament.r": {
+  "nome": "Ligamento inguinal (direito)",
+  "latim": "Ligamentum inguinale",
+  "ta2": 2365,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "External abdominal oblique muscle.l": {
+  "nome": "Abdominal oblíquo externo (esquerdo)",
+  "latim": "Musculus obliquus externus abdominis",
+  "ta2": 2364,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inguinal ligament.l": {
+  "nome": "Ligamento inguinal (esquerdo)",
+  "latim": "Ligamentum inguinale",
+  "ta2": 2365,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Internal abdominal oblique muscle.r": {
+  "nome": "Abdominal oblíquo interno (direito)",
+  "latim": "Musculus obliquus internus abdominis",
+  "ta2": 2373,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Internal abdominal oblique muscle.l": {
+  "nome": "Abdominal oblíquo interno (esquerdo)",
+  "latim": "Musculus obliquus internus abdominis",
+  "ta2": 2373,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transversus abdominis muscle.r": {
+  "nome": "Transverso abdominal (direito)",
+  "latim": "Musculus transversus abdominis",
+  "ta2": 2375,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transversus abdominis muscle.l": {
+  "nome": "Transverso abdominal (esquerdo)",
+  "latim": "Musculus transversus abdominis",
+  "ta2": 2375,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Linea alba": {
+  "nome": "Linea alba",
+  "latim": "Linea alba",
+  "ta2": 2377,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pyramidalis muscle.r": {
+  "nome": "Piramidal (direito)",
+  "latim": "Musculus pyramidalis",
+  "ta2": 2363,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Quadratus lumborum muscle.r": {
+  "nome": "Quadrado lombar (direito)",
+  "latim": "Musculus quadratus lumborum",
+  "ta2": 2382,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pyramidalis muscle.l": {
+  "nome": "Piramidal (esquerdo)",
+  "latim": "Musculus pyramidalis",
+  "ta2": 2363,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Quadratus lumborum muscle.l": {
+  "nome": "Quadrado lombar (esquerdo)",
+  "latim": "Musculus quadratus lumborum",
+  "ta2": 2382,
+  "regiao": "abdome",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Coccygeus muscle.r": {
+  "nome": "Coccígeo (direito)",
+  "latim": "Musculus coccygeus",
+  "ta2": 2412,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Coccygeus muscle.l": {
+  "nome": "Coccígeo (esquerdo)",
+  "latim": "Musculus coccygeus",
+  "ta2": 2412,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliococcygeus muscle.r": {
+  "nome": "Iliococcígeo (direito)",
+  "latim": "Musculus iliococcygeus",
+  "ta2": 2404,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pubo-analis muscle.r": {
+  "nome": "Pubo-analis (direito)",
+  "latim": "Musculus puboanalis",
+  "ta2": 2406,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pubococcygeus muscle.r": {
+  "nome": "Pubococcígeo (direito)",
+  "latim": "Musculus pubococcygeus",
+  "ta2": 2405,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliococcygeus muscle.l": {
+  "nome": "Iliococcígeo (esquerdo)",
+  "latim": "Musculus iliococcygeus",
+  "ta2": 2404,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pubo-analis muscle.l": {
+  "nome": "Pubo-analis (esquerdo)",
+  "latim": "Musculus puboanalis",
+  "ta2": 2406,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pubococcygeus muscle.l": {
+  "nome": "Pubococcígeo (esquerdo)",
+  "latim": "Musculus pubococcygeus",
+  "ta2": 2405,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tendinous arch of levator ani.r": {
+  "nome": "Arco tendíneo do elevador do ânus (direito)",
+  "latim": "Arcus tendineus levatoris ani",
+  "ta2": 2434,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tendinous arch of levator ani.l": {
+  "nome": "Arco tendíneo do elevador do ânus (esquerdo)",
+  "latim": "Arcus tendineus levatoris ani",
+  "ta2": 2434,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "External anal sphincter.r": {
+  "nome": "Esfíncter anal externo (direito)",
+  "latim": "Sphincter externus ani",
+  "ta2": 2426,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "External anal sphincter.l": {
+  "nome": "Esfíncter anal externo (esquerdo)",
+  "latim": "Sphincter externus ani",
+  "ta2": 2426,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Teres major muscle.r": {
+  "nome": "Redondo maior (direito)",
+  "latim": "Musculus teres major",
+  "ta2": 2462,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Teres major muscle.l": {
+  "nome": "Redondo maior (esquerdo)",
+  "latim": "Musculus teres major",
+  "ta2": 2462,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Acromial part of deltoid muscle.r": {
+  "nome": "Parte acromial do músculo deltóide (direito)",
+  "latim": "Pars acromialis musculi deltoidei",
+  "ta2": 2454,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Clavicular part of deltoid muscle.r": {
+  "nome": "Parte clavicular do músculo deltóide (direito)",
+  "latim": "Pars clavicularis musculi deltoidei",
+  "ta2": 2453,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scapular spinal part of deltoid muscle.r": {
+  "nome": "Parte espinhal escapular do músculo deltóide (direito)",
+  "latim": "Pars spinalis scapularis musculi deltoidei",
+  "ta2": 2455,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Acromial part of deltoid muscle.l": {
+  "nome": "Parte acromial do músculo deltóide (esquerdo)",
+  "latim": "Pars acromialis musculi deltoidei",
+  "ta2": 2454,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Clavicular part of deltoid muscle.l": {
+  "nome": "Parte clavicular do músculo deltóide (esquerdo)",
+  "latim": "Pars clavicularis musculi deltoidei",
+  "ta2": 2453,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scapular spinal part of deltoid muscle.l": {
+  "nome": "Parte espinhal escapular do músculo deltóide (esquerdo)",
+  "latim": "Pars spinalis scapularis musculi deltoidei",
+  "ta2": 2455,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Subscapularis muscle.r": {
+  "nome": "Subescapular (direito)",
+  "latim": "Musculus subscapularis",
+  "ta2": 2460,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Supraspinatus muscle.r": {
+  "nome": "Supra-espinhal (direito)",
+  "latim": "Musculus supraspinatus",
+  "ta2": 2457,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Teres minor muscle.r": {
+  "nome": "Redondo menor (direito)",
+  "latim": "Musculus teres minor",
+  "ta2": 2459,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Infraspinatus muscle.r": {
+  "nome": "Infra-espinhal (direito)",
+  "latim": "Musculus infraspinatus",
+  "ta2": 2458,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Subscapularis muscle.l": {
+  "nome": "Subescapular (esquerdo)",
+  "latim": "Musculus subscapularis",
+  "ta2": 2460,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Supraspinatus muscle.l": {
+  "nome": "Supra-espinhal (esquerdo)",
+  "latim": "Musculus supraspinatus",
+  "ta2": 2457,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Teres minor muscle.l": {
+  "nome": "Redondo menor (esquerdo)",
+  "latim": "Musculus teres minor",
+  "ta2": 2459,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Infraspinatus muscle.l": {
+  "nome": "Infra-espinhal (esquerdo)",
+  "latim": "Musculus infraspinatus",
+  "ta2": 2458,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Brachialis muscle.r": {
+  "nome": "Braquial (direito)",
+  "latim": "Musculus brachialis",
+  "ta2": 2469,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Coracobrachialis muscle.r": {
+  "nome": "Coracobraquial (direito)",
+  "latim": "Musculus coracobrachialis",
+  "ta2": 2468,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Brachialis muscle.l": {
+  "nome": "Braquial (esquerdo)",
+  "latim": "Musculus brachialis",
+  "ta2": 2469,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Coracobrachialis muscle.l": {
+  "nome": "Coracobraquial (esquerdo)",
+  "latim": "Musculus coracobrachialis",
+  "ta2": 2468,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Long head of biceps brachii.r": {
+  "nome": "Cabeça longa do bíceps braquial (direito)",
+  "latim": "Caput longum musculi bicipitis brachii",
+  "ta2": 2465,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Short head of biceps brachii.r": {
+  "nome": "Cabeça curta do bíceps braquial (direito)",
+  "latim": "Caput breve musculi bicipitis brachii",
+  "ta2": 2466,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Long head of biceps brachii.l": {
+  "nome": "Cabeça longa do bíceps braquial (esquerdo)",
+  "latim": "Caput longum musculi bicipitis brachii",
+  "ta2": 2465,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Short head of biceps brachii.l": {
+  "nome": "Cabeça curta do bíceps braquial (esquerdo)",
+  "latim": "Caput breve musculi bicipitis brachii",
+  "ta2": 2466,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial head of triceps brachii.r": {
+  "nome": "Cabeça medial do tríceps braquial (direito)",
+  "latim": "Caput mediale musculi tricipitis caput brachii",
+  "ta2": 2474,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral head of triceps brachii.r": {
+  "nome": "Cabeça lateral do tríceps braquial (direito)",
+  "latim": "Caput laterale musculi tricipitis brachii",
+  "ta2": 2473,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Long head of triceps brachii.r": {
+  "nome": "Cabeça longa do tríceps braquial (direito)",
+  "latim": "Caput longum musculi tricipitis brachii",
+  "ta2": 2472,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial head of triceps brachii.l": {
+  "nome": "Cabeça medial do tríceps braquial (esquerdo)",
+  "latim": "Caput mediale musculi tricipitis caput brachii",
+  "ta2": 2474,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral head of triceps brachii.l": {
+  "nome": "Cabeça lateral do tríceps braquial (esquerdo)",
+  "latim": "Caput laterale musculi tricipitis brachii",
+  "ta2": 2473,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Long head of triceps brachii.l": {
+  "nome": "Cabeça longa do tríceps braquial (esquerdo)",
+  "latim": "Caput longum musculi tricipitis brachii",
+  "ta2": 2472,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superficial head of pronator teres.r": {
+  "nome": "Cabeça superficial do pronador redondo (direito)",
+  "latim": "Caput superficiale pronatoris teretis",
+  "ta2": 2479,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Deep head of pronator teres.r": {
+  "nome": "Cabeça profunda do pronador redondo (direito)",
+  "latim": "Caput profundum pronatoris teretis",
+  "ta2": 2480,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superficial head of pronator teres.l": {
+  "nome": "Cabeça superficial do pronador redondo (esquerdo)",
+  "latim": "Caput superficiale pronatoris teretis",
+  "ta2": 2479,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Deep head of pronator teres.l": {
+  "nome": "Cabeça profunda do pronador redondo (esquerdo)",
+  "latim": "Caput profundum pronatoris teretis",
+  "ta2": 2480,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Humeral head of flexor carpi ulnaris.r": {
+  "nome": "Cabeça umeral do flexor do carpo (direito)",
+  "latim": "Caput humerale flexoris ulnaris carpi",
+  "ta2": 2484,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ulnar head of flexor carpi ulnaris.r": {
+  "nome": "Cabeça ulnar do flexor ulnar do carpo (direito)",
+  "latim": "Caput ulnare flexoris ulnaris carpi",
+  "ta2": 2485,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Humeral head of flexor carpi ulnaris.l": {
+  "nome": "Cabeça umeral do flexor do carpo (esquerdo)",
+  "latim": "Caput humerale flexoris ulnaris carpi",
+  "ta2": 2484,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ulnar head of flexor carpi ulnaris.l": {
+  "nome": "Cabeça ulnar do flexor ulnar do carpo (esquerdo)",
+  "latim": "Caput ulnare flexoris ulnaris carpi",
+  "ta2": 2485,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Humero-ulnar head of flexor digitorum superficialis.r": {
+  "nome": "Cabeça úmero-ulnar do flexor superficial dos dedos (direito)",
+  "latim": "Caput humeroulnare flexoris superficialis digitorum",
+  "ta2": 2487,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Humero-ulnar head of flexor digitorum superficialis.l": {
+  "nome": "Cabeça úmero-ulnar do flexor superficial dos dedos (esquerdo)",
+  "latim": "Caput humeroulnare flexoris superficialis digitorum",
+  "ta2": 2487,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor carpi radialis.r": {
+  "nome": "Flexor carpi radialis (direito)",
+  "latim": "Flexor radialis carpi",
+  "ta2": 2481,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palmaris longus muscle.r": {
+  "nome": "Palmar longo (direito)",
+  "latim": "Musculus palmaris longus",
+  "ta2": 2482,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor carpi radialis.l": {
+  "nome": "Flexor carpi radialis (esquerdo)",
+  "latim": "Flexor radialis carpi",
+  "ta2": 2481,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palmaris longus muscle.l": {
+  "nome": "Palmar longo (esquerdo)",
+  "latim": "Musculus palmaris longus",
+  "ta2": 2482,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Radial head of flexor digitorum superficialis.r": {
+  "nome": "Cabeça radial do flexor superficial dos dedos (direito)",
+  "latim": "Caput radiale flexoris superficialis digitorum",
+  "ta2": 2488,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Radial head of flexor digitorum superficialis.l": {
+  "nome": "Cabeça radial do flexor superficial dos dedos (esquerdo)",
+  "latim": "Caput radiale flexoris superficialis digitorum",
+  "ta2": 2488,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digitorum profundus.r": {
+  "nome": "Flexor profundo dos dedos (direito)",
+  "latim": "Flexor profundus digitorum",
+  "ta2": 2491,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor pollicis longus.r": {
+  "nome": "Flexor longus do polegar (direito)",
+  "latim": "Flexor longus pollicis",
+  "ta2": 2492,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pronator quadratus.r": {
+  "nome": "Pronador quadrado (direito)",
+  "latim": "Pronator quadratus",
+  "ta2": 2493,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digitorum profundus.l": {
+  "nome": "Flexor profundo dos dedos (esquerdo)",
+  "latim": "Flexor profundus digitorum",
+  "ta2": 2491,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor pollicis longus.l": {
+  "nome": "Flexor longus do polegar (esquerdo)",
+  "latim": "Flexor longus pollicis",
+  "ta2": 2492,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pronator quadratus.l": {
+  "nome": "Pronador quadrado (esquerdo)",
+  "latim": "Pronator quadratus",
+  "ta2": 2493,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor digitorum.r": {
+  "nome": "Extensor digitorum (direito)",
+  "latim": "Extensor digitorum",
+  "ta2": 2500,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor digitorum.l": {
+  "nome": "Extensor digitorum (esquerdo)",
+  "latim": "Extensor digitorum",
+  "ta2": 2500,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ulnar head of extensor carpi ulnaris.r": {
+  "nome": "Cabeça ulnar do extensor ulnar do carpo (direito)",
+  "latim": "Caput ulnare extensoris ulnaris carpi",
+  "ta2": 2509,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Humeral head of extensor carpi ulnaris.r": {
+  "nome": "Cabeça umeral do extensor ulnar do carpo (direito)",
+  "latim": "Caput humerale extensoris ulnaris carpi",
+  "ta2": 2508,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ulnar head of extensor carpi ulnaris.l": {
+  "nome": "Cabeça ulnar do extensor ulnar do carpo (esquerdo)",
+  "latim": "Caput ulnare extensoris ulnaris carpi",
+  "ta2": 2509,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Humeral head of extensor carpi ulnaris.l": {
+  "nome": "Cabeça umeral do extensor ulnar do carpo (esquerdo)",
+  "latim": "Caput humerale extensoris ulnaris carpi",
+  "ta2": 2508,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Brachioradialis muscle.r": {
+  "nome": "Braquiorradial (direito)",
+  "latim": "Musculus brachioradialis",
+  "ta2": 2496,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor carpi radialis longus.r": {
+  "nome": "Extensor carpi radialis longus (direito)",
+  "latim": "Extensor radialis longus carpi",
+  "ta2": 2497,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor carpi radialis brevis.r": {
+  "nome": "Extensor carpi radialis brevis (direito)",
+  "latim": "Extensor radialis brevis carpi",
+  "ta2": 2499,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Anconeus muscle.r": {
+  "nome": "Ânconeus (direito)",
+  "latim": "Musculus anconeus",
+  "ta2": 2510,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor digiti minimi.r": {
+  "nome": "Extensor digiti minimi (direito)",
+  "latim": "Extensor digiti minimi",
+  "ta2": 2506,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Brachioradialis muscle.l": {
+  "nome": "Braquiorradial (esquerdo)",
+  "latim": "Musculus brachioradialis",
+  "ta2": 2496,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor carpi radialis longus.l": {
+  "nome": "Extensor carpi radialis longus (esquerdo)",
+  "latim": "Extensor radialis longus carpi",
+  "ta2": 2497,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor carpi radialis brevis.l": {
+  "nome": "Extensor carpi radialis brevis (esquerdo)",
+  "latim": "Extensor radialis brevis carpi",
+  "ta2": 2499,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Anconeus muscle.l": {
+  "nome": "Ânconeus (esquerdo)",
+  "latim": "Musculus anconeus",
+  "ta2": 2510,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor digiti minimi.l": {
+  "nome": "Extensor digiti minimi (esquerdo)",
+  "latim": "Extensor digiti minimi",
+  "ta2": 2506,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Supinator.r": {
+  "nome": "Supinator (direito)",
+  "latim": "Supinator",
+  "ta2": 2512,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Supinator.l": {
+  "nome": "Supinator (esquerdo)",
+  "latim": "Supinator",
+  "ta2": 2512,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor pollicis longus.r": {
+  "nome": "Abdutor longo do polegar (direito)",
+  "latim": "Abductor longus pollicis",
+  "ta2": 2517,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor indicis.r": {
+  "nome": "Extensor indicis (direito)",
+  "latim": "Extensor indicis",
+  "ta2": 2515,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor pollicis brevis.r": {
+  "nome": "Extensor brevis do polegar (direito)",
+  "latim": "Extensor brevis pollicis",
+  "ta2": 2518,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor pollicis longus.r": {
+  "nome": "Extensor pollicis longus (direito)",
+  "latim": "Extensor longus pollicis",
+  "ta2": 2516,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor pollicis longus.l": {
+  "nome": "Abdutor longo do polegar (esquerdo)",
+  "latim": "Abductor longus pollicis",
+  "ta2": 2517,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor indicis.l": {
+  "nome": "Extensor indicis (esquerdo)",
+  "latim": "Extensor indicis",
+  "ta2": 2515,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor pollicis brevis.l": {
+  "nome": "Extensor brevis do polegar (esquerdo)",
+  "latim": "Extensor brevis pollicis",
+  "ta2": 2518,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor pollicis longus.l": {
+  "nome": "Extensor pollicis longus (esquerdo)",
+  "latim": "Extensor longus pollicis",
+  "ta2": 2516,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superficial head of flexor pollicis brevis.r": {
+  "nome": "Cabeça superficial do flexor curto do polegar (direito)",
+  "latim": "Caput superficiale flexoris brevis pollicis",
+  "ta2": 2523,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Deep head of flexor pollicis brevis.r": {
+  "nome": "Cabeça profunda do flexor curto do polegar (direito)",
+  "latim": "Caput profundum flexoris brevis pollicis",
+  "ta2": 2524,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superficial head of flexor pollicis brevis.l": {
+  "nome": "Cabeça superficial do flexor curto do polegar (esquerdo)",
+  "latim": "Caput superficiale flexoris brevis pollicis",
+  "ta2": 2523,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Deep head of flexor pollicis brevis.l": {
+  "nome": "Cabeça profunda do flexor curto do polegar (esquerdo)",
+  "latim": "Caput profundum flexoris brevis pollicis",
+  "ta2": 2524,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Oblique head of adductor pollicis.r": {
+  "nome": "Cabeça oblíqua do adutor do polegar (direito)",
+  "latim": "Caput obliquum adductoris pollicis",
+  "ta2": 2527,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transverse head of adductor pollicis.r": {
+  "nome": "Cabeça transversal do adutor do polegar (direito)",
+  "latim": "Caput transversum adductoris pollicis",
+  "ta2": 2528,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Oblique head of adductor pollicis.l": {
+  "nome": "Cabeça oblíqua do adutor do polegar (esquerdo)",
+  "latim": "Caput obliquum adductoris pollicis",
+  "ta2": 2527,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transverse head of adductor pollicis.l": {
+  "nome": "Cabeça transversal do adutor do polegar (esquerdo)",
+  "latim": "Caput transversum adductoris pollicis",
+  "ta2": 2528,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor pollicis brevis.r": {
+  "nome": "Abdutor curto do polegar (direito)",
+  "latim": "Abductor brevis pollicis",
+  "ta2": 2521,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Opponens pollicis muscle.r": {
+  "nome": "Oponente do polegar (direito)",
+  "latim": "Musculus opponens pollicis",
+  "ta2": 2525,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor digiti minimi of hand.r": {
+  "nome": "Abdutor do dedo mínimo da mão (direito)",
+  "latim": "Abductor digiti minimi manus",
+  "ta2": 2529,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digiti minimi of hand.r": {
+  "nome": "Flexor do dedo mínimo da mão (direito)",
+  "latim": "Flexor digiti minimi manus",
+  "ta2": 2530,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Opponens digiti minimi muscle of hand.r": {
+  "nome": "Oponente do dedo mínimo da mão (direito)",
+  "latim": "Musculus opponens digiti minimi manus",
+  "ta2": 2531,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lumbrical muscles of hand.r": {
+  "nome": "Músculos lumbricais da mão (direito)",
+  "latim": "Musculi lumbricales manus",
+  "ta2": 2532,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Dorsal interossei muscles of hand.r": {
+  "nome": "Músculos interósseos dorsais da mão (direito)",
+  "latim": "Musculi interossei dorsales manus",
+  "ta2": 2533,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palmar interossei muscles.r": {
+  "nome": "Músculos interósseos palmares (direito)",
+  "latim": "Musculi interossei palmares",
+  "ta2": 2534,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor pollicis brevis.l": {
+  "nome": "Abdutor curto do polegar (esquerdo)",
+  "latim": "Abductor brevis pollicis",
+  "ta2": 2521,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Opponens pollicis muscle.l": {
+  "nome": "Oponente do polegar (esquerdo)",
+  "latim": "Musculus opponens pollicis",
+  "ta2": 2525,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor digiti minimi of hand.l": {
+  "nome": "Abdutor do dedo mínimo da mão (esquerdo)",
+  "latim": "Abductor digiti minimi manus",
+  "ta2": 2529,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digiti minimi of hand.l": {
+  "nome": "Flexor do dedo mínimo da mão (esquerdo)",
+  "latim": "Flexor digiti minimi manus",
+  "ta2": 2530,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Opponens digiti minimi muscle of hand.l": {
+  "nome": "Oponente do dedo mínimo da mão (esquerdo)",
+  "latim": "Musculus opponens digiti minimi manus",
+  "ta2": 2531,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lumbrical muscles of hand.l": {
+  "nome": "Músculos lumbricais da mão (esquerdo)",
+  "latim": "Musculi lumbricales manus",
+  "ta2": 2532,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Dorsal interossei muscles of hand.l": {
+  "nome": "Músculos interósseos dorsais da mão (esquerdo)",
+  "latim": "Musculi interossei dorsales manus",
+  "ta2": 2533,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palmar interossei muscles.l": {
+  "nome": "Músculos interósseos palmares (esquerdo)",
+  "latim": "Musculi interossei palmares",
+  "ta2": 2534,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral patellar retinaculum.r": {
+  "nome": "Retináculo patelar lateral (direito)",
+  "latim": "Retinaculum laterale patellae",
+  "ta2": 2624,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial patellar retinaculum.r": {
+  "nome": "Retináculo patelar medial (direito)",
+  "latim": "Retinaculum mediale patellae",
+  "ta2": 2623,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral patellar retinaculum.l": {
+  "nome": "Retináculo patelar lateral (esquerdo)",
+  "latim": "Retinaculum laterale patellae",
+  "ta2": 2624,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus femoris muscle.r": {
+  "nome": "Reto femoral (direito)",
+  "latim": "Musculus rectus femoris",
+  "ta2": 2614,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vastus lateralis muscle.r": {
+  "nome": "Vasto lateral (direito)",
+  "latim": "Musculus vastus lateralis",
+  "ta2": 2618,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vastus medialis muscle.r": {
+  "nome": "Vasto medial (direito)",
+  "latim": "Musculus vastus medialis",
+  "ta2": 2620,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vastus intermedius muscle.r": {
+  "nome": "Vasto intermediário (direito)",
+  "latim": "Musculus vastus intermedius",
+  "ta2": 2619,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus femoris muscle.l": {
+  "nome": "Reto femoral (esquerdo)",
+  "latim": "Musculus rectus femoris",
+  "ta2": 2614,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vastus lateralis muscle.l": {
+  "nome": "Vasto lateral (esquerdo)",
+  "latim": "Musculus vastus lateralis",
+  "ta2": 2618,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vastus medialis muscle.l": {
+  "nome": "Vasto medial (esquerdo)",
+  "latim": "Musculus vastus medialis",
+  "ta2": 2620,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vastus intermedius muscle.l": {
+  "nome": "Vasto intermediário (esquerdo)",
+  "latim": "Musculus vastus intermedius",
+  "ta2": 2619,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sartorius muscle.r": {
+  "nome": "Sartório (direito)",
+  "latim": "Musculus sartorius",
+  "ta2": 2610,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sartorius muscle.l": {
+  "nome": "Sartório (esquerdo)",
+  "latim": "Musculus sartorius",
+  "ta2": 2610,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial patellar retinaculum.l": {
+  "nome": "Retináculo patelar medial (esquerdo)",
+  "latim": "Retinaculum mediale patellae",
+  "ta2": 2623,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Long head of biceps femoris.r": {
+  "nome": "Cabeça longa do bíceps femoral (direito)",
+  "latim": "Caput longum musculi bicipitis femoris",
+  "ta2": 2639,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Short head of biceps femoris.r": {
+  "nome": "Cabeça curta do bíceps femoral (direito)",
+  "latim": "Caput breve musculi bicipitis femoris",
+  "ta2": 2640,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Long head of biceps femoris.l": {
+  "nome": "Cabeça longa do bíceps femoral (esquerdo)",
+  "latim": "Caput longum musculi bicipitis femoris",
+  "ta2": 2639,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Short head of biceps femoris.l": {
+  "nome": "Cabeça curta do bíceps femoral (esquerdo)",
+  "latim": "Caput breve musculi bicipitis femoris",
+  "ta2": 2640,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Semimembranosus muscle.r": {
+  "nome": "Semimembranoso (direito)",
+  "latim": "Musculus semimembranosus",
+  "ta2": 2642,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Semitendinosus muscle.r": {
+  "nome": "Semitendíneo (direito)",
+  "latim": "Musculus semitendinosus",
+  "ta2": 2641,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Semimembranosus muscle.l": {
+  "nome": "Semimembranoso (esquerdo)",
+  "latim": "Musculus semimembranosus",
+  "ta2": 2642,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Semitendinosus muscle.l": {
+  "nome": "Semitendíneo (esquerdo)",
+  "latim": "Musculus semitendinosus",
+  "ta2": 2641,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Adductor magnus.r": {
+  "nome": "Adutor magnus (direito)",
+  "latim": "Adductor magnus",
+  "ta2": 2630,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "(Adductor minimus).r": {
+  "nome": "(Adutor mínimo) (direito)",
+  "latim": "(Adductor minimus)",
+  "ta2": 2632,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Adductor longus.r": {
+  "nome": "Adductor longus (direito)",
+  "latim": "Adductor longus",
+  "ta2": 2628,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pectineus muscle.r": {
+  "nome": "Pectíneo (direito)",
+  "latim": "Musculus pectineus",
+  "ta2": 2627,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Adductor brevis.r": {
+  "nome": "Adutor brevis (direito)",
+  "latim": "Adductor brevis",
+  "ta2": 2629,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Gracilis muscle.r": {
+  "nome": "Gracilis (direito)",
+  "latim": "Musculus gracilis",
+  "ta2": 2635,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Obturator externus.r": {
+  "nome": "Obturador externo (direito)",
+  "latim": "Obturator externus",
+  "ta2": 2636,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Adductor magnus.l": {
+  "nome": "Adutor magnus (esquerdo)",
+  "latim": "Adductor magnus",
+  "ta2": 2630,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "(Adductor minimus).l": {
+  "nome": "(Adutor mínimo) (esquerdo)",
+  "latim": "(Adductor minimus)",
+  "ta2": 2632,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Adductor longus.l": {
+  "nome": "Adductor longus (esquerdo)",
+  "latim": "Adductor longus",
+  "ta2": 2628,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pectineus muscle.l": {
+  "nome": "Pectíneo (esquerdo)",
+  "latim": "Musculus pectineus",
+  "ta2": 2627,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Adductor brevis.l": {
+  "nome": "Adutor brevis (esquerdo)",
+  "latim": "Adductor brevis",
+  "ta2": 2629,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Gracilis muscle.l": {
+  "nome": "Gracilis (esquerdo)",
+  "latim": "Musculus gracilis",
+  "ta2": 2635,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Obturator externus.l": {
+  "nome": "Obturador externo (esquerdo)",
+  "latim": "Obturator externus",
+  "ta2": 2636,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor digitorum longus.r": {
+  "nome": "Extensor digitorum longus (direito)",
+  "latim": "Extensor longus digitorum",
+  "ta2": 2645,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tendon of extensor digitorum longus.r": {
+  "nome": "Tendão do extensor longo dos dedos (direito)",
+  "latim": "Tendon extensoris digitorum longi",
+  "ta2": 7201,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor digitorum longus.l": {
+  "nome": "Extensor digitorum longus (esquerdo)",
+  "latim": "Extensor longus digitorum",
+  "ta2": 2645,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tendon of extensor digitorum longus.l": {
+  "nome": "Tendão do extensor longo dos dedos (esquerdo)",
+  "latim": "Tendon extensoris digitorum longi",
+  "ta2": 7201,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tibialis anterior muscle.r": {
+  "nome": "Tibial anterior (direito)",
+  "latim": "Musculus tibialis anterior",
+  "ta2": 2644,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fibularis tertius muscle.r": {
+  "nome": "Fibularis tertius (direito)",
+  "latim": "Musculus fibularis tertius",
+  "ta2": 2649,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor hallucis longus.r": {
+  "nome": "Extensor hallucis longus (direito)",
+  "latim": "Extensor longus hallucis",
+  "ta2": 2650,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tibialis anterior muscle.l": {
+  "nome": "Tibial anterior (esquerdo)",
+  "latim": "Musculus tibialis anterior",
+  "ta2": 2644,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fibularis tertius muscle.l": {
+  "nome": "Fibularis tertius (esquerdo)",
+  "latim": "Musculus fibularis tertius",
+  "ta2": 2649,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor hallucis longus.l": {
+  "nome": "Extensor hallucis longus (esquerdo)",
+  "latim": "Extensor longus hallucis",
+  "ta2": 2650,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fibularis longus muscle.r": {
+  "nome": "Fibular longo (direito)",
+  "latim": "Musculus fibularis longus",
+  "ta2": 2652,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fibularis brevis muscle.r": {
+  "nome": "Fibularis brevis (direito)",
+  "latim": "Musculus fibularis brevis",
+  "ta2": 2653,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fibularis longus muscle.l": {
+  "nome": "Fibular longo (esquerdo)",
+  "latim": "Musculus fibularis longus",
+  "ta2": 2652,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fibularis brevis muscle.l": {
+  "nome": "Fibularis brevis (esquerdo)",
+  "latim": "Musculus fibularis brevis",
+  "ta2": 2653,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral head of gastrocnemius.r": {
+  "nome": "Cabeça lateral do gastrocnêmio (direito)",
+  "latim": "Caput laterale musculi gastrocnemii",
+  "ta2": 2658,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial head of gastrocnemius.r": {
+  "nome": "Cabeça medial do gastrocnêmio (direito)",
+  "latim": "Caput mediale musculi gastrocnemii",
+  "ta2": 2659,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Calcaneal tendon.r": {
+  "nome": "Tendão calcâneo (direito)",
+  "latim": "Tendo calcaneus",
+  "ta2": 2662,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral head of gastrocnemius.l": {
+  "nome": "Cabeça lateral do gastrocnêmio (esquerdo)",
+  "latim": "Caput laterale musculi gastrocnemii",
+  "ta2": 2658,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial head of gastrocnemius.l": {
+  "nome": "Cabeça medial do gastrocnêmio (esquerdo)",
+  "latim": "Caput mediale musculi gastrocnemii",
+  "ta2": 2659,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Calcaneal tendon.l": {
+  "nome": "Tendão calcâneo (esquerdo)",
+  "latim": "Tendo calcaneus",
+  "ta2": 2662,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Soleus muscle.r": {
+  "nome": "Sóleo (direito)",
+  "latim": "Musculus soleus",
+  "ta2": 2660,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Soleus muscle.l": {
+  "nome": "Sóleo (esquerdo)",
+  "latim": "Musculus soleus",
+  "ta2": 2660,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Plantaris muscle.r": {
+  "nome": "Plantar (direito)",
+  "latim": "Musculus plantaris",
+  "ta2": 2663,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Plantaris muscle.l": {
+  "nome": "Plantar (esquerdo)",
+  "latim": "Musculus plantaris",
+  "ta2": 2663,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digitorum longus.r": {
+  "nome": "Flexor digitorum longus (direito)",
+  "latim": "Musculus flexor digitorum longus",
+  "ta2": 2667,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Popliteus muscle.r": {
+  "nome": "Poplíteo (direito)",
+  "latim": "Musculus popliteus",
+  "ta2": 2665,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tibialis posterior muscle.r": {
+  "nome": "Tibial posterior (direito)",
+  "latim": "Musculus tibialis posterior",
+  "ta2": 2666,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor hallucis longus.r": {
+  "nome": "Flexor hallucis longus (direito)",
+  "latim": "Flexor longus hallucis",
+  "ta2": 2668,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digitorum longus.l": {
+  "nome": "Flexor digitorum longus (esquerdo)",
+  "latim": "Musculus flexor digitorum longus",
+  "ta2": 2667,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Popliteus muscle.l": {
+  "nome": "Poplíteo (esquerdo)",
+  "latim": "Musculus popliteus",
+  "ta2": 2665,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tibialis posterior muscle.l": {
+  "nome": "Tibial posterior (esquerdo)",
+  "latim": "Musculus tibialis posterior",
+  "ta2": 2666,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor hallucis longus.l": {
+  "nome": "Flexor hallucis longus (esquerdo)",
+  "latim": "Flexor longus hallucis",
+  "ta2": 2668,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor digiti minimi of foot.r": {
+  "nome": "Abdutor de dedos mínimos do pé (direito)",
+  "latim": "Abductor digiti minimi pedis",
+  "ta2": 2679,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor digiti minimi of foot.l": {
+  "nome": "Abdutor de dedos mínimos do pé (esquerdo)",
+  "latim": "Abductor digiti minimi pedis",
+  "ta2": 2679,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor hallucis.r": {
+  "nome": "Abdutor do hálux (direito)",
+  "latim": "Abductor hallucis",
+  "ta2": 2672,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor digitorum brevis.r": {
+  "nome": "Extensor digitorum brevis (direito)",
+  "latim": "Extensor brevis digitorum",
+  "ta2": 2671,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor hallucis brevis.r": {
+  "nome": "Extensor hallucis brevis (direito)",
+  "latim": "Extensor brevis hallucis",
+  "ta2": 2670,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Dorsal interossei muscles of foot.r": {
+  "nome": "Músculos interósseos dorsais do pé (direito)",
+  "latim": "Musculi interossei dorsales pedis",
+  "ta2": 2686,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digitorum brevis.r": {
+  "nome": "Flexor digitorum brevis (direito)",
+  "latim": "Flexor brevis digitorum",
+  "ta2": 2683,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digiti minimi of foot.r": {
+  "nome": "Flexor do dedo mínimo do pé (direito)",
+  "latim": "Flexor digiti minimi pedis pedis",
+  "ta2": 2682,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lumbrical muscles of foot.r": {
+  "nome": "Músculos lumbricais do pé (direito)",
+  "latim": "Musculi lumbricales pedis",
+  "ta2": 2685,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "(Opponens digiti minimi muscle of foot).r": {
+  "nome": "(Opponens digiti minimi muscle of foot) (direito)",
+  "latim": "(Musculus opponens digiti minimi pedis)",
+  "ta2": 2681,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Plantar interossei muscles.r": {
+  "nome": "Músculos plantares interósseos (direito)",
+  "latim": "Musculi interossei plantares",
+  "ta2": 2687,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Quadratus plantae muscle.r": {
+  "nome": "Quadrado plantae (direito)",
+  "latim": "Musculus quadratus plantae",
+  "ta2": 2684,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor hallucis.l": {
+  "nome": "Abdutor do hálux (esquerdo)",
+  "latim": "Abductor hallucis",
+  "ta2": 2672,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor digitorum brevis.l": {
+  "nome": "Extensor digitorum brevis (esquerdo)",
+  "latim": "Extensor brevis digitorum",
+  "ta2": 2671,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor hallucis brevis.l": {
+  "nome": "Extensor hallucis brevis (esquerdo)",
+  "latim": "Extensor brevis hallucis",
+  "ta2": 2670,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Dorsal interossei muscles of foot.l": {
+  "nome": "Músculos interósseos dorsais do pé (esquerdo)",
+  "latim": "Musculi interossei dorsales pedis",
+  "ta2": 2686,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digitorum brevis.l": {
+  "nome": "Flexor digitorum brevis (esquerdo)",
+  "latim": "Flexor brevis digitorum",
+  "ta2": 2683,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digiti minimi of foot.l": {
+  "nome": "Flexor do dedo mínimo do pé (esquerdo)",
+  "latim": "Flexor digiti minimi pedis pedis",
+  "ta2": 2682,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lumbrical muscles of foot.l": {
+  "nome": "Músculos lumbricais do pé (esquerdo)",
+  "latim": "Musculi lumbricales pedis",
+  "ta2": 2685,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "(Opponens digiti minimi muscle of foot).l": {
+  "nome": "(Opponens digiti minimi muscle of foot) (esquerdo)",
+  "latim": "(Musculus opponens digiti minimi pedis)",
+  "ta2": 2681,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Plantar interossei muscles.l": {
+  "nome": "Músculos plantares interósseos (esquerdo)",
+  "latim": "Musculi interossei plantares",
+  "ta2": 2687,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Quadratus plantae muscle.l": {
+  "nome": "Quadrado plantae (esquerdo)",
+  "latim": "Musculus quadratus plantae",
+  "ta2": 2684,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial head of flexor hallucis brevis.r": {
+  "nome": "Cabeça medial do flexor curto do hálux (direito)",
+  "latim": "Caput mediale flexoris brevis hallucis",
+  "ta2": 2674,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral head of flexor hallucis brevis.r": {
+  "nome": "Cabeça lateral do flexor curto do hálux (direito)",
+  "latim": "Caput laterale flexoris brevis hallucis",
+  "ta2": 2675,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial head of flexor hallucis brevis.l": {
+  "nome": "Cabeça medial do flexor curto do hálux (esquerdo)",
+  "latim": "Caput mediale flexoris brevis hallucis",
+  "ta2": 2674,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral head of flexor hallucis brevis.l": {
+  "nome": "Cabeça lateral do flexor curto do hálux (esquerdo)",
+  "latim": "Caput laterale flexoris brevis hallucis",
+  "ta2": 2675,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Oblique head of adductor hallucis.r": {
+  "nome": "Cabeça oblíqua do adutor do hálux (direito)",
+  "latim": "Caput obliquum adductoris hallucis",
+  "ta2": 2677,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transverse head of adductor hallucis.r": {
+  "nome": "Cabeça transversal do adutor do hálux (direito)",
+  "latim": "Caput transversum adductoris hallucis",
+  "ta2": 2678,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Oblique head of adductor hallucis.l": {
+  "nome": "Cabeça oblíqua do adutor do hálux (esquerdo)",
+  "latim": "Caput obliquum adductoris hallucis",
+  "ta2": 2677,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transverse head of adductor hallucis.l": {
+  "nome": "Cabeça transversal do adutor do hálux (esquerdo)",
+  "latim": "Caput transversum adductoris hallucis",
+  "ta2": 2678,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliacus muscle.r": {
+  "nome": "Ilíaco (direito)",
+  "latim": "Musculus iliacus",
+  "ta2": 2594,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Psoas major.r": {
+  "nome": "Psoas major (direito)",
+  "latim": "Psoas major",
+  "ta2": 2595,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliacus muscle.l": {
+  "nome": "Ilíaco (esquerdo)",
+  "latim": "Musculus iliacus",
+  "ta2": 2594,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Psoas major.l": {
+  "nome": "Psoas major (esquerdo)",
+  "latim": "Psoas major",
+  "ta2": 2595,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Gluteus medius muscle.r": {
+  "nome": "Glúteo médio (direito)",
+  "latim": "Musculus gluteus medius",
+  "ta2": 2599,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Gluteus maximus muscle.r": {
+  "nome": "Glúteo máximo (direito)",
+  "latim": "Musculus gluteus maximus",
+  "ta2": 2598,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Gluteus minimus muscle.r": {
+  "nome": "Glúteo mínimo (direito)",
+  "latim": "Musculus gluteus minimus",
+  "ta2": 2600,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Gluteus medius muscle.l": {
+  "nome": "Glúteo médio (esquerdo)",
+  "latim": "Musculus gluteus medius",
+  "ta2": 2599,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Gluteus maximus muscle.l": {
+  "nome": "Glúteo máximo (esquerdo)",
+  "latim": "Musculus gluteus maximus",
+  "ta2": 2598,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Gluteus minimus muscle.l": {
+  "nome": "Glúteo mínimo (esquerdo)",
+  "latim": "Musculus gluteus minimus",
+  "ta2": 2600,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Piriformis muscle.r": {
+  "nome": "Piriforme (direito)",
+  "latim": "Musculus piriformis",
+  "ta2": 2604,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Quadratus femoris muscle.r": {
+  "nome": "Quadrado femoral (direito)",
+  "latim": "Musculus quadratus femoris",
+  "ta2": 2608,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior gemellus muscle.r": {
+  "nome": "Gemelo inferior (direito)",
+  "latim": "Musculus gemellus inferior",
+  "ta2": 2607,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Obturator internus.r": {
+  "nome": "Obturador interno (direito)",
+  "latim": "Obturator internus",
+  "ta2": 2605,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior gemellus muscle.r": {
+  "nome": "Gemelo superior (direito)",
+  "latim": "Musculus gemellus superior",
+  "ta2": 2606,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Piriformis muscle.l": {
+  "nome": "Piriforme (esquerdo)",
+  "latim": "Musculus piriformis",
+  "ta2": 2604,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Quadratus femoris muscle.l": {
+  "nome": "Quadrado femoral (esquerdo)",
+  "latim": "Musculus quadratus femoris",
+  "ta2": 2608,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior gemellus muscle.l": {
+  "nome": "Gemelo inferior (esquerdo)",
+  "latim": "Musculus gemellus inferior",
+  "ta2": 2607,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Obturator internus.l": {
+  "nome": "Obturador interno (esquerdo)",
+  "latim": "Obturator internus",
+  "ta2": 2605,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior gemellus muscle.l": {
+  "nome": "Gemelo superior (esquerdo)",
+  "latim": "Musculus gemellus superior",
+  "ta2": 2606,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ }
+}

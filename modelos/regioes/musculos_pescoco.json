@@ -1,0 +1,612 @@
+{
+ "Sternocleidomastoid muscle.r": {
+  "nome": "Esternocleidomastóideo (direito)",
+  "latim": "Musculus sternocleidomastoideus",
+  "ta2": 2156,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sternocleidomastoid muscle.l": {
+  "nome": "Esternocleidomastóideo (esquerdo)",
+  "latim": "Musculus sternocleidomastoideus",
+  "ta2": 2156,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Platysma.r": {
+  "nome": "Platisma (direito)",
+  "latim": "Platysma",
+  "ta2": 2147,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scalenus medius muscle.r": {
+  "nome": "Escaleno médio (direito)",
+  "latim": "Musculus scalenus medius",
+  "ta2": 2153,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scalenus posterior muscle.r": {
+  "nome": "Escaleno posterior (direito)",
+  "latim": "Musculus scalenus posterior",
+  "ta2": 2154,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scalenus anterior muscle.r": {
+  "nome": "Escaleno anterior (direito)",
+  "latim": "Musculus scalenus anterior",
+  "ta2": 2152,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longus capitis muscle.r": {
+  "nome": "Longo da cabeça (direito)",
+  "latim": "Musculus longus capitis",
+  "ta2": 2149,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longus colli muscle.r": {
+  "nome": "Longo do pescoço (direito)",
+  "latim": "Musculus longus colli",
+  "ta2": 2148,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus anterior capitis muscle.r": {
+  "nome": "Reto anterior da cabeça (direito)",
+  "latim": "Musculus rectus anterior capitis",
+  "ta2": 2150,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus lateralis capitis muscle.r": {
+  "nome": "Reto lateral da cabeça (direito)",
+  "latim": "Musculus rectus lateralis capitis",
+  "ta2": 2151,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Platysma.l": {
+  "nome": "Platisma (esquerdo)",
+  "latim": "Platysma",
+  "ta2": 2147,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scalenus medius muscle.l": {
+  "nome": "Escaleno médio (esquerdo)",
+  "latim": "Musculus scalenus medius",
+  "ta2": 2153,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scalenus posterior muscle.l": {
+  "nome": "Escaleno posterior (esquerdo)",
+  "latim": "Musculus scalenus posterior",
+  "ta2": 2154,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scalenus anterior muscle.l": {
+  "nome": "Escaleno anterior (esquerdo)",
+  "latim": "Musculus scalenus anterior",
+  "ta2": 2152,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longus capitis muscle.l": {
+  "nome": "Longo da cabeça (esquerdo)",
+  "latim": "Musculus longus capitis",
+  "ta2": 2149,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longus colli muscle.l": {
+  "nome": "Longo do pescoço (esquerdo)",
+  "latim": "Musculus longus colli",
+  "ta2": 2148,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus anterior capitis muscle.l": {
+  "nome": "Reto anterior da cabeça (esquerdo)",
+  "latim": "Musculus rectus anterior capitis",
+  "ta2": 2150,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus lateralis capitis muscle.l": {
+  "nome": "Reto lateral da cabeça (esquerdo)",
+  "latim": "Musculus rectus lateralis capitis",
+  "ta2": 2151,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Mylohyoid muscle.r": {
+  "nome": "Milohióideo (direito)",
+  "latim": "Musculus mylohyoideus",
+  "ta2": 2165,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Stylohyoid muscle.r": {
+  "nome": "Estilohióideo (direito)",
+  "latim": "Musculus stylohyoideus",
+  "ta2": 2164,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Geniohyoid muscle.r": {
+  "nome": "Geniohióideo (direito)",
+  "latim": "Musculus geniohyoideus",
+  "ta2": 2166,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Mylohyoid muscle.l": {
+  "nome": "Milohióideo (esquerdo)",
+  "latim": "Musculus mylohyoideus",
+  "ta2": 2165,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Stylohyoid muscle.l": {
+  "nome": "Estilohióideo (esquerdo)",
+  "latim": "Musculus stylohyoideus",
+  "ta2": 2164,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Geniohyoid muscle.l": {
+  "nome": "Geniohióideo (esquerdo)",
+  "latim": "Musculus geniohyoideus",
+  "ta2": 2166,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Intermediate tendon of digastric muscle.r": {
+  "nome": "Tendão intermediário do músculo digástrico (direito)",
+  "latim": "Tendo intermedius musculi digastrici",
+  "ta2": 2162,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Anterior belly of digastric muscle.r": {
+  "nome": "Ventre anterior do músculo digástrico (direito)",
+  "latim": "Venter anterior musculi digastrici",
+  "ta2": 2161,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Posterior belly of digastric muscle.r": {
+  "nome": "Ventre posterior do músculo digástrico (direito)",
+  "latim": "Venter posterior musculi digastrici",
+  "ta2": 2163,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Intermediate tendon of digastric muscle.l": {
+  "nome": "Tendão intermediário do músculo digástrico (esquerdo)",
+  "latim": "Tendo intermedius musculi digastrici",
+  "ta2": 2162,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Anterior belly of digastric muscle.l": {
+  "nome": "Ventre anterior do músculo digástrico (esquerdo)",
+  "latim": "Venter anterior musculi digastrici",
+  "ta2": 2161,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Posterior belly of digastric muscle.l": {
+  "nome": "Ventre posterior do músculo digástrico (esquerdo)",
+  "latim": "Venter posterior musculi digastrici",
+  "ta2": 2163,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Omohyoid muscle.r": {
+  "nome": "Omohióideo (direito)",
+  "latim": "Musculus omohyoideus",
+  "ta2": 2169,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Omohyoid muscle.l": {
+  "nome": "Omohióideo (esquerdo)",
+  "latim": "Musculus omohyoideus",
+  "ta2": 2169,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sternohyoid muscle.r": {
+  "nome": "Esternohióideo (direito)",
+  "latim": "Musculus sternohyoideus",
+  "ta2": 2168,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sternothyroid muscle.r": {
+  "nome": "Esternotireóideo (direito)",
+  "latim": "Musculus sternothyreoideus",
+  "ta2": 2173,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Thyrohyoid muscle.r": {
+  "nome": "Tirohióideo (direito)",
+  "latim": "Musculus thyreohyoideus",
+  "ta2": 2174,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sternohyoid muscle.l": {
+  "nome": "Esternohióideo (esquerdo)",
+  "latim": "Musculus sternohyoideus",
+  "ta2": 2168,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sternothyroid muscle.l": {
+  "nome": "Esternotireóideo (esquerdo)",
+  "latim": "Musculus sternothyreoideus",
+  "ta2": 2173,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Thyrohyoid muscle.l": {
+  "nome": "Tirohióideo (esquerdo)",
+  "latim": "Musculus thyreohyoideus",
+  "ta2": 2174,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior pharyngeal constrictor.r": {
+  "nome": "Constritor superior da faringe (direito)",
+  "latim": "Constrictor superior pharyngis",
+  "ta2": 2179,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior pharyngeal constrictor.l": {
+  "nome": "Constritor superior da faringe (esquerdo)",
+  "latim": "Constrictor superior pharyngis",
+  "ta2": 2179,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle pharyngeal constrictor.r": {
+  "nome": "Constritor médio da faringe (direito)",
+  "latim": "Constrictor medius pharyngis",
+  "ta2": 2184,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle pharyngeal constrictor.l": {
+  "nome": "Constritor médio da faringe (esquerdo)",
+  "latim": "Constrictor medius pharyngis",
+  "ta2": 2184,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior pharyngeal constrictor.r": {
+  "nome": "Constritor inferior da faringe (direito)",
+  "latim": "Constrictor inferior pharyngis",
+  "ta2": 2187,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior pharyngeal constrictor.l": {
+  "nome": "Constritor inferior da faringe (esquerdo)",
+  "latim": "Constrictor inferior pharyngis",
+  "ta2": 2187,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Stylopharyngeus muscle.r": {
+  "nome": "Estilofaríngeo (direito)",
+  "latim": "Musculus stylopharyngeus",
+  "ta2": 2190,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Stylopharyngeus muscle.l": {
+  "nome": "Estilofaríngeo (esquerdo)",
+  "latim": "Musculus stylopharyngeus",
+  "ta2": 2190,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Oblique part of cricothyroid muscle.r": {
+  "nome": "Parte oblíqua do músculo cricotireóideo (direito)",
+  "latim": "Pars obliqua musculi cricothyreoidei",
+  "ta2": 2195,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Straight part of cricothyroid muscle.r": {
+  "nome": "Parte reta do músculo cricotireóideo (direito)",
+  "latim": "Pars recta musculi cricothyreoidei",
+  "ta2": 2194,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Oblique part of cricothyroid muscle.l": {
+  "nome": "Parte oblíqua do músculo cricotireóideo (esquerdo)",
+  "latim": "Pars obliqua musculi cricothyreoidei",
+  "ta2": 2195,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Straight part of cricothyroid muscle.l": {
+  "nome": "Parte reta do músculo cricotireóideo (esquerdo)",
+  "latim": "Pars recta musculi cricothyreoidei",
+  "ta2": 2194,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "External part of thyro-arytenoid muscle.r": {
+  "nome": "Parte externa do músculo tireo-aritenóideo (direito)",
+  "latim": "Pars externa musculi thyreoarytenoidei",
+  "ta2": 2200,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "External part of thyro-arytenoid muscle.l": {
+  "nome": "Parte externa do músculo tireo-aritenóideo (esquerdo)",
+  "latim": "Pars externa musculi thyreoarytenoidei",
+  "ta2": 2200,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ary-epiglottic part of oblique arytenoid muscle.r": {
+  "nome": "Parte ari-epiglótica do músculo aritenóideo oblíquo (direito)",
+  "latim": "Pars aryepiglottica musculi arytenoidei obliqui",
+  "ta2": 2204,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Thyro-epiglottic part of thyro-arytenoid muscle.r": {
+  "nome": "Parte tireo-epiglótica do músculo tireo-aritenóideo (direito)",
+  "latim": "Pars thyreoepiglottica musculi thyreoarytenoidei",
+  "ta2": 2201,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ary-epiglottic part of oblique arytenoid muscle.l": {
+  "nome": "Parte ari-epiglótica do músculo aritenóideo oblíquo (esquerdo)",
+  "latim": "Pars aryepiglottica musculi arytenoidei obliqui",
+  "ta2": 2204,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Thyro-epiglottic part of thyro-arytenoid muscle.l": {
+  "nome": "Parte tireo-epiglótica do músculo tireo-aritenóideo (esquerdo)",
+  "latim": "Pars thyreoepiglottica musculi thyreoarytenoidei",
+  "ta2": 2201,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transverse arytenoid muscle": {
+  "nome": "Aritenóideo transverso",
+  "latim": "Musculus arytenoideus transversus",
+  "ta2": 2205,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral crico-arytenoid muscle.r": {
+  "nome": "Crico-aritenóideo lateral (direito)",
+  "latim": "Musculus cricoarytendoideus lateralis",
+  "ta2": 2198,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral crico-arytenoid muscle.l": {
+  "nome": "Crico-aritenóideo lateral (esquerdo)",
+  "latim": "Musculus cricoarytendoideus lateralis",
+  "ta2": 2198,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Posterior crico-arytenoid muscle.r": {
+  "nome": "Crico-aritenóide posterior (direito)",
+  "latim": "Musculus cricoarytenoideus posterior",
+  "ta2": 2196,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Posterior crico-arytenoid muscle.l": {
+  "nome": "Crico-aritenóide posterior (esquerdo)",
+  "latim": "Musculus cricoarytenoideus posterior",
+  "ta2": 2196,
+  "regiao": "pescoco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ }
+}

@@ -1,0 +1,362 @@
+{
+ "Lateral patellar retinaculum.r": {
+  "nome": "Retináculo patelar lateral (direito)",
+  "latim": "Retinaculum laterale patellae",
+  "ta2": 2624,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial patellar retinaculum.r": {
+  "nome": "Retináculo patelar medial (direito)",
+  "latim": "Retinaculum mediale patellae",
+  "ta2": 2623,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral patellar retinaculum.l": {
+  "nome": "Retináculo patelar lateral (esquerdo)",
+  "latim": "Retinaculum laterale patellae",
+  "ta2": 2624,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus femoris muscle.r": {
+  "nome": "Reto femoral (direito)",
+  "latim": "Musculus rectus femoris",
+  "ta2": 2614,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vastus lateralis muscle.r": {
+  "nome": "Vasto lateral (direito)",
+  "latim": "Musculus vastus lateralis",
+  "ta2": 2618,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vastus medialis muscle.r": {
+  "nome": "Vasto medial (direito)",
+  "latim": "Musculus vastus medialis",
+  "ta2": 2620,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vastus intermedius muscle.r": {
+  "nome": "Vasto intermediário (direito)",
+  "latim": "Musculus vastus intermedius",
+  "ta2": 2619,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus femoris muscle.l": {
+  "nome": "Reto femoral (esquerdo)",
+  "latim": "Musculus rectus femoris",
+  "ta2": 2614,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vastus lateralis muscle.l": {
+  "nome": "Vasto lateral (esquerdo)",
+  "latim": "Musculus vastus lateralis",
+  "ta2": 2618,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vastus medialis muscle.l": {
+  "nome": "Vasto medial (esquerdo)",
+  "latim": "Musculus vastus medialis",
+  "ta2": 2620,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vastus intermedius muscle.l": {
+  "nome": "Vasto intermediário (esquerdo)",
+  "latim": "Musculus vastus intermedius",
+  "ta2": 2619,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sartorius muscle.r": {
+  "nome": "Sartório (direito)",
+  "latim": "Musculus sartorius",
+  "ta2": 2610,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sartorius muscle.l": {
+  "nome": "Sartório (esquerdo)",
+  "latim": "Musculus sartorius",
+  "ta2": 2610,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial patellar retinaculum.l": {
+  "nome": "Retináculo patelar medial (esquerdo)",
+  "latim": "Retinaculum mediale patellae",
+  "ta2": 2623,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Long head of biceps femoris.r": {
+  "nome": "Cabeça longa do bíceps femoral (direito)",
+  "latim": "Caput longum musculi bicipitis femoris",
+  "ta2": 2639,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Short head of biceps femoris.r": {
+  "nome": "Cabeça curta do bíceps femoral (direito)",
+  "latim": "Caput breve musculi bicipitis femoris",
+  "ta2": 2640,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Long head of biceps femoris.l": {
+  "nome": "Cabeça longa do bíceps femoral (esquerdo)",
+  "latim": "Caput longum musculi bicipitis femoris",
+  "ta2": 2639,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Short head of biceps femoris.l": {
+  "nome": "Cabeça curta do bíceps femoral (esquerdo)",
+  "latim": "Caput breve musculi bicipitis femoris",
+  "ta2": 2640,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Semimembranosus muscle.r": {
+  "nome": "Semimembranoso (direito)",
+  "latim": "Musculus semimembranosus",
+  "ta2": 2642,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Semitendinosus muscle.r": {
+  "nome": "Semitendíneo (direito)",
+  "latim": "Musculus semitendinosus",
+  "ta2": 2641,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Semimembranosus muscle.l": {
+  "nome": "Semimembranoso (esquerdo)",
+  "latim": "Musculus semimembranosus",
+  "ta2": 2642,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Semitendinosus muscle.l": {
+  "nome": "Semitendíneo (esquerdo)",
+  "latim": "Musculus semitendinosus",
+  "ta2": 2641,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Adductor magnus.r": {
+  "nome": "Adutor magnus (direito)",
+  "latim": "Adductor magnus",
+  "ta2": 2630,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "(Adductor minimus).r": {
+  "nome": "(Adutor mínimo) (direito)",
+  "latim": "(Adductor minimus)",
+  "ta2": 2632,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Adductor longus.r": {
+  "nome": "Adductor longus (direito)",
+  "latim": "Adductor longus",
+  "ta2": 2628,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pectineus muscle.r": {
+  "nome": "Pectíneo (direito)",
+  "latim": "Musculus pectineus",
+  "ta2": 2627,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Adductor brevis.r": {
+  "nome": "Adutor brevis (direito)",
+  "latim": "Adductor brevis",
+  "ta2": 2629,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Gracilis muscle.r": {
+  "nome": "Gracilis (direito)",
+  "latim": "Musculus gracilis",
+  "ta2": 2635,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Obturator externus.r": {
+  "nome": "Obturador externo (direito)",
+  "latim": "Obturator externus",
+  "ta2": 2636,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Adductor magnus.l": {
+  "nome": "Adutor magnus (esquerdo)",
+  "latim": "Adductor magnus",
+  "ta2": 2630,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "(Adductor minimus).l": {
+  "nome": "(Adutor mínimo) (esquerdo)",
+  "latim": "(Adductor minimus)",
+  "ta2": 2632,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Adductor longus.l": {
+  "nome": "Adductor longus (esquerdo)",
+  "latim": "Adductor longus",
+  "ta2": 2628,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pectineus muscle.l": {
+  "nome": "Pectíneo (esquerdo)",
+  "latim": "Musculus pectineus",
+  "ta2": 2627,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Adductor brevis.l": {
+  "nome": "Adutor brevis (esquerdo)",
+  "latim": "Adductor brevis",
+  "ta2": 2629,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Gracilis muscle.l": {
+  "nome": "Gracilis (esquerdo)",
+  "latim": "Musculus gracilis",
+  "ta2": 2635,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Obturator externus.l": {
+  "nome": "Obturador externo (esquerdo)",
+  "latim": "Obturator externus",
+  "ta2": 2636,
+  "regiao": "coxa",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "Iliacus muscle.r": {
+  "nome": "Ilíaco (direito)",
+  "latim": "Musculus iliacus",
+  "ta2": 2594,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Psoas major.r": {
+  "nome": "Psoas major (direito)",
+  "latim": "Psoas major",
+  "ta2": 2595,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliacus muscle.l": {
+  "nome": "Ilíaco (esquerdo)",
+  "latim": "Musculus iliacus",
+  "ta2": 2594,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Psoas major.l": {
+  "nome": "Psoas major (esquerdo)",
+  "latim": "Psoas major",
+  "ta2": 2595,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Gluteus medius muscle.r": {
+  "nome": "Glúteo médio (direito)",
+  "latim": "Musculus gluteus medius",
+  "ta2": 2599,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Gluteus maximus muscle.r": {
+  "nome": "Glúteo máximo (direito)",
+  "latim": "Musculus gluteus maximus",
+  "ta2": 2598,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Gluteus minimus muscle.r": {
+  "nome": "Glúteo mínimo (direito)",
+  "latim": "Musculus gluteus minimus",
+  "ta2": 2600,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Gluteus medius muscle.l": {
+  "nome": "Glúteo médio (esquerdo)",
+  "latim": "Musculus gluteus medius",
+  "ta2": 2599,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Gluteus maximus muscle.l": {
+  "nome": "Glúteo máximo (esquerdo)",
+  "latim": "Musculus gluteus maximus",
+  "ta2": 2598,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Gluteus minimus muscle.l": {
+  "nome": "Glúteo mínimo (esquerdo)",
+  "latim": "Musculus gluteus minimus",
+  "ta2": 2600,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Piriformis muscle.r": {
+  "nome": "Piriforme (direito)",
+  "latim": "Musculus piriformis",
+  "ta2": 2604,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Quadratus femoris muscle.r": {
+  "nome": "Quadrado femoral (direito)",
+  "latim": "Musculus quadratus femoris",
+  "ta2": 2608,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior gemellus muscle.r": {
+  "nome": "Gemelo inferior (direito)",
+  "latim": "Musculus gemellus inferior",
+  "ta2": 2607,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Obturator internus.r": {
+  "nome": "Obturador interno (direito)",
+  "latim": "Obturator internus",
+  "ta2": 2605,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior gemellus muscle.r": {
+  "nome": "Gemelo superior (direito)",
+  "latim": "Musculus gemellus superior",
+  "ta2": 2606,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Piriformis muscle.l": {
+  "nome": "Piriforme (esquerdo)",
+  "latim": "Musculus piriformis",
+  "ta2": 2604,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Quadratus femoris muscle.l": {
+  "nome": "Quadrado femoral (esquerdo)",
+  "latim": "Musculus quadratus femoris",
+  "ta2": 2608,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior gemellus muscle.l": {
+  "nome": "Gemelo inferior (esquerdo)",
+  "latim": "Musculus gemellus inferior",
+  "ta2": 2607,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Obturator internus.l": {
+  "nome": "Obturador interno (esquerdo)",
+  "latim": "Obturator internus",
+  "ta2": 2605,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior gemellus muscle.l": {
+  "nome": "Gemelo superior (esquerdo)",
+  "latim": "Musculus gemellus superior",
+  "ta2": 2606,
+  "regiao": "quadril_gluteos",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ }
+}

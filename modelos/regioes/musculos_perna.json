@@ -1,0 +1,322 @@
+{
+ "Extensor digitorum longus.r": {
+  "nome": "Extensor digitorum longus (direito)",
+  "latim": "Extensor longus digitorum",
+  "ta2": 2645,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tendon of extensor digitorum longus.r": {
+  "nome": "Tendão do extensor longo dos dedos (direito)",
+  "latim": "Tendon extensoris digitorum longi",
+  "ta2": 7201,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor digitorum longus.l": {
+  "nome": "Extensor digitorum longus (esquerdo)",
+  "latim": "Extensor longus digitorum",
+  "ta2": 2645,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tendon of extensor digitorum longus.l": {
+  "nome": "Tendão do extensor longo dos dedos (esquerdo)",
+  "latim": "Tendon extensoris digitorum longi",
+  "ta2": 7201,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tibialis anterior muscle.r": {
+  "nome": "Tibial anterior (direito)",
+  "latim": "Musculus tibialis anterior",
+  "ta2": 2644,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fibularis tertius muscle.r": {
+  "nome": "Fibularis tertius (direito)",
+  "latim": "Musculus fibularis tertius",
+  "ta2": 2649,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor hallucis longus.r": {
+  "nome": "Extensor hallucis longus (direito)",
+  "latim": "Extensor longus hallucis",
+  "ta2": 2650,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tibialis anterior muscle.l": {
+  "nome": "Tibial anterior (esquerdo)",
+  "latim": "Musculus tibialis anterior",
+  "ta2": 2644,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fibularis tertius muscle.l": {
+  "nome": "Fibularis tertius (esquerdo)",
+  "latim": "Musculus fibularis tertius",
+  "ta2": 2649,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor hallucis longus.l": {
+  "nome": "Extensor hallucis longus (esquerdo)",
+  "latim": "Extensor longus hallucis",
+  "ta2": 2650,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fibularis longus muscle.r": {
+  "nome": "Fibular longo (direito)",
+  "latim": "Musculus fibularis longus",
+  "ta2": 2652,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fibularis brevis muscle.r": {
+  "nome": "Fibularis brevis (direito)",
+  "latim": "Musculus fibularis brevis",
+  "ta2": 2653,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fibularis longus muscle.l": {
+  "nome": "Fibular longo (esquerdo)",
+  "latim": "Musculus fibularis longus",
+  "ta2": 2652,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fibularis brevis muscle.l": {
+  "nome": "Fibularis brevis (esquerdo)",
+  "latim": "Musculus fibularis brevis",
+  "ta2": 2653,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral head of gastrocnemius.r": {
+  "nome": "Cabeça lateral do gastrocnêmio (direito)",
+  "latim": "Caput laterale musculi gastrocnemii",
+  "ta2": 2658,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial head of gastrocnemius.r": {
+  "nome": "Cabeça medial do gastrocnêmio (direito)",
+  "latim": "Caput mediale musculi gastrocnemii",
+  "ta2": 2659,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Calcaneal tendon.r": {
+  "nome": "Tendão calcâneo (direito)",
+  "latim": "Tendo calcaneus",
+  "ta2": 2662,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral head of gastrocnemius.l": {
+  "nome": "Cabeça lateral do gastrocnêmio (esquerdo)",
+  "latim": "Caput laterale musculi gastrocnemii",
+  "ta2": 2658,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial head of gastrocnemius.l": {
+  "nome": "Cabeça medial do gastrocnêmio (esquerdo)",
+  "latim": "Caput mediale musculi gastrocnemii",
+  "ta2": 2659,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Calcaneal tendon.l": {
+  "nome": "Tendão calcâneo (esquerdo)",
+  "latim": "Tendo calcaneus",
+  "ta2": 2662,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Soleus muscle.r": {
+  "nome": "Sóleo (direito)",
+  "latim": "Musculus soleus",
+  "ta2": 2660,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Soleus muscle.l": {
+  "nome": "Sóleo (esquerdo)",
+  "latim": "Musculus soleus",
+  "ta2": 2660,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Plantaris muscle.r": {
+  "nome": "Plantar (direito)",
+  "latim": "Musculus plantaris",
+  "ta2": 2663,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Plantaris muscle.l": {
+  "nome": "Plantar (esquerdo)",
+  "latim": "Musculus plantaris",
+  "ta2": 2663,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digitorum longus.r": {
+  "nome": "Flexor digitorum longus (direito)",
+  "latim": "Musculus flexor digitorum longus",
+  "ta2": 2667,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Popliteus muscle.r": {
+  "nome": "Poplíteo (direito)",
+  "latim": "Musculus popliteus",
+  "ta2": 2665,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tibialis posterior muscle.r": {
+  "nome": "Tibial posterior (direito)",
+  "latim": "Musculus tibialis posterior",
+  "ta2": 2666,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor hallucis longus.r": {
+  "nome": "Flexor hallucis longus (direito)",
+  "latim": "Flexor longus hallucis",
+  "ta2": 2668,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digitorum longus.l": {
+  "nome": "Flexor digitorum longus (esquerdo)",
+  "latim": "Musculus flexor digitorum longus",
+  "ta2": 2667,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Popliteus muscle.l": {
+  "nome": "Poplíteo (esquerdo)",
+  "latim": "Musculus popliteus",
+  "ta2": 2665,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tibialis posterior muscle.l": {
+  "nome": "Tibial posterior (esquerdo)",
+  "latim": "Musculus tibialis posterior",
+  "ta2": 2666,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor hallucis longus.l": {
+  "nome": "Flexor hallucis longus (esquerdo)",
+  "latim": "Flexor longus hallucis",
+  "ta2": 2668,
+  "regiao": "perna",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ }
+}

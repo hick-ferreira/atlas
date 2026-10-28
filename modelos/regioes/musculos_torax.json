@@ -1,0 +1,252 @@
+{
+ "Pectoralis minor muscle.r": {
+  "nome": "Peitoral menor (direito)",
+  "latim": "Musculus pectoralis minor",
+  "ta2": 2305,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "External intercostal muscles.r": {
+  "nome": "Músculos intercostais externos (direito)",
+  "latim": "Musculi intercostales externi",
+  "ta2": 2311,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Internal intercostal muscles.r": {
+  "nome": "Músculos intercostais internos (direito)",
+  "latim": "Musculi intercostales interni",
+  "ta2": 2312,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Serratus anterior muscle.r": {
+  "nome": "Serrátil anterior (direito)",
+  "latim": "Musculus serratus anterior",
+  "ta2": 2307,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Innermost intercostal muscles.r": {
+  "nome": "Músculos intercostais íntimos (direito)",
+  "latim": "Musculi intercostales intimi",
+  "ta2": 2313,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Subclavius muscle.r": {
+  "nome": "Subclávio (direito)",
+  "latim": "Musculus subclavius",
+  "ta2": 2306,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transversus thoracis muscle.r": {
+  "nome": "Transverso do tórax (direito)",
+  "latim": "Musculus transversus thoracis",
+  "ta2": 2315,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pectoralis minor muscle.l": {
+  "nome": "Peitoral menor (esquerdo)",
+  "latim": "Musculus pectoralis minor",
+  "ta2": 2305,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "External intercostal muscles.l": {
+  "nome": "Músculos intercostais externos (esquerdo)",
+  "latim": "Musculi intercostales externi",
+  "ta2": 2311,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Internal intercostal muscles.l": {
+  "nome": "Músculos intercostais internos (esquerdo)",
+  "latim": "Musculi intercostales interni",
+  "ta2": 2312,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Serratus anterior muscle.l": {
+  "nome": "Serrátil anterior (esquerdo)",
+  "latim": "Musculus serratus anterior",
+  "ta2": 2307,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Innermost intercostal muscles.l": {
+  "nome": "Músculos intercostais íntimos (esquerdo)",
+  "latim": "Musculi intercostales intimi",
+  "ta2": 2313,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Subclavius muscle.l": {
+  "nome": "Subclávio (esquerdo)",
+  "latim": "Musculus subclavius",
+  "ta2": 2306,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transversus thoracis muscle.l": {
+  "nome": "Transverso do tórax (esquerdo)",
+  "latim": "Musculus transversus thoracis",
+  "ta2": 2315,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Clavicular head of pectoralis major muscle.r": {
+  "nome": "Cabeça clavicular do músculo peitoral maior (direito)",
+  "latim": "Pars clavicularis musculi pectoralis majoris",
+  "ta2": 2302,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sternocostal head of pectoralis major muscle.r": {
+  "nome": "Cabeça esternocostal do músculo peitoral maior (direito)",
+  "latim": "Pars sternocostalis musculi pectoralis majoris",
+  "ta2": 2303,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "(Abdominal part of pectoralis major muscle).r": {
+  "nome": "(Parte abdominal do músculo peitoral maior) (direito)",
+  "latim": "(Pars abdominalis musculi pectoralis majoris)",
+  "ta2": 2304,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Clavicular head of pectoralis major muscle.l": {
+  "nome": "Cabeça clavicular do músculo peitoral maior (esquerdo)",
+  "latim": "Pars clavicularis musculi pectoralis majoris",
+  "ta2": 2302,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sternocostal head of pectoralis major muscle.l": {
+  "nome": "Cabeça esternocostal do músculo peitoral maior (esquerdo)",
+  "latim": "Pars sternocostalis musculi pectoralis majoris",
+  "ta2": 2303,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "(Abdominal part of pectoralis major muscle).l": {
+  "nome": "(Parte abdominal do músculo peitoral maior) (esquerdo)",
+  "latim": "(Pars abdominalis musculi pectoralis majoris)",
+  "ta2": 2304,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levatores longi costarum.r": {
+  "nome": "Levantadores longos das costelas (direito)",
+  "latim": "Levatores longi costarum",
+  "ta2": 2309,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levatores breves costarum.r": {
+  "nome": "Levantadores curtos das costelas (direito)",
+  "latim": "Levatores breves costarum",
+  "ta2": 2310,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levatores longi costarum.l": {
+  "nome": "Levantadores longos das costelas (esquerdo)",
+  "latim": "Levatores longi costarum",
+  "ta2": 2309,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levatores breves costarum.l": {
+  "nome": "Levantadores curtos das costelas (esquerdo)",
+  "latim": "Levatores breves costarum",
+  "ta2": 2310,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Diaphragm": {
+  "nome": "Diafragma",
+  "latim": "Diaphragma",
+  "ta2": 2327,
+  "regiao": "torax",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ }
+}

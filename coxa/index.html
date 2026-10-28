@@ -8,6 +8,7 @@
 <meta property="og:description" content="Estude os músculos do quadríceps com ilustrações animadas, palpação, alongamentos e desafio.">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='4' y='6' width='5' height='22' rx='2.5' fill='%23e0434f'/%3E%3Crect x='11' y='10' width='5' height='18' rx='2.5' fill='%231792d1'/%3E%3Crect x='18' y='8' width='5' height='20' rx='2.5' fill='%23e89a0c'/%3E%3Crect x='25' y='13' width='4' height='15' rx='2' fill='%237c4dea'/%3E%3C/svg%3E">
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
 <style>html{color-scheme:light}body{margin:0}img,video{max-width:100%}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
 <title>Atlas do Quadríceps</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -330,7 +331,7 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;max-width:70ch}
   <div class="brand" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
   <h1>Atlas do Quadríceps<span>Quatro músculos, uma só inserção. Toque na coxa, descubra onde cada um fica e como sentir com as próprias mãos.</span></h1>
   <div class="chips" id="chips" role="group" aria-label="Escolha um músculo"></div>
-  <nav class="snav" aria-label="Seções"><button data-go="stageFig">Atlas</button><button data-go="secMove">Movimento</button><button data-go="secGroups">Extensores, flexores, adutores e abdutores</button><button data-go="secQuiz">Desafio</button></nav>
+  <nav class="snav" aria-label="Seções"><button data-go="stageFig">Atlas</button><button data-go="sec3d">Modelo 3D</button><button data-go="secMove">Movimento</button><button data-go="secGroups">Extensores, flexores, adutores e abdutores</button><button data-go="secQuiz">Desafio</button></nav>
 </header>
 
 <main>
@@ -358,6 +359,15 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;max-width:70ch}
     <div id="panelBody"></div>
   </div>
 </div>
+
+<section id="sec3d">
+  <div class="sec-h">
+    <span class="eyebrow">Modelo 3D</span>
+    <h2>A coxa por dentro</h2>
+    <p>Gire o osso e os músculos em 3D. Toque em um dos quatro músculos do quadríceps para ver onde ele fica em relação ao fêmur e à patela; o painel acompanha o atlas.</p>
+  </div>
+  <div class="card" id="v3root"></div>
+</section>
 
 <section id="secMove">
   <div class="sec-h">
@@ -841,6 +851,7 @@ function select(k,fromUser){
   if(fromUser&&!mainC.on)mainC.run([k],false);
   chips.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.m===k));
   renderPanel();
+  window.v3d&&v3d.highlight(k);
 }
 function setTab(t){
   tab=t;
@@ -1025,6 +1036,24 @@ qShow();
 /* ---------- tabela ---------- */
 $("#tbl").innerHTML=`<thead><tr><th>Músculo</th><th>Origem</th><th>Inserção</th><th>Inervação</th><th>Ação</th></tr></thead><tbody>${
   ORDER.map(k=>{const m=M[k];return `<tr style="--c:var(--${k})"><td>${m.nome}</td><td>${m.origem}</td><td>${m.insercao}</td><td>${m.nervo}</td><td>${m.acao}</td></tr>`}).join("")}</tbody>`;
+</script>
+<script type="module">
+import {mount3D} from "../shared/viewer3d.js";
+window.v3d=mount3D({
+  root:document.getElementById("v3root"),base:"../modelos/",side:".r",order:ORDER,regions:["coxa"],
+  bones:["Hip bone","Femur","Patella","Tibia","Fibula"],
+  groups:{
+  rf:["Rectus femoris muscle"],
+  vl:["Vastus lateralis muscle"],
+  vm:["Vastus medialis muscle"],
+  vi:["Vastus intermedius muscle"]
+  },
+  attach:Object.fromEntries(ORDER.map(k=>[k,{insBone:"Patella",insTitle:"Inserção: base da patela, pelo tendão do quadríceps",extraTitle:"Continua pelo ligamento patelar até a tuberosidade da tíbia"}])),
+  info:k=>{const m=M[k];return {nome:m.nome,latin:m.latin,resumo:m.resumo,origem:m.origem,insercao:m.insercao,acao:m.acao}},
+  onSelect:k=>select(k,true),
+  onOpen:()=>document.getElementById("stageFig").scrollIntoView({behavior:"smooth",block:"start"}),
+  initial:sel
+});
 </script>
 </body>
 </html>

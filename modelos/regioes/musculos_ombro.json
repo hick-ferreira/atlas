@@ -1,0 +1,162 @@
+{
+ "Teres major muscle.r": {
+  "nome": "Redondo maior (direito)",
+  "latim": "Musculus teres major",
+  "ta2": 2462,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Teres major muscle.l": {
+  "nome": "Redondo maior (esquerdo)",
+  "latim": "Musculus teres major",
+  "ta2": 2462,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Acromial part of deltoid muscle.r": {
+  "nome": "Parte acromial do músculo deltóide (direito)",
+  "latim": "Pars acromialis musculi deltoidei",
+  "ta2": 2454,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Clavicular part of deltoid muscle.r": {
+  "nome": "Parte clavicular do músculo deltóide (direito)",
+  "latim": "Pars clavicularis musculi deltoidei",
+  "ta2": 2453,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scapular spinal part of deltoid muscle.r": {
+  "nome": "Parte espinhal escapular do músculo deltóide (direito)",
+  "latim": "Pars spinalis scapularis musculi deltoidei",
+  "ta2": 2455,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Acromial part of deltoid muscle.l": {
+  "nome": "Parte acromial do músculo deltóide (esquerdo)",
+  "latim": "Pars acromialis musculi deltoidei",
+  "ta2": 2454,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Clavicular part of deltoid muscle.l": {
+  "nome": "Parte clavicular do músculo deltóide (esquerdo)",
+  "latim": "Pars clavicularis musculi deltoidei",
+  "ta2": 2453,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scapular spinal part of deltoid muscle.l": {
+  "nome": "Parte espinhal escapular do músculo deltóide (esquerdo)",
+  "latim": "Pars spinalis scapularis musculi deltoidei",
+  "ta2": 2455,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Subscapularis muscle.r": {
+  "nome": "Subescapular (direito)",
+  "latim": "Musculus subscapularis",
+  "ta2": 2460,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Supraspinatus muscle.r": {
+  "nome": "Supra-espinhal (direito)",
+  "latim": "Musculus supraspinatus",
+  "ta2": 2457,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Teres minor muscle.r": {
+  "nome": "Redondo menor (direito)",
+  "latim": "Musculus teres minor",
+  "ta2": 2459,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Infraspinatus muscle.r": {
+  "nome": "Infra-espinhal (direito)",
+  "latim": "Musculus infraspinatus",
+  "ta2": 2458,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Subscapularis muscle.l": {
+  "nome": "Subescapular (esquerdo)",
+  "latim": "Musculus subscapularis",
+  "ta2": 2460,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Supraspinatus muscle.l": {
+  "nome": "Supra-espinhal (esquerdo)",
+  "latim": "Musculus supraspinatus",
+  "ta2": 2457,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Teres minor muscle.l": {
+  "nome": "Redondo menor (esquerdo)",
+  "latim": "Musculus teres minor",
+  "ta2": 2459,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Infraspinatus muscle.l": {
+  "nome": "Infra-espinhal (esquerdo)",
+  "latim": "Musculus infraspinatus",
+  "ta2": 2458,
+  "regiao": "ombro",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ }
+}

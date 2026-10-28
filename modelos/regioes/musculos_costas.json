@@ -1,0 +1,702 @@
+{
+ "Dorsal parts of lateral intertransversarii lumborum muscles.r": {
+  "nome": "Partes dors. dos músculos intertransv. lombares lat. (direito)",
+  "latim": "Partes dors. musculorum intertransversariorum lat. lumborum",
+  "ta2": 2240,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ventral parts of lateral intertransversarii lumborum muscles.r": {
+  "nome": "Partes vent. dos músculos lombares intertransv. lat. (direito)",
+  "latim": "Partes vent. musculorum intertransversariorum lat. lumborum",
+  "ta2": 2241,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Dorsal parts of lateral intertransversarii lumborum muscles.l": {
+  "nome": "Partes dors. dos músculos intertransv. lombares lat. (esquerdo)",
+  "latim": "Partes dors. musculorum intertransversariorum lat. lumborum",
+  "ta2": 2240,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ventral parts of lateral intertransversarii lumborum muscles.l": {
+  "nome": "Partes vent. dos músculos lombares intertransv. lat. (esquerdo)",
+  "latim": "Partes vent. musculorum intertransversariorum lat. lumborum",
+  "ta2": 2241,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator scapulae.r": {
+  "nome": "Levantador da escápula (direito)",
+  "latim": "Levator scapulae",
+  "ta2": 2234,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rhomboid major muscle.r": {
+  "nome": "Rombóide principal (direito)",
+  "latim": "Musculus rhomboideus major",
+  "ta2": 2232,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rhomboid minor muscle.r": {
+  "nome": "Rombóide menor (direito)",
+  "latim": "Musculus rhomboideus minor",
+  "ta2": 2233,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Latissimus dorsi muscle.r": {
+  "nome": "Grande dorsal (direito)",
+  "latim": "Musculus latissimus dorsi",
+  "ta2": 2231,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Serratus posterior inferior muscle.r": {
+  "nome": "Serrátil postero-inferior (direito)",
+  "latim": "Musculus serratus posterior inferior",
+  "ta2": 2235,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Serratus posterior superior muscle.r": {
+  "nome": "Serrátil postero-superior (direito)",
+  "latim": "Musculus serratus posterior superior",
+  "ta2": 2236,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator scapulae.l": {
+  "nome": "Levantador da escápula (esquerdo)",
+  "latim": "Levator scapulae",
+  "ta2": 2234,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rhomboid major muscle.l": {
+  "nome": "Rombóide principal (esquerdo)",
+  "latim": "Musculus rhomboideus major",
+  "ta2": 2232,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rhomboid minor muscle.l": {
+  "nome": "Rombóide menor (esquerdo)",
+  "latim": "Musculus rhomboideus minor",
+  "ta2": 2233,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Latissimus dorsi muscle.l": {
+  "nome": "Grande dorsal (esquerdo)",
+  "latim": "Musculus latissimus dorsi",
+  "ta2": 2231,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Serratus posterior inferior muscle.l": {
+  "nome": "Serrátil postero-inferior (esquerdo)",
+  "latim": "Musculus serratus posterior inferior",
+  "ta2": 2235,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Serratus posterior superior muscle.l": {
+  "nome": "Serrátil postero-superior (esquerdo)",
+  "latim": "Musculus serratus posterior superior",
+  "ta2": 2236,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ascending part of trapezius muscle.r": {
+  "nome": "Parte ascendente do músculo trapézio (direito)",
+  "latim": "Pars ascendens musculi trapezii",
+  "ta2": 2229,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Descending part of trapezius muscle.r": {
+  "nome": "Parte descendente do músculo trapézio (direito)",
+  "latim": "Pars descendens musculi trapezii",
+  "ta2": 2227,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transverse part of trapezius muscle.r": {
+  "nome": "Parte transversal do músculo trapézio (direito)",
+  "latim": "Pars transversa musculi trapezii",
+  "ta2": 2228,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ascending part of trapezius muscle.l": {
+  "nome": "Parte ascendente do músculo trapézio (esquerdo)",
+  "latim": "Pars ascendens musculi trapezii",
+  "ta2": 2229,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Descending part of trapezius muscle.l": {
+  "nome": "Parte descendente do músculo trapézio (esquerdo)",
+  "latim": "Pars descendens musculi trapezii",
+  "ta2": 2227,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transverse part of trapezius muscle.l": {
+  "nome": "Parte transversal do músculo trapézio (esquerdo)",
+  "latim": "Pars transversa musculi trapezii",
+  "ta2": 2228,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Obliquus inferior capitis muscle.r": {
+  "nome": "Inferior oblíquo da cabeça (direito)",
+  "latim": "Musculus obliquus inferior capitis",
+  "ta2": 2252,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Obliquus superior capitis muscle.r": {
+  "nome": "Superior oblíquo da cabeça (direito)",
+  "latim": "Musculus obliquus superior capitis",
+  "ta2": 2251,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus posterior major capitis muscle.r": {
+  "nome": "Reto posterior maior da cabeça (direito)",
+  "latim": "Musculus rectus posterior major capitis",
+  "ta2": 2249,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus posterior minor capitis muscle.r": {
+  "nome": "Reto posterior menor da cabeça (direito)",
+  "latim": "Musculus rectus posterior minor capitis",
+  "ta2": 2250,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Obliquus inferior capitis muscle.l": {
+  "nome": "Inferior oblíquo da cabeça (esquerdo)",
+  "latim": "Musculus obliquus inferior capitis",
+  "ta2": 2252,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Obliquus superior capitis muscle.l": {
+  "nome": "Superior oblíquo da cabeça (esquerdo)",
+  "latim": "Musculus obliquus superior capitis",
+  "ta2": 2251,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus posterior major capitis muscle.l": {
+  "nome": "Reto posterior maior da cabeça (esquerdo)",
+  "latim": "Musculus rectus posterior major capitis",
+  "ta2": 2249,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rectus posterior minor capitis muscle.l": {
+  "nome": "Reto posterior menor da cabeça (esquerdo)",
+  "latim": "Musculus rectus posterior minor capitis",
+  "ta2": 2250,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Splenius capitis muscle.r": {
+  "nome": "Esplênio da cabeça (direito)",
+  "latim": "Musculus splenius capitis",
+  "ta2": 2273,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Splenius colli muscle.r": {
+  "nome": "Esplênio do pescoço (direito)",
+  "latim": "Musculus splenius colli",
+  "ta2": 2274,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Splenius capitis muscle.l": {
+  "nome": "Esplênio da cabeça (esquerdo)",
+  "latim": "Musculus splenius capitis",
+  "ta2": 2273,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Splenius colli muscle.l": {
+  "nome": "Esplênio do pescoço (esquerdo)",
+  "latim": "Musculus splenius colli",
+  "ta2": 2274,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliocostalis lumborum muscle.r": {
+  "nome": "Iliocostal lombar (direito)",
+  "latim": "Musculus iliocostalis lumborum",
+  "ta2": 2258,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliocostalis thoracis muscle.r": {
+  "nome": "Iliocostal do tórax (direito)",
+  "latim": "Musculus iliocostalis thoracis",
+  "ta2": 2260,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliocostalis colli muscle.r": {
+  "nome": "Iliocostalis do pescoço (direito)",
+  "latim": "Musculus iliocostalis colli",
+  "ta2": 2261,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliocostalis lumborum muscle.l": {
+  "nome": "Iliocostal lombar (esquerdo)",
+  "latim": "Musculus iliocostalis lumborum",
+  "ta2": 2258,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliocostalis thoracis muscle.l": {
+  "nome": "Iliocostal do tórax (esquerdo)",
+  "latim": "Musculus iliocostalis thoracis",
+  "ta2": 2260,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliocostalis colli muscle": {
+  "nome": "Iliocostalis do pescoço",
+  "latim": "Musculus iliocostalis colli",
+  "ta2": 2261,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longissimus thoracis muscle.r": {
+  "nome": "Longuíssimo do tórax (direito)",
+  "latim": "Musculus longissimus thoracis",
+  "ta2": 2263,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longissimus thoracis muscle.l": {
+  "nome": "Longuíssimo do tórax (esquerdo)",
+  "latim": "Musculus longissimus thoracis",
+  "ta2": 2263,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longissimus capitis muscle.r": {
+  "nome": "Longuíssimo da cabeça (direito)",
+  "latim": "Musculus longissimus capitis",
+  "ta2": 2266,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longissimus colli muscle.r": {
+  "nome": "Longuíssimo do pescoço (direito)",
+  "latim": "Musculus longissimus colli",
+  "ta2": 2265,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longissimus capitis muscle.l": {
+  "nome": "Longuíssimo da cabeça (esquerdo)",
+  "latim": "Musculus longissimus capitis",
+  "ta2": 2266,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Longissimus colli muscle.l": {
+  "nome": "Longuíssimo do pescoço (esquerdo)",
+  "latim": "Musculus longissimus colli",
+  "ta2": 2265,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Spinalis capitis muscle.r": {
+  "nome": "Espinhal da cabeça (direito)",
+  "latim": "Musculus spinalis capitis",
+  "ta2": 2270,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Spinalis colli muscle.r": {
+  "nome": "Espinhal do pescoço (direito)",
+  "latim": "Musculus spinalis colli",
+  "ta2": 2269,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Spinalis thoracis muscle.r": {
+  "nome": "Espinhal do tórax (direito)",
+  "latim": "Musculus spinalis thoracis",
+  "ta2": 2268,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Spinalis capitis muscle.l": {
+  "nome": "Espinhal da cabeça (esquerdo)",
+  "latim": "Musculus spinalis capitis",
+  "ta2": 2270,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Spinalis colli muscle.l": {
+  "nome": "Espinhal do pescoço (esquerdo)",
+  "latim": "Musculus spinalis colli",
+  "ta2": 2269,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Spinalis thoracis muscle.l": {
+  "nome": "Espinhal do tórax (esquerdo)",
+  "latim": "Musculus spinalis thoracis",
+  "ta2": 2268,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Multifidus colli muscle.r": {
+  "nome": "Multífido do pescoço (direito)",
+  "latim": "Musculus multifidus colli",
+  "ta2": 2279,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Multifidus thoracis muscle.r": {
+  "nome": "Multífido do tórax (direito)",
+  "latim": "Musculus multifidus thoracis",
+  "ta2": 2278,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Multifidus lumborum muscle.r": {
+  "nome": "Multífico lombar (direito)",
+  "latim": "Musculus multifidus lumborum",
+  "ta2": 2277,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Multifidus colli muscle.l": {
+  "nome": "Multífido do pescoço (esquerdo)",
+  "latim": "Musculus multifidus colli",
+  "ta2": 2279,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Multifidus thoracis muscle.l": {
+  "nome": "Multífido do tórax (esquerdo)",
+  "latim": "Musculus multifidus thoracis",
+  "ta2": 2278,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Multifidus lumborum muscle.l": {
+  "nome": "Multífico lombar (esquerdo)",
+  "latim": "Musculus multifidus lumborum",
+  "ta2": 2277,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Semispinalis thoracis muscle.r": {
+  "nome": "Semi-espinal do tórax (direito)",
+  "latim": "Musculus semispinalis thoracis",
+  "ta2": 2281,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Semispinalis colli muscle.r": {
+  "nome": "Semi-espinal do pescoço (direito)",
+  "latim": "Musculus semispinalis colli",
+  "ta2": 2282,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Semispinalis thoracis muscle.l": {
+  "nome": "Semi-espinal do tórax (esquerdo)",
+  "latim": "Musculus semispinalis thoracis",
+  "ta2": 2281,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Semispinalis colli muscle.l": {
+  "nome": "Semi-espinal do pescoço (esquerdo)",
+  "latim": "Musculus semispinalis colli",
+  "ta2": 2282,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rotatores.l": {
+  "nome": "Rotatores (esquerdo)",
+  "latim": "Rotatores",
+  "ta2": 2284,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Rotatores.r": {
+  "nome": "Rotatores (direito)",
+  "latim": "Rotatores",
+  "ta2": 2284,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Interspinales colli muscles.r": {
+  "nome": "Músculos interspinales do pescoço (direito)",
+  "latim": "Musculi interspinales colli",
+  "ta2": 2293,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Interspinales thoracis muscles.r": {
+  "nome": "Músculos intervertebrais do tórax (direito)",
+  "latim": "Musculi interspinales thoracis",
+  "ta2": 2292,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Interspinales lumborum muscles.r": {
+  "nome": "Músculos interespinhais lombares (direito)",
+  "latim": "Musculi interspinales lumborum",
+  "ta2": 2291,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Interspinales colli muscles.l": {
+  "nome": "Músculos interspinales do pescoço (esquerdo)",
+  "latim": "Musculi interspinales colli",
+  "ta2": 2293,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Interspinales thoracis muscles.l": {
+  "nome": "Músculos intervertebrais do tórax (esquerdo)",
+  "latim": "Musculi interspinales thoracis",
+  "ta2": 2292,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Interspinales lumborum muscles.l": {
+  "nome": "Músculos interespinhais lombares (esquerdo)",
+  "latim": "Musculi interspinales lumborum",
+  "ta2": 2291,
+  "regiao": "costas",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ }
+}

@@ -1,0 +1,482 @@
+{
+ "Superficial head of pronator teres.r": {
+  "nome": "Cabeça superficial do pronador redondo (direito)",
+  "latim": "Caput superficiale pronatoris teretis",
+  "ta2": 2479,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Deep head of pronator teres.r": {
+  "nome": "Cabeça profunda do pronador redondo (direito)",
+  "latim": "Caput profundum pronatoris teretis",
+  "ta2": 2480,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superficial head of pronator teres.l": {
+  "nome": "Cabeça superficial do pronador redondo (esquerdo)",
+  "latim": "Caput superficiale pronatoris teretis",
+  "ta2": 2479,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Deep head of pronator teres.l": {
+  "nome": "Cabeça profunda do pronador redondo (esquerdo)",
+  "latim": "Caput profundum pronatoris teretis",
+  "ta2": 2480,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Humeral head of flexor carpi ulnaris.r": {
+  "nome": "Cabeça umeral do flexor do carpo (direito)",
+  "latim": "Caput humerale flexoris ulnaris carpi",
+  "ta2": 2484,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ulnar head of flexor carpi ulnaris.r": {
+  "nome": "Cabeça ulnar do flexor ulnar do carpo (direito)",
+  "latim": "Caput ulnare flexoris ulnaris carpi",
+  "ta2": 2485,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Humeral head of flexor carpi ulnaris.l": {
+  "nome": "Cabeça umeral do flexor do carpo (esquerdo)",
+  "latim": "Caput humerale flexoris ulnaris carpi",
+  "ta2": 2484,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ulnar head of flexor carpi ulnaris.l": {
+  "nome": "Cabeça ulnar do flexor ulnar do carpo (esquerdo)",
+  "latim": "Caput ulnare flexoris ulnaris carpi",
+  "ta2": 2485,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Humero-ulnar head of flexor digitorum superficialis.r": {
+  "nome": "Cabeça úmero-ulnar do flexor superficial dos dedos (direito)",
+  "latim": "Caput humeroulnare flexoris superficialis digitorum",
+  "ta2": 2487,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Humero-ulnar head of flexor digitorum superficialis.l": {
+  "nome": "Cabeça úmero-ulnar do flexor superficial dos dedos (esquerdo)",
+  "latim": "Caput humeroulnare flexoris superficialis digitorum",
+  "ta2": 2487,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor carpi radialis.r": {
+  "nome": "Flexor carpi radialis (direito)",
+  "latim": "Flexor radialis carpi",
+  "ta2": 2481,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palmaris longus muscle.r": {
+  "nome": "Palmar longo (direito)",
+  "latim": "Musculus palmaris longus",
+  "ta2": 2482,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor carpi radialis.l": {
+  "nome": "Flexor carpi radialis (esquerdo)",
+  "latim": "Flexor radialis carpi",
+  "ta2": 2481,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palmaris longus muscle.l": {
+  "nome": "Palmar longo (esquerdo)",
+  "latim": "Musculus palmaris longus",
+  "ta2": 2482,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Radial head of flexor digitorum superficialis.r": {
+  "nome": "Cabeça radial do flexor superficial dos dedos (direito)",
+  "latim": "Caput radiale flexoris superficialis digitorum",
+  "ta2": 2488,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Radial head of flexor digitorum superficialis.l": {
+  "nome": "Cabeça radial do flexor superficial dos dedos (esquerdo)",
+  "latim": "Caput radiale flexoris superficialis digitorum",
+  "ta2": 2488,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digitorum profundus.r": {
+  "nome": "Flexor profundo dos dedos (direito)",
+  "latim": "Flexor profundus digitorum",
+  "ta2": 2491,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor pollicis longus.r": {
+  "nome": "Flexor longus do polegar (direito)",
+  "latim": "Flexor longus pollicis",
+  "ta2": 2492,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pronator quadratus.r": {
+  "nome": "Pronador quadrado (direito)",
+  "latim": "Pronator quadratus",
+  "ta2": 2493,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digitorum profundus.l": {
+  "nome": "Flexor profundo dos dedos (esquerdo)",
+  "latim": "Flexor profundus digitorum",
+  "ta2": 2491,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor pollicis longus.l": {
+  "nome": "Flexor longus do polegar (esquerdo)",
+  "latim": "Flexor longus pollicis",
+  "ta2": 2492,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pronator quadratus.l": {
+  "nome": "Pronador quadrado (esquerdo)",
+  "latim": "Pronator quadratus",
+  "ta2": 2493,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor digitorum.r": {
+  "nome": "Extensor digitorum (direito)",
+  "latim": "Extensor digitorum",
+  "ta2": 2500,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor digitorum.l": {
+  "nome": "Extensor digitorum (esquerdo)",
+  "latim": "Extensor digitorum",
+  "ta2": 2500,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ulnar head of extensor carpi ulnaris.r": {
+  "nome": "Cabeça ulnar do extensor ulnar do carpo (direito)",
+  "latim": "Caput ulnare extensoris ulnaris carpi",
+  "ta2": 2509,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Humeral head of extensor carpi ulnaris.r": {
+  "nome": "Cabeça umeral do extensor ulnar do carpo (direito)",
+  "latim": "Caput humerale extensoris ulnaris carpi",
+  "ta2": 2508,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ulnar head of extensor carpi ulnaris.l": {
+  "nome": "Cabeça ulnar do extensor ulnar do carpo (esquerdo)",
+  "latim": "Caput ulnare extensoris ulnaris carpi",
+  "ta2": 2509,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Humeral head of extensor carpi ulnaris.l": {
+  "nome": "Cabeça umeral do extensor ulnar do carpo (esquerdo)",
+  "latim": "Caput humerale extensoris ulnaris carpi",
+  "ta2": 2508,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Brachioradialis muscle.r": {
+  "nome": "Braquiorradial (direito)",
+  "latim": "Musculus brachioradialis",
+  "ta2": 2496,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor carpi radialis longus.r": {
+  "nome": "Extensor carpi radialis longus (direito)",
+  "latim": "Extensor radialis longus carpi",
+  "ta2": 2497,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor carpi radialis brevis.r": {
+  "nome": "Extensor carpi radialis brevis (direito)",
+  "latim": "Extensor radialis brevis carpi",
+  "ta2": 2499,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Anconeus muscle.r": {
+  "nome": "Ânconeus (direito)",
+  "latim": "Musculus anconeus",
+  "ta2": 2510,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor digiti minimi.r": {
+  "nome": "Extensor digiti minimi (direito)",
+  "latim": "Extensor digiti minimi",
+  "ta2": 2506,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Brachioradialis muscle.l": {
+  "nome": "Braquiorradial (esquerdo)",
+  "latim": "Musculus brachioradialis",
+  "ta2": 2496,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor carpi radialis longus.l": {
+  "nome": "Extensor carpi radialis longus (esquerdo)",
+  "latim": "Extensor radialis longus carpi",
+  "ta2": 2497,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor carpi radialis brevis.l": {
+  "nome": "Extensor carpi radialis brevis (esquerdo)",
+  "latim": "Extensor radialis brevis carpi",
+  "ta2": 2499,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Anconeus muscle.l": {
+  "nome": "Ânconeus (esquerdo)",
+  "latim": "Musculus anconeus",
+  "ta2": 2510,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor digiti minimi.l": {
+  "nome": "Extensor digiti minimi (esquerdo)",
+  "latim": "Extensor digiti minimi",
+  "ta2": 2506,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Supinator.r": {
+  "nome": "Supinator (direito)",
+  "latim": "Supinator",
+  "ta2": 2512,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Supinator.l": {
+  "nome": "Supinator (esquerdo)",
+  "latim": "Supinator",
+  "ta2": 2512,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor pollicis longus.r": {
+  "nome": "Abdutor longo do polegar (direito)",
+  "latim": "Abductor longus pollicis",
+  "ta2": 2517,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor indicis.r": {
+  "nome": "Extensor indicis (direito)",
+  "latim": "Extensor indicis",
+  "ta2": 2515,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor pollicis brevis.r": {
+  "nome": "Extensor brevis do polegar (direito)",
+  "latim": "Extensor brevis pollicis",
+  "ta2": 2518,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor pollicis longus.r": {
+  "nome": "Extensor pollicis longus (direito)",
+  "latim": "Extensor longus pollicis",
+  "ta2": 2516,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor pollicis longus.l": {
+  "nome": "Abdutor longo do polegar (esquerdo)",
+  "latim": "Abductor longus pollicis",
+  "ta2": 2517,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor indicis.l": {
+  "nome": "Extensor indicis (esquerdo)",
+  "latim": "Extensor indicis",
+  "ta2": 2515,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor pollicis brevis.l": {
+  "nome": "Extensor brevis do polegar (esquerdo)",
+  "latim": "Extensor brevis pollicis",
+  "ta2": 2518,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor pollicis longus.l": {
+  "nome": "Extensor pollicis longus (esquerdo)",
+  "latim": "Extensor longus pollicis",
+  "ta2": 2516,
+  "regiao": "antebraco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ }
+}

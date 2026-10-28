@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
 <style>
 /* Layout: palco anatômico sticky à esquerda, ficha do músculo à direita; abaixo movimento, desafio e resumo. */
 :root{
@@ -348,7 +349,7 @@ svg.has-sel .pin:not(.sel){display:none}
   <div class="brand" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
   <h1>Atlas do Ombro e do Braço<span>Do deltoide ao tríceps: toque na ilustração, veja o que cada músculo faz e como senti-lo com as próprias mãos.</span></h1>
   <div class="chips" id="chips" role="group" aria-label="Escolha um músculo"></div>
-  <nav class="snav" aria-label="Seções"><button data-go="stageFig">Atlas</button><button data-go="secGroups">Abdutores, flexores, extensores e rotadores</button><button data-go="secQuiz">Desafio</button></nav>
+  <nav class="snav" aria-label="Seções"><button data-go="stageFig">Atlas</button><button data-go="sec3d">Modelo 3D</button><button data-go="secGroups">Abdutores, flexores, extensores e rotadores</button><button data-go="secQuiz">Desafio</button></nav>
 </header>
 
 <main>
@@ -378,6 +379,15 @@ svg.has-sel .pin:not(.sel){display:none}
     <div id="panelBody"></div>
   </div>
 </div>
+
+<section id="sec3d">
+  <div class="sec-h">
+    <span class="eyebrow">Modelo 3D</span>
+    <h2>O ombro e o braço por dentro</h2>
+    <p>Gire a escápula, a clavícula e o úmero com os músculos no lugar. Toque em um músculo para destacá-lo; o painel acompanha o atlas. O subescapular fica na face costal da escápula: gire para ver.</p>
+  </div>
+  <div class="card" id="v3root"></div>
+</section>
 
 <section id="secGroups">
   <div class="sec-h">
@@ -713,6 +723,7 @@ function select(k,fromUser){
   if(fromUser&&!mainC.on)mainC.run([k],false);
   chips.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.m===k));
   renderPanel();
+  window.v3d&&v3d.highlight(k);
 }
 function setTab(t){
   tab=t;
@@ -845,6 +856,30 @@ qShow();
 $("#tbl").innerHTML=`<thead><tr><th>Músculo</th><th>Origem</th><th>Inserção</th><th>Inervação</th><th>Ação</th></tr></thead><tbody>${
   ORDER.map(k=>{const m=M[k];return `<tr style="--c:var(--${k})"><td>${m.nome}</td><td>${m.origem}</td><td>${m.insercao}</td><td>${m.nervo}</td><td>${m.acao}</td></tr>`}).join("")}</tbody>`;
 
+</script>
+<script type="module">
+import {mount3D} from "../shared/viewer3d.js";
+window.v3d=mount3D({
+  root:document.getElementById("v3root"),base:"../modelos/",side:".r",order:ORDER,regions:["ombro","braco"],
+  bones:["Scapula","Clavicle","Humerus","Radius","Ulna"],
+  groups:{
+  del:["Acromial part of deltoid muscle","Clavicular part of deltoid muscle","Scapular spinal part of deltoid muscle"],
+  sup:["Supraspinatus muscle"],
+  inf:["Infraspinatus muscle"],
+  tmi:["Teres minor muscle"],
+  sub:["Subscapularis muscle"],
+  tma:["Teres major muscle"],
+  bic:["Long head of biceps brachii","Short head of biceps brachii"],
+  bra:["Brachialis muscle"],
+  cor:["Coracobrachialis muscle"],
+  tri:["Long head of triceps brachii","Lateral head of triceps brachii","Medial head of triceps brachii"]
+  },
+  attach:{sup:{dir:[-1,0,0]},inf:{dir:[-1,0,0]},tmi:{dir:[-1,0,0]},sub:{dir:[-1,0,0]},tma:{dir:[-1,.5,.3]},bic:{dir:[0,-1,0],insNear:"Radius",insTitle:"Inserção: tuberosidade do rádio (e aponeurose bicipital)"},tri:{dir:[0,-1,0],insNear:"Ulna",insTitle:"Inserção: olécrano da ulna, pelo tendão comum do tríceps"},del:{dir:[0,-1,0],parts:{"Scapular spinal part of deltoid muscle":[-1,-.4,0]}}},
+  info:k=>{const m=M[k];return {nome:m.nome,latin:m.latin,resumo:m.resumo,origem:m.origem,insercao:m.insercao,acao:m.acao}},
+  onSelect:k=>select(k,true),
+  onOpen:()=>document.getElementById("stageFig").scrollIntoView({behavior:"smooth",block:"start"}),
+  initial:sel
+});
 </script>
 </body>
 </html>

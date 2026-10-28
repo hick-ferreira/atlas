@@ -1,0 +1,142 @@
+{
+ "Brachialis muscle.r": {
+  "nome": "Braquial (direito)",
+  "latim": "Musculus brachialis",
+  "ta2": 2469,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Coracobrachialis muscle.r": {
+  "nome": "Coracobraquial (direito)",
+  "latim": "Musculus coracobrachialis",
+  "ta2": 2468,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Brachialis muscle.l": {
+  "nome": "Braquial (esquerdo)",
+  "latim": "Musculus brachialis",
+  "ta2": 2469,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Coracobrachialis muscle.l": {
+  "nome": "Coracobraquial (esquerdo)",
+  "latim": "Musculus coracobrachialis",
+  "ta2": 2468,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Long head of biceps brachii.r": {
+  "nome": "Cabeça longa do bíceps braquial (direito)",
+  "latim": "Caput longum musculi bicipitis brachii",
+  "ta2": 2465,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Short head of biceps brachii.r": {
+  "nome": "Cabeça curta do bíceps braquial (direito)",
+  "latim": "Caput breve musculi bicipitis brachii",
+  "ta2": 2466,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Long head of biceps brachii.l": {
+  "nome": "Cabeça longa do bíceps braquial (esquerdo)",
+  "latim": "Caput longum musculi bicipitis brachii",
+  "ta2": 2465,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Short head of biceps brachii.l": {
+  "nome": "Cabeça curta do bíceps braquial (esquerdo)",
+  "latim": "Caput breve musculi bicipitis brachii",
+  "ta2": 2466,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial head of triceps brachii.r": {
+  "nome": "Cabeça medial do tríceps braquial (direito)",
+  "latim": "Caput mediale musculi tricipitis caput brachii",
+  "ta2": 2474,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral head of triceps brachii.r": {
+  "nome": "Cabeça lateral do tríceps braquial (direito)",
+  "latim": "Caput laterale musculi tricipitis brachii",
+  "ta2": 2473,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Long head of triceps brachii.r": {
+  "nome": "Cabeça longa do tríceps braquial (direito)",
+  "latim": "Caput longum musculi tricipitis brachii",
+  "ta2": 2472,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial head of triceps brachii.l": {
+  "nome": "Cabeça medial do tríceps braquial (esquerdo)",
+  "latim": "Caput mediale musculi tricipitis caput brachii",
+  "ta2": 2474,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral head of triceps brachii.l": {
+  "nome": "Cabeça lateral do tríceps braquial (esquerdo)",
+  "latim": "Caput laterale musculi tricipitis brachii",
+  "ta2": 2473,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Long head of triceps brachii.l": {
+  "nome": "Cabeça longa do tríceps braquial (esquerdo)",
+  "latim": "Caput longum musculi tricipitis brachii",
+  "ta2": 2472,
+  "regiao": "braco",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ }
+}

@@ -1,0 +1,822 @@
+{
+ "Lateral rectus muscle.l": {
+  "nome": "Reto lateral (esquerdo)",
+  "latim": "Musculus rectus lateralis bulbi oculi",
+  "ta2": 2045,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral rectus muscle.r": {
+  "nome": "Reto lateral (direito)",
+  "latim": "Musculus rectus lateralis bulbi oculi",
+  "ta2": 2045,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior oblique muscle.l": {
+  "nome": "Oblíquo superior (esquerdo)",
+  "latim": "Musculus obliquus superior bulbi oculi",
+  "ta2": 2048,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior oblique muscle.r": {
+  "nome": "Oblíquo superior (direito)",
+  "latim": "Musculus obliquus superior bulbi oculi",
+  "ta2": 2048,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Common tendinous ring.r": {
+  "nome": "Anel tendíneo comum (direito)",
+  "latim": "Anulus tendineus communis",
+  "ta2": 2047,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior oblique muscle.r": {
+  "nome": "Oblíquo inferior (direito)",
+  "latim": "Musculus obliquus inferior bulbi oculi",
+  "ta2": 2051,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior rectus muscle.r": {
+  "nome": "Reto inferior (direito)",
+  "latim": "Musculus rectus inferior",
+  "ta2": 2043,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior tarsus.r": {
+  "nome": "Tarso inferior (direito)",
+  "latim": "Tarsus inferior",
+  "ta2": 6829,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator palpebrae superioris.r": {
+  "nome": "Levantador da palpebra superior (direito)",
+  "latim": "Levator palpebrae superioris",
+  "ta2": 2052,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial rectus muscle.r": {
+  "nome": "Reto medial (direito)",
+  "latim": "Musculus rectus medialis",
+  "ta2": 2044,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior rectus muscle.r": {
+  "nome": "Reto superior (direito)",
+  "latim": "Musculus rectus superior",
+  "ta2": 2042,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior tarsus.r": {
+  "nome": "Tarso superior (direito)",
+  "latim": "Tarsus superior",
+  "ta2": 6827,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Trochlea of superior oblique muscle.r": {
+  "nome": "Tróclea do músculo oblíquo superior (direito)",
+  "latim": "Trochlea musculi obliqui superioris",
+  "ta2": 2049,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Common tendinous ring.l": {
+  "nome": "Anel tendíneo comum (esquerdo)",
+  "latim": "Anulus tendineus communis",
+  "ta2": 2047,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior oblique muscle.l": {
+  "nome": "Oblíquo inferior (esquerdo)",
+  "latim": "Musculus obliquus inferior bulbi oculi",
+  "ta2": 2051,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior rectus muscle.l": {
+  "nome": "Reto inferior (esquerdo)",
+  "latim": "Musculus rectus inferior",
+  "ta2": 2043,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior tarsus.l": {
+  "nome": "Tarso inferior (esquerdo)",
+  "latim": "Tarsus inferior",
+  "ta2": 6829,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator palpebrae superioris.l": {
+  "nome": "Levantador da palpebra superior (esquerdo)",
+  "latim": "Levator palpebrae superioris",
+  "ta2": 2052,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial rectus muscle.l": {
+  "nome": "Reto medial (esquerdo)",
+  "latim": "Musculus rectus medialis",
+  "ta2": 2044,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior rectus muscle.l": {
+  "nome": "Reto superior (esquerdo)",
+  "latim": "Musculus rectus superior",
+  "ta2": 2042,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior tarsus.l": {
+  "nome": "Tarso superior (esquerdo)",
+  "latim": "Tarsus superior",
+  "ta2": 6827,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Trochlea of superior oblique muscle.l": {
+  "nome": "Tróclea do músculo oblíquo superior (esquerdo)",
+  "latim": "Trochlea musculi obliqui superioris",
+  "ta2": 2049,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Frontalis muscle.r": {
+  "nome": "Frontal (direito)",
+  "latim": "Musculus frontalis",
+  "ta2": 2056,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Occipitalis muscle.r": {
+  "nome": "Occipital (direito)",
+  "latim": "Musculus occipitalis",
+  "ta2": 2057,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Epicranial aponeurosis.r": {
+  "nome": "Aponeurose epicraniana (direito)",
+  "latim": "Galea aponeurotica",
+  "ta2": 2059,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Frontalis muscle.l": {
+  "nome": "Frontal (esquerdo)",
+  "latim": "Musculus frontalis",
+  "ta2": 2056,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Occipitalis muscle.l": {
+  "nome": "Occipital (esquerdo)",
+  "latim": "Musculus occipitalis",
+  "ta2": 2057,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Epicranial aponeurosis.l": {
+  "nome": "Aponeurose epicraniana (esquerdo)",
+  "latim": "Galea aponeurotica",
+  "ta2": 2059,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Temporoparietalis muscle.r": {
+  "nome": "Temporoparietal (direito)",
+  "latim": "Musculus temporoparietalis",
+  "ta2": 2058,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Temporoparietalis muscle.l": {
+  "nome": "Temporoparietal (esquerdo)",
+  "latim": "Musculus temporoparietalis",
+  "ta2": 2058,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Nasalis muscle.r": {
+  "nome": "Nasal (direito)",
+  "latim": "Musculus nasalis",
+  "ta2": 2062,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Nasalis muscle.l": {
+  "nome": "Nasal (esquerdo)",
+  "latim": "Musculus nasalis",
+  "ta2": 2062,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Orbital part of orbicularis oculi.r": {
+  "nome": "Parte orbital do músculo orbicular do olho (direito)",
+  "latim": "Pars orbitalis musculi orbicularis oculi",
+  "ta2": 2070,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palpebral part of orbicularis oculi.r": {
+  "nome": "Parte palpebral do músculo orbicular dos olhos (direito)",
+  "latim": "Pars palpebralis musculi orbicularis oculi",
+  "ta2": 2067,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Orbital part of orbicularis oculi.l": {
+  "nome": "Parte orbital do músculo orbicular do olho (esquerdo)",
+  "latim": "Pars orbitalis musculi orbicularis oculi",
+  "ta2": 2070,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palpebral part of orbicularis oculi.l": {
+  "nome": "Parte palpebral do músculo orbicular dos olhos (esquerdo)",
+  "latim": "Pars palpebralis musculi orbicularis oculi",
+  "ta2": 2067,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Orbicularis oris muscle.r": {
+  "nome": "Orbicular da boca (direito)",
+  "latim": "Musculus orbicularis oris",
+  "ta2": 2073,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Orbicularis oris muscle.l": {
+  "nome": "Orbicular da boca (esquerdo)",
+  "latim": "Musculus orbicularis oris",
+  "ta2": 2073,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Zygomaticus major muscle.r": {
+  "nome": "Zigomático maior (direito)",
+  "latim": "Musculus zygomaticus major",
+  "ta2": 2079,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Corrugator supercilii.r": {
+  "nome": "Corrugador do supercílio (direito)",
+  "latim": "Musculus corrugator supercilii",
+  "ta2": 2071,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Depressor anguli oris.r": {
+  "nome": "Depressor do ângulo da boca (direito)",
+  "latim": "Depressor anguli oris",
+  "ta2": 2076,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Depressor labii inferioris.r": {
+  "nome": "Depressor do lábio inferior (direito)",
+  "latim": "Depressor labii inferioris",
+  "ta2": 2083,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator anguli oris.r": {
+  "nome": "Levantador do ângulo da boca (direito)",
+  "latim": "Levator anguli oris",
+  "ta2": 2084,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Procerus muscle.r": {
+  "nome": "Prócero (direito)",
+  "latim": "Musculus procerus",
+  "ta2": 2061,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Risorius muscle.r": {
+  "nome": "Risório (direito)",
+  "latim": "Musculus risorius",
+  "ta2": 2078,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Zygomaticus minor muscle.r": {
+  "nome": "Zigomático menor (direito)",
+  "latim": "Musculus zygomaticus minor",
+  "ta2": 2080,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator labii superioris.r": {
+  "nome": "Levantador do lábio superior (direito)",
+  "latim": "Levator labii superioris",
+  "ta2": 2081,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Depressor septi nasi.r": {
+  "nome": "Depressor do septo nasal (direito)",
+  "latim": "Depressor septi nasi",
+  "ta2": 2065,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Mentalis muscle.r": {
+  "nome": "Mentual (direito)",
+  "latim": "Musculus mentalis",
+  "ta2": 2087,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator nasolabialis.r": {
+  "nome": "Levantador nasolabial (direito)",
+  "latim": "Levator nasolabialis",
+  "ta2": 2082,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Bucinator.r": {
+  "nome": "Bucinador (direito)",
+  "latim": "Bucinator",
+  "ta2": 2086,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Zygomaticus major muscle.l": {
+  "nome": "Zigomático maior (esquerdo)",
+  "latim": "Musculus zygomaticus major",
+  "ta2": 2079,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Corrugator supercilii.l": {
+  "nome": "Corrugador do supercílio (esquerdo)",
+  "latim": "Musculus corrugator supercilii",
+  "ta2": 2071,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Depressor anguli oris.l": {
+  "nome": "Depressor do ângulo da boca (esquerdo)",
+  "latim": "Depressor anguli oris",
+  "ta2": 2076,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Depressor labii inferioris.l": {
+  "nome": "Depressor do lábio inferior (esquerdo)",
+  "latim": "Depressor labii inferioris",
+  "ta2": 2083,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator anguli oris.l": {
+  "nome": "Levantador do ângulo da boca (esquerdo)",
+  "latim": "Levator anguli oris",
+  "ta2": 2084,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Procerus muscle.l": {
+  "nome": "Prócero (esquerdo)",
+  "latim": "Musculus procerus",
+  "ta2": 2061,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Risorius muscle.l": {
+  "nome": "Risório (esquerdo)",
+  "latim": "Musculus risorius",
+  "ta2": 2078,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Zygomaticus minor muscle.l": {
+  "nome": "Zigomático menor (esquerdo)",
+  "latim": "Musculus zygomaticus minor",
+  "ta2": 2080,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator labii superioris.l": {
+  "nome": "Levantador do lábio superior (esquerdo)",
+  "latim": "Levator labii superioris",
+  "ta2": 2081,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Depressor septi nasi.l": {
+  "nome": "Depressor do septo nasal (esquerdo)",
+  "latim": "Depressor septi nasi",
+  "ta2": 2065,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Mentalis muscle.l": {
+  "nome": "Mentual (esquerdo)",
+  "latim": "Musculus mentalis",
+  "ta2": 2087,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Levator nasolabialis.l": {
+  "nome": "Levantador nasolabial (esquerdo)",
+  "latim": "Levator nasolabialis",
+  "ta2": 2082,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Bucinator.l": {
+  "nome": "Bucinador (esquerdo)",
+  "latim": "Bucinator",
+  "ta2": 2086,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superficial part of masseter.r": {
+  "nome": "Parte superficial do masseter (direito)",
+  "latim": "Pars superficialis masseteris",
+  "ta2": 2106,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Deep part of masseter.r": {
+  "nome": "Parte profunda do masseter (direito)",
+  "latim": "Pars profunda masseteris",
+  "ta2": 2107,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superficial part of masseter.l": {
+  "nome": "Parte superficial do masseter (esquerdo)",
+  "latim": "Pars superficialis masseteris",
+  "ta2": 2106,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Deep part of masseter.l": {
+  "nome": "Parte profunda do masseter (esquerdo)",
+  "latim": "Pars profunda masseteris",
+  "ta2": 2107,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial pterygoid muscle.r": {
+  "nome": "Pterigóideo medial (direito)",
+  "latim": "Musculus pterygoideus medialis",
+  "ta2": 2113,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial pterygoid muscle.l": {
+  "nome": "Pterigóideo medial (esquerdo)",
+  "latim": "Musculus pterygoideus medialis",
+  "ta2": 2113,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior head of lateral pterygoid muscle.r": {
+  "nome": "Cabeça inferior do músculo pterigóideo lateral (direito)",
+  "latim": "Caput inferius musculi pterygoidei lateralis",
+  "ta2": 2111,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior head of lateral pterygoid muscle.r": {
+  "nome": "Cabeça superior do músculo pterigóideo lateral (direito)",
+  "latim": "Caput superius musculi pterygoidei lateralis",
+  "ta2": 2110,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior head of lateral pterygoid muscle.l": {
+  "nome": "Cabeça inferior do músculo pterigóideo lateral (esquerdo)",
+  "latim": "Caput inferius musculi pterygoidei lateralis",
+  "ta2": 2111,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superior head of lateral pterygoid muscle.l": {
+  "nome": "Cabeça superior do músculo pterigóideo lateral (esquerdo)",
+  "latim": "Caput superius musculi pterygoidei lateralis",
+  "ta2": 2110,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Temporalis muscle.r": {
+  "nome": "Temporal (direito)",
+  "latim": "Musculus temporalis",
+  "ta2": 2108,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Temporalis muscle.l": {
+  "nome": "Temporal (esquerdo)",
+  "latim": "Musculus temporalis",
+  "ta2": 2108,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Hyoglossus muscle.r": {
+  "nome": "Hioglosso (direito)",
+  "latim": "Musculus hyoglossus",
+  "ta2": 2118,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Hyoglossus muscle.l": {
+  "nome": "Hioglosso (esquerdo)",
+  "latim": "Musculus hyoglossus",
+  "ta2": 2118,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Genioglossus muscle.r": {
+  "nome": "Genioglosso (direito)",
+  "latim": "Musculus genioglossus",
+  "ta2": 2117,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Genioglossus muscle.l": {
+  "nome": "Genioglosso (esquerdo)",
+  "latim": "Musculus genioglossus",
+  "ta2": 2117,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palatopharyngeus muscle.r": {
+  "nome": "Palatofaríngeo (direito)",
+  "latim": "Musculus palatopharyngeus",
+  "ta2": 2132,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palatopharyngeus muscle.l": {
+  "nome": "Palatofaríngeo (esquerdo)",
+  "latim": "Musculus palatopharyngeus",
+  "ta2": 2132,
+  "regiao": "cabeca",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ }
+}

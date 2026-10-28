@@ -1,0 +1,122 @@
+{
+ "Coccygeus muscle.r": {
+  "nome": "Coccígeo (direito)",
+  "latim": "Musculus coccygeus",
+  "ta2": 2412,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Coccygeus muscle.l": {
+  "nome": "Coccígeo (esquerdo)",
+  "latim": "Musculus coccygeus",
+  "ta2": 2412,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliococcygeus muscle.r": {
+  "nome": "Iliococcígeo (direito)",
+  "latim": "Musculus iliococcygeus",
+  "ta2": 2404,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pubo-analis muscle.r": {
+  "nome": "Pubo-analis (direito)",
+  "latim": "Musculus puboanalis",
+  "ta2": 2406,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pubococcygeus muscle.r": {
+  "nome": "Pubococcígeo (direito)",
+  "latim": "Musculus pubococcygeus",
+  "ta2": 2405,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Iliococcygeus muscle.l": {
+  "nome": "Iliococcígeo (esquerdo)",
+  "latim": "Musculus iliococcygeus",
+  "ta2": 2404,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pubo-analis muscle.l": {
+  "nome": "Pubo-analis (esquerdo)",
+  "latim": "Musculus puboanalis",
+  "ta2": 2406,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pubococcygeus muscle.l": {
+  "nome": "Pubococcígeo (esquerdo)",
+  "latim": "Musculus pubococcygeus",
+  "ta2": 2405,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tendinous arch of levator ani.r": {
+  "nome": "Arco tendíneo do elevador do ânus (direito)",
+  "latim": "Arcus tendineus levatoris ani",
+  "ta2": 2434,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tendinous arch of levator ani.l": {
+  "nome": "Arco tendíneo do elevador do ânus (esquerdo)",
+  "latim": "Arcus tendineus levatoris ani",
+  "ta2": 2434,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "External anal sphincter.r": {
+  "nome": "Esfíncter anal externo (direito)",
+  "latim": "Sphincter externus ani",
+  "ta2": 2426,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "External anal sphincter.l": {
+  "nome": "Esfíncter anal externo (esquerdo)",
+  "latim": "Sphincter externus ani",
+  "ta2": 2426,
+  "regiao": "pelve",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ }
+}

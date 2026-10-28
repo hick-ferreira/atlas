@@ -1,0 +1,242 @@
+{
+ "Superficial head of flexor pollicis brevis.r": {
+  "nome": "Cabeça superficial do flexor curto do polegar (direito)",
+  "latim": "Caput superficiale flexoris brevis pollicis",
+  "ta2": 2523,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Deep head of flexor pollicis brevis.r": {
+  "nome": "Cabeça profunda do flexor curto do polegar (direito)",
+  "latim": "Caput profundum flexoris brevis pollicis",
+  "ta2": 2524,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Superficial head of flexor pollicis brevis.l": {
+  "nome": "Cabeça superficial do flexor curto do polegar (esquerdo)",
+  "latim": "Caput superficiale flexoris brevis pollicis",
+  "ta2": 2523,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Deep head of flexor pollicis brevis.l": {
+  "nome": "Cabeça profunda do flexor curto do polegar (esquerdo)",
+  "latim": "Caput profundum flexoris brevis pollicis",
+  "ta2": 2524,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Oblique head of adductor pollicis.r": {
+  "nome": "Cabeça oblíqua do adutor do polegar (direito)",
+  "latim": "Caput obliquum adductoris pollicis",
+  "ta2": 2527,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transverse head of adductor pollicis.r": {
+  "nome": "Cabeça transversal do adutor do polegar (direito)",
+  "latim": "Caput transversum adductoris pollicis",
+  "ta2": 2528,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Oblique head of adductor pollicis.l": {
+  "nome": "Cabeça oblíqua do adutor do polegar (esquerdo)",
+  "latim": "Caput obliquum adductoris pollicis",
+  "ta2": 2527,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transverse head of adductor pollicis.l": {
+  "nome": "Cabeça transversal do adutor do polegar (esquerdo)",
+  "latim": "Caput transversum adductoris pollicis",
+  "ta2": 2528,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor pollicis brevis.r": {
+  "nome": "Abdutor curto do polegar (direito)",
+  "latim": "Abductor brevis pollicis",
+  "ta2": 2521,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Opponens pollicis muscle.r": {
+  "nome": "Oponente do polegar (direito)",
+  "latim": "Musculus opponens pollicis",
+  "ta2": 2525,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor digiti minimi of hand.r": {
+  "nome": "Abdutor do dedo mínimo da mão (direito)",
+  "latim": "Abductor digiti minimi manus",
+  "ta2": 2529,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digiti minimi of hand.r": {
+  "nome": "Flexor do dedo mínimo da mão (direito)",
+  "latim": "Flexor digiti minimi manus",
+  "ta2": 2530,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Opponens digiti minimi muscle of hand.r": {
+  "nome": "Oponente do dedo mínimo da mão (direito)",
+  "latim": "Musculus opponens digiti minimi manus",
+  "ta2": 2531,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lumbrical muscles of hand.r": {
+  "nome": "Músculos lumbricais da mão (direito)",
+  "latim": "Musculi lumbricales manus",
+  "ta2": 2532,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Dorsal interossei muscles of hand.r": {
+  "nome": "Músculos interósseos dorsais da mão (direito)",
+  "latim": "Musculi interossei dorsales manus",
+  "ta2": 2533,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palmar interossei muscles.r": {
+  "nome": "Músculos interósseos palmares (direito)",
+  "latim": "Musculi interossei palmares",
+  "ta2": 2534,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor pollicis brevis.l": {
+  "nome": "Abdutor curto do polegar (esquerdo)",
+  "latim": "Abductor brevis pollicis",
+  "ta2": 2521,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Opponens pollicis muscle.l": {
+  "nome": "Oponente do polegar (esquerdo)",
+  "latim": "Musculus opponens pollicis",
+  "ta2": 2525,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor digiti minimi of hand.l": {
+  "nome": "Abdutor do dedo mínimo da mão (esquerdo)",
+  "latim": "Abductor digiti minimi manus",
+  "ta2": 2529,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digiti minimi of hand.l": {
+  "nome": "Flexor do dedo mínimo da mão (esquerdo)",
+  "latim": "Flexor digiti minimi manus",
+  "ta2": 2530,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Opponens digiti minimi muscle of hand.l": {
+  "nome": "Oponente do dedo mínimo da mão (esquerdo)",
+  "latim": "Musculus opponens digiti minimi manus",
+  "ta2": 2531,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lumbrical muscles of hand.l": {
+  "nome": "Músculos lumbricais da mão (esquerdo)",
+  "latim": "Musculi lumbricales manus",
+  "ta2": 2532,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Dorsal interossei muscles of hand.l": {
+  "nome": "Músculos interósseos dorsais da mão (esquerdo)",
+  "latim": "Musculi interossei dorsales manus",
+  "ta2": 2533,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palmar interossei muscles.l": {
+  "nome": "Músculos interósseos palmares (esquerdo)",
+  "latim": "Musculi interossei palmares",
+  "ta2": 2534,
+  "regiao": "mao",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ }
+}

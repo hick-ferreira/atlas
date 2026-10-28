@@ -1,0 +1,302 @@
+{
+ "Abductor digiti minimi of foot.r": {
+  "nome": "Abdutor de dedos mínimos do pé (direito)",
+  "latim": "Abductor digiti minimi pedis",
+  "ta2": 2679,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor digiti minimi of foot.l": {
+  "nome": "Abdutor de dedos mínimos do pé (esquerdo)",
+  "latim": "Abductor digiti minimi pedis",
+  "ta2": 2679,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor hallucis.r": {
+  "nome": "Abdutor do hálux (direito)",
+  "latim": "Abductor hallucis",
+  "ta2": 2672,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor digitorum brevis.r": {
+  "nome": "Extensor digitorum brevis (direito)",
+  "latim": "Extensor brevis digitorum",
+  "ta2": 2671,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor hallucis brevis.r": {
+  "nome": "Extensor hallucis brevis (direito)",
+  "latim": "Extensor brevis hallucis",
+  "ta2": 2670,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Dorsal interossei muscles of foot.r": {
+  "nome": "Músculos interósseos dorsais do pé (direito)",
+  "latim": "Musculi interossei dorsales pedis",
+  "ta2": 2686,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digitorum brevis.r": {
+  "nome": "Flexor digitorum brevis (direito)",
+  "latim": "Flexor brevis digitorum",
+  "ta2": 2683,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digiti minimi of foot.r": {
+  "nome": "Flexor do dedo mínimo do pé (direito)",
+  "latim": "Flexor digiti minimi pedis pedis",
+  "ta2": 2682,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lumbrical muscles of foot.r": {
+  "nome": "Músculos lumbricais do pé (direito)",
+  "latim": "Musculi lumbricales pedis",
+  "ta2": 2685,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "(Opponens digiti minimi muscle of foot).r": {
+  "nome": "(Opponens digiti minimi muscle of foot) (direito)",
+  "latim": "(Musculus opponens digiti minimi pedis)",
+  "ta2": 2681,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Plantar interossei muscles.r": {
+  "nome": "Músculos plantares interósseos (direito)",
+  "latim": "Musculi interossei plantares",
+  "ta2": 2687,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Quadratus plantae muscle.r": {
+  "nome": "Quadrado plantae (direito)",
+  "latim": "Musculus quadratus plantae",
+  "ta2": 2684,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Abductor hallucis.l": {
+  "nome": "Abdutor do hálux (esquerdo)",
+  "latim": "Abductor hallucis",
+  "ta2": 2672,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor digitorum brevis.l": {
+  "nome": "Extensor digitorum brevis (esquerdo)",
+  "latim": "Extensor brevis digitorum",
+  "ta2": 2671,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Extensor hallucis brevis.l": {
+  "nome": "Extensor hallucis brevis (esquerdo)",
+  "latim": "Extensor brevis hallucis",
+  "ta2": 2670,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Dorsal interossei muscles of foot.l": {
+  "nome": "Músculos interósseos dorsais do pé (esquerdo)",
+  "latim": "Musculi interossei dorsales pedis",
+  "ta2": 2686,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digitorum brevis.l": {
+  "nome": "Flexor digitorum brevis (esquerdo)",
+  "latim": "Flexor brevis digitorum",
+  "ta2": 2683,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Flexor digiti minimi of foot.l": {
+  "nome": "Flexor do dedo mínimo do pé (esquerdo)",
+  "latim": "Flexor digiti minimi pedis pedis",
+  "ta2": 2682,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lumbrical muscles of foot.l": {
+  "nome": "Músculos lumbricais do pé (esquerdo)",
+  "latim": "Musculi lumbricales pedis",
+  "ta2": 2685,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "(Opponens digiti minimi muscle of foot).l": {
+  "nome": "(Opponens digiti minimi muscle of foot) (esquerdo)",
+  "latim": "(Musculus opponens digiti minimi pedis)",
+  "ta2": 2681,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Plantar interossei muscles.l": {
+  "nome": "Músculos plantares interósseos (esquerdo)",
+  "latim": "Musculi interossei plantares",
+  "ta2": 2687,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Quadratus plantae muscle.l": {
+  "nome": "Quadrado plantae (esquerdo)",
+  "latim": "Musculus quadratus plantae",
+  "ta2": 2684,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial head of flexor hallucis brevis.r": {
+  "nome": "Cabeça medial do flexor curto do hálux (direito)",
+  "latim": "Caput mediale flexoris brevis hallucis",
+  "ta2": 2674,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral head of flexor hallucis brevis.r": {
+  "nome": "Cabeça lateral do flexor curto do hálux (direito)",
+  "latim": "Caput laterale flexoris brevis hallucis",
+  "ta2": 2675,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial head of flexor hallucis brevis.l": {
+  "nome": "Cabeça medial do flexor curto do hálux (esquerdo)",
+  "latim": "Caput mediale flexoris brevis hallucis",
+  "ta2": 2674,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral head of flexor hallucis brevis.l": {
+  "nome": "Cabeça lateral do flexor curto do hálux (esquerdo)",
+  "latim": "Caput laterale flexoris brevis hallucis",
+  "ta2": 2675,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Oblique head of adductor hallucis.r": {
+  "nome": "Cabeça oblíqua do adutor do hálux (direito)",
+  "latim": "Caput obliquum adductoris hallucis",
+  "ta2": 2677,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transverse head of adductor hallucis.r": {
+  "nome": "Cabeça transversal do adutor do hálux (direito)",
+  "latim": "Caput transversum adductoris hallucis",
+  "ta2": 2678,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Oblique head of adductor hallucis.l": {
+  "nome": "Cabeça oblíqua do adutor do hálux (esquerdo)",
+  "latim": "Caput obliquum adductoris hallucis",
+  "ta2": 2677,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Transverse head of adductor hallucis.l": {
+  "nome": "Cabeça transversal do adutor do hálux (esquerdo)",
+  "latim": "Caput transversum adductoris hallucis",
+  "ta2": 2678,
+  "regiao": "pe",
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ }
+}

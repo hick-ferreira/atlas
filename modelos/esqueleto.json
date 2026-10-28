@@ -1,0 +1,2495 @@
+{
+ "Parietal bone.r": {
+  "nome": "Osso parietal (direito)",
+  "latim": "Os parietale",
+  "ta2": 504,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Parietal bone.l": {
+  "nome": "Osso parietal (esquerdo)",
+  "latim": "Os parietale",
+  "ta2": 504,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Frontal bone": {
+  "nome": "Osso frontal",
+  "latim": "Os frontale",
+  "ta2": 520,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sinus of frontal bone": {
+  "nome": "Seio do osso frontal",
+  "latim": "Sinus ossis frontalis",
+  "ta2": 549,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Occipital bone": {
+  "nome": "Osso occipital",
+  "latim": "Os occipitale",
+  "ta2": 552,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sphenoid bone": {
+  "nome": "Osso esfenóide",
+  "latim": "Os sphenoideum",
+  "ta2": 584,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sinus of sphenoid bone": {
+  "nome": "Seio do osso esfenoidal",
+  "latim": "Sinus ossis sphenoidei",
+  "ta2": 600,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Temporal bone.r": {
+  "nome": "Osso temporal (direito)",
+  "latim": "Os temporale",
+  "ta2": 641,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ethmoid bone": {
+  "nome": "Osso etmóide",
+  "latim": "Os ethmoideum",
+  "ta2": 721,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Posterior cells of ethmoid bone.l": {
+  "nome": "Células ósseas posteriores do etmóide (esquerdo)",
+  "latim": "Cellulae posteriores ossis ethmoidei",
+  "ta2": 731,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle cells of ethmoid bone.l": {
+  "nome": "Células ósseas médias do etmóide (esquerdo)",
+  "latim": "Cellulae mediae ossis ethmoidei",
+  "ta2": 730,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Anterior cells of ethmoid bone.l": {
+  "nome": "Células ósseas anteriores do etmóide (esquerdo)",
+  "latim": "Cellulae anteriores ossis ethmoidei",
+  "ta2": 729,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Posterior cells of ethmoid bone.r": {
+  "nome": "Células ósseas posteriores do etmóide (direito)",
+  "latim": "Cellulae posteriores ossis ethmoidei",
+  "ta2": 731,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle cells of ethmoid bone.r": {
+  "nome": "Células ósseas médias do etmóide (direito)",
+  "latim": "Cellulae mediae ossis ethmoidei",
+  "ta2": 730,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Anterior cells of ethmoid bone.r": {
+  "nome": "Células ósseas anteriores do etmóide (direito)",
+  "latim": "Cellulae anteriores ossis ethmoidei",
+  "ta2": 729,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior nasal concha bone.r": {
+  "nome": "Osso da concha nasal inferior (direito)",
+  "latim": "Concha nasalis inferior",
+  "ta2": 740,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lacrimal bone.r": {
+  "nome": "Osso lacrimal (direito)",
+  "latim": "Os lacrimale",
+  "ta2": 744,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Nasal bone.r": {
+  "nome": "Osso nasal (direito)",
+  "latim": "Os nasale",
+  "ta2": 748,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Maxilla.r": {
+  "nome": "Osso maxilar (direito)",
+  "latim": "Maxilla",
+  "ta2": 756,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palatine bone.r": {
+  "nome": "Osso palatino (direito)",
+  "latim": "Os palatinum",
+  "ta2": 798,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Zygomatic bone.r": {
+  "nome": "Osso zigomático (direito)",
+  "latim": "Os zygomaticum",
+  "ta2": 818,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Temporal bone.l": {
+  "nome": "Osso temporal (esquerdo)",
+  "latim": "Os temporale",
+  "ta2": 641,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Inferior nasal concha bone.l": {
+  "nome": "Osso da concha nasal inferior (esquerdo)",
+  "latim": "Concha nasalis inferior",
+  "ta2": 740,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lacrimal bone.l": {
+  "nome": "Osso lacrimal (esquerdo)",
+  "latim": "Os lacrimale",
+  "ta2": 744,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Nasal bone.l": {
+  "nome": "Osso nasal (esquerdo)",
+  "latim": "Os nasale",
+  "ta2": 748,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vomer": {
+  "nome": "Vômer",
+  "latim": "Vomer",
+  "ta2": 751,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Maxilla.l": {
+  "nome": "Osso maxilar (esquerdo)",
+  "latim": "Maxilla",
+  "ta2": 756,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Palatine bone.l": {
+  "nome": "Osso palatino (esquerdo)",
+  "latim": "Os palatinum",
+  "ta2": 798,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Zygomatic bone.l": {
+  "nome": "Osso zigomático (esquerdo)",
+  "latim": "Os zygomaticum",
+  "ta2": 818,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Mandible": {
+  "nome": "Mandíbula",
+  "latim": "Mandibula",
+  "ta2": 835,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Hyoid bone": {
+  "nome": "Osso hióide",
+  "latim": "Os hyoideum",
+  "ta2": 876,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Malleus.r": {
+  "nome": "Martelo (direito)",
+  "latim": "Malleus",
+  "ta2": 881,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Incus.r": {
+  "nome": "Incus (direito)",
+  "latim": "Incus",
+  "ta2": 888,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Stapes.r": {
+  "nome": "Estribo (direito)",
+  "latim": "Stapes",
+  "ta2": 895,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Malleus.l": {
+  "nome": "Martelo (esquerdo)",
+  "latim": "Malleus",
+  "ta2": 881,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Incus.l": {
+  "nome": "Incus (esquerdo)",
+  "latim": "Incus",
+  "ta2": 888,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Stapes.l": {
+  "nome": "Estribo (esquerdo)",
+  "latim": "Stapes",
+  "ta2": 895,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Upper medial incisor.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Upper lateral incisor.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Upper canine.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lower medial incisor.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lower lateral incisor.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lower canine.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Upper medial incisor.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Upper lateral incisor.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Upper canine.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lower medial incisor.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lower lateral incisor.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lower canine.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Upper first premolar.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Upper second premolar.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Upper first molar tooth.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Upper second molar tooth.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lower first premolar.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lower second premolar.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lower first molar tooth.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lower second molar tooth.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Upper first premolar.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Upper second premolar.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Upper first molar tooth.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Upper second molar tooth.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lower first premolar.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lower second premolar.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lower first molar tooth.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lower second molar tooth.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Major alar cartilage.r": {
+  "nome": "Cartilagem alar maior (direito)",
+  "latim": "Cartilago alaris major",
+  "ta2": 940,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral process of nasal septal cartilage.r": {
+  "nome": "Processo lateral da cartilagem septal nasal (direito)",
+  "latim": "Processus lateralis cartilaginis septi nasi",
+  "ta2": 947,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Nasal septal cartilage": {
+  "nome": "Cartilagem do septo nasal",
+  "latim": "Cartilago septi nasi",
+  "ta2": 946,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Major alar cartilage.l": {
+  "nome": "Cartilagem alar maior (esquerdo)",
+  "latim": "Cartilago alaris major",
+  "ta2": 940,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral process of nasal septal cartilage.l": {
+  "nome": "Processo lateral da cartilagem septal nasal (esquerdo)",
+  "latim": "Processus lateralis cartilaginis septi nasi",
+  "ta2": 947,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Thyroid cartilage": {
+  "nome": "Cartilagem da tireoide",
+  "latim": "Cartilago thyreoidea",
+  "ta2": 967,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Cricoid cartilage": {
+  "nome": "Cartilagem cricoide",
+  "latim": "Cartilago cricoidea",
+  "ta2": 978,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Arytenoid cartilage.r": {
+  "nome": "Cartilagem aritenóide (direito)",
+  "latim": "Cartilago arytenoidea",
+  "ta2": 983,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Corniculate cartilage.r": {
+  "nome": "Cartilagem corniculada (direito)",
+  "latim": "Cartilago corniculata",
+  "ta2": 997,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Arytenoid cartilage.l": {
+  "nome": "Cartilagem aritenóide (esquerdo)",
+  "latim": "Cartilago arytenoidea",
+  "ta2": 983,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Corniculate cartilage.l": {
+  "nome": "Cartilagem corniculada (esquerdo)",
+  "latim": "Cartilago corniculata",
+  "ta2": 997,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Coccyx": {
+  "nome": "Cóccix",
+  "latim": "Os coccygis",
+  "ta2": 1092,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sacrum": {
+  "nome": "Sacro",
+  "latim": "Os sacrum",
+  "ta2": 1071,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Atlas (C1)": {
+  "nome": "Atlas (C1)",
+  "latim": "Atlas (C1)",
+  "ta2": 1038,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra C6": {
+  "nome": "Vértebra C6",
+  "latim": "Vertebra cervicalis VI",
+  "ta2": 1055,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra C3": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra C5": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra C7": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra C4": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Axis (C2)": {
+  "nome": "Áxis (C2)",
+  "latim": "Axis (C2)",
+  "ta2": 1050,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra T2": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra T3": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra T4": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra T5": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra T6": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra T7": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra T9": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra T10": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra T11": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra T12": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra T8": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra T1": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra L1": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra L2": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra L4": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra L5": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Vertebra L3": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fifth rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "First rib.r": {
+  "nome": "Primeira costela (direito)",
+  "latim": "Costa prima",
+  "ta2": 1107,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fourth rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Second rib.r": {
+  "nome": "Segunda costela (direito)",
+  "latim": "Costa secunda",
+  "ta2": 1111,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Seventh rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sixth rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Third rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fifth rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "First rib.l": {
+  "nome": "Primeira costela (esquerdo)",
+  "latim": "Costa prima",
+  "ta2": 1107,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fourth rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Second rib.l": {
+  "nome": "Segunda costela (esquerdo)",
+  "latim": "Costa secunda",
+  "ta2": 1111,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Seventh rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sixth rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Third rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Eighth rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ninth rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tenth rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ninth rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tenth rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Eighth rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Eleventh rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Twelfth rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Eleventh rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Twelfth rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Manubrium of sternum": {
+  "nome": "Manúbrio do esterno",
+  "latim": "Manubrium sterni",
+  "ta2": 1130,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Xiphoid process": {
+  "nome": "Processo xifóide",
+  "latim": "Processus xiphoideus",
+  "ta2": 1135,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Body of sternum": {
+  "nome": "Corpo do esterno",
+  "latim": "Corpus sterni",
+  "ta2": 1134,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of first rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of second rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of third rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of fourth rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of fifth rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of sixth rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of seventh rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of eighth rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of tenth rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of ninth rib.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of first rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of second rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of third rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of fourth rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of fifth rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of sixth rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of seventh rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of eighth rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of tenth rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Costal cartilage of ninth rib.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Clavicle.r": {
+  "nome": "Clavícula (direito)",
+  "latim": "Clavicula",
+  "ta2": 1168,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scapula.r": {
+  "nome": "Escápula (direito)",
+  "latim": "Scapula",
+  "ta2": 1143,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Clavicle.l": {
+  "nome": "Clavícula (esquerdo)",
+  "latim": "Clavicula",
+  "ta2": 1168,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scapula.l": {
+  "nome": "Escápula (esquerdo)",
+  "latim": "Scapula",
+  "ta2": 1143,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Humerus.r": {
+  "nome": "Úmero (direito)",
+  "latim": "Humerus",
+  "ta2": 1180,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of first finger of hand.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of second finger of hand.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of third finger of hand.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of fourth finger of hand.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of fifth finger of hand.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle phalanx of second finger of hand.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle phalanx of third finger of hand.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle phalanx of fourth finger of hand.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle phalanx of fifth finger of hand.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of first finger of hand.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of second finger of hand.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of third finger of hand.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of fourth finger of hand.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of fifth finger of hand.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "First metacarpal bone.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Second metacarpal bone.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Third metacarpal bone.r": {
+  "nome": "Osso terceiro metacarpo (direito)",
+  "latim": "Os tertium metacarpi",
+  "ta2": 1269,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fourth metacarpal bone.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fifth metacarpal bone.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Capitate bone.r": {
+  "nome": "Osso capitato (direito)",
+  "latim": "Os capitatum",
+  "ta2": 1258,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Hamate bone.r": {
+  "nome": "Osso hamato (direito)",
+  "latim": "Os hamatum",
+  "ta2": 1259,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lunate bone.r": {
+  "nome": "Osso semilunar (direito)",
+  "latim": "Os lunatum",
+  "ta2": 1252,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pisiform bone.r": {
+  "nome": "Osso pisiforme (direito)",
+  "latim": "Os pisiforme",
+  "ta2": 1254,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scaphoid bone.r": {
+  "nome": "Osso escafoide (direito)",
+  "latim": "Os scaphoideum",
+  "ta2": 1250,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Trapezium bone.r": {
+  "nome": "Osso trapézio (direito)",
+  "latim": "Os trapezium",
+  "ta2": 1255,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Trapezoid bone.r": {
+  "nome": "Osso trapézoide (direito)",
+  "latim": "Os trapezoideum",
+  "ta2": 1257,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Triquetrum bone.r": {
+  "nome": "Osso piramidal (direito)",
+  "latim": "Os triquetrum",
+  "ta2": 1253,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Radius.r": {
+  "nome": "Rádio (direito)",
+  "latim": "Radius",
+  "ta2": 1210,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ulna.r": {
+  "nome": "Ulna (direito)",
+  "latim": "Ulna",
+  "ta2": 1230,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Humerus.l": {
+  "nome": "Úmero (esquerdo)",
+  "latim": "Humerus",
+  "ta2": 1180,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of first finger of hand.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of second finger of hand.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of third finger of hand.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of fourth finger of hand.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of fifth finger of hand.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle phalanx of second finger of hand.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle phalanx of third finger of hand.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle phalanx of fourth finger of hand.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle phalanx of fifth finger of hand.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of first finger of hand.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of second finger of hand.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of third finger of hand.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of fourth finger of hand.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of fifth finger of hand.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "First metacarpal bone.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Second metacarpal bone.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Third metacarpal bone.l": {
+  "nome": "Osso terceiro metacarpo (esquerdo)",
+  "latim": "Os tertium metacarpi",
+  "ta2": 1269,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fourth metacarpal bone.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fifth metacarpal bone.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Capitate bone.l": {
+  "nome": "Osso capitato (esquerdo)",
+  "latim": "Os capitatum",
+  "ta2": 1258,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Hamate bone.l": {
+  "nome": "Osso hamato (esquerdo)",
+  "latim": "Os hamatum",
+  "ta2": 1259,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lunate bone.l": {
+  "nome": "Osso semilunar (esquerdo)",
+  "latim": "Os lunatum",
+  "ta2": 1252,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Pisiform bone.l": {
+  "nome": "Osso pisiforme (esquerdo)",
+  "latim": "Os pisiforme",
+  "ta2": 1254,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Scaphoid bone.l": {
+  "nome": "Osso escafoide (esquerdo)",
+  "latim": "Os scaphoideum",
+  "ta2": 1250,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Trapezium bone.l": {
+  "nome": "Osso trapézio (esquerdo)",
+  "latim": "Os trapezium",
+  "ta2": 1255,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Trapezoid bone.l": {
+  "nome": "Osso trapézoide (esquerdo)",
+  "latim": "Os trapezoideum",
+  "ta2": 1257,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Triquetrum bone.l": {
+  "nome": "Osso piramidal (esquerdo)",
+  "latim": "Os triquetrum",
+  "ta2": 1253,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Radius.l": {
+  "nome": "Rádio (esquerdo)",
+  "latim": "Radius",
+  "ta2": 1210,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Ulna.l": {
+  "nome": "Ulna (esquerdo)",
+  "latim": "Ulna",
+  "ta2": 1230,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Hip bone.r": {
+  "nome": "Osso do quadril (direito)",
+  "latim": "Os coxae",
+  "ta2": 1307,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Hip bone.l": {
+  "nome": "Osso do quadril (esquerdo)",
+  "latim": "Os coxae",
+  "ta2": 1307,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Patella.r": {
+  "nome": "Patela (direito)",
+  "latim": "Patella",
+  "ta2": 1390,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Femur.r": {
+  "nome": "Fêmur (direito)",
+  "latim": "Os femoris",
+  "ta2": 1360,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tibia.r": {
+  "nome": "Tíbia (direito)",
+  "latim": "Tibia",
+  "ta2": 1397,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fibula.r": {
+  "nome": "Fíbula (direito)",
+  "latim": "Fibula",
+  "ta2": 1427,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Patella.l": {
+  "nome": "Patela (esquerdo)",
+  "latim": "Patella",
+  "ta2": 1390,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Femur.l": {
+  "nome": "Fêmur (esquerdo)",
+  "latim": "Os femoris",
+  "ta2": 1360,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Tibia.l": {
+  "nome": "Tíbia (esquerdo)",
+  "latim": "Tibia",
+  "ta2": 1397,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fibula.l": {
+  "nome": "Fíbula (esquerdo)",
+  "latim": "Fibula",
+  "ta2": 1427,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sesamoid bones of foot.r": {
+  "nome": "Ossos sesamóides do pé (direito)",
+  "latim": "Ossa sesamoidea pedis",
+  "ta2": 1514,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Sesamoid bones of foot.l": {
+  "nome": "Ossos sesamóides do pé (esquerdo)",
+  "latim": "Ossa sesamoidea pedis",
+  "ta2": 1514,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Talus.r": {
+  "nome": "Talus (direito)",
+  "latim": "Os tali",
+  "ta2": 1448,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Calcaneus.r": {
+  "nome": "Calcâneo (direito)",
+  "latim": "Calcaneus",
+  "ta2": 1468,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Navicular bone.r": {
+  "nome": "Osso navicular (direito)",
+  "latim": "Os naviculare",
+  "ta2": 1484,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Cuboid bone.r": {
+  "nome": "Osso cubóide (direito)",
+  "latim": "Os cuboideum",
+  "ta2": 1489,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Intermediate cuneiform bone.r": {
+  "nome": "Osso cuneiforme intermédio (direito)",
+  "latim": "Os cuneiforme intermedium",
+  "ta2": 1487,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral cuneiform bone.r": {
+  "nome": "Osso cuneiforme lateral (direito)",
+  "latim": "Os cuneiforme laterale",
+  "ta2": 1488,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial cuneiform bone.r": {
+  "nome": "Osso cuneiforme medial (direito)",
+  "latim": "Os cuneiforme mediale",
+  "ta2": 1486,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Talus.l": {
+  "nome": "Talus (esquerdo)",
+  "latim": "Os tali",
+  "ta2": 1448,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Calcaneus.l": {
+  "nome": "Calcâneo (esquerdo)",
+  "latim": "Calcaneus",
+  "ta2": 1468,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Navicular bone.l": {
+  "nome": "Osso navicular (esquerdo)",
+  "latim": "Os naviculare",
+  "ta2": 1484,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Cuboid bone.l": {
+  "nome": "Osso cubóide (esquerdo)",
+  "latim": "Os cuboideum",
+  "ta2": 1489,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Intermediate cuneiform bone.l": {
+  "nome": "Osso cuneiforme intermédio (esquerdo)",
+  "latim": "Os cuneiforme intermedium",
+  "ta2": 1487,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Lateral cuneiform bone.l": {
+  "nome": "Osso cuneiforme lateral (esquerdo)",
+  "latim": "Os cuneiforme laterale",
+  "ta2": 1488,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Medial cuneiform bone.l": {
+  "nome": "Osso cuneiforme medial (esquerdo)",
+  "latim": "Os cuneiforme mediale",
+  "ta2": 1486,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "First metatarsal bone.r": {
+  "nome": "Osso primeiro metatarso (direito)",
+  "latim": "Os primum metatarsi",
+  "ta2": 1500,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fifth metatarsal bone.r": {
+  "nome": "Osso quinto metatarso (direito)",
+  "latim": "Os quintum metatarsi",
+  "ta2": 1502,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Second metatarsal bone.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Third metatarsal bone.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fourth metatarsal bone.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "First metatarsal bone.l": {
+  "nome": "Osso primeiro metatarso (esquerdo)",
+  "latim": "Os primum metatarsi",
+  "ta2": 1500,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fifth metatarsal bone.l": {
+  "nome": "Osso quinto metatarso (esquerdo)",
+  "latim": "Os quintum metatarsi",
+  "ta2": 1502,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Second metatarsal bone.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Third metatarsal bone.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Fourth metatarsal bone.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of fifth finger of foot.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of first finger of foot.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of fourth finger of foot.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of second finger of foot.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of third finger of foot.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle phalanx of second finger of foot.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle phalanx of third finger of foot.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle phalanx of fourth finger of foot.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle phalanx of fifth finger of foot.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of first finger of foot.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of second finger of foot.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of third finger of foot.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of fourth finger of foot.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of fifth finger of foot.r": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of fifth finger of foot.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of first finger of foot.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of fourth finger of foot.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of second finger of foot.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Distal phalanx of third finger of foot.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle phalanx of second finger of foot.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle phalanx of third finger of foot.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle phalanx of fourth finger of foot.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Middle phalanx of fifth finger of foot.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of first finger of foot.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of second finger of foot.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of third finger of foot.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of fourth finger of foot.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ },
+ "Proximal phalanx of fifth finger of foot.l": {
+  "nome": "",
+  "latim": "",
+  "ta2": null,
+  "origem": "",
+  "insercao": "",
+  "acao": "",
+  "inervacao": ""
+ }
+}
