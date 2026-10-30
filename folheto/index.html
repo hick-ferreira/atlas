@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Monte um folheto de alongamentos para imprimir ou salvar em PDF.">
+<title>Folheto de exercícios · Atlas de Anatomia</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='4' y='6' width='5' height='22' rx='2.5' fill='%23e0434f'/%3E%3Crect x='11' y='10' width='5' height='18' rx='2.5' fill='%231792d1'/%3E%3Crect x='18' y='8' width='5' height='20' rx='2.5' fill='%23e89a0c'/%3E%3Crect x='25' y='13' width='4' height='15' rx='2' fill='%237c4dea'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#edf1f5;--surface:#fff;--surface2:#f4f7fa;--ink:#0f1d2b;--muted:#53657a;--line:#d2dce6;--ok:#14863f;--bad:#c42b2b;--shadow:0 1px 2px rgba(15,29,43,.06),0 8px 28px rgba(15,29,43,.07);
+ --f-display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;--f-body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;--f-mono:"DM Mono",ui-monospace,Menlo,monospace;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#0c141d;--surface:#142030;--surface2:#1a2a3c;--ink:#e8eef5;--muted:#93a6ba;--line:#263a50;--ok:#4cd07d;--bad:#ff7a7a;--shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.55 var(--f-body);padding:0 max(16px,env(safe-area-inset-left,0px)) 56px}
+.wrap{max-width:1200px;margin:0 auto}
+h1,h2,h3{font-family:var(--f-display);margin:0;text-wrap:balance;letter-spacing:-.02em;line-height:1.1}
+p{margin:0}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:6px}
+.eyebrow{font:500 12px/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.pg{padding-block:36px 22px;display:grid;gap:12px;max-width:66ch}
+.pg h1{font-size:clamp(2rem,5.5vw,3.4rem);font-weight:800}
+.pg p{color:var(--muted);font-size:1.05rem}
+.grid{display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);gap:22px;align-items:start}
+.card{background:var(--surface);border-radius:22px;box-shadow:var(--shadow)}
+.ctl{padding:18px;display:grid;gap:16px;position:sticky;top:68px;max-height:calc(100vh - 84px);overflow-y:auto}
+.ctl h2{font-size:1.25rem;font-weight:800}
+.seg{display:inline-flex;background:var(--surface2);padding:4px;border-radius:12px;gap:4px;flex-wrap:wrap}
+.seg button{border:0;background:transparent;border-radius:9px;padding:8px 14px;font-weight:600;font-size:.9rem;color:var(--muted);min-height:40px}
+.seg button[aria-pressed=true]{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.14)}
+.lista{display:grid;gap:6px;margin:0;padding:0;list-style:none}
+.lista label{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;align-items:center;border:1.5px solid var(--line);border-radius:14px;padding:10px 12px;cursor:pointer;min-height:52px}
+.lista label:has(input:checked){border-color:var(--ink);background:var(--surface2)}
+.lista input{width:20px;height:20px;accent-color:var(--ink);margin:0}
+.lista b{font-weight:600}
+.lista small{grid-column:2;color:var(--muted);font-size:.84rem}
+.cmp{display:grid;gap:10px}
+.cmp label{display:grid;gap:4px;font-size:.86rem;color:var(--muted);font-weight:600}
+.cmp input[type=text],.cmp textarea{border:1.5px solid color-mix(in srgb,var(--ink) 45%,var(--surface));background:var(--surface);color:var(--ink);border-radius:12px;padding:10px 12px;font:inherit;min-height:44px}
+.cmp textarea{min-height:76px;resize:vertical}
+.cmp .op{display:flex;align-items:center;gap:10px;color:var(--ink);font-weight:500}
+.cmp .op input{width:18px;height:18px;accent-color:var(--ink);margin:0}
+.acoes{display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);border-radius:999px;padding:11px 20px;font-weight:600;min-height:44px}
+.btn.sec{background:var(--surface);color:var(--ink)}
+.btn:disabled{opacity:.4;cursor:default}
+.vazio{border:2px dashed var(--line);border-radius:18px;padding:28px 20px;text-align:center;color:var(--muted)}
+
+/* a folha: sempre clara, como o papel */
+.folha{background:#fff;color:#14202d;border-radius:8px;box-shadow:var(--shadow);padding:28px 30px;min-height:420px;font-family:var(--f-body)}
+.folha h2{font:800 1.7rem var(--f-display);color:#0f1d2b}
+.fh{display:grid;gap:10px;border-bottom:3px solid #0f1d2b;padding-bottom:12px;margin-bottom:14px}
+.fmeta{display:flex;gap:6px 26px;flex-wrap:wrap;font-size:.92rem}
+.fmeta span b{font-weight:600;color:#53657a;margin-right:6px}
+.fobs{background:#f4f7fa;border-left:4px solid #0f1d2b;border-radius:6px;padding:10px 14px;margin-bottom:16px;font-size:.95rem;white-space:pre-wrap}
+.ex{display:grid;grid-template-columns:34px 1fr;gap:12px;padding:16px 0;border-top:1px solid #d2dce6;break-inside:avoid}
+.ex:first-of-type{border-top:0}
+.ex-n{width:34px;height:34px;border-radius:50%;background:#0f1d2b;color:#fff;display:grid;place-items:center;font:700 1rem var(--f-display)}
+.ex h3{font:800 1.2rem var(--f-display);color:#0f1d2b}
+.ex .sub{font-size:.85rem;color:#53657a;margin-bottom:8px}
+.ex-corpo{display:grid;grid-template-columns:minmax(0,200px) 1fr;gap:6px 18px;align-items:start}
+.ex-corpo.sem{grid-template-columns:1fr}
+.ex img{width:100%;border-radius:8px;display:block;border:1px solid #d2dce6}
+.ex ol{margin:0 0 8px;padding-left:1.25em;display:grid;gap:3px;font-size:.95rem}
+.ex p{font-size:.9rem;margin:3px 0}
+.ex p b{font-weight:600}
+.ex .aviso{color:#8a2a2a}
+.ex-ctl{display:flex;gap:6px;margin-top:8px}
+.ex-ctl button{border:1.5px solid #d2dce6;background:#fff;color:#14202d;border-radius:8px;padding:4px 10px;font-size:.8rem;min-height:34px}
+.folha .vazio{color:#53657a;border-color:#d2dce6}
+.rod{margin-top:14px;padding-top:10px;border-top:1px solid #d2dce6;font-size:.8rem;color:#53657a}
+
+@media (max-width:960px){
+  .grid{grid-template-columns:1fr}
+  .ctl{position:static;max-height:none}
+  .folha{padding:20px 16px}
+  .ex-corpo{grid-template-columns:1fr}
+  .ex-corpo img{max-width:320px}
+}
+@media print{
+  @page{size:A4;margin:14mm}
+  body{background:#fff;padding:0}
+  .rnav,.skip,.pg,.ctl,.ex-ctl,.noprint,#sr-status,#est-toast{display:none!important}
+  .wrap{max-width:none}
+  .grid{display:block}
+  .folha{box-shadow:none;border-radius:0;padding:0;min-height:0}
+  .ex{break-inside:avoid}
+  .ex-corpo{grid-template-columns:150px 1fr}
+}
+</style>
+</head>
+<body>
+<script src="../shared/nav.js"></script>
+<script src="../shared/estado.js"></script>
+<div class="wrap">
+<header class="pg">
+  <span class="eyebrow">Para levar</span>
+  <h1>Folheto de exercícios</h1>
+  <p>Escolha os alongamentos, preencha os dados e imprima ou salve em PDF. Os exercícios que você adicionar nas fichas com “+ Folheto” já aparecem aqui.</p>
+</header>
+
+<main id="conteudo" tabindex="-1" class="grid">
+  <section class="card ctl" aria-label="Montar o folheto">
+    <div>
+      <h2>Exercícios</h2>
+      <div class="seg" id="reg" role="group" aria-label="Região" style="margin-top:10px"></div>
+    </div>
+    <ul class="lista" id="lista"></ul>
+    <div class="cmp">
+      <label>Nome do paciente (opcional)<input type="text" id="paciente" autocomplete="off"></label>
+      <label>Profissional ou clínica (opcional)<input type="text" id="prof" autocomplete="off"></label>
+      <label>Data<input type="text" id="data" autocomplete="off"></label>
+      <label>Orientações do profissional<textarea id="obs" placeholder="Ex.: fazer 2 vezes ao dia; evitar após as refeições."></textarea></label>
+      <label class="op"><input type="checkbox" id="imgs" checked> Incluir ilustrações</label>
+      <label class="op"><input type="checkbox" id="forca"> Incluir exemplo de fortalecimento</label>
+    </div>
+    <div class="acoes">
+      <button class="btn" id="imprimir">Imprimir ou salvar em PDF</button>
+      <button class="btn sec" id="link">Copiar link</button>
+      <button class="btn sec" id="limpar">Limpar</button>
+    </div>
+  </section>
+
+  <section aria-label="Pré-visualização do folheto">
+    <article class="folha" id="folha"></article>
+  </section>
+</main>
+</div>
+
+<script>
+(function(){
+  const $=s=>document.querySelector(s);
+  const KMETA="atlas:folheto:meta";
+  let D=null,reg="todas",lista=Estado.folhetoLer();
+  const hoje=()=>new Date().toLocaleDateString("pt-BR");
+  const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  const meta=(()=>{try{return JSON.parse(localStorage.getItem(KMETA)||"{}")||{}}catch(e){return{}}})();
+  const campos={paciente:"#paciente",prof:"#prof",data:"#data",obs:"#obs"};
+
+  // link compartilhado: #e=coxa:vastos,ombro:supra
+  const h=new URLSearchParams(location.hash.slice(1)).get("e");
+  if(h){lista=h.split(",").filter(Boolean);Estado.folhetoSalvar(lista)}
+
+  Object.entries(campos).forEach(([k,sel])=>{$(sel).value=meta[k]||(k==="data"?hoje():"")});
+  $("#imgs").checked=meta.imgs!==false;$("#forca").checked=!!meta.forca;
+  function guarda(){
+    const m={imgs:$("#imgs").checked,forca:$("#forca").checked};
+    Object.entries(campos).forEach(([k,sel])=>m[k]=$(sel).value);
+    try{localStorage.setItem(KMETA,JSON.stringify(m))}catch(e){}
+  }
+  const porId=id=>D.alongamentos.find(a=>a.regiao+":"+a.id===id);
+
+  function desenhaLista(){
+    const regs=[["todas","Todas"],...Object.entries(D.regioes)];
+    $("#reg").innerHTML=regs.map(([k,n])=>`<button type="button" data-r="${k}" aria-pressed="${k===reg}">${esc(n)}</button>`).join("");
+    const itens=D.alongamentos.filter(a=>reg==="todas"||a.regiao===reg);
+    $("#lista").innerHTML=itens.map(a=>{const id=a.regiao+":"+a.id;return `<li><label><input type="checkbox" data-id="${id}" ${lista.includes(id)?"checked":""}><b>${esc(a.at)}</b><small>${esc(a.regiaoNome)} · ${esc(a.musculo)}</small></label></li>`}).join("");
+  }
+
+  function desenhaFolha(){
+    const sel=lista.map(porId).filter(Boolean);
+    const com=$("#imgs").checked,forca=$("#forca").checked;
+    const obs=$("#obs").value.trim();
+    $("#imprimir").disabled=!sel.length;
+    document.title=(sel.length?`Folheto (${sel.length}) · `:"")+"Folheto de exercícios · Atlas de Anatomia";
+    if(!sel.length){
+      $("#folha").innerHTML='<div class="vazio">Nenhum exercício escolhido ainda.<br>Marque os alongamentos na lista ao lado ou use “+ Folheto” nas fichas.</div>';return;
+    }
+    $("#folha").innerHTML=`<div class="fh"><h2>Programa de alongamentos</h2>
+      <div class="fmeta">${$("#paciente").value.trim()?`<span><b>Paciente</b>${esc($("#paciente").value.trim())}</span>`:""}${$("#prof").value.trim()?`<span><b>Profissional</b>${esc($("#prof").value.trim())}</span>`:""}${$("#data").value.trim()?`<span><b>Data</b>${esc($("#data").value.trim())}</span>`:""}</div></div>
+      ${obs?`<div class="fobs">${esc(obs)}</div>`:""}
+      ${sel.map((a,i)=>`<section class="ex"><div class="ex-n">${i+1}</div><div>
+        <h3>${esc(a.at)}</h3><div class="sub">${esc(a.regiaoNome)} · músculo: ${esc(a.musculo)}</div>
+        <div class="ex-corpo ${com&&a.img?"":"sem"}">
+          ${com&&a.img?`<img src="../${esc(a.img)}" alt="Ilustração do alongamento: ${esc(a.at)}" loading="lazy">`:""}
+          <div><ol>${a.passos.map(p=>`<li>${p}</li>`).join("")}</ol>
+            <p><b>Quanto tempo:</b> ${esc(a.tempo)}</p>
+            <p><b>Você deve sentir:</b> ${esc(a.sente)}</p>
+            <p class="aviso"><b>Atenção:</b> ${esc(a.cuidado)}</p>
+            ${forca&&a.forte?`<p><b>Para fortalecer (exemplo):</b> ${esc(a.forte)}</p>`:""}</div></div>
+        <div class="ex-ctl"><button type="button" data-m="-1" data-id="${a.regiao}:${a.id}" aria-label="Subir ${esc(a.at)}">↑ Subir</button><button type="button" data-m="1" data-id="${a.regiao}:${a.id}" aria-label="Descer ${esc(a.at)}">↓ Descer</button><button type="button" data-x="${a.regiao}:${a.id}" aria-label="Remover ${esc(a.at)}">Remover</button></div>
+      </div></section>`).join("")}
+      <div class="rod">Material educativo. Pare se sentir dor aguda, formigamento ou tontura e fale com o seu profissional. Em ombros com luxação prévia ou dor persistente, alongue só com orientação. Fonte: Atlas de Anatomia (hick-ferreira.github.io/atlas).</div>`;
+  }
+
+  function muda(){Estado.folhetoSalvar(lista);desenhaLista();desenhaFolha()}
+  $("#lista").addEventListener("change",e=>{
+    const c=e.target.closest("input[data-id]");if(!c)return;
+    const id=c.dataset.id,i=lista.indexOf(id);
+    if(c.checked&&i<0)lista.push(id);else if(!c.checked&&i>=0)lista.splice(i,1);
+    Estado.folhetoSalvar(lista);desenhaFolha();
+  });
+  $("#reg").addEventListener("click",e=>{const b=e.target.closest("button[data-r]");if(b){reg=b.dataset.r;desenhaLista()}});
+  $("#folha").addEventListener("click",e=>{
+    const b=e.target.closest("button");if(!b)return;
+    const id=b.dataset.id||b.dataset.x,i=lista.indexOf(id);
+    if(b.dataset.x){lista.splice(i,1)}
+    else{const j=i+(+b.dataset.m);if(j>=0&&j<lista.length){[lista[i],lista[j]]=[lista[j],lista[i]]}}
+    muda();
+    const nb=$("#folha").querySelector(`button[data-id="${id}"][data-m="${b.dataset.m}"]`);if(nb)nb.focus();
+  });
+  [...Object.values(campos),"#imgs","#forca"].forEach(sel=>$(sel).addEventListener("input",()=>{guarda();desenhaFolha()}));
+  $("#imprimir").addEventListener("click",()=>{guarda();print()});
+  $("#limpar").addEventListener("click",()=>{if(!lista.length||confirm("Remover todos os exercícios do folheto?")){lista=[];muda()}});
+  $("#link").addEventListener("click",()=>{
+    history.replaceState(null,"",location.pathname+"#e="+lista.join(","));Estado.copiar();
+  });
+
+  fetch("../shared/indice.json").then(r=>r.json()).then(d=>{D=d;lista=lista.filter(id=>porId(id));desenhaLista();desenhaFolha()})
+    .catch(()=>{$("#folha").innerHTML='<div class="vazio">Não consegui carregar os exercícios. Abra o site por um servidor HTTP.</div>'});
+})();
+</script>
+</body>
+</html>
