@@ -3,7 +3,7 @@
 An interactive anatomy atlas for study and reference, with animated illustrations. A bar at the top switches between regions.
 
 - **Thigh** (`coxa/`): the quadriceps muscles and the extensor, flexor, adductor and abductor groups.
-- **Arm and shoulder** (`ombro/`): deltoid, rotator cuff, biceps, brachialis, coracobrachialis and triceps, front and back views, with palpation notes, stretches and a quiz. Movement animation and stretch illustrations are still to come.
+- **Arm and shoulder** (`ombro/`): deltoid, rotator cuff, biceps, brachialis, coracobrachialis and triceps (illustrated atlas, front and back), plus the scapular and chest muscles (pectoralis major/minor, serratus anterior, trapezius, rhomboids, levator scapulae, latissimus dorsi) in the 3D viewer and the groups section, with palpation notes, stretches, strengthening examples and a quiz. Movement animation and stretch illustrations are still to come.
 
 More body regions will be added.
 
@@ -12,10 +12,18 @@ The site content is in Brazilian Portuguese.
 ## What's in it
 
 - **Thigh atlas:** an anatomical illustration with the four clickable quadriceps muscles, animated contraction, origin and insertion markers, guide lines and detail cards (origin, insertion, innervation, action, palpation and clinical notes).
-- **3D model:** a three.js viewer (thigh and arm/shoulder pages) with the real skeleton and muscles from Z-Anatomy. Rotate, zoom, pick a muscle, isolate it, see it through the bones, show origin and insertion pins and play an illustrative contraction. Selection is synced with the 2D atlas.
+- **3D model:** an Illustration | 3D switch in the main stage (the muscle sheet beside it is shared by both views); a three.js viewer (thigh and arm/shoulder pages) with the real skeleton and muscles from Z-Anatomy. Rotate, zoom, pick a muscle, isolate it, see it through the bones, show origin and insertion pins and play an illustrative contraction. Selection is synced with the 2D atlas. On phones the muscle sheet becomes a bottom sheet over the 3D view (drag it between peek, half and full, with previous/next arrows), and a one-time hint explains the gestures (double tap recenters).
 - **Movement:** knee extension and thigh raise, with sliders that scrub through a real animation.
 - **Extensors, flexors, adductors and abductors:** 14 muscles with signs of shortening and an illustrated stretch for each, plus a table of which muscle does what.
-- **Challenge:** ten questions to identify the muscle on the illustration.
+- **Clinical assessment:** reference ranges of motion, special tests (how to do, what is positive, which muscles they relate to), red flags and sources, for each region. Muscle sheets link to their related tests.
+- **Direct links and memory:** the URL hash keeps the selected muscle, 3D view, group sheet, clinical test and section (`#m=levesc&v=costas&s=sec3d`), so any state can be shared. The last muscle, view and group, the 3D options and the quiz record are remembered in the browser.
+- **Accessibility:** keyboard control of the 3D view (arrows rotate, +/− zoom, 0 recenters, [ ] switch muscle, Esc clears), a skip link, screen reader announcements, visible focus, readable text on colored circles, reduced-motion support, and an automated axe-core check with no violations.
+- **Global search:** press `/` (or Ctrl/Cmd+K) anywhere, or use the search button, to find muscles, stretches, special tests, ranges of motion and red flags across all regions. Results open the right region, mode and section through the URL state.
+- **Exercise handout:** `folheto/` builds a printable A4 handout from the stretches (with illustrations when available, patient and professional fields, notes). Add exercises with “+ Folheto” on the muscle sheets, then print or save as PDF.
+- **Report an error:** each sheet, stretch and test has a “Reportar erro” button that opens a prefilled GitHub issue.
+- **Orientation and feedback:** a sticky section index with the current section highlighted, a download progress bar for the 3D models with a retry button on failure, and a “light mode” for slow devices (lower resolution, fewer extras; turned on automatically on very low-end hardware).
+- **Glossary:** anatomical terms in the sheets (EIAS, acetabulum, intertubercular groove…) are underlined, with a short explanation on tap, hover or focus.
+- **Challenge:** click the muscle on the illustration, or multiple-choice questions on every muscle (clue and nerve questions). Muscles you miss come back more often, and the record is remembered. A summary table lists all muscles with search.
 - Automatic light and dark theme, mobile-friendly layout.
 
 ## Run locally
@@ -37,6 +45,13 @@ python3 -m http.server 8000
 
 ```
 index.html                region picker (home)
+shared/glossario.js       glossary tooltips for anatomical terms
+shared/busca.js           global search overlay (data in shared/indice.json)
+shared/indice.json        search and handout index, generated by tools/gerar-indice.mjs
+shared/folha.js           phone bottom sheet for the muscle sheet in 3D mode
+shared/estado.js          URL hash state and remembered choices (localStorage)
+shared/estudo.js          multiple-choice challenge and the searchable summary table
+shared/clinica.js         clinical assessment section (ranges, tests, red flags, sources)
 shared/viewer3d.js        3D viewer (three.js from a CDN, loads the GLB models lazily)
 shared/nav.js             region bar shared by all pages (add new regions here)
 coxa/index.html           thigh page (HTML, CSS and JS)
@@ -46,6 +61,8 @@ coxa/img/alongamentos/    images (and one video) for each stretch
 ombro/index.html          arm and shoulder page
 ombro/img/                front and back illustrations (stretch images go in img/alongamentos/)
 modelos/                  3D skeleton and muscle models (GLB) from Z-Anatomy, see modelos/LEIA-ME.md
+folheto/index.html        printable exercise handout
+tools/gerar-indice.mjs    regenerates shared/indice.json from the page data (run with the site on localhost:8000)
 docs/                     prompts used to generate the images (in Portuguese)
 ```
 

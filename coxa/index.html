@@ -9,7 +9,8 @@
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='4' y='6' width='5' height='22' rx='2.5' fill='%23e0434f'/%3E%3Crect x='11' y='10' width='5' height='18' rx='2.5' fill='%231792d1'/%3E%3Crect x='18' y='8' width='5' height='20' rx='2.5' fill='%23e89a0c'/%3E%3Crect x='25' y='13' width='4' height='15' rx='2' fill='%237c4dea'/%3E%3C/svg%3E">
 <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
-<style>html{color-scheme:light}body{margin:0}img,video{max-width:100%}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
+<style>html{color-scheme:light}body{margin:0}img,video{max-width:100%}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}.why{font-size:.78rem;color:var(--muted);margin:10px 0 0}.why b{color:var(--ink)}
+</style>
 <title>Atlas do Quadríceps</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -141,7 +142,7 @@ svg[data-sel="vm"] .vmo-t{opacity:1}
 .body-svg svg{width:100%;height:auto;display:block}
 .steps{list-style:none;counter-reset:s;margin:0;padding:0;display:grid;gap:12px}
 .steps li{counter-increment:s;display:grid;grid-template-columns:30px 1fr;gap:12px;align-items:start}
-.steps li::before{content:counter(s);width:30px;height:30px;border-radius:50%;background:var(--c);color:#fff;font:700 .95rem var(--f-display);display:grid;place-items:center}
+.steps li::before{content:counter(s);width:30px;height:30px;border-radius:50%;background:var(--c);color:var(--on,#fff);font:700 .95rem var(--f-display);display:grid;place-items:center}
 .callout{margin-top:16px;border-radius:14px;padding:12px 14px;background:color-mix(in srgb,var(--c) 14%,transparent);border:1px solid color-mix(in srgb,var(--c) 40%,transparent);font-size:.95rem}
 .callout b{font-family:var(--f-display)}
 .legend{margin-top:16px;display:grid;gap:6px;font-size:.88rem;color:var(--muted)}
@@ -322,21 +323,49 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;max-width:70ch}
 @keyframes arrp{50%{opacity:.3}}
 .cbtn{border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);border-radius:999px;padding:8px 16px;font-weight:600;font-size:.9rem}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.lk{border:1.5px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;font-size:.84rem;font-weight:600;margin:2px 6px 2px 0;min-height:34px}.lk:hover{border-color:var(--ink)}
+:root{--tfl:#7a8fa8;--tfl-t:#4f6580;--glmax:#a8472f;--glmax-t:#7a2f1d;--glmed:#d9793b;--glmed-t:#9c4e17;--glmin:#e8a56a;--glmin-t:#975e26;--isq:#5e8f3a;--isq-t:#3f6b20;--ilio:#8a4fb8;--ilio-t:#65348c;--sart:#2f9ea8;--sart-t:#1a737b;--adlong:#b8447a;--adlong-t:#8a2c58;--adcurt:#d278a4;--adcurt-t:#9a4a76;--admag:#8c2f5c;--admag-t:#661c40;--pect:#e0a1c2;--pect-t:#905877;--grac:#6f6bc9;--grac-t:#4a46a0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--tfl:#a4b8d0;--tfl-t:#c6d4e4;--glmax:#e07b5e;--glmax-t:#f2a690;--glmed:#f09a5c;--glmed-t:#f8bd8f;--glmin:#f5bf8a;--glmin-t:#fad7b4;--isq:#8dc462;--isq-t:#b0da8e;--ilio:#b58be0;--ilio-t:#d0b4ee;--sart:#55c8d2;--sart-t:#8fe0e6;--adlong:#e070a2;--adlong-t:#f09bc0;--adcurt:#eea0c4;--adcurt-t:#f6c0d8;--admag:#d0679a;--admag-t:#e79bc0;--pect:#f2bcd6;--pect-t:#f8d4e6;--grac:#9d99ee;--grac-t:#c0bdf6}}
+:root[data-theme="dark"]{--tfl:#a4b8d0;--tfl-t:#c6d4e4;--glmax:#e07b5e;--glmax-t:#f2a690;--glmed:#f09a5c;--glmed-t:#f8bd8f;--glmin:#f5bf8a;--glmin-t:#fad7b4;--isq:#8dc462;--isq-t:#b0da8e;--ilio:#b58be0;--ilio-t:#d0b4ee;--sart:#55c8d2;--sart-t:#8fe0e6;--adlong:#e070a2;--adlong-t:#f09bc0;--adcurt:#eea0c4;--adcurt-t:#f6c0d8;--admag:#d0679a;--admag-t:#e79bc0;--pect:#f2bcd6;--pect-t:#f8d4e6;--grac:#9d99ee;--grac-t:#c0bdf6}
+.modebar{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px}
+#pane2d[hidden],#pane3d[hidden],.chips[hidden]{display:none!important}
+.back3d{display:none}
+@media (min-width:901px){body.m3d .figure{max-height:calc(100vh - 84px);overflow-y:auto;scrollbar-width:thin}}
+@media (max-width:900px){body.m3d .back3d{display:inline-block;margin-bottom:10px}}
+#qmode{margin-bottom:14px}
+.card[hidden]{display:none!important}
+.rep-wrap{margin-top:18px;padding-top:12px;border-top:1px dashed var(--line)}
+.lk.rep{font-weight:500;color:var(--muted)}
+#gdet [data-rep],#gdet [data-fol],#gdet [data-link]{margin-left:6px}
+.snav{position:sticky;top:var(--rnav-h,52px);z-index:45;margin:0 -16px 16px;padding:8px 16px;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);display:flex;flex-wrap:nowrap;gap:8px;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--line)}
+.snav::-webkit-scrollbar{display:none}
+.snav button{flex:none;white-space:nowrap;min-height:38px}
+.snav button[aria-current=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.figure{top:calc(var(--rnav-h,52px) + 66px)}
+section[id],#stageFig,#gdet{scroll-margin-top:calc(var(--rnav-h,52px) + 62px)}
+@media (min-width:901px){body.m3d .figure{max-height:calc(100vh - var(--rnav-h,52px) - 82px)}}
+@media (max-width:640px){.snav{padding:6px 12px;margin-inline:-12px}.snav button{padding:7px 12px;font-size:.82rem;min-height:36px}}
 </style>
 </head>
 <body>
 <script src="../shared/nav.js"></script>
+<script src="../shared/estado.js"></script>
+<script src="../shared/folha.js"></script>
+<script src="../shared/glossario.js"></script>
 <div class="wrap">
 <header>
   <div class="brand" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
   <h1>Atlas do Quadríceps<span>Quatro músculos, uma só inserção. Toque na coxa, descubra onde cada um fica e como sentir com as próprias mãos.</span></h1>
   <div class="chips" id="chips" role="group" aria-label="Escolha um músculo"></div>
-  <nav class="snav" aria-label="Seções"><button data-go="stageFig">Atlas</button><button data-go="sec3d">Modelo 3D</button><button data-go="secMove">Movimento</button><button data-go="secGroups">Extensores, flexores, adutores e abdutores</button><button data-go="secQuiz">Desafio</button></nav>
 </header>
 
-<main>
+<nav class="snav" aria-label="Seções"><button data-go="stageFig">Atlas</button><button data-mode="3d">Modelo 3D</button><button data-go="secMove">Movimento</button><button data-go="secGroups">Extensores, flexores, adutores e abdutores</button><button data-go="secClinica">Avaliação clínica</button><button data-go="secQuiz">Desafio</button><button data-go="secResumo">Resumo</button></nav>
+
+<main id="conteudo" tabindex="-1">
 <div class="stage">
   <div class="card figure" id="stageFig">
+    <div class="modebar"><div class="seg" id="modeSeg" role="group" aria-label="Modo de visualização"><button type="button" data-mode="2d" aria-pressed="true">Ilustração</button><button type="button" data-mode="3d" aria-pressed="false">Modelo 3D</button></div></div>
+  <div id="pane2d">
     <div class="eyebrow" style="margin-bottom:6px">Coxa direita · vista anterior</div>
     <div class="hint">toque em um músculo para explorar</div>
     <div id="mainSvg"></div>
@@ -349,6 +378,8 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;max-width:70ch}
       </div>
     </div>
   </div>
+  <div id="pane3d" hidden><div id="v3stage"></div><div id="v3list"></div><div id="v3ctrl"></div></div>
+  </div>
 
   <div class="card panel" id="panel">
     <div class="tabs" role="tablist" id="tabs">
@@ -359,15 +390,6 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;max-width:70ch}
     <div id="panelBody"></div>
   </div>
 </div>
-
-<section id="sec3d">
-  <div class="sec-h">
-    <span class="eyebrow">Modelo 3D</span>
-    <h2>A coxa por dentro</h2>
-    <p>Gire o osso e os músculos em 3D. Toque em um dos quatro músculos do quadríceps para ver onde ele fica em relação ao fêmur e à patela; o painel acompanha o atlas.</p>
-  </div>
-  <div class="card" id="v3root"></div>
-</section>
 
 <section id="secMove">
   <div class="sec-h">
@@ -411,16 +433,26 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;max-width:70ch}
     <div class="card gdet" id="gdet"></div>
   </div>
   <div class="sec-h" style="margin-top:36px"><h2 style="font-size:1.6rem">Quem faz o quê</h2><p>Cada ponto marca um movimento em que o músculo participa.</p></div>
-  <div class="card tablewrap"><table class="matrix" id="matrix"></table></div>
+  <div class="card tablewrap" tabindex="0" role="region" aria-label="Tabela de quem faz o quê"><table class="matrix" id="matrix"></table></div>
+</section>
+
+<section id="secClinica">
+  <div class="sec-h">
+    <span class="eyebrow">Avaliação clínica</span>
+    <h2>Do músculo ao exame</h2>
+    <p>Amplitudes de referência, testes especiais e sinais de alerta da coxa, do quadril e do joelho, ligados aos músculos deste atlas.</p>
+  </div>
+  <div class="card" id="clroot"></div>
 </section>
 
 <section id="secQuiz">
   <div class="sec-h">
     <span class="eyebrow">Desafio</span>
     <h2>Você acha cada músculo?</h2>
-    <p>Leia a pista e clique no músculo certo na coxa. São dez perguntas.</p>
+    <p>Duas formas de treinar: clique no músculo na ilustração (os quatro do quadríceps) ou responda perguntas sobre todos eles, incluindo glúteos, isquiotibiais, iliopsoas, sartório e adutores.</p>
   </div>
-  <div class="card quiz">
+  <div class="seg" id="qmode" role="group" aria-label="Tipo de desafio"><button type="button" data-q="ilu" aria-pressed="true">Na ilustração</button><button type="button" data-q="mcq" aria-pressed="false">Todos os músculos</button></div>
+  <div class="card quiz" id="quizCard">
     <div id="quizSvg"></div>
     <div class="q-box">
       <div class="bar"><i id="qBar"></i></div>
@@ -430,21 +462,24 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;max-width:70ch}
       <button class="btn" id="qNext" disabled>Próxima</button>
     </div>
   </div>
+  <div class="card" id="mcqRoot" hidden></div>
 </section>
 
-<section>
+<section id="secResumo">
   <div class="sec-h">
     <span class="eyebrow">Resumo</span>
-    <h2>Os quatro lado a lado</h2>
+    <h2>Todos lado a lado</h2>
   </div>
-  <div class="card tablewrap"><table id="tbl"></table></div>
+  <div class="card" id="resRoot"></div>
 </section>
 </main>
 
-<footer>Material de estudo baseado em anatomia clássica. Os pontos de palpação variam de pessoa para pessoa e este atlas não substitui avaliação profissional.</footer>
+<footer>Material de estudo baseado em anatomia clássica. Os pontos de palpação variam de pessoa para pessoa e este atlas não substitui avaliação profissional. <a href="https://github.com/hick-ferreira/atlas/issues/new?labels=conteudo&title=Conte%C3%BAdo%3A%20" target="_blank" rel="noopener">Encontrou um erro? Conte pelo GitHub.</a></footer>
 </div>
 
 <script>
+let modo="2d",selX=null;
+const BACK3D='<button class="lk back3d" data-back>↑ Voltar ao modelo 3D</button>';
 const M = {
   rf:{nome:"Reto femoral",latin:"M. rectus femoris",c:"var(--rf)",ct:"var(--rf-t)",camada:"Superficial",
     resumo:"O único dos quatro que cruza também o quadril. Fusiforme, corre pelo centro da coxa e é o que mais aparece quando você levanta a perna estendida.",
@@ -542,7 +577,7 @@ function thighSVG(p,opts){
     ${L("lp",321,1334,630,1334,646,1347,"start",1.3)}
   </g>`;
   const pins=o.noLabels?"":`<g class="pins">
-    ${[["rf",226,108],["vl",178,138],["vm",290,250],["vi",270,820]].map(([k,x,y])=>`<g class="pin"><circle cx="${x}" cy="${y}" r="17" fill="var(--${k})"/><text x="${x}" y="${y}">O</text><title>Origem · ${M[k].nome}</title></g>`).join("")}
+    ${[["rf",226,108],["vl",178,138],["vm",290,250],["vi",270,820]].map(([k,x,y])=>`<g class="pin"><circle cx="${x}" cy="${y}" r="17" fill="var(--${k})"/><text x="${x}" y="${y}" style="fill:${Estado.on(`var(--${k})`)}">O</text><title>Origem · ${M[k].nome}</title></g>`).join("")}
     <g class="pin"><circle cx="328" cy="1128" r="17" fill="#1d2733"/><text x="328" y="1128" style="fill:#fff">I</text><title>Inserção comum dos quatro músculos: base da patela</title></g>
     <g class="pin"><circle cx="338" cy="1410" r="17" fill="#1d2733"/><text x="338" y="1410" style="fill:#fff">I</text><title>Ligamento patelar: tuberosidade da tíbia</title></g>
   </g>`;
@@ -556,7 +591,7 @@ function thighSVG(p,opts){
     <text x="490" y="1000" style="font:700 28px var(--f-mono);fill:#1d2733;stroke:var(--paper);stroke-width:6px;paint-order:stroke">VMO</text>
     <text x="490" y="1032" style="font:500 22px var(--f-mono);fill:#1d2733;stroke:var(--paper);stroke-width:6px;paint-order:stroke">≈ 4 dedos</text>
   </g>`;
-  return `<svg viewBox="${o.noLabels?"0 0 600 1584":"-440 0 1540 1584"}" data-sel="" role="img" aria-label="Coxa direita em vista anterior com os quatro músculos do quadríceps" class="show-names">
+  return `<svg viewBox="${o.noLabels?"0 0 600 1584":"-440 0 1540 1584"}" data-sel="" role="group" aria-label="Coxa direita em vista anterior com os quatro músculos do quadríceps" class="show-names">
   <defs>${defs}</defs>
   <image href="img/quad-perna.jpg" width="600" height="1584"/>
   ${bulge}
@@ -694,11 +729,13 @@ const X={
   resumo:"Único do quadríceps que cruza o quadril. Por isso flexiona o quadril e estende o joelho, e é o que mais precisa de quadril estendido para ser alongado.",
   origem:M.rf.origem,insercao:M.rf.insercao,nervo:M.rf.nervo,acao:M.rf.acao,
   sinais:"Teste de Ely: com a pessoa de bruços, ao dobrar o joelho o quadril sobe da maca. Também limita a flexão do joelho em pé com o quadril estendido.",
-  at:"Quadríceps em pé",passos:["Em pé, apoie uma mão na parede. Dobre o joelho e segure o tornozelo.","Mantenha os joelhos próximos e leve o quadril levemente à frente, sem arquear a lombar.","Se não alcançar o pé, use uma toalha ou faixa."],sente:"Na frente da coxa, mais forte perto do quadril.",cuidado:"Com dor na frente do joelho, reduza a flexão e não puxe o calcanhar com força."},
+  porque:"ele estende o joelho e flexiona o quadril, então alonga com o joelho flexionado e o quadril estendido.",
+  at:"Quadríceps em pé",passos:["Em pé, apoie uma mão na parede. Dobre o joelho e segure o tornozelo.","Mantenha os joelhos próximos e leve o quadril levemente à frente, com a coxa um pouco para trás (quadril em extensão), sem arquear a lombar.","Se não alcançar o pé, use uma toalha ou faixa."],sente:"Na frente da coxa, mais forte perto do quadril.",cuidado:"Com dor na frente do joelho, reduza a flexão e não puxe o calcanhar com força."},
  vastos:{nome:"Vastos",lat:"Lateral, medial e intermédio",acts:["je"],g:"ext",pose:"quad_stand",
   resumo:"Os três vastos só cruzam o joelho. Fazem a maior parte da força de extensão em agachamentos, escadas e levantar da cadeira.",
   origem:"Fêmur: trocânter maior e linha áspera (lateral), linha áspera e linha supracondilar medial (medial), faces anterior e lateral do corpo (intermédio)",insercao:"Patela, tendão do quadríceps e tuberosidade da tíbia",nervo:"Nervo femoral (L2–L4)",acao:"Estendem o joelho; o VMO estabiliza a patela",
   sinais:"Limitação da flexão passiva do joelho, sensação de repuxar a frente da coxa ao agachar fundo e calcanhar que não chega ao glúteo.",
+  porque:"eles estendem o joelho, então alonga com o joelho flexionado. O quadril pode ficar neutro.",
   at:"Quadríceps em pé (quadril neutro)",passos:["Em pé, apoie uma mão na parede e dobre o joelho, segurando o tornozelo.","Mantenha o quadril neutro e o joelho alinhado com o outro.","Aproxime o calcanhar do glúteo até sentir a frente da coxa, perto do joelho."],sente:"Na frente da coxa, de cima do joelho até o meio da coxa.",cuidado:"Com dor femoropatelar, vá só até onde não doer e mantenha o joelho alinhado."},
  sart:{nome:"Sartório",lat:"M. sartorius",acts:["qf","ab","jf"],g:"flx",pose:"lunge",
   resumo:"O músculo mais longo do corpo. Corre na diagonal pela coxa, da frente do quadril até a face interna do joelho. É o músculo da posição “de alfaiate”.",
@@ -742,6 +779,78 @@ const X={
   at:"Cruzar e inclinar em pé",passos:["Em pé, cruze a perna do lado a alongar por trás.","Mantenha a pelve alinhada e inclinar o tronco para o lado oposto.","Segure a respiração solta, sem prender o ar."],sente:"Fundo na lateral do quadril.",cuidado:"Dor aguda no trocânter pede parar."}
 };
 /* chaves únicas para a UI de grupos */
+/* ---------- avaliação clínica: amplitudes, testes especiais, sinais de alerta e fontes ---------- */
+const CLIN={
+ romMax:135,
+ rom:[
+  {nome:"Flexão do quadril",ref:[0,120],motor:"iliopsoas, reto femoral, sartório"},
+  {nome:"Extensão do quadril",ref:[0,30],motor:"glúteo máximo, isquiotibiais"},
+  {nome:"Abdução do quadril",ref:[0,45],motor:"glúteo médio e mínimo, tensor da fáscia lata"},
+  {nome:"Adução do quadril",ref:[0,30],motor:"adutores, pectíneo, grácil"},
+  {nome:"Rotação interna do quadril",ref:[0,45],motor:"glúteo mínimo e médio (fibras da frente), tensor da fáscia lata"},
+  {nome:"Rotação externa do quadril",ref:[0,45],motor:"glúteo máximo e rotadores profundos"},
+  {nome:"Flexão do joelho",ref:[0,135],motor:"isquiotibiais, grácil, sartório"}
+ ],
+ romNota:"<b>Músculos biarticulares.</b> O reto femoral e os isquiotibiais cruzam duas articulações, então a amplitude de uma depende da posição da outra. Por isso os testes de Thomas, de Ely e da elevação da perna esticada usam posições específicas.",
+ testes:[
+  {id:"thomas",area:"Comprimento",nome:"Thomas modificado",sugere:"encurtamento dos flexores do quadril",
+   como:"O paciente senta na ponta da maca e se deita para trás puxando um joelho ao peito, deixando a outra perna pendurada para fora. Observe a coxa e a perna que ficam penduradas.",
+   positivo:"A coxa não chega ao nível da maca (iliopsoas curto), o joelho estende (reto femoral curto) ou a coxa abre para fora (tensor da fáscia lata ou sartório).",alvo:["ilio","rfe","tfl","sart"]},
+  {id:"ely",area:"Comprimento",nome:"Ely (Duncan-Ely)",sugere:"encurtamento do reto femoral",
+   como:"Paciente de bruços. O examinador dobra o joelho passivamente, levando o calcanhar em direção ao glúteo.",
+   positivo:"O quadril se levanta da maca, ou a pelve inclina para a frente, antes de o calcanhar chegar ao glúteo.",nota:"Dor na frente da coxa ou do joelho pode ser outra coisa: anote onde ela aparece e compare com o outro lado.",alvo:["rfe"]},
+  {id:"ober",area:"Comprimento",nome:"Ober",sugere:"rigidez do tensor da fáscia lata e do trato iliotibial",
+   como:"Deitado de lado, com a perna de baixo flexionada. O examinador abduz e estende o quadril da perna de cima, com o joelho flexionado, e solta a coxa.",
+   positivo:"A coxa não desce até a linha do corpo e fica elevada.",nota:"A interpretação é debatida: o teste reflete a rigidez do conjunto lateral do quadril, não só do trato iliotibial.",alvo:["tfl","glmed"]},
+  {id:"slr",area:"Comprimento",nome:"Elevação da perna esticada / ângulo poplíteo",sugere:"encurtamento dos isquiotibiais",
+   como:"Deitado de costas, o examinador eleva a perna com o joelho estendido (elevação da perna esticada) ou, com o quadril a 90°, estende o joelho até o limite (ângulo poplíteo).",
+   positivo:"Amplitude menor do que a do outro lado e do que a referência (a elevação costuma chegar a 70°–90°), com sensação de repuxar atrás da coxa.",nota:"Se a dor desce pela perna com formigamento, pense em tensão neural lombar: pare e investigue.",alvo:["isq"]},
+  {id:"trendelenburg",area:"Estabilidade",nome:"Trendelenburg",sugere:"fraqueza ou inibição do glúteo médio (ou dor no quadril)",
+   como:"Em pé, apoio numa perna só por cerca de 30 segundos. Observe a pelve por trás.",
+   positivo:"A pelve do lado sem apoio cai, ou o tronco inclina para o lado do apoio para compensar.",alvo:["glmed","glmin"]},
+  {id:"faber",area:"Quadril",nome:"Patrick (FABER)",sugere:"quadril, articulação sacroilíaca ou adutores e iliopsoas",
+   como:"Deitado de costas, o tornozelo de um lado repousa sobre o joelho do outro (flexão, abdução e rotação externa). O examinador empurra o joelho suavemente para baixo.",
+   positivo:"Dor na virilha, na frente da coxa ou na sacroilíaca, ou joelho que fica bem mais alto que o do outro lado.",alvo:["adlong","ilio"]},
+  {id:"fadir",area:"Quadril",nome:"FADIR",sugere:"impacto femoroacetabular ou lesão do lábio do acetábulo",
+   como:"Deitado de costas, quadril a 90° de flexão. O examinador leva a coxa para dentro (adução) e gira o quadril para dentro (rotação interna).",
+   positivo:"Dor na virilha.",alvo:["ilio","rfe"]},
+  {id:"patela",area:"Joelho",nome:"Apreensão patelar",sugere:"instabilidade da patela",
+   como:"Joelho estendido (ou a cerca de 30° de flexão), quadríceps relaxado. O examinador empurra a patela para o lado de fora.",
+   positivo:"O paciente se assusta, contrai o quadríceps ou impede o movimento.",alvo:["vastos"]},
+  {id:"lachman",area:"Joelho",nome:"Lachman",sugere:"lesão do ligamento cruzado anterior",
+   como:"Joelho a cerca de 20°–30° de flexão. Uma mão firma o fêmur e a outra puxa a tíbia para a frente.",
+   positivo:"Deslocamento da tíbia maior que o do outro lado, sem parada firme no fim do movimento.",alvo:["isq"]},
+  {id:"mcmurray",area:"Joelho",nome:"McMurray",sugere:"lesão de menisco",
+   como:"Deitado de costas, joelho bem flexionado. O examinador gira a tíbia para dentro ou para fora enquanto estende o joelho.",
+   positivo:"Estalo doloroso ou travamento na linha da articulação.",nota:"Combine com dor na linha articular e dificuldade de estender o joelho.",alvo:[]}
+ ],
+ alertas:[
+  {t:"Panturrilha ou coxa inchada, quente e dolorida",d:"Inchaço de um só lado, calor e dor, sobretudo após viagem longa, cirurgia ou imobilização, podem indicar trombose venosa profunda."},
+  {t:"Trauma com incapacidade de apoiar o peso",d:"Queda ou pancada com deformidade ou dor que impede de apoiar. Em idosos, dor na virilha após queda pode ser fratura do colo do fêmur."},
+  {t:"Febre com quadril ou joelho quente e inchado",d:"Calor, vermelhidão e inchaço com febre podem indicar infecção da articulação."},
+  {t:"Dor intensa à noite, sem alívio",d:"Principalmente com perda de peso sem explicação ou história de câncer."},
+  {t:"Déficit neurológico lombar",d:"Fraqueza progressiva na perna, dormência na região do períneo (“sela”) ou perda de controle da bexiga ou do intestino pedem atendimento de urgência."},
+  {t:"Criança ou adolescente com dor no quadril ou joelho e que manca",d:"A dor no joelho pode vir do quadril. Pedem avaliação médica."},
+  {t:"Dor súbita e forte na coxa após esforço",d:"Com “estalo”, hematoma extenso ou incapacidade de contrair o músculo, pode ser lesão muscular importante."}
+ ],
+ refs:[
+  "Neumann DA. <i>Cinesiologia do Sistema Musculoesquelético: Fundamentos para a Reabilitação</i>. Guanabara Koogan.",
+  "Kendall FP, McCreary EK, Provance PG. <i>Músculos: Provas e Funções</i>. Manole.",
+  "Magee DJ. <i>Avaliação Musculoesquelética</i>. Manole.",
+  "Marques AP. <i>Manual de Goniometria</i>. Manole.",
+  "Greene WB, Heckman JD (eds). <i>The Clinical Measurement of Joint Motion</i>. American Academy of Orthopaedic Surgeons, 1994.",
+  "Cook C, Hegedus E. <i>Orthopedic Physical Examination Tests: An Evidence-Based Approach</i>. Pearson.",
+  "Netter FH. <i>Atlas de Anatomia Humana</i>. Elsevier.",
+  "Modelos 3D: Z-Anatomy e BodyParts3D, licença CC BY-SA 4.0."
+ ]
+};
+const EXTRA=["glmax","glmed","glmin","ilio","isq","sart","adlong","adcurt","admag","pect","grac"];
+function abrirX(k){
+  xSel=k;gSel=X[k].g;const subs=G[gSel].sub;
+  gSub=Object.keys(subs).find(t=>subs[t].includes(k))||Object.keys(subs)[0];
+  gRender();$("#secGroups").scrollIntoView({behavior:(window.SUAVE||"smooth"),block:"start"});
+}
+
 let gSel="ext",gSub="quadril",xSel="glmax";
 const gnav=$("#gnav"),gsubEl=$("#gsub"),mlist=$("#mlist"),gdet=$("#gdet");
 gnav.innerHTML=Object.keys(G).map(g=>`<button class="gbtn" data-g="${g}" style="--c:var(--g-${g})" aria-pressed="false"><b>${G[g].nome}</b><small>${G[g].blurb}</small></button>`).join("");
@@ -757,6 +866,7 @@ function gRender(){
   if(!ids.includes(xSel))xSel=ids[0];
   mlist.innerHTML=ids.map(id=>`<button class="mbtn" data-x="${id}" style="--c:var(--g-${gSel})" aria-pressed="${id===xSel}"><b>${X[id].nome}</b><small>${X[id].acts.map(a=>ACT[a][0]).join(" · ")}</small></button>`).join("");
   gDetail();
+  window.EST_PRONTO&&Estado.gravar({x:xSel});
 }
 const MEDIA={pect:"adutores",adlong:"adutores",adcurt:"adutores"},VIDEO=["adutores"];
 function mediaFor(id,alt){
@@ -766,8 +876,8 @@ function mediaFor(id,alt){
 }
 function gDetail(){
   const x=X[xSel],gc=`var(--g-${gSel})`;
-  gdet.style.setProperty("--c",gc);
-  gdet.innerHTML=`<div class="eyebrow">${GT[gSel]} do ${gSub==="quadril"?"quadril":"joelho"}</div>
+  gdet.style.setProperty("--c",gc);gdet.style.setProperty("--on",Estado.on(gc));
+  gdet.innerHTML=`<div style="display:flex;justify-content:space-between;gap:10px;align-items:flex-start"><div class="eyebrow">${GT[gSel]} do ${gSub==="quadril"?"quadril":"joelho"}</div><span>${x.at?`<button class="lk" data-fol="${Estado.reg}:${xSel}" title="Incluir este alongamento no folheto para imprimir">${Estado.folhetoLer().includes(Estado.reg+":"+xSel)?"✓ No folheto":"+ Folheto"}</button>`:""}<button class="lk" data-link title="Copiar o link desta ficha">Copiar link</button><button class="lk" data-rep="Alongamento e ficha: ${x.nome}" title="Avisar sobre um erro neste conteúdo">Reportar erro</button></span></div>
   <h2 style="margin-top:6px">${x.nome}</h2><div class="latin" style="margin-bottom:0">${x.lat}</div>
   <div class="acts">${x.acts.map(a=>`<span class="act" style="--ac:var(--g-${ACT[a][1]});--act:var(--g-${ACT[a][1]}-t)">${ACT[a][0]}</span>`).join("")}</div>
   <p class="lead-p" style="margin-bottom:14px">${x.resumo}</p>
@@ -784,14 +894,20 @@ function gDetail(){
       <h3 style="margin-top:6px">${x.at}</h3>
       <ol class="steps" style="--c:${gc}">${x.passos.map(t=>`<li><span>${t}</span></li>`).join("")}</ol>
       <div class="dose"><span>${TEMPO}</span><span>Sente: ${x.sente}</span></div>
+      <p class="why"><b>Por quê:</b> ${x.porque||"Alongar é fazer o movimento contrário ao do músculo."}</p>
     </div>
   </div>
   <div class="sinais"><b>Sinais de encurtamento.</b> ${x.sinais}</div>
+  ${(()=>{const r=CLIN.testes.filter(t=>t.alvo.includes(xSel));return r.length?`<div class="sinais" style="background:var(--surface2)"><b>Testes relacionados.</b> ${r.map(t=>`<button class="lk" data-t="${t.id}">${t.nome}</button>`).join("")}</div>`:""})()}
   <div class="sinais" style="background:var(--surface2)"><b>Cuidado.</b> ${x.cuidado}</div>`;
   document.querySelectorAll("#matrix tr[data-x]").forEach(tr=>tr.classList.toggle("sel",tr.dataset.x===xSel));
 }
 gnav.addEventListener("click",e=>{const b=e.target.closest(".gbtn");if(b){gSel=b.dataset.g;gRender()}});
 gsubEl.addEventListener("click",e=>{const b=e.target.closest("button");if(b){gSub=b.dataset.s;gRender()}});
+gdet.addEventListener("click",e=>{const b=e.target.closest(".lk");if(!b)return;
+  if(b.dataset.rep)Estado.reportar(b.dataset.rep);
+  else if(b.dataset.fol){const entrou=Estado.folhetoAlternar(b.dataset.fol);b.textContent=entrou?"✓ No folheto":"+ Folheto";Estado.aviso(entrou?"Adicionado ao folheto ("+Estado.folhetoLer().length+")":"Removido do folheto");Estado.anuncia(entrou?"Adicionado ao folheto":"Removido do folheto")}
+  else if(b.hasAttribute("data-link"))Estado.copiar();else if(window.clin)clin.openTest(b.dataset.t)});
 mlist.addEventListener("click",e=>{const b=e.target.closest(".mbtn");if(b){xSel=b.dataset.x;gRender()}});
 /* matriz */
 const MCOLS=["qe","qf","ad","ab","je","jf"];
@@ -801,9 +917,9 @@ $("#matrix").addEventListener("click",e=>{
   const tr=e.target.closest("tr[data-x]");if(!tr)return;
   xSel=tr.dataset.x;gSel=X[xSel].g;
   const subs=G[gSel].sub; gSub=Object.keys(subs).find(k=>subs[k].includes(xSel))||"quadril";
-  gRender(); $("#secGroups").scrollIntoView({behavior:"smooth",block:"start"});
+  gRender(); $("#secGroups").scrollIntoView({behavior:(window.SUAVE||"smooth"),block:"start"});
 });
-document.querySelector(".snav").addEventListener("click",e=>{const b=e.target.closest("[data-go]");if(b)document.getElementById(b.dataset.go).scrollIntoView({behavior:"smooth",block:"start"})});
+document.querySelector(".snav").addEventListener("click",e=>{const b=e.target.closest("[data-go]");if(b)document.getElementById(b.dataset.go).scrollIntoView({behavior:(window.SUAVE||"smooth"),block:"start"})});
 gRender();
 
 function bodySVG(k){
@@ -819,10 +935,16 @@ function bodySVG(k){
     ${dot(1,212,96)}${dot(2,328,1195)}${dot(3,338,1410)}
   </svg>`;
 }
-function renderPanel(){
+const REP=n=>`<div class="rep-wrap"><button class="lk rep" data-rep="Ficha: ${n}">Reportar erro nesta ficha</button></div>`;
+function renderPanel(){renderPanelBase();$("#panelBody").insertAdjacentHTML("beforeend",REP(selX?X[selX].nome:M[sel].nome))}
+function renderPanelBase(){
+  if(selX){renderPanelX(selX);return}
+  $("#tabs").style.display="";
   const m=M[sel], b=$("#panelBody");
+  window.Folha&&Folha.atualiza({nome:m.nome,latin:m.latin,cor:m.c});
+  panel.style.setProperty("--on",Estado.on(m.c));
   panel.style.setProperty("--c",m.c); panel.style.setProperty("--ct",m.ct);
-  const head=`<div class="mname"><span class="sw"></span><h2>${m.nome}</h2></div><div class="latin">${m.latin}</div>`;
+  const head=(modo==="3d"?BACK3D:"")+`<div class="mname"><span class="sw"></span><h2>${m.nome}</h2></div><div class="latin">${m.latin}</div>`;
   if(tab==="ficha"){
     b.innerHTML=head+`<p class="lead-p">${m.resumo}</p><div>${m.tags.map(t=>`<span class="tag">${t}</span>`).join("")}</div>
     <div class="facts" style="margin-top:12px">
@@ -844,7 +966,7 @@ function renderPanel(){
 const panel=$("#panel");
 
 function select(k,fromUser){
-  sel=k;
+  sel=k;selX=null;
   mainSvg.dataset.sel=k; mainSvg.classList.add("has-sel");
   mainSvg.querySelectorAll(".mus,.lbl-g").forEach(g=>g.classList.toggle("sel",g.dataset.m===k));
   setSpot(mainSvg,k);
@@ -852,6 +974,9 @@ function select(k,fromUser){
   chips.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.m===k));
   renderPanel();
   window.v3d&&v3d.highlight(k);
+  window.EST_PRONTO&&Estado.gravar({m:k});
+  if(fromUser&&window.Estado)Estado.anuncia("Selecionado: "+M[k].nome+". Origem: "+M[k].origem.replace(/<[^>]+>/g,"")+". Inserção: "+M[k].insercao.replace(/<[^>]+>/g,"")+".");
+  if(fromUser&&modo==="3d"&&window.EST_PRONTO&&window.Folha)Folha.abrir("meio");
 }
 function setTab(t){
   tab=t;
@@ -978,6 +1103,9 @@ mvDraw();
 
 
 /* ---------- desafio ---------- */
+const QKEY="atlas:"+Estado.reg+":quiz";
+const qRec=()=>{try{return +localStorage.getItem(QKEY)||0}catch(e){return 0}};
+const qPlacar=()=>{$("#qScore").textContent=`Acertos: ${score}`+(qRec()?` · recorde ${qRec()}`:"")};
 const QS=[
   ["Cruza o quadril e o joelho: é o único biarticular do grupo.","rf",0],
   ["Qual é o maior e mais volumoso dos quatro?","vl",0],
@@ -999,7 +1127,7 @@ function qShow(){
   qSvg.querySelectorAll(".mus").forEach(g=>g.classList.remove("sel"));
   $("#qText").textContent=t;
   $("#qNum").textContent=`Pergunta ${qi+1} de ${QS.length}`;
-  $("#qScore").textContent=`Acertos: ${score}`;
+  qPlacar();
   $("#qBar").style.width=(qi/QS.length*100)+"%";
   const fb=$("#qFb"); fb.className="q-fb"; fb.textContent="Escolha um músculo na figura.";
   const nx=$("#qNext"); nx.disabled=true; nx.textContent=qi===QS.length-1?"Ver resultado":"Próxima";
@@ -1012,7 +1140,7 @@ function qAnswer(k){
   qSvg.querySelectorAll(".mus").forEach(g=>g.classList.toggle("sel",g.dataset.m===a));
   const fb=$("#qFb"); fb.className="q-fb "+(ok?"good":"bad");
   fb.innerHTML=`<b style="font-family:var(--f-display)">${ok?"Isso mesmo!":"Quase. Era o "+M[a].nome.toLowerCase()+"."}</b><br>${ok?"":("Você escolheu o "+M[k].nome.toLowerCase()+". ")}${M[a].nome}: ${M[a].quiz}`;
-  $("#qScore").textContent=`Acertos: ${score}`;
+  qPlacar();
   $("#qNext").disabled=false;
 }
 qSvg.addEventListener("click",e=>{const g=e.target.closest(".mus");if(g)qAnswer(g.dataset.m)});
@@ -1021,7 +1149,10 @@ $("#qNext").addEventListener("click",()=>{
   if(qi>=QS.length-1&&!$("#qNext").dataset.done){
     $("#qBar").style.width="100%";
     const pct=score/QS.length;
-    $("#qText").textContent=`Você acertou ${score} de ${QS.length}.`;
+    const antes=qRec();
+    try{if(score>antes)localStorage.setItem(QKEY,score)}catch(e){}
+    $("#qText").textContent=`Você acertou ${score} de ${QS.length}.`+(antes?(score>antes?` Novo recorde (antes: ${antes}).`:` Seu recorde: ${antes}.`):"");
+    qPlacar();
     $("#qFb").className="q-fb";
     $("#qFb").textContent=pct>=.8?"Você já se orienta bem na coxa. Agora tente achar cada um com as mãos.":pct>=.5?"Bom caminho. Reveja a aba “Onde achar” dos músculos que escaparam.":"Volte ao atlas e use as linhas-guia e as camadas. Depois refaça o desafio.";
     $("#qNext").textContent="Jogar de novo"; $("#qNext").dataset.done="1";
@@ -1033,27 +1164,144 @@ $("#qNext").addEventListener("click",()=>{
 });
 qShow();
 
-/* ---------- tabela ---------- */
-$("#tbl").innerHTML=`<thead><tr><th>Músculo</th><th>Origem</th><th>Inserção</th><th>Inervação</th><th>Ação</th></tr></thead><tbody>${
-  ORDER.map(k=>{const m=M[k];return `<tr style="--c:var(--${k})"><td>${m.nome}</td><td>${m.origem}</td><td>${m.insercao}</td><td>${m.nervo}</td><td>${m.acao}</td></tr>`}).join("")}</tbody>`;
+
+/* ---------- palco: ilustração ou modelo 3D ---------- */
+function setMode(m,sem){
+  modo=m;
+  $("#pane2d").hidden=m!=="2d";$("#pane3d").hidden=m!=="3d";chips.hidden=m==="3d";
+  document.querySelectorAll("#modeSeg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.mode===m));
+  document.body.classList.toggle("m3d",m==="3d");
+  if(window.Folha&&window.EST_FOLHA){Folha.ativar(m==="3d");if(m==="3d")Folha.abrir("peek")}
+  if(m==="3d"&&window.v3d){v3d.start();v3d.resize()}
+  if(m==="2d"&&selX)select(sel);else renderPanel();
+  window.pintaIdx&&pintaIdx();
+  if(!sem&&window.EST_PRONTO){Estado.gravar({d:m==="3d"?"3d":null});Estado.anuncia(m==="3d"?"Modo modelo 3D":"Modo ilustração")}
+}
+function selectExtra(k){
+  selX=k;
+  chips.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed","false"));
+  renderPanel();
+  window.v3d&&v3d.highlight(k);
+  window.EST_PRONTO&&Estado.gravar({m:k});
+  if(window.EST_PRONTO&&window.Estado)Estado.anuncia("Selecionado: "+X[k].nome+". Origem: "+X[k].origem.replace(/<[^>]+>/g,"")+". Inserção: "+X[k].insercao.replace(/<[^>]+>/g,"")+".");
+  if(window.EST_PRONTO&&window.Folha)Folha.abrir("meio");
+}
+function renderPanelX(k){
+  const x=X[k],b=$("#panelBody");
+  window.Folha&&Folha.atualiza({nome:x.nome,latin:x.lat,cor:`var(--${k})`});
+  $("#tabs").style.display="none";
+  panel.style.setProperty("--c",`var(--${k})`);panel.style.setProperty("--ct",`var(--${k}-t)`);panel.style.setProperty("--on",Estado.on(`var(--${k})`));
+  const rel=CLIN.testes.filter(t=>t.alvo.includes(k));
+  b.innerHTML=(modo==="3d"?BACK3D:"")+`<div class="mname"><span class="sw"></span><h2>${x.nome}</h2></div><div class="latin">${x.lat}</div>
+  <p class="lead-p">${x.resumo}</p>
+  <div class="facts" style="margin-top:12px">
+    <div class="fact wide"><h3>Origem</h3><p>${x.origem}</p></div>
+    <div class="fact wide"><h3>Inserção</h3><p>${x.insercao}</p></div>
+    <div class="fact"><h3>Inervação</h3><p>${x.nervo}</p></div>
+    <div class="fact"><h3>Ação</h3><p>${x.acao}</p></div>
+  </div>
+  <div class="callout"><b>${x.sinaisTit||"Sinais de encurtamento"}.</b> ${x.sinais}</div>
+  <div style="margin-top:14px"><button class="lk" data-open="${k}">${x.at?"Alongamento":"Fortalecimento"} e grupo muscular</button>${rel.map(t=>`<button class="lk" data-t="${t.id}">Teste: ${t.nome}</button>`).join("")}</div>`;
+}
+$("#panelBody").addEventListener("click",e=>{
+  const b=e.target.closest(".lk");if(!b)return;
+  if(b.dataset.rep)Estado.reportar(b.dataset.rep);
+  else if(b.hasAttribute("data-back"))document.getElementById("stageFig").scrollIntoView({behavior:(window.SUAVE||"smooth"),block:"start"});
+  else if(b.dataset.open)abrirX(b.dataset.open);
+  else if(b.dataset.t&&window.clin)clin.openTest(b.dataset.t);
+});
+const LISTA3D=[...ORDER,...EXTRA];
+function navegar(d){const cur=selX||sel,i=Math.max(0,LISTA3D.indexOf(cur));if(window.v3d)v3d.escolher(LISTA3D[(i+d+LISTA3D.length)%LISTA3D.length])}
+Folha.montar({painel:panel,figura:$("#stageFig"),palco:$("#v3stage"),nav:navegar});
+window.EST_FOLHA=true;
+Estado.setas($("#tabs"));
+$("#modeSeg").addEventListener("click",e=>{const b=e.target.closest("button");if(b)setMode(b.dataset.mode)});
+document.querySelector(".snav").addEventListener("click",e=>{const b=e.target.closest("[data-mode]");if(b){setMode(b.dataset.mode);document.getElementById("stageFig").scrollIntoView({behavior:(window.SUAVE||"smooth"),block:"start"})}});
+
+/* ---------- desafio e resumo: todos os músculos ---------- */
+Object.entries({"glmax": "O maior músculo do corpo e o extensor mais potente do quadril.", "glmed": "Estabiliza a pelve ao apoiar numa perna só; quando fraco, a pelve do outro lado cai (sinal de Trendelenburg).", "glmin": "O mais profundo dos glúteos, sob o glúteo médio; abduz o quadril.", "isq": "Três músculos atrás da coxa que estendem o quadril e dobram o joelho.", "ilio": "O principal flexor do quadril, formado pelo ilíaco e pelo psoas maior.", "sart": "O músculo mais longo do corpo; cruza a coxa na diagonal (posição “de alfaiate”).", "tfl": "Pequeno músculo da lateral do quadril que tensiona o trato iliotibial.", "pect": "Fica na frente da virilha, entre o iliopsoas e o adutor longo.", "adlong": "Forma o relevo interno da virilha e é um dos adutores mais lesionados em esportes de mudança de direção.", "adcurt": "O adutor mais curto, profundo ao pectíneo e ao adutor longo.", "admag": "O maior dos adutores; uma parte dele também estende o quadril.", "grac": "Adutor longo e fino da face interna da coxa; cruza também o joelho."}).forEach(([k,t])=>{X[k].quiz=t});
+const TODOS=[...ORDER.map(k=>({id:k,nome:M[k].nome,lat:M[k].latin,cor:`var(--${k})`,origem:M[k].origem,insercao:M[k].insercao,nervo:M[k].nervo,acao:M[k].acao,quiz:M[k].quiz})),
+  ...["glmax","glmed","glmin","ilio","isq","sart","tfl","adlong","adcurt","admag","pect","grac"].map(k=>({id:k,nome:X[k].nome,lat:X[k].lat,cor:`var(--${k})`,origem:X[k].origem,insercao:X[k].insercao,nervo:X[k].nervo,acao:X[k].acao,quiz:X[k].quiz}))];
+function abrirItem(id){
+  if(ORDER.includes(id)){setMode("2d");select(id);document.getElementById("stageFig").scrollIntoView({behavior:(window.SUAVE||"smooth"),block:"start"})}
+  else abrirX(id);
+}
+$("#qmode").addEventListener("click",e=>{
+  const b=e.target.closest("button");if(!b)return;
+  document.querySelectorAll("#qmode button").forEach(x=>x.setAttribute("aria-pressed",x===b));
+  $("#quizCard").hidden=b.dataset.q!=="ilu";$("#mcqRoot").hidden=b.dataset.q!=="mcq";
+});
+
+/* ---------- estado: link direto, retomada e navegação por link (busca) ---------- */
+window.aplicarUrl=function(navegando){
+  const u=Estado.url(),sv=navegando?{}:Estado.salvo(),m=u.m||sv.m,x=u.x||sv.x,extra=!!(m&&EXTRA.includes(m));
+  if(u.d==="3d"||u.s==="sec3d"||(navegando&&extra))setMode("3d",true);
+  else if(navegando&&u.m&&ORDER.includes(u.m)&&modo==="3d")setMode("2d",true);
+  if(m&&ORDER.includes(m))select(m);
+  else if(extra&&modo==="3d")selectExtra(m);
+  if(navegando&&u.v&&modo==="3d"&&window.v3d)v3d.view(u.v);
+  if(x&&X[x]){xSel=x;gSel=X[x].g;const subs=G[gSel].sub;gSub=Object.keys(subs).find(t=>subs[t].includes(x))||Object.keys(subs)[0];gRender()}
+  if(window.clin){const d=clin.restaurar(u.c,u.t);if(d)setTimeout(()=>d.scrollIntoView({block:"center",behavior:(window.SUAVE||"smooth")}),navegando?350:800)}
+  const alvo=u.s?(u.s==="sec3d"?"stageFig":u.s):(navegando&&u.m?"stageFig":null);
+  if(alvo)setTimeout(()=>{const el=document.getElementById(alvo);if(el)el.scrollIntoView(navegando?{behavior:(window.SUAVE||"smooth"),block:"start"}:undefined)},navegando?250:600);
+};
+(function(){
+  aplicarUrl(false);
+  window.EST_PRONTO=true;
+  Folha.ativar(modo==="3d");if(modo==="3d")Folha.abrir("peek");
+  const ids=[...document.querySelectorAll(".snav [data-go]")].map(b=>b.dataset.go).filter(id=>document.getElementById(id));
+  const limiar=()=>(parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--rnav-h"))||52)+(document.querySelector(".snav")?.offsetHeight||0)+40;
+  function atual(){let cur="stageFig";ids.forEach(id=>{if(document.getElementById(id).getBoundingClientRect().top<=limiar())cur=id});return cur}
+  function pintaIdx(){
+    const cur=atual();
+    document.querySelectorAll(".snav button").forEach(b=>{
+      const on=b.dataset.mode?(cur==="stageFig"&&modo==="3d"):b.dataset.go===cur&&!(cur==="stageFig"&&modo==="3d");
+      if(on)b.setAttribute("aria-current","true");else b.removeAttribute("aria-current");
+      if(on&&b.scrollIntoView&&b.parentNode.scrollWidth>b.parentNode.clientWidth)b.parentNode.scrollTo({left:b.offsetLeft-(b.parentNode.clientWidth-b.offsetWidth)/2,behavior:"auto"});
+    });
+    return cur;
+  }
+  window.pintaIdx=pintaIdx;pintaIdx();
+  let tm,raf=0;addEventListener("scroll",()=>{
+    if(!raf)raf=requestAnimationFrame(()=>{raf=0;pintaIdx()});
+    clearTimeout(tm);tm=setTimeout(()=>{const cur=atual();Estado.gravar({s:cur&&cur!=="stageFig"?cur:null})},350);
+  },{passive:true});
+  addEventListener("hashchange",()=>aplicarUrl(true));
+})();
 </script>
 <script type="module">
+import {mountClinica} from "../shared/clinica.js";
+import {mountDesafio,mountResumo} from "../shared/estudo.js";
+mountDesafio({root:document.getElementById("mcqRoot"),itens:TODOS,abrir:abrirItem,reg:Estado.reg,n:10});
+mountResumo({root:document.getElementById("resRoot"),itens:TODOS,abrir:abrirItem});
+window.clin=mountClinica({root:document.getElementById("clroot"),cor:"#e0434f",rom:CLIN.rom,romMax:CLIN.romMax,romNota:CLIN.romNota,testes:CLIN.testes,alertas:CLIN.alertas,refs:CLIN.refs,
+  nomeX:id=>X[id]?X[id].nome:id,onMuscle:abrirX,onState:s=>Estado.gravar(s)});
+{const u=Estado.url(),d=clin.restaurar(u.c,u.t);if(d)setTimeout(()=>d.scrollIntoView({block:"center"}),800)}
+
 import {mount3D} from "../shared/viewer3d.js";
 window.v3d=mount3D({
-  root:document.getElementById("v3root"),base:"../modelos/",side:".r",order:ORDER,regions:["coxa"],
-  bones:["Hip bone","Femur","Patella","Tibia","Fibula"],
+  stageRoot:document.getElementById("v3stage"),ctrlRoot:document.getElementById("v3ctrl"),listRoot:document.getElementById("v3list"),base:"../modelos/",side:".r",order:[...ORDER,...EXTRA],regions:["coxa","quadril_gluteos"],
+  sections:[{label:"Quadríceps",keys:ORDER},{label:"Glúteos",keys:["glmax","glmed","glmin"]},{label:"Posteriores e flexores do quadril",keys:["isq","ilio","sart"]},{label:"Adutores",keys:["adlong","adcurt","admag","pect","grac"]}],
+  extras:EXTRA,frame:ORDER,focus:true,
+  bones:["Hip bone","Femur","Patella","Tibia","Fibula","!Sacrum","!Coccyx","!Vertebra T12","!Vertebra L1","!Vertebra L2","!Vertebra L3","!Vertebra L4","!Vertebra L5"],
   groups:{
-  rf:["Rectus femoris muscle"],
-  vl:["Vastus lateralis muscle"],
-  vm:["Vastus medialis muscle"],
-  vi:["Vastus intermedius muscle"]
+    rf:["Rectus femoris muscle"],vl:["Vastus lateralis muscle"],vm:["Vastus medialis muscle"],vi:["Vastus intermedius muscle"],
+    glmax:["Gluteus maximus muscle"],glmed:["Gluteus medius muscle"],glmin:["Gluteus minimus muscle"],
+    ilio:["Iliacus muscle","Psoas major"],
+    isq:["Long head of biceps femoris","Short head of biceps femoris","Semimembranosus muscle","Semitendinosus muscle"],
+    sart:["Sartorius muscle"],adlong:["Adductor longus"],adcurt:["Adductor brevis"],admag:["Adductor magnus","(Adductor minimus)"],pect:["Pectineus muscle"],grac:["Gracilis muscle"]
   },
-  attach:Object.fromEntries(ORDER.map(k=>[k,{insBone:"Patella",insTitle:"Inserção: base da patela, pelo tendão do quadríceps",extraTitle:"Continua pelo ligamento patelar até a tuberosidade da tíbia"}])),
-  info:k=>{const m=M[k];return {nome:m.nome,latin:m.latin,resumo:m.resumo,origem:m.origem,insercao:m.insercao,acao:m.acao}},
-  onSelect:k=>select(k,true),
-  onOpen:()=>document.getElementById("stageFig").scrollIntoView({behavior:"smooth",block:"start"}),
-  initial:sel
+  attach:Object.assign(Object.fromEntries(ORDER.map(k=>[k,{insBone:"Patella",insTitle:"Inserção: base da patela, pelo tendão do quadríceps",extraTitle:"Continua pelo ligamento patelar até a tuberosidade da tíbia"}])),
+    {glmax:{dir:[-.5,-.8,0]},glmed:{dir:[-.3,-1,0]},glmin:{dir:[-.3,-1,0]},ilio:{dir:[0,-1,.2]},sart:{dir:[.3,-1,0]}}),
+  viewOf:{rf:"frente",vl:"lateral",vm:"medial",vi:"frente",glmax:"costas",glmed:"lateral",glmin:"lateral",ilio:"frente",isq:"costas",sart:"frente",adlong:"medial",adcurt:"medial",admag:"medial",pect:"frente",grac:"medial"},
+  info:k=>{const m=M[k]||X[k];return {nome:m.nome,latin:m.latin||m.lat,resumo:m.resumo,origem:m.origem,insercao:m.insercao,acao:m.acao}},
+  onSelect:k=>{if(ORDER.includes(k))select(k,true);else selectExtra(k)},
+  onVazio:()=>{if(window.Folha)Folha.recolher()},
+  storeKey:"atlas:"+Estado.reg+":3d",view0:Estado.url().v||Estado.salvo().v,
+  onState:s=>{const q={v:s.view==="frente"?null:s.view};if(s.sel)q.m=s.sel;Estado.gravar(q)},
+  initial:(()=>{const m=Estado.url().m||Estado.salvo().m;return m&&(ORDER.includes(m)||(EXTRA.includes(m)&&modo==="3d"))?m:sel})()
 });
+if(modo==="3d")v3d.start();
 </script>
 </body>
 </html>

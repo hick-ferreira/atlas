@@ -32,6 +32,10 @@ header p{color:var(--muted);font-size:1.1rem}
 .rc p{color:var(--muted)}
 .tag{justify-self:start;font:500 11px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;padding:6px 10px;border-radius:999px;background:var(--surface2);color:var(--muted)}
 .soon{opacity:.85}
+.hero-busca{display:flex;align-items:center;gap:12px;width:min(560px,100%);text-align:left;border:1.5px solid color-mix(in srgb,var(--ink) 40%,var(--surface));background:var(--surface);color:var(--muted);border-radius:999px;padding:14px 18px;font:500 1rem var(--f-body);min-height:52px;cursor:pointer;box-shadow:var(--shadow)}
+.hero-busca:hover{border-color:var(--ink)}
+.hero-busca span{flex:1}
+.hero-busca kbd{font:600 12px var(--f-mono);border:1px solid var(--line);border-radius:6px;padding:3px 8px}
 footer{margin-top:48px;color:var(--muted);font-size:.9rem;max-width:70ch}
 </style>
 </head>
@@ -42,12 +46,13 @@ footer{margin-top:48px;color:var(--muted);font-size:.9rem;max-width:70ch}
   <span class="eyebrow">Atlas de anatomia</span>
   <h1>Escolha uma região</h1>
   <p>Ilustrações animadas, palpação, alongamentos e desafio para estudar cada região do corpo. Novas regiões entram aos poucos.</p>
+  <button type="button" class="hero-busca" onclick="abrirBusca()"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span>Buscar músculo, teste, alongamento ou movimento</span><kbd>/</kbd></button>
 </header>
-<main class="cards">
+<main class="cards" id="conteudo" tabindex="-1">
   <a class="rc" href="coxa/"><div class="ph"><img src="coxa/img/quad-perna.jpg" alt="Ilustração da coxa com o quadríceps em destaque" loading="lazy"></div><div class="tx"><span class="tag">Disponível</span><h2>Coxa</h2><p>Quadríceps, extensores, flexores, adutores e abdutores, com movimento e alongamentos.</p></div></a>
-  <a class="rc" href="ombro/"><div class="ph"><img src="ombro/img/frente.jpg" alt="Ilustração do ombro e do braço com os músculos coloridos" loading="lazy"></div><div class="tx"><span class="tag">Novo</span><h2>Braço e ombro</h2><p>Deltoide, manguito rotador, bíceps, braquial, coracobraquial e tríceps, vistos de frente e de costas.</p></div></a>
+  <a class="rc" href="ombro/"><div class="ph"><img src="ombro/img/frente.jpg" alt="Ilustração do ombro e do braço com os músculos coloridos" loading="lazy"></div><div class="tx"><span class="tag">Novo</span><h2>Braço e ombro</h2><p>Deltoide, manguito rotador, bíceps, tríceps, peitorais, trapézio, serrátil e romboides, com ilustração e 3D.</p></div></a>
 </main>
-<footer>Material de estudo baseado em anatomia clássica. Não substitui avaliação profissional.</footer>
+<footer>Material de estudo baseado em anatomia clássica. Não substitui avaliação profissional. <a href="https://github.com/hick-ferreira/atlas/issues/new?labels=conteudo&title=Conte%C3%BAdo%3A%20" target="_blank" rel="noopener">Encontrou um erro? Conte pelo GitHub.</a></footer>
 </div>
 </body>
 </html>

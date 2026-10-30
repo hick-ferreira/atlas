@@ -139,7 +139,7 @@ svg[data-sel="vm"] .vmo-t{opacity:1}
 .body-svg svg{width:100%;height:auto;display:block}
 .steps{list-style:none;counter-reset:s;margin:0;padding:0;display:grid;gap:12px}
 .steps li{counter-increment:s;display:grid;grid-template-columns:30px 1fr;gap:12px;align-items:start}
-.steps li::before{content:counter(s);width:30px;height:30px;border-radius:50%;background:var(--c);color:#fff;font:700 .95rem var(--f-display);display:grid;place-items:center}
+.steps li::before{content:counter(s);width:30px;height:30px;border-radius:50%;background:var(--c);color:var(--on,#fff);font:700 .95rem var(--f-display);display:grid;place-items:center}
 .callout{margin-top:16px;border-radius:14px;padding:12px 14px;background:color-mix(in srgb,var(--c) 14%,transparent);border:1px solid color-mix(in srgb,var(--c) 40%,transparent);font-size:.95rem}
 .callout b{font-family:var(--f-display)}
 .legend{margin-top:16px;display:grid;gap:6px;font-size:.88rem;color:var(--muted)}
@@ -320,10 +320,11 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;max-width:70ch}
 @keyframes arrp{50%{opacity:.3}}
 .cbtn{border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);border-radius:999px;padding:8px 16px;font-weight:600;font-size:.9rem}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.why{font-size:.78rem;color:var(--muted);margin:10px 0 0}.why b{color:var(--ink)}
 </style>
 <style>
 :root{--del:#e0563f;--sup:#3b6fd0;--inf:#27a068;--tmi:#9b4fd0;--sub:#e6b800;--tma:#f08e76;--bic:#f08a24;--bra:#e8689c;--cor:#22b39a;--tri:#3d5f94;
- --del-t:#b33a26;--sup-t:#234fa8;--inf-t:#17724a;--tmi-t:#6e2fa3;--sub-t:#8a6d00;--tma-t:#b8503a;--bic-t:#a85a0a;--bra-t:#b02e66;--cor-t:#0f7868;--tri-t:#2b4673;
+ --del-t:#b33a26;--sup-t:#234fa8;--inf-t:#17724a;--tmi-t:#6e2fa3;--sub-t:#826600;--tma-t:#ad4b37;--bic-t:#9e5509;--bra-t:#b02e66;--cor-t:#0f7868;--tri-t:#2b4673;
  --g-rot:#9b4fd0;--g-rot-t:#6e2fa3}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--del:#ff7a63;--sup:#6d9bff;--inf:#4fd490;--tmi:#c28cf0;--sub:#ffd23d;--tma:#ffa58f;--bic:#ffa04a;--bra:#ff8fbb;--cor:#4fd9c0;--tri:#7f9fd6;
  --del-t:#ff9c8a;--sup-t:#9dbcff;--inf-t:#7fe3ae;--tmi-t:#d9b3f7;--sub-t:#ffe27a;--tma-t:#ffc2b3;--bic-t:#ffbd7d;--bra-t:#ffb3d1;--cor-t:#86e8d6;--tri-t:#a9c2ea;--g-rot:#c49bff;--g-rot-t:#d9bfff}}
@@ -340,21 +341,56 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;max-width:70ch}
 svg.has-sel .pin:not(.sel){display:none}
 .stage{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}
 @media (max-width:900px){.stage{grid-template-columns:1fr}}
+:root{--pecmai:#b5446e;--pecmai-t:#8a2c52;--pecmen:#cf86ad;--pecmen-t:#9a4d78;--serr:#2f9ec2;--serr-t:#196f8e;--trapsup:#8a6a3b;--trapsup-t:#654a22;--trapmed:#b08a4d;--trapmed-t:#7f5f2a;--trapinf:#c9a55a;--trapinf-t:#7e652a;--romb:#5a8f3c;--romb-t:#3d6a25;--levesc:#8f5fb8;--levesc-t:#6b3f91;--lat:#2b7a78;--lat-t:#1b5755;--g-est:#4a6f8f;--g-est-t:#2f506b}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--pecmai:#e0709a;--pecmai-t:#f09bbb;--pecmen:#e8a0c0;--pecmen-t:#f0bcd3;--serr:#4fc3e8;--serr-t:#8fdcf4;--trapsup:#c4a06a;--trapsup-t:#dcc08e;--trapmed:#d8b878;--trapmed-t:#e8d0a0;--trapinf:#ead49a;--trapinf-t:#f3e4bc;--romb:#86c45f;--romb-t:#a8da8a;--levesc:#b98ae0;--levesc-t:#d2b0ee;--lat:#3fc0bb;--lat-t:#7edcd8;--g-est:#8fb2d0;--g-est-t:#b3cde3}}
+:root[data-theme="dark"]{--pecmai:#e0709a;--pecmai-t:#f09bbb;--pecmen:#e8a0c0;--pecmen-t:#f0bcd3;--serr:#4fc3e8;--serr-t:#8fdcf4;--trapsup:#c4a06a;--trapsup-t:#dcc08e;--trapmed:#d8b878;--trapmed-t:#e8d0a0;--trapinf:#ead49a;--trapinf-t:#f3e4bc;--romb:#86c45f;--romb-t:#a8da8a;--levesc:#b98ae0;--levesc-t:#d2b0ee;--lat:#3fc0bb;--lat-t:#7edcd8;--g-est:#8fb2d0;--g-est-t:#b3cde3}
+.gnav{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.gdet{scroll-margin-top:64px}
+.matrix th{font-size:.66rem;line-height:1.2;white-space:normal;min-width:58px;vertical-align:bottom}
+.matrix td:first-child,.matrix th:first-child{position:sticky;left:0;background:var(--surface);z-index:1;min-width:130px}
+.matrix tr.sel td:first-child{background:var(--surface2)}
+table.matrix{min-width:1120px}
+.sinais.foco{background:color-mix(in srgb,var(--c) 14%,var(--surface2))}
+.lk{border:1.5px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;font-size:.84rem;font-weight:600;margin:2px 6px 2px 0;min-height:34px}.lk:hover{border-color:var(--ink)}
+.modebar{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px}
+#pane2d[hidden],#pane3d[hidden],.chips[hidden]{display:none!important}
+.back3d{display:none}
+@media (min-width:901px){body.m3d .figure{max-height:calc(100vh - 84px);overflow-y:auto;scrollbar-width:thin}}
+@media (max-width:900px){body.m3d .back3d{display:inline-block;margin-bottom:10px}}
+#qmode{margin-bottom:14px}
+.card[hidden]{display:none!important}
+.rep-wrap{margin-top:18px;padding-top:12px;border-top:1px dashed var(--line)}
+.lk.rep{font-weight:500;color:var(--muted)}
+#gdet [data-rep],#gdet [data-fol],#gdet [data-link]{margin-left:6px}
+.snav{position:sticky;top:var(--rnav-h,52px);z-index:45;margin:0 -16px 16px;padding:8px 16px;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);display:flex;flex-wrap:nowrap;gap:8px;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--line)}
+.snav::-webkit-scrollbar{display:none}
+.snav button{flex:none;white-space:nowrap;min-height:38px}
+.snav button[aria-current=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.figure{top:calc(var(--rnav-h,52px) + 66px)}
+section[id],#stageFig,#gdet{scroll-margin-top:calc(var(--rnav-h,52px) + 62px)}
+@media (min-width:901px){body.m3d .figure{max-height:calc(100vh - var(--rnav-h,52px) - 82px)}}
+@media (max-width:640px){.snav{padding:6px 12px;margin-inline:-12px}.snav button{padding:7px 12px;font-size:.82rem;min-height:36px}}
 </style>
 </head>
 <body>
 <script src="../shared/nav.js"></script>
+<script src="../shared/estado.js"></script>
+<script src="../shared/folha.js"></script>
+<script src="../shared/glossario.js"></script>
 <div class="wrap">
 <header>
   <div class="brand" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
-  <h1>Atlas do Ombro e do Braço<span>Do deltoide ao tríceps: toque na ilustração, veja o que cada músculo faz e como senti-lo com as próprias mãos.</span></h1>
+  <h1>Atlas do Ombro e do Braço<span>Do deltoide ao tríceps, mais a escápula e o tórax: toque, gire em 3D, veja o que cada músculo faz e como senti-lo com as próprias mãos.</span></h1>
   <div class="chips" id="chips" role="group" aria-label="Escolha um músculo"></div>
-  <nav class="snav" aria-label="Seções"><button data-go="stageFig">Atlas</button><button data-go="sec3d">Modelo 3D</button><button data-go="secGroups">Abdutores, flexores, extensores e rotadores</button><button data-go="secQuiz">Desafio</button></nav>
 </header>
 
-<main>
+<nav class="snav" aria-label="Seções"><button data-go="stageFig">Atlas</button><button data-mode="3d">Modelo 3D</button><button data-go="secGroups">Grupos, escápula e alongamentos</button><button data-go="secClinica">Avaliação clínica</button><button data-go="secQuiz">Desafio</button><button data-go="secResumo">Resumo</button></nav>
+
+<main id="conteudo" tabindex="-1">
 <div class="stage">
   <div class="card figure" id="stageFig">
+    <div class="modebar"><div class="seg" id="modeSeg" role="group" aria-label="Modo de visualização"><button type="button" data-mode="2d" aria-pressed="true">Ilustração</button><button type="button" data-mode="3d" aria-pressed="false">Modelo 3D</button></div></div>
+  <div id="pane2d">
     <div class="vbar">
       <div class="eyebrow" id="viewName">Ombro e braço direitos · vista anterior</div>
       <div class="seg" id="vseg" role="group" aria-label="Vista"><button type="button" data-v="frente" aria-pressed="true">Frente</button><button type="button" data-v="costas" aria-pressed="false">Costas</button></div>
@@ -369,6 +405,8 @@ svg.has-sel .pin:not(.sel){display:none}
       </div>
     </div>
   </div>
+  <div id="pane3d" hidden><div id="v3stage"></div><div id="v3list"></div><div id="v3ctrl"></div></div>
+  </div>
 
   <div class="card panel" id="panel">
     <div class="tabs" role="tablist" id="tabs">
@@ -380,19 +418,10 @@ svg.has-sel .pin:not(.sel){display:none}
   </div>
 </div>
 
-<section id="sec3d">
-  <div class="sec-h">
-    <span class="eyebrow">Modelo 3D</span>
-    <h2>O ombro e o braço por dentro</h2>
-    <p>Gire a escápula, a clavícula e o úmero com os músculos no lugar. Toque em um músculo para destacá-lo; o painel acompanha o atlas. O subescapular fica na face costal da escápula: gire para ver.</p>
-  </div>
-  <div class="card" id="v3root"></div>
-</section>
-
 <section id="secGroups">
   <div class="sec-h">
     <span class="eyebrow">Grupos musculares</span>
-    <h2>Abdutores, flexores, extensores e rotadores</h2>
+    <h2>Grupos musculares e alongamentos</h2>
     <p>Escolha o movimento, depois o músculo. Cada um traz origem, inserção, sinais de encurtamento e um alongamento passo a passo.</p>
   </div>
   <div class="note"><b>Como alongar:</b> mantenha cada posição por 20 a 30 segundos, repita de 2 a 4 vezes por lado e vá só até sentir um estiramento firme, sem dor. Dor aguda, formigamento ou queimação são sinais para reduzir a amplitude ou parar. Em ombros com luxação prévia ou dor persistente, alongue com orientação profissional.</div>
@@ -403,16 +432,26 @@ svg.has-sel .pin:not(.sel){display:none}
     <div class="card gdet" id="gdet"></div>
   </div>
   <div class="sec-h" style="margin-top:36px"><h2 style="font-size:1.6rem">Quem faz o quê</h2><p>Cada ponto marca um movimento em que o músculo participa.</p></div>
-  <div class="card tablewrap"><table class="matrix" id="matrix"></table></div>
+  <div class="card tablewrap" tabindex="0" role="region" aria-label="Tabela de quem faz o quê"><table class="matrix" id="matrix"></table></div>
+</section>
+
+<section id="secClinica">
+  <div class="sec-h">
+    <span class="eyebrow">Avaliação clínica</span>
+    <h2>Do músculo ao exame</h2>
+    <p>Amplitudes de referência, testes especiais e sinais de alerta do ombro e do braço, ligados aos músculos deste atlas.</p>
+  </div>
+  <div class="card" id="clroot"></div>
 </section>
 
 <section id="secQuiz">
   <div class="sec-h">
     <span class="eyebrow">Desafio</span>
     <h2>Você acha cada músculo?</h2>
-    <p>Leia a pista e clique no músculo certo na ilustração. A vista muda entre frente e costas conforme a pergunta. São dez perguntas.</p>
+    <p>Duas formas de treinar: clique no músculo na ilustração (os dez principais) ou responda perguntas sobre todos eles, incluindo a escápula e o tórax.</p>
   </div>
-  <div class="card quiz">
+  <div class="seg" id="qmode" role="group" aria-label="Tipo de desafio"><button type="button" data-q="ilu" aria-pressed="true">Na ilustração</button><button type="button" data-q="mcq" aria-pressed="false">Todos os músculos</button></div>
+  <div class="card quiz" id="quizCard">
     <div id="quizSvg"></div>
     <div class="q-box">
       <div class="bar"><i id="qBar"></i></div>
@@ -423,21 +462,24 @@ svg.has-sel .pin:not(.sel){display:none}
       <button class="btn" id="qNext" disabled>Próxima</button>
     </div>
   </div>
+  <div class="card" id="mcqRoot" hidden></div>
 </section>
 
-<section>
+<section id="secResumo">
   <div class="sec-h">
     <span class="eyebrow">Resumo</span>
-    <h2>Os dez lado a lado</h2>
+    <h2>Todos lado a lado</h2>
   </div>
-  <div class="card tablewrap"><table id="tbl"></table></div>
+  <div class="card" id="resRoot"></div>
 </section>
 </main>
 
-<footer>Material de estudo baseado em anatomia clássica. Os pontos de palpação variam de pessoa para pessoa e este atlas não substitui avaliação profissional.</footer>
+<footer>Material de estudo baseado em anatomia clássica. Os pontos de palpação variam de pessoa para pessoa e este atlas não substitui avaliação profissional. <a href="https://github.com/hick-ferreira/atlas/issues/new?labels=conteudo&title=Conte%C3%BAdo%3A%20" target="_blank" rel="noopener">Encontrou um erro? Conte pelo GitHub.</a></footer>
 </div>
 
 <script>
+let modo="2d",selX=null;
+const BACK3D='<button class="lk back3d" data-back>↑ Voltar ao modelo 3D</button>';
 const HS={"frente": {"del": {"d": "M474,215 452,213 414,234 403,235 382,257 367,283 343,343 330,403 328,461 333,497 339,505 346,505 358,498 363,488 378,485 388,456 397,453 408,438 425,425 465,384 471,372 513,324 530,293 531,282 521,268 515,249 508,241 482,226Z", "c": [417, 341], "p": [439, 301], "bb": [328, 212, 531, 505]}, "bic": {"d": "M502,449 497,450 492,464 493,490 486,501 475,501 469,492 452,485 437,490 428,503 417,502 412,489 401,490 381,507 349,575 332,625 318,685 315,746 320,796 337,820 346,821 355,828 379,826 409,784 432,736 458,656 471,657 473,686 490,686 494,689 491,718 495,716 498,703 498,673 513,671 517,675 517,683 521,683 521,613 518,609 506,607 505,579 494,572 497,510 500,505 510,503 511,490 516,485 515,480 504,478 500,474 500,461 504,454Z", "c": [410, 643], "p": [424, 588], "bb": [315, 448, 523, 828]}, "bra": {"d": "M339,542 334,545 304,640 297,692 298,738 292,745 287,776 287,812 291,835 304,872 317,881 323,879 323,854 312,762 312,705 324,636 345,575ZM466,649 462,650 447,705 424,764 374,848 376,879 390,913 398,910 428,866 457,798 466,753 469,718Z", "c": [377, 769], "p": [403, 853], "bb": [287, 541, 469, 914]}, "cor": {"d": "M558,385 522,379 509,369 485,374 477,392 466,394 442,421 428,430 419,505 423,506 444,466 455,467 476,487 482,485 488,446 498,417 505,407 531,408 564,416Z", "c": [481, 424], "p": [462, 441], "bb": [419, 369, 565, 508]}, "sub": {"d": "M695,233 636,261 604,272 592,282 577,288 573,312 562,340 570,361 591,397 633,495 643,510 665,518 671,517 704,452 718,405 725,360 726,336 721,303Z", "c": [652, 366], "p": [649, 339], "bb": [562, 232, 726, 518]}}, "costas": {"del": {"d": "M657,241 629,263 615,279 578,291 560,320 542,329 539,336 526,345 522,354 537,388 560,425 593,459 623,480 639,486 687,521 704,521 721,514 730,475 734,406 729,368 719,328 705,296 683,264Z", "c": [644, 382], "p": [636, 372], "bb": [521, 241, 734, 522]}, "sup": {"d": "M361,307 369,315 397,306 404,296 428,289 435,281 513,262 515,258 502,254 479,255 467,252 456,244 403,239 392,245 376,261 372,273 365,280Z", "c": [420, 270], "p": [411, 266], "bb": [361, 239, 516, 315]}, "inf": {"d": "M525,284 499,288 482,295 473,305 461,308 433,325 383,334 373,340 363,352 356,375 362,445 371,481 389,523 399,521 431,493 456,462 493,405 521,372 517,343 522,334 522,304 528,292Z", "c": [434, 394], "p": [421, 394], "bb": [356, 284, 528, 524]}, "tmi": {"d": "M530,385 519,388 504,401 477,436 471,453 455,470 455,475 506,447 523,444 539,429 550,424 548,414Z", "c": [508, 427], "p": [522, 415], "bb": [453, 384, 551, 476]}, "tma": {"d": "M524,453 515,456 497,473 480,475 449,493 434,498 431,506 423,509 420,517 430,556 449,551 455,542 481,532 492,532 500,538 503,523 517,524 518,540 512,547 512,568 506,594 506,605 517,616 526,611 528,599 537,596 537,593 528,588 529,578 537,572 525,564 525,552 533,541 533,525 528,520 528,509 534,502 535,489 530,464Z", "c": [488, 520], "p": [481, 505], "bb": [419, 453, 538, 617]}, "tri": {"d": "M563,468 541,485 539,497 542,589 554,668 550,672 537,670 531,660 534,643 528,638 526,627 519,627 516,652 521,662 520,691 523,701 536,714 541,715 545,711 548,685 563,685 577,713 577,727 614,831 634,866 652,888 658,891 655,871 623,777 619,715 629,693 634,688 645,688 675,722 688,761 701,871 704,872 720,822 728,759 728,680 718,616 697,555 679,527 655,511 627,501 602,502 588,478Z", "c": [630, 648], "p": [606, 638], "bb": [516, 468, 728, 892]}}};
 const ORDER=["del","sup","inf","tmi","sub","tma","bic","bra","cor","tri"];
 const M={
@@ -638,9 +680,9 @@ function shoulderSVG(p,view,o){
     ["L","R"].forEach(s=>{let last=-1e9;it.filter(i=>i.s===s).sort((a,b)=>a.y-b.y).forEach(i=>{i.ly=Math.max(i.y,last+66);last=i.ly})});
     names=`<g class="names">${it.map((i,n)=>{const L=i.s==="L",ex=L?-20:890,tx=L?-34:904;
       return `<g class="lbl-g" data-m="${i.k}" style="--c:${M[i.k].c};--d:${(.1+n*.15).toFixed(2)}s"><path class="lead" pathLength="1" d="M${i.x} ${i.y} L${ex} ${i.ly}"/><circle class="dotl" cx="${i.x}" cy="${i.y}" r="7"/><text x="${tx}" y="${i.ly+13}" text-anchor="${L?"end":"start"}">${M[i.k].nome}</text></g>`}).join("")}</g>`;
-    pins=`<g class="pins">${PIN[view].map(([k,x,y,t])=>`<g class="pin" data-m="${k}"><circle cx="${x}" cy="${y}" r="17" fill="${t==="O"?M[k].c:"#1d2733"}"/><text x="${x}" y="${y}" ${t==="I"?'style="fill:#fff"':""}>${t}</text><title>${t==="O"?"Origem":"Inserção"} · ${M[k].nome}</title></g>`).join("")}</g>`;
+    pins=`<g class="pins">${PIN[view].map(([k,x,y,t])=>`<g class="pin" data-m="${k}"><circle cx="${x}" cy="${y}" r="17" fill="${t==="O"?M[k].c:"#1d2733"}"/><text x="${x}" y="${y}" style="fill:${t==="I"?"#fff":Estado.on(M[k].c)}">${t}</text><title>${t==="O"?"Origem":"Inserção"} · ${M[k].nome}</title></g>`).join("")}</g>`;
   }
-  return `<svg viewBox="${o.noLabels?`0 0 ${IW} ${IH}`:`-320 30 1590 1130`}" data-sel="" data-view="${view}" role="img" aria-label="Ombro e braço direitos, ${VN[view]}, com os músculos coloridos" class="show-names">
+  return `<svg viewBox="${o.noLabels?`0 0 ${IW} ${IH}`:`-320 30 1590 1130`}" data-sel="" data-view="${view}" role="group" aria-label="Ombro e braço direitos, ${VN[view]}, com os músculos coloridos" class="show-names">
   <defs>${defs}</defs>
   <image href="${IMG[view]}" width="${IW}" height="${IH}"/>
   ${bulge}
@@ -693,10 +735,16 @@ function bodySVG(k){
     <circle cx="${h.p[0]}" cy="${h.p[1]}" r="22" fill="${m.c}" stroke="#fff" stroke-width="5"/>
   </svg>`;
 }
-function renderPanel(){
+const REP=n=>`<div class="rep-wrap"><button class="lk rep" data-rep="Ficha: ${n}">Reportar erro nesta ficha</button></div>`;
+function renderPanel(){renderPanelBase();$("#panelBody").insertAdjacentHTML("beforeend",REP(selX?X[selX].nome:M[sel].nome))}
+function renderPanelBase(){
+  if(selX){renderPanelX(selX);return}
+  $("#tabs").style.display="";
   const m=M[sel],b=$("#panelBody");
+  window.Folha&&Folha.atualiza({nome:m.nome,latin:m.latin,cor:m.c});
+  panel.style.setProperty("--on",Estado.on(m.c));
   panel.style.setProperty("--c",m.c);panel.style.setProperty("--ct",m.ct);
-  const head=`<div class="mname"><span class="sw"></span><h2>${m.nome}</h2></div><div class="latin">${m.latin}</div>`;
+  const head=(modo==="3d"?BACK3D:"")+`<div class="mname"><span class="sw"></span><h2>${m.nome}</h2></div><div class="latin">${m.latin}</div>`;
   if(tab==="ficha"){
     b.innerHTML=head+`<p class="lead-p">${m.resumo}</p><div>${m.tags.map(t=>`<span class="tag">${t}</span>`).join("")}</div>
     <div class="facts" style="margin-top:12px">
@@ -715,7 +763,7 @@ function renderPanel(){
   }
 }
 function select(k,fromUser){
-  sel=k;
+  sel=k;selX=null;
   if(!M[k].views.includes(view)){view=M[k].views[0];drawStage()}
   mainSvg.dataset.sel=k;mainSvg.classList.add("has-sel");
   mainSvg.querySelectorAll(".mus,.lbl-g,.pin").forEach(g=>g.classList.toggle("sel",g.dataset.m===k));
@@ -724,6 +772,9 @@ function select(k,fromUser){
   chips.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.m===k));
   renderPanel();
   window.v3d&&v3d.highlight(k);
+  window.EST_PRONTO&&Estado.gravar({m:k});
+  if(fromUser&&window.Estado)Estado.anuncia("Selecionado: "+M[k].nome+". Origem: "+M[k].origem.replace(/<[^>]+>/g,"")+". Inserção: "+M[k].insercao.replace(/<[^>]+>/g,"")+".");
+  if(fromUser&&modo==="3d"&&window.EST_PRONTO&&window.Folha)Folha.abrir("meio");
 }
 function setTab(t){
   tab=t;
@@ -743,6 +794,190 @@ $("#vseg").addEventListener("click",e=>{const b=e.target.closest("button");if(!b
   if(!M[sel].views.includes(view))sel=ORDER.find(k=>M[k].views.includes(view));select(sel)});
 drawStage();select("del");
 
+/* ---------- escápula e tórax: músculos que completam o ombro (só 3D, ficha e alongamento) ---------- */
+Object.assign(ACT,{
+  sel:["Elevação da escápula","est"],sde:["Depressão da escápula","est"],
+  spr:["Protração da escápula","est"],sre:["Retração da escápula","est"],
+  srs:["Rot. superior da escápula","est"],sri:["Rot. inferior da escápula","est"]
+});
+Object.assign(GT,{est:"Escápula e tórax"});
+Object.assign(SUBL,{elevdep:"Elevar e abaixar",protret:"Para a frente e para trás",rotsup:"Girar para cima",rotinf:"Girar para baixo"});
+G.est={nome:"Escápula e tórax",blurb:"Movem e seguram a escápula, a base de todo movimento do ombro",
+  sub:{elevdep:["trapsup","levesc","trapinf","pecmen"],protret:["serr","pecmen","trapmed","romb"],rotsup:["trapsup","trapinf","serr"],rotinf:["romb","levesc","pecmen"]}};
+G.flx.sub.ombro.push("pecmai");
+G.ext.sub.ombro.push("lat");
+G.rot.sub.interna.push("pecmai","lat");
+const EXTRA=["pecmai","pecmen","serr","trapsup","trapmed","trapinf","romb","levesc","lat"];
+const CAUT_PESCOCO="Nunca puxe a cabeça com força. Tontura, formigamento no braço ou dor aguda no pescoço pedem parar e procurar avaliação.";
+Object.assign(X,{
+ pecmai:{nome:"Peitoral maior",lat:"M. pectoralis major",acts:["fl","ri","ad"],g:"flx",
+  resumo:"O grande músculo do peito, em leque. A parte de cima (clavicular) ajuda a levar o braço à frente; a de baixo (esternocostal) o puxa para baixo e para dentro. Trabalha no supino, na flexão de braço e ao empurrar.",
+  origem:"Cabeça clavicular: metade medial da clavícula. Cabeça esternocostal: esterno e cartilagens das costelas superiores. Parte abdominal: aponeurose do oblíquo externo",
+  insercao:"Lábio lateral do sulco intertubercular do úmero",nervo:"Nervos peitorais lateral e medial (C5–T1)",
+  acao:"Aduz e gira o ombro para dentro; a parte clavicular também flexiona o ombro",
+  sinais:"Ombros projetados para a frente, peito fechado e dificuldade de levar os braços acima da cabeça ou de girar o ombro para fora com o braço elevado.",
+  at:"Peitoral no batente da porta",passos:["Em pé, apoie o antebraço e a mão no batente da porta, com o cotovelo na altura do ombro.","Dê um passo à frente com a perna do mesmo lado e gire o tronco para o lado oposto, sem arquear a lombar.","Varie a altura do braço para sentir cada parte do músculo."],sente:"Na frente do peito e do ombro.",
+  cuidado:"Com instabilidade ou deslocamento prévio do ombro, não force a rotação do tronco. Formigamento no braço pede menos amplitude.",
+  porque:"ele aduz e gira o ombro para dentro, então alonga com o braço aberto para trás.",
+  forte:"Flexão de braço com os cotovelos a cerca de 45° do tronco, ou supino com carga leve e descida controlada."},
+ pecmen:{nome:"Peitoral menor",lat:"M. pectoralis minor",acts:["spr","sde","sri"],g:"est",
+  resumo:"Pequeno e profundo, fica sob o peitoral maior. Puxa a escápula para a frente e para baixo. Encurtado, deixa o ombro caído para a frente e pode apertar nervos e vasos que passam por baixo dele.",
+  origem:"Face externa da 3ª à 5ª costela, perto das cartilagens",insercao:"Processo coracoide da escápula",nervo:"Nervo peitoral medial (C8–T1)",
+  acao:"Protrai, abaixa e gira a escápula para baixo; com a escápula fixa, ajuda a elevar as costelas na inspiração forçada",
+  sinais:"Ombro projetado para a frente, escápula inclinada com a ponta de baixo saliente e dor ou formigamento na frente do ombro e no braço ao manter os braços elevados.",
+  at:"Peitoral menor na parede",passos:["Em pé ao lado de uma parede, apoie a mão e o antebraço com o braço um pouco acima da altura do ombro.","Gire o tronco devagar para longe da parede, levando o ombro um pouco para trás.","Mantenha a cabeça alta e o pescoço relaxado."],sente:"Na frente do ombro, logo abaixo da clavícula.",
+  cuidado:"Se sentir formigamento na mão, reduza o ângulo do braço e a rotação do tronco.",
+  porque:"ele puxa a escápula para a frente e para baixo, então alonga levando-a para trás e para cima.",
+  forte:"Os músculos que o equilibram: remada com elástico e elevação em Y deitado de bruços."},
+ serr:{nome:"Serrátil anterior",lat:"M. serratus anterior",acts:["spr","srs"],g:"est",
+  resumo:"Cobre as costelas dos lados do tórax e prende a escápula nelas. Empurra a escápula para a frente e a gira para cima, o que permite levantar o braço acima da cabeça. Fraco, a escápula se descola das costas (escápula alada).",
+  origem:"Faces externas das oito ou nove primeiras costelas",insercao:"Margem medial da escápula, na face voltada para as costelas; a parte de baixo chega ao ângulo inferior",nervo:"Nervo torácico longo (C5–C7)",
+  acao:"Protrai a escápula e a gira para cima, mantendo-a contra o tórax",
+  sinaisTit:"Sinais de fraqueza",sinais:"Escápula alada ao empurrar uma parede, dificuldade de elevar o braço acima da cabeça e cansaço rápido ao trabalhar com os braços acima do ombro.",
+  cuidado:"Fraqueza súbita sem causa clara pede avaliação, pois o nervo torácico longo pode estar comprometido.",
+  forte:"Flexão de braço com “plus” (empurre o chão no final, afastando as escápulas) ou soco no ar deitado, com o braço apontado para o teto."},
+ trapsup:{nome:"Trapézio superior",lat:"M. trapezius, parte descendente",acts:["sel","srs"],g:"est",
+  resumo:"A parte do trapézio que sobe do pescoço ao ombro. Eleva a escápula (o gesto de dar de ombros) e a gira para cima. É muito exigida ao carregar peso, digitar ou trabalhar com os ombros tensos.",
+  origem:"Protuberância occipital externa, linha nucal superior e ligamento nucal",insercao:"Terço lateral da clavícula e acrômio",nervo:"Nervo acessório (XI) e ramos de C3–C4",
+  acao:"Eleva e gira a escápula para cima; estende o pescoço e o inclina para o mesmo lado",
+  sinais:"Ombros altos, dor e rigidez entre o pescoço e o ombro e dificuldade de inclinar a cabeça para o lado oposto.",
+  at:"Inclinação lateral do pescoço",passos:["Sentado ou em pé, com a coluna alta, deixe o braço do lado a alongar caído ao lado do corpo.","Incline a cabeça para o lado oposto, levando a orelha em direção ao ombro, sem erguê-lo.","Para mais, apoie a mão do outro lado só pelo peso do braço, sem puxar."],sente:"Na lateral do pescoço, descendo para o ombro.",
+  cuidado:CAUT_PESCOCO,
+  porque:"ele eleva a escápula e inclina o pescoço para o mesmo lado, então alonga com o ombro baixo e a cabeça inclinada para o outro.",
+  forte:"Encolhimento de ombros com halteres leves, subindo devagar e descendo com controle."},
+ trapmed:{nome:"Trapézio médio",lat:"M. trapezius, parte transversa",acts:["sre"],g:"est",
+  resumo:"A parte do meio, em faixa horizontal entre a coluna e a escápula. Puxa a escápula para trás, aproximando uma da outra. Estabiliza a escápula em remadas e na postura.",
+  origem:"Processos espinhosos de C7 a T3",insercao:"Margem medial do acrômio e lábio superior da espinha da escápula",nervo:"Nervo acessório (XI) e ramos de C3–C4",
+  acao:"Retrai a escápula e a estabiliza durante o movimento do braço",
+  sinaisTit:"Sinais de fraqueza",sinais:"Escápulas afastadas, parte alta das costas arredondada e cansaço entre as escápulas ao manter a postura.",
+  cuidado:"Ao juntar as escápulas, não eleve os ombros: o objetivo é levá-las para trás e para baixo.",
+  forte:"Remada curvada ou com elástico, juntando as escápulas sem encolher os ombros."},
+ trapinf:{nome:"Trapézio inferior",lat:"M. trapezius, parte ascendente",acts:["sde","srs","sre"],g:"est",
+  resumo:"A parte de baixo do trapézio, em triângulo que desce até a metade das costas. Abaixa a escápula, a gira para cima e ajuda a mantê-la no lugar quando o braço sobe. Costuma ficar fraca em quem tem ombros altos e arredondados.",
+  origem:"Processos espinhosos de T4 a T12",insercao:"Extremidade medial da espinha da escápula",nervo:"Nervo acessório (XI) e ramos de C3–C4",
+  acao:"Abaixa a escápula, a gira para cima e ajuda a retraí-la",
+  sinaisTit:"Sinais de fraqueza",sinais:"Ombros elevados, escápulas que sobem junto com o braço e dificuldade de manter o braço acima da cabeça sem compensar com o pescoço.",
+  cuidado:"Se o pescoço assumir o esforço, reduza a amplitude.",
+  forte:"Elevação em Y deitado de bruços: levante os braços com os polegares para o teto, sem arquear a lombar."},
+ romb:{nome:"Romboides",lat:"Mm. rhomboideus major e minor",acts:["sre","sri"],g:"est",
+  resumo:"Dois músculos finos entre a coluna e a borda interna da escápula, sob o trapézio. Puxam a escápula para trás e para dentro e a mantêm encostada nas costas. Sobrecarregam com facilidade em quem passa horas na mesma postura.",
+  origem:"Menor: ligamento nucal e processos espinhosos de C7 e T1. Maior: processos espinhosos de T2 a T5",insercao:"Margem medial da escápula, da raiz da espinha até o ângulo inferior",nervo:"Nervo dorsal da escápula (C4–C5)",
+  acao:"Retraem a escápula, giram-na para baixo e a mantêm contra o tórax",
+  sinais:"Dor ou sensação de nó entre a coluna e a escápula e repuxar ao cruzar os braços à frente.",
+  at:"Abraço com as escápulas afastadas",passos:["Em pé ou sentado, estenda os braços à frente e entrelace as mãos.","Arredonde a parte de cima das costas e afaste as escápulas, empurrando as mãos para a frente.","Mantenha o queixo levemente recolhido e respire devagar."],sente:"Entre a coluna e a escápula.",
+  cuidado:"Evite se houver dor aguda entre as escápulas ao respirar ou formigamento no braço. Se as escápulas já ficam afastadas, priorize fortalecer.",
+  porque:"eles puxam a escápula para trás, então alonga levando-a para a frente.",
+  forte:"Remada com elástico, trazendo os cotovelos para trás e juntando as escápulas sem encolher os ombros."},
+ levesc:{nome:"Levantador da escápula",lat:"M. levator scapulae",acts:["sel","sri"],g:"est",
+  resumo:"Corre da parte de trás do pescoço até o canto de cima da escápula. Levanta a escápula e a gira para baixo. É um suspeito comum de dor no canto do pescoço e da escápula.",
+  origem:"Tubérculos posteriores dos processos transversos de C1 a C4",insercao:"Ângulo superior e parte superior da margem medial da escápula",nervo:"Nervo dorsal da escápula (C5) e ramos de C3–C4",
+  acao:"Eleva a escápula e a gira para baixo; inclina e gira o pescoço para o mesmo lado",
+  sinais:"Dor no canto de cima da escápula, rigidez ao girar a cabeça e ombro mais alto de um lado.",
+  at:"Olhar para a axila oposta",passos:["Sentado, segure a borda da cadeira com a mão do lado a alongar, para manter o ombro baixo.","Gire a cabeça cerca de 45° para o lado oposto e leve o queixo para baixo, como se olhasse para a axila.","Para mais, apoie a outra mão na cabeça só pelo peso do braço."],sente:"Na lateral e atrás do pescoço, até o canto da escápula.",
+  cuidado:CAUT_PESCOCO,
+  porque:"ele eleva a escápula e gira o pescoço para o mesmo lado, então alonga com o ombro baixo e a cabeça flexionada e girada para o lado oposto."},
+ lat:{nome:"Latíssimo do dorso",lat:"M. latissimus dorsi",acts:["ex","ri","ad","sde"],g:"ext",
+  resumo:"O maior músculo das costas, em leque, vai da coluna e da pelve até o braço. Puxa o braço para baixo e para trás, como em barras e remadas, e ajuda a apoiar o corpo em muletas. Encurtado, impede o braço de subir por completo acima da cabeça.",
+  origem:"Processos espinhosos de T7 a T12 e, pela fáscia toracolombar, sacro e crista ilíaca; três ou quatro últimas costelas; ângulo inferior da escápula",insercao:"Assoalho do sulco intertubercular do úmero",nervo:"Nervo toracodorsal (C6–C8)",
+  acao:"Estende, aduz e gira o ombro para dentro; abaixa a escápula",
+  sinais:"Dificuldade de levar os braços totalmente acima da cabeça sem arquear a lombar e repuxar na lateral das costas ao tentar.",
+  at:"Inclinação lateral com o braço elevado",passos:["Em pé, eleve um braço acima da cabeça e segure o pulso com a outra mão.","Contraia o abdômen e incline o tronco para o lado oposto, sem girar o quadril.","Mantenha as costelas para baixo, para o alongamento não ir para a lombar."],sente:"Na lateral das costas, da axila até a cintura.",
+  cuidado:"Se a lombar arquear ou doer, reduza a inclinação. Dor aguda no ombro ao elevar o braço pede menos amplitude.",
+  porque:"ele estende, aduz e gira o ombro para dentro, então alonga com o braço elevado e rodado para fora.",
+  forte:"Puxada na barra ou no pulley com as escápulas levemente para baixo, ou remada com os cotovelos junto ao corpo."}
+});
+
+/* ---------- avaliação clínica: amplitudes, testes especiais, sinais de alerta e fontes ---------- */
+const CLIN={
+ romMax:180,
+ rom:[
+  {nome:"Flexão do ombro",ref:[0,180],motor:"deltoide anterior, peitoral maior (parte clavicular), coracobraquial; a escápula gira para cima (trapézio e serrátil)"},
+  {nome:"Extensão do ombro",ref:[0,60],motor:"deltoide posterior, latíssimo do dorso, redondo maior, cabeça longa do tríceps"},
+  {nome:"Abdução do ombro",ref:[0,180],motor:"deltoide lateral e supraespinal; a escápula gira para cima (trapézio e serrátil)"},
+  {nome:"Rotação externa",ref:[0,90],motor:"infraespinal, redondo menor, deltoide posterior"},
+  {nome:"Rotação interna",ref:[0,70],motor:"subescapular, peitoral maior, latíssimo do dorso, redondo maior"},
+  {nome:"Abdução horizontal",ref:[0,45],motor:"deltoide posterior, infraespinal"},
+  {nome:"Adução horizontal",ref:[0,135],motor:"peitoral maior, deltoide anterior"},
+  {nome:"Flexão do cotovelo",ref:[0,150],motor:"bíceps braquial, braquial"},
+  {nome:"Supinação do antebraço",ref:[0,80],motor:"bíceps braquial, supinador"}
+ ],
+ romNota:"<b>Ritmo escapuloumeral.</b> Para elevar o braço até 180°, cerca de dois terços do movimento vêm da articulação do ombro (uns 120°) e um terço da escápula girando para cima (uns 60°), numa proporção aproximada de 2 para 1. Se trapézio e serrátil não giram a escápula, a elevação fica limitada e o ombro compensa.",
+ testes:[
+  {id:"arco",area:"Impacto",nome:"Arco doloroso",sugere:"impacto subacromial ou tendinopatia do manguito",
+   como:"Em pé, o paciente abduz o braço ativamente até o alto, devagar, e desce pelo mesmo caminho.",
+   positivo:"Dor numa faixa intermediária do movimento, em geral entre cerca de 60° e 120°, que melhora acima e abaixo dela.",alvo:["supra","dellat"]},
+  {id:"neer",area:"Impacto",nome:"Neer",sugere:"impacto subacromial",
+   como:"Com uma mão o examinador estabiliza a escápula e, com a outra, eleva o braço passivamente em flexão, com o ombro em rotação interna, até o fim da amplitude.",
+   positivo:"Dor na elevação final.",alvo:["supra","bic"]},
+  {id:"hawkins",area:"Impacto",nome:"Hawkins-Kennedy",sugere:"impacto subacromial",
+   como:"Ombro e cotovelo flexionados a 90°. O examinador gira o ombro passivamente para dentro (rotação interna).",
+   positivo:"Dor no ombro durante a rotação interna.",alvo:["supra","subesc"]},
+  {id:"jobe",area:"Manguito",nome:"Lata vazia (Jobe)",sugere:"tendinopatia ou ruptura do supraespinal",
+   como:"Ombro a 90° de abdução no plano da escápula (cerca de 30° à frente do corpo), com os polegares para baixo, como esvaziando uma lata. Resistência para baixo sobre o braço.",
+   positivo:"Dor ou fraqueza.",alvo:["supra"]},
+  {id:"queda",area:"Manguito",nome:"Queda do braço",sugere:"ruptura grande do manguito (supraespinal)",
+   como:"O examinador leva o braço a 90° de abdução e pede ao paciente que o desça devagar.",
+   positivo:"O braço cai ou desce com tremor e dor, sem controle.",nota:"Perda de controle é um achado importante: considere encaminhar para avaliação médica.",alvo:["supra","dellat"]},
+  {id:"rotext",area:"Manguito",nome:"Rotação externa resistida",sugere:"infraespinal e redondo menor",
+   como:"Cotovelo a 90°, junto ao corpo, antebraço para a frente. O paciente gira o antebraço para fora contra a resistência do examinador.",
+   positivo:"Dor ou fraqueza.",alvo:["infra","redmen","delpos"]},
+  {id:"liftoff",area:"Manguito",nome:"Lift-off (Gerber)",sugere:"subescapular",
+   como:"Mão nas costas, na região lombar, com o dorso da mão encostado. O paciente tenta afastar a mão das costas.",
+   positivo:"Não consegue afastar a mão, ou só consegue compensando com o cotovelo e o tronco.",nota:"Se a dor impede de colocar a mão nas costas, use a compressão abdominal.",alvo:["subesc"]},
+  {id:"belly",area:"Manguito",nome:"Compressão abdominal (belly press)",sugere:"subescapular",
+   como:"Mão espalmada sobre o abdômen, com o cotovelo à frente do corpo. O paciente pressiona o abdômen sem levar o cotovelo para trás.",
+   positivo:"O cotovelo cai para trás ou o punho flexiona para conseguir pressionar.",alvo:["subesc"]},
+  {id:"speed",area:"Bíceps",nome:"Speed",sugere:"tendinopatia da cabeça longa do bíceps",
+   como:"Ombro flexionado a 90°, cotovelo estendido e antebraço com a palma para cima. Resistência para baixo sobre o antebraço.",
+   positivo:"Dor na frente do ombro, sobre o sulco do bíceps.",nota:"Também pode envolver o lábio superior da cavidade glenoidal.",alvo:["bic"]},
+  {id:"yergason",area:"Bíceps",nome:"Yergason",sugere:"tendinopatia ou instabilidade do tendão da cabeça longa do bíceps",
+   como:"Cotovelo a 90°, junto ao corpo, antebraço com a palma para baixo. O paciente vira a palma para cima e gira o ombro para fora contra a resistência.",
+   positivo:"Dor no sulco do bíceps ou sensação de o tendão sair do lugar.",alvo:["bic"]},
+  {id:"apreensao",area:"Instabilidade",nome:"Apreensão anterior",sugere:"instabilidade anterior do ombro",
+   como:"Deitado de costas ou sentado, ombro a 90° de abdução e cotovelo a 90°. O examinador leva o ombro devagar para a rotação externa.",
+   positivo:"Sensação de que o ombro vai sair do lugar e reação de apreensão. Ela diminui quando se empurra o úmero para trás (relocação).",alvo:["subesc","pecmai"]},
+  {id:"sulco",area:"Instabilidade",nome:"Sinal do sulco",sugere:"instabilidade inferior ou frouxidão ligamentar generalizada",
+   como:"Com o braço ao lado do corpo, o examinador o traciona para baixo.",
+   positivo:"Aparece uma depressão (sulco) logo abaixo do acrômio.",alvo:[]},
+  {id:"cruzado",area:"Acromioclavicular",nome:"Adução horizontal (braço cruzado)",sugere:"problema na articulação acromioclavicular",
+   como:"Ombro a 90° de flexão. O examinador leva o braço passivamente em adução horizontal, cruzando o peito.",
+   positivo:"Dor sobre a articulação acromioclavicular, no topo do ombro.",alvo:["delant"]},
+  {id:"alada",area:"Escápula",nome:"Flexão na parede (escápula alada)",sugere:"fraqueza do serrátil anterior ou lesão do nervo torácico longo",
+   como:"Em pé, de frente para a parede, braços na altura do ombro, o paciente faz uma flexão de braço contra a parede. Observe as escápulas por trás.",
+   positivo:"A borda medial da escápula se destaca das costas.",nota:"Se surgiu após trauma, infecção ou sem causa clara, encaminhe para avaliação.",alvo:["serr"]},
+  {id:"pecmenlen",area:"Escápula",nome:"Comprimento do peitoral menor",sugere:"encurtamento do peitoral menor",
+   como:"Deitado de costas e relaxado, observe a posição dos ombros em relação à maca.",
+   positivo:"O ombro fica elevado, sem encostar na maca.",nota:"Compare com o outro lado. A postura e a rigidez da cápsula também podem causar esse achado.",alvo:["pecmen"]},
+  {id:"spurling",area:"Descarte cervical",nome:"Spurling",sugere:"origem cervical (radiculopatia), não do ombro",
+   como:"Sentado, o paciente inclina a cabeça para o lado da dor e o examinador faz uma leve compressão para baixo. Se não houver sintomas, associe a extensão do pescoço.",
+   positivo:"Reproduz dor, formigamento ou dormência no braço.",nota:"Pare ao primeiro sintoma no braço. Evite se houver suspeita de fratura ou instabilidade cervical.",alvo:["trapsup","levesc"]}
+ ],
+ alertas:[
+  {t:"Dor no ombro com sinais do coração",d:"Dor ou pressão no peito, falta de ar, suor frio, náusea ou dor que desce pelo braço esquerdo ou vai para a mandíbula."},
+  {t:"Trauma com deformidade ou incapacidade",d:"Queda ou pancada com deformidade, perda súbita do movimento ou suspeita de fratura ou luxação."},
+  {t:"Febre com articulação quente e inchada",d:"Vermelhidão, calor e inchaço do ombro com febre podem indicar infecção da articulação."},
+  {t:"Dor intensa em repouso ou à noite, sem alívio",d:"Principalmente com perda de peso sem explicação ou história de câncer."},
+  {t:"Déficit neurológico",d:"Fraqueza ou dormência que progride no braço ou na mão, ou perda súbita de força em um grupo de músculos."},
+  {t:"Braço inchado, quente e dolorido",d:"Inchaço, mudança de cor e dor no braço, sobretudo após cateter, esforço intenso ou imobilização, podem indicar trombose."},
+  {t:"Dor que não muda com o movimento",d:"Se a dor não piora nem melhora com a posição ou a elevação do braço, ela pode ser referida de outra região (tórax, abdome superior, pescoço)."}
+ ],
+ refs:[
+  "Neumann DA. <i>Cinesiologia do Sistema Musculoesquelético: Fundamentos para a Reabilitação</i>. Guanabara Koogan.",
+  "Kendall FP, McCreary EK, Provance PG. <i>Músculos: Provas e Funções</i>. Manole.",
+  "Magee DJ. <i>Avaliação Musculoesquelética</i>. Manole.",
+  "Marques AP. <i>Manual de Goniometria</i>. Manole.",
+  "Greene WB, Heckman JD (eds). <i>The Clinical Measurement of Joint Motion</i>. American Academy of Orthopaedic Surgeons, 1994.",
+  "Hegedus EJ et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? <i>Br J Sports Med</i> 2012;46:964–978.",
+  "Netter FH. <i>Atlas de Anatomia Humana</i>. Elsevier.",
+  "Modelos 3D: Z-Anatomy e BodyParts3D, licença CC BY-SA 4.0."
+ ]
+};
+function abrirX(k){
+  xSel=k;gSel=X[k].g;const subs=G[gSel].sub;
+  gSub=Object.keys(subs).find(t=>subs[t].includes(k))||Object.keys(subs)[0];
+  gRender();$("#secGroups").scrollIntoView({behavior:(window.SUAVE||"smooth"),block:"start"});
+}
+
 /* ---------- grupos musculares e alongamentos ---------- */
 let gSel="abd",gSub="ombro",xSel="dellat";
 const gnav=$("#gnav"),gsubEl=$("#gsub"),mlist=$("#mlist"),gdet=$("#gdet");
@@ -758,14 +993,15 @@ function gRender(){
   if(!ids.includes(xSel))xSel=ids[0];
   mlist.innerHTML=ids.map(id=>`<button class="mbtn" data-x="${id}" style="--c:var(--g-${gSel})" aria-pressed="${id===xSel}"><b>${X[id].nome}</b><small>${X[id].acts.map(a=>ACT[a][0]).join(" · ")}</small></button>`).join("");
   gDetail();
+  window.EST_PRONTO&&Estado.gravar({x:xSel});
 }
 function mediaFor(id,alt){
   return `<img src="img/alongamentos/${id}.jpg" alt="Alongamento: ${alt}" onload="this.parentNode.classList.add('hasimg')" onerror="this.remove()">`;
 }
 function gDetail(){
   const x=X[xSel],gc=`var(--g-${gSel})`;
-  gdet.style.setProperty("--c",gc);
-  gdet.innerHTML=`<div class="eyebrow">${GT[gSel]} · ${SUBL[gSub].toLowerCase()}</div>
+  gdet.style.setProperty("--c",gc);gdet.style.setProperty("--on",Estado.on(gc));
+  gdet.innerHTML=`<div style="display:flex;justify-content:space-between;gap:10px;align-items:flex-start"><div class="eyebrow">${GT[gSel]} · ${SUBL[gSub].toLowerCase()}</div><span>${x.at?`<button class="lk" data-fol="${Estado.reg}:${xSel}" title="Incluir este alongamento no folheto para imprimir">${Estado.folhetoLer().includes(Estado.reg+":"+xSel)?"✓ No folheto":"+ Folheto"}</button>`:""}<button class="lk" data-link title="Copiar o link desta ficha">Copiar link</button><button class="lk" data-rep="Alongamento e ficha: ${x.nome}" title="Avisar sobre um erro neste conteúdo">Reportar erro</button></span></div>
   <h2 style="margin-top:6px">${x.nome}</h2><div class="latin" style="margin-bottom:0">${x.lat}</div>
   <div class="acts">${x.acts.map(a=>`<span class="act" style="--ac:var(--g-${ACT[a][1]});--act:var(--g-${ACT[a][1]}-t)">${ACT[a][0]}</span>`).join("")}</div>
   <p class="lead-p" style="margin-bottom:14px">${x.resumo}</p>
@@ -775,35 +1011,45 @@ function gDetail(){
     <div class="fact"><h3>Inervação</h3><p>${x.nervo}</p></div>
     <div class="fact"><h3>Ação</h3><p>${x.acao}</p></div>
   </div>
-  <div class="strech">
+  ${x.at?`  <div class="strech">
     <div class="pose"><div class="slot"><div class="phold">Ilustração do alongamento em preparo</div>${mediaFor(xSel,x.at)}</div></div>
     <div>
       <div class="eyebrow">Alongamento</div>
       <h3 style="margin-top:6px">${x.at}</h3>
       <ol class="steps" style="--c:${gc}">${x.passos.map(t=>`<li><span>${t}</span></li>`).join("")}</ol>
       <div class="dose"><span>${TEMPO}</span><span>Sente: ${x.sente}</span></div>
+      <p class="why"><b>Por quê:</b> ${x.porque||"Alongar é fazer o movimento contrário ao do músculo."}</p>
     </div>
-  </div>
-  <div class="sinais"><b>Sinais de encurtamento.</b> ${x.sinais}</div>
+  </div>`:`<div class="sinais foco"><b>Aqui o foco é fortalecer e controlar, não alongar.</b></div>`}
+  ${x.forte?`<div class="sinais" style="background:var(--surface2)"><b>Fortalecimento (exemplo).</b> ${x.forte}</div>`:""}
+  <div class="sinais"><b>${x.sinaisTit||"Sinais de encurtamento"}.</b> ${x.sinais}</div>
+  ${(()=>{const r=CLIN.testes.filter(t=>t.alvo.includes(xSel));return r.length?`<div class="sinais" style="background:var(--surface2)"><b>Testes relacionados.</b> ${r.map(t=>`<button class="lk" data-t="${t.id}">${t.nome}</button>`).join("")}</div>`:""})()}
   <div class="sinais" style="background:var(--surface2)"><b>Cuidado.</b> ${x.cuidado}</div>`;
   document.querySelectorAll("#matrix tr[data-x]").forEach(tr=>tr.classList.toggle("sel",tr.dataset.x===xSel));
 }
 gnav.addEventListener("click",e=>{const b=e.target.closest(".gbtn");if(b){gSel=b.dataset.g;gRender()}});
 gsubEl.addEventListener("click",e=>{const b=e.target.closest("button");if(b){gSub=b.dataset.s;gRender()}});
-mlist.addEventListener("click",e=>{const b=e.target.closest(".mbtn");if(b){xSel=b.dataset.x;gRender()}});
-const MCOLS=["ab","fl","ex","re","ri","ad","cf","ce"];
+gdet.addEventListener("click",e=>{const b=e.target.closest(".lk");if(!b)return;
+  if(b.dataset.rep)Estado.reportar(b.dataset.rep);
+  else if(b.dataset.fol){const entrou=Estado.folhetoAlternar(b.dataset.fol);b.textContent=entrou?"✓ No folheto":"+ Folheto";Estado.aviso(entrou?"Adicionado ao folheto ("+Estado.folhetoLer().length+")":"Removido do folheto");Estado.anuncia(entrou?"Adicionado ao folheto":"Removido do folheto")}
+  else if(b.hasAttribute("data-link"))Estado.copiar();else if(window.clin)clin.openTest(b.dataset.t)});
+mlist.addEventListener("click",e=>{const b=e.target.closest(".mbtn");if(b){xSel=b.dataset.x;gRender();if(matchMedia("(max-width:900px)").matches)gdet.scrollIntoView({behavior:(window.SUAVE||"smooth"),block:"start"})}});
+const MCOLS=["ab","fl","ex","re","ri","ad","cf","ce","sel","sde","spr","sre","srs","sri"];
 $("#matrix").innerHTML=`<thead><tr><th>Músculo</th>${MCOLS.map(c=>`<th>${ACT[c][0]}</th>`).join("")}</tr></thead><tbody>${
   Object.keys(X).map(id=>`<tr data-x="${id}" style="cursor:pointer"><td>${X[id].nome}</td>${MCOLS.map(c=>`<td>${X[id].acts.includes(c)?`<span class="dot" style="--c:var(--g-${ACT[c][1]})" title="${ACT[c][0]}"></span>`:""}</td>`).join("")}</tr>`).join("")}</tbody>`;
 $("#matrix").addEventListener("click",e=>{
   const tr=e.target.closest("tr[data-x]");if(!tr)return;
   xSel=tr.dataset.x;gSel=X[xSel].g;
   const subs=G[gSel].sub;gSub=Object.keys(subs).find(k=>subs[k].includes(xSel))||Object.keys(subs)[0];
-  gRender();$("#secGroups").scrollIntoView({behavior:"smooth",block:"start"});
+  gRender();$("#secGroups").scrollIntoView({behavior:(window.SUAVE||"smooth"),block:"start"});
 });
-document.querySelector(".snav").addEventListener("click",e=>{const b=e.target.closest("[data-go]");if(b)document.getElementById(b.dataset.go).scrollIntoView({behavior:"smooth",block:"start"})});
+document.querySelector(".snav").addEventListener("click",e=>{const b=e.target.closest("[data-go]");if(b)document.getElementById(b.dataset.go).scrollIntoView({behavior:(window.SUAVE||"smooth"),block:"start"})});
 gRender();
 
 /* ---------- desafio ---------- */
+const QKEY="atlas:"+Estado.reg+":quiz";
+const qRec=()=>{try{return +localStorage.getItem(QKEY)||0}catch(e){return 0}};
+const qPlacar=()=>{$("#qScore").textContent=`Acertos: ${score}`+(qRec()?` · recorde ${qRec()}`:"")};
 const QS=[
   ["del","frente"],["sup","costas"],["inf","costas"],["tmi","costas"],["sub","frente"],
   ["tma","costas"],["bic","frente"],["bra","frente"],["cor","frente"],["tri","costas"]
@@ -818,7 +1064,7 @@ function qShow(){
   $("#qText").textContent=t;
   $("#qView").textContent=VN[v][0].toUpperCase()+VN[v].slice(1);
   $("#qNum").textContent=`Pergunta ${qi+1} de ${QS.length}`;
-  $("#qScore").textContent=`Acertos: ${score}`;
+  qPlacar();
   $("#qBar").style.width=(qi/QS.length*100)+"%";
   const fb=$("#qFb");fb.className="q-fb";fb.textContent="Escolha um músculo na figura.";
   const nx=$("#qNext");nx.disabled=true;nx.textContent=qi===QS.length-1?"Ver resultado":"Próxima";
@@ -831,7 +1077,7 @@ function qAnswer(k){
   qSvg.querySelectorAll(".mus").forEach(g=>g.classList.toggle("sel",g.dataset.m===a));
   const fb=$("#qFb");fb.className="q-fb "+(ok?"good":"bad");
   fb.innerHTML=`<b style="font-family:var(--f-display)">${ok?"Isso mesmo!":"Quase. Era o "+M[a].nome.toLowerCase()+"."}</b><br>${ok?"":("Você escolheu o "+M[k].nome.toLowerCase()+". ")}${M[a].nome}: ${M[a].quiz}`;
-  $("#qScore").textContent=`Acertos: ${score}`;
+  qPlacar();
   $("#qNext").disabled=false;
 }
 qHost.addEventListener("click",e=>{const g=e.target.closest(".mus");if(g)qAnswer(g.dataset.m)});
@@ -840,7 +1086,10 @@ $("#qNext").addEventListener("click",()=>{
   if(qi>=QS.length-1&&!$("#qNext").dataset.done){
     $("#qBar").style.width="100%";
     const pct=score/QS.length;
-    $("#qText").textContent=`Você acertou ${score} de ${QS.length}.`;
+    const antes=qRec();
+    try{if(score>antes)localStorage.setItem(QKEY,score)}catch(e){}
+    $("#qText").textContent=`Você acertou ${score} de ${QS.length}.`+(antes?(score>antes?` Novo recorde (antes: ${antes}).`:` Seu recorde: ${antes}.`):"");
+    qPlacar();
     $("#qFb").className="q-fb";
     $("#qFb").textContent=pct>=.8?"Você já se orienta bem no ombro e no braço. Agora tente achar cada um com as mãos.":pct>=.5?"Bom caminho. Reveja a aba “Onde achar” dos músculos que escaparam.":"Volte ao atlas, alterne entre frente e costas e refaça o desafio.";
     $("#qNext").textContent="Jogar de novo";$("#qNext").dataset.done="1";
@@ -852,34 +1101,153 @@ $("#qNext").addEventListener("click",()=>{
 });
 qShow();
 
-/* ---------- tabela ---------- */
-$("#tbl").innerHTML=`<thead><tr><th>Músculo</th><th>Origem</th><th>Inserção</th><th>Inervação</th><th>Ação</th></tr></thead><tbody>${
-  ORDER.map(k=>{const m=M[k];return `<tr style="--c:var(--${k})"><td>${m.nome}</td><td>${m.origem}</td><td>${m.insercao}</td><td>${m.nervo}</td><td>${m.acao}</td></tr>`}).join("")}</tbody>`;
 
+
+/* ---------- palco: ilustração ou modelo 3D ---------- */
+function setMode(m,sem){
+  modo=m;
+  $("#pane2d").hidden=m!=="2d";$("#pane3d").hidden=m!=="3d";chips.hidden=m==="3d";
+  document.querySelectorAll("#modeSeg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.mode===m));
+  document.body.classList.toggle("m3d",m==="3d");
+  if(window.Folha&&window.EST_FOLHA){Folha.ativar(m==="3d");if(m==="3d")Folha.abrir("peek")}
+  if(m==="3d"&&window.v3d){v3d.start();v3d.resize()}
+  if(m==="2d"&&selX)select(sel);else renderPanel();
+  window.pintaIdx&&pintaIdx();
+  if(!sem&&window.EST_PRONTO){Estado.gravar({d:m==="3d"?"3d":null});Estado.anuncia(m==="3d"?"Modo modelo 3D":"Modo ilustração")}
+}
+function selectExtra(k){
+  selX=k;
+  chips.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed","false"));
+  renderPanel();
+  window.v3d&&v3d.highlight(k);
+  window.EST_PRONTO&&Estado.gravar({m:k});
+  if(window.EST_PRONTO&&window.Estado)Estado.anuncia("Selecionado: "+X[k].nome+". Origem: "+X[k].origem.replace(/<[^>]+>/g,"")+". Inserção: "+X[k].insercao.replace(/<[^>]+>/g,"")+".");
+  if(window.EST_PRONTO&&window.Folha)Folha.abrir("meio");
+}
+function renderPanelX(k){
+  const x=X[k],b=$("#panelBody");
+  window.Folha&&Folha.atualiza({nome:x.nome,latin:x.lat,cor:`var(--${k})`});
+  $("#tabs").style.display="none";
+  panel.style.setProperty("--c",`var(--${k})`);panel.style.setProperty("--ct",`var(--${k}-t)`);panel.style.setProperty("--on",Estado.on(`var(--${k})`));
+  const rel=CLIN.testes.filter(t=>t.alvo.includes(k));
+  b.innerHTML=(modo==="3d"?BACK3D:"")+`<div class="mname"><span class="sw"></span><h2>${x.nome}</h2></div><div class="latin">${x.lat}</div>
+  <p class="lead-p">${x.resumo}</p>
+  <div class="facts" style="margin-top:12px">
+    <div class="fact wide"><h3>Origem</h3><p>${x.origem}</p></div>
+    <div class="fact wide"><h3>Inserção</h3><p>${x.insercao}</p></div>
+    <div class="fact"><h3>Inervação</h3><p>${x.nervo}</p></div>
+    <div class="fact"><h3>Ação</h3><p>${x.acao}</p></div>
+  </div>
+  <div class="callout"><b>${x.sinaisTit||"Sinais de encurtamento"}.</b> ${x.sinais}</div>
+  <div style="margin-top:14px"><button class="lk" data-open="${k}">${x.at?"Alongamento":"Fortalecimento"} e grupo muscular</button>${rel.map(t=>`<button class="lk" data-t="${t.id}">Teste: ${t.nome}</button>`).join("")}</div>`;
+}
+$("#panelBody").addEventListener("click",e=>{
+  const b=e.target.closest(".lk");if(!b)return;
+  if(b.dataset.rep)Estado.reportar(b.dataset.rep);
+  else if(b.hasAttribute("data-back"))document.getElementById("stageFig").scrollIntoView({behavior:(window.SUAVE||"smooth"),block:"start"});
+  else if(b.dataset.open)abrirX(b.dataset.open);
+  else if(b.dataset.t&&window.clin)clin.openTest(b.dataset.t);
+});
+const LISTA3D=[...ORDER,...EXTRA];
+function navegar(d){const cur=selX||sel,i=Math.max(0,LISTA3D.indexOf(cur));if(window.v3d)v3d.escolher(LISTA3D[(i+d+LISTA3D.length)%LISTA3D.length])}
+Folha.montar({painel:panel,figura:$("#stageFig"),palco:$("#v3stage"),nav:navegar});
+window.EST_FOLHA=true;
+Estado.setas($("#tabs"));
+$("#modeSeg").addEventListener("click",e=>{const b=e.target.closest("button");if(b)setMode(b.dataset.mode)});
+document.querySelector(".snav").addEventListener("click",e=>{const b=e.target.closest("[data-mode]");if(b){setMode(b.dataset.mode);document.getElementById("stageFig").scrollIntoView({behavior:(window.SUAVE||"smooth"),block:"start"})}});
+
+/* ---------- desafio e resumo: todos os músculos ---------- */
+Object.entries({"pecmai": "O grande músculo do peito, em leque; aduz e gira o braço para dentro.", "pecmen": "Fica sob o peitoral maior e liga as costelas ao processo coracoide, puxando a escápula para a frente e para baixo.", "serr": "Cobre as costelas nos lados do tórax; quando fraco, a escápula fica “alada”.", "trapsup": "Sobe do pescoço ao ombro e faz o gesto de dar de ombros.", "trapmed": "Faixa horizontal entre a coluna e a escápula, que puxa a escápula para trás.", "trapinf": "Parte do trapézio que desce até a metade das costas e abaixa a escápula.", "romb": "Dois músculos entre a coluna e a borda interna da escápula, que a puxam para trás e para dentro.", "levesc": "Liga a parte de trás do pescoço ao canto de cima da escápula e a levanta.", "lat": "O maior músculo das costas, da pelve ao úmero; essencial em barras e remadas."}).forEach(([k,t])=>{X[k].quiz=t});
+const TODOS=[...ORDER.map(k=>({id:k,nome:M[k].nome,lat:M[k].latin,cor:`var(--${k})`,origem:M[k].origem,insercao:M[k].insercao,nervo:M[k].nervo,acao:M[k].acao,quiz:M[k].quiz})),
+  ...EXTRA.map(k=>({id:k,nome:X[k].nome,lat:X[k].lat,cor:`var(--${k})`,origem:X[k].origem,insercao:X[k].insercao,nervo:X[k].nervo,acao:X[k].acao,quiz:X[k].quiz}))];
+function abrirItem(id){
+  if(ORDER.includes(id)){setMode("2d");select(id);document.getElementById("stageFig").scrollIntoView({behavior:(window.SUAVE||"smooth"),block:"start"})}
+  else abrirX(id);
+}
+$("#qmode").addEventListener("click",e=>{
+  const b=e.target.closest("button");if(!b)return;
+  document.querySelectorAll("#qmode button").forEach(x=>x.setAttribute("aria-pressed",x===b));
+  $("#quizCard").hidden=b.dataset.q!=="ilu";$("#mcqRoot").hidden=b.dataset.q!=="mcq";
+});
+
+/* ---------- estado: link direto, retomada e navegação por link (busca) ---------- */
+window.aplicarUrl=function(navegando){
+  const u=Estado.url(),sv=navegando?{}:Estado.salvo(),m=u.m||sv.m,x=u.x||sv.x,extra=!!(m&&EXTRA.includes(m));
+  if(u.d==="3d"||u.s==="sec3d"||(navegando&&extra))setMode("3d",true);
+  else if(navegando&&u.m&&ORDER.includes(u.m)&&modo==="3d")setMode("2d",true);
+  if(m&&ORDER.includes(m))select(m);
+  else if(extra&&modo==="3d")selectExtra(m);
+  if(navegando&&u.v&&modo==="3d"&&window.v3d)v3d.view(u.v);
+  if(x&&X[x]){xSel=x;gSel=X[x].g;const subs=G[gSel].sub;gSub=Object.keys(subs).find(t=>subs[t].includes(x))||Object.keys(subs)[0];gRender()}
+  if(window.clin){const d=clin.restaurar(u.c,u.t);if(d)setTimeout(()=>d.scrollIntoView({block:"center",behavior:(window.SUAVE||"smooth")}),navegando?350:800)}
+  const alvo=u.s?(u.s==="sec3d"?"stageFig":u.s):(navegando&&u.m?"stageFig":null);
+  if(alvo)setTimeout(()=>{const el=document.getElementById(alvo);if(el)el.scrollIntoView(navegando?{behavior:(window.SUAVE||"smooth"),block:"start"}:undefined)},navegando?250:600);
+};
+(function(){
+  aplicarUrl(false);
+  window.EST_PRONTO=true;
+  Folha.ativar(modo==="3d");if(modo==="3d")Folha.abrir("peek");
+  const ids=[...document.querySelectorAll(".snav [data-go]")].map(b=>b.dataset.go).filter(id=>document.getElementById(id));
+  const limiar=()=>(parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--rnav-h"))||52)+(document.querySelector(".snav")?.offsetHeight||0)+40;
+  function atual(){let cur="stageFig";ids.forEach(id=>{if(document.getElementById(id).getBoundingClientRect().top<=limiar())cur=id});return cur}
+  function pintaIdx(){
+    const cur=atual();
+    document.querySelectorAll(".snav button").forEach(b=>{
+      const on=b.dataset.mode?(cur==="stageFig"&&modo==="3d"):b.dataset.go===cur&&!(cur==="stageFig"&&modo==="3d");
+      if(on)b.setAttribute("aria-current","true");else b.removeAttribute("aria-current");
+      if(on&&b.scrollIntoView&&b.parentNode.scrollWidth>b.parentNode.clientWidth)b.parentNode.scrollTo({left:b.offsetLeft-(b.parentNode.clientWidth-b.offsetWidth)/2,behavior:"auto"});
+    });
+    return cur;
+  }
+  window.pintaIdx=pintaIdx;pintaIdx();
+  let tm,raf=0;addEventListener("scroll",()=>{
+    if(!raf)raf=requestAnimationFrame(()=>{raf=0;pintaIdx()});
+    clearTimeout(tm);tm=setTimeout(()=>{const cur=atual();Estado.gravar({s:cur&&cur!=="stageFig"?cur:null})},350);
+  },{passive:true});
+  addEventListener("hashchange",()=>aplicarUrl(true));
+})();
 </script>
 <script type="module">
+import {mountClinica} from "../shared/clinica.js";
+import {mountDesafio,mountResumo} from "../shared/estudo.js";
+mountDesafio({root:document.getElementById("mcqRoot"),itens:TODOS,abrir:abrirItem,reg:Estado.reg,n:10});
+mountResumo({root:document.getElementById("resRoot"),itens:TODOS,abrir:abrirItem});
+window.clin=mountClinica({root:document.getElementById("clroot"),cor:"#4a6cf0",rom:CLIN.rom,romMax:CLIN.romMax,romNota:CLIN.romNota,testes:CLIN.testes,alertas:CLIN.alertas,refs:CLIN.refs,
+  nomeX:id=>X[id]?X[id].nome:id,onMuscle:abrirX,onState:s=>Estado.gravar(s)});
+{const u=Estado.url(),d=clin.restaurar(u.c,u.t);if(d)setTimeout(()=>d.scrollIntoView({block:"center"}),800)}
+
 import {mount3D} from "../shared/viewer3d.js";
-window.v3d=mount3D({
-  root:document.getElementById("v3root"),base:"../modelos/",side:".r",order:ORDER,regions:["ombro","braco"],
-  bones:["Scapula","Clavicle","Humerus","Radius","Ulna"],
-  groups:{
+const G3={
   del:["Acromial part of deltoid muscle","Clavicular part of deltoid muscle","Scapular spinal part of deltoid muscle"],
-  sup:["Supraspinatus muscle"],
-  inf:["Infraspinatus muscle"],
-  tmi:["Teres minor muscle"],
-  sub:["Subscapularis muscle"],
-  tma:["Teres major muscle"],
-  bic:["Long head of biceps brachii","Short head of biceps brachii"],
-  bra:["Brachialis muscle"],
-  cor:["Coracobrachialis muscle"],
-  tri:["Long head of triceps brachii","Lateral head of triceps brachii","Medial head of triceps brachii"]
-  },
-  attach:{sup:{dir:[-1,0,0]},inf:{dir:[-1,0,0]},tmi:{dir:[-1,0,0]},sub:{dir:[-1,0,0]},tma:{dir:[-1,.5,.3]},bic:{dir:[0,-1,0],insNear:"Radius",insTitle:"Inserção: tuberosidade do rádio (e aponeurose bicipital)"},tri:{dir:[0,-1,0],insNear:"Ulna",insTitle:"Inserção: olécrano da ulna, pelo tendão comum do tríceps"},del:{dir:[0,-1,0],parts:{"Scapular spinal part of deltoid muscle":[-1,-.4,0]}}},
-  info:k=>{const m=M[k];return {nome:m.nome,latin:m.latin,resumo:m.resumo,origem:m.origem,insercao:m.insercao,acao:m.acao}},
-  onSelect:k=>select(k,true),
-  onOpen:()=>document.getElementById("stageFig").scrollIntoView({behavior:"smooth",block:"start"}),
-  initial:sel
+  sup:["Supraspinatus muscle"],inf:["Infraspinatus muscle"],tmi:["Teres minor muscle"],sub:["Subscapularis muscle"],tma:["Teres major muscle"],
+  bic:["Long head of biceps brachii","Short head of biceps brachii"],bra:["Brachialis muscle"],cor:["Coracobrachialis muscle"],
+  tri:["Long head of triceps brachii","Lateral head of triceps brachii","Medial head of triceps brachii"],
+  pecmai:["Clavicular head of pectoralis major muscle","Sternocostal head of pectoralis major muscle","(Abdominal part of pectoralis major muscle)"],
+  pecmen:["Pectoralis minor muscle"],serr:["Serratus anterior muscle"],
+  /* no Z-Anatomy os nomes "descendente" e "ascendente" do trapézio estão trocados em relação à posição: as fibras de cima são a "Ascending part" */
+  trapsup:["Ascending part of trapezius muscle"],trapmed:["Transverse part of trapezius muscle"],trapinf:["Descending part of trapezius muscle"],
+  romb:["Rhomboid major muscle","Rhomboid minor muscle"],levesc:["Levator scapulae"],lat:["Latissimus dorsi muscle"]
+};
+window.v3d=mount3D({
+  stageRoot:document.getElementById("v3stage"),ctrlRoot:document.getElementById("v3ctrl"),listRoot:document.getElementById("v3list"),base:"../modelos/",side:".r",order:[...ORDER,...EXTRA],regions:["ombro","braco","torax","costas"],
+  sections:[{label:"Ombro e braço",keys:ORDER},{label:"Escápula e tórax",keys:EXTRA}],extras:EXTRA,frame:ORDER,focus:true,ctx:false,
+  bones:["Scapula","Clavicle","Humerus","Radius","Ulna","Hip bone","!Occipital bone","!Atlas (C1)","!Axis (C2)","!Vertebra C3","!Vertebra C4","!Vertebra C5","!Vertebra C6","!Vertebra C7","!Vertebra T1","!Vertebra T2","!Vertebra T3","!Vertebra T4","!Vertebra T5","!Vertebra T6","!Vertebra T7","!Vertebra T8","!Vertebra T9","!Vertebra T10","!Vertebra T11","!Vertebra T12","!Vertebra L1","!Vertebra L2","!Vertebra L3","!Vertebra L4","!Vertebra L5","!Sacrum","!Manubrium of sternum","!Body of sternum","!Xiphoid process","First rib","Second rib","Third rib","Fourth rib","Fifth rib","Sixth rib","Seventh rib","Eighth rib","Ninth rib","Tenth rib","Eleventh rib","Twelfth rib"],
+  groups:G3,
+  attach:{sup:{dir:[-1,0,0]},inf:{dir:[-1,0,0]},tmi:{dir:[-1,0,0]},sub:{dir:[-1,0,0]},tma:{dir:[-1,.5,.3]},
+    bic:{dir:[0,-1,0],insNear:"Radius",insTitle:"Inserção: tuberosidade do rádio (e aponeurose bicipital)"},
+    tri:{dir:[0,-1,0],insNear:"Ulna",insTitle:"Inserção: olécrano da ulna, pelo tendão comum do tríceps"},
+    del:{dir:[0,-1,0],parts:{"Scapular spinal part of deltoid muscle":[-1,-.4,0]}},
+    pecmai:{dir:[-1,-.2,0]},pecmen:{dir:[-.5,.8,0]},serr:{dir:[.3,0,-1]},
+    trapsup:{dir:[-.6,-.8,0]},trapmed:{dir:[-1,0,0]},trapinf:{dir:[-.4,.9,0]},
+    romb:{dir:[-1,-.3,0]},levesc:{dir:[-.3,-1,-.2]},lat:{dir:[-.4,.9,.2]}},
+  info:k=>{const m=M[k]||X[k];return {nome:m.nome,latin:m.latin||m.lat,resumo:m.resumo,origem:m.origem,insercao:m.insercao,acao:m.acao}},
+  onSelect:k=>{if(ORDER.includes(k))select(k,true);else selectExtra(k)},
+  onVazio:()=>{if(window.Folha)Folha.recolher()},
+  storeKey:"atlas:"+Estado.reg+":3d",view0:Estado.url().v||Estado.salvo().v,
+  onState:s=>{const q={v:s.view==="frente"?null:s.view};if(s.sel)q.m=s.sel;Estado.gravar(q)},
+  initial:(()=>{const m=Estado.url().m||Estado.salvo().m;return m&&(ORDER.includes(m)||(EXTRA.includes(m)&&modo==="3d"))?m:sel})()
 });
+if(modo==="3d")v3d.start();
 </script>
 </body>
 </html>

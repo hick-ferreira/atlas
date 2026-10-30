@@ -83,6 +83,28 @@ Pessoa em pé, vista frontal, braço direito elevado na horizontal para o lado c
 ### C12. tric.jpg · Tríceps braquial · cotovelo atrás da cabeça
 Pessoa em pé, vista posterior ou lateral, braço direito elevado com o cotovelo dobrado e a mão tocando as costas entre as escápulas, a outra mão puxando o cotovelo para trás da cabeça. Destaque as três cabeças do tríceps braquial. Seta indicando o cotovelo sendo puxado.
 
+### Escápula e tórax (músculos novos do atlas)
+
+### C13. pecmai.jpg · Peitoral maior · batente da porta
+Pessoa em pé, vista frontal ou levemente de três quartos, antebraço e mão direitos apoiados em um batente de porta com o cotovelo na altura do ombro, um passo à frente e o tronco girando suavemente para o lado oposto. Destaque o peitoral maior do lado direito. Seta indicando a rotação do tronco para longe do braço.
+
+### C14. pecmen.jpg · Peitoral menor · mão na parede
+Pessoa em pé ao lado de uma parede, vista frontal, mão e antebraço direitos apoiados na parede um pouco acima da altura do ombro, tronco girando devagar para longe da parede. Destaque o peitoral menor (sob o peitoral maior, em tom mais intenso, com o peitoral maior translúcido). Seta indicando o ombro indo para trás.
+
+### C15. trapsup.jpg · Trapézio superior · inclinação lateral do pescoço
+Pessoa sentada ou em pé, vista frontal, coluna alta, braço direito caído ao lado do corpo, cabeça inclinada para a esquerda (orelha em direção ao ombro esquerdo), sem erguer o ombro direito. Destaque o trapézio superior do lado direito, do pescoço ao ombro. Seta indicando a inclinação da cabeça.
+
+### C16. romb.jpg · Romboides · abraço com as escápulas afastadas
+Pessoa em pé, vista posterior, braços estendidos à frente com as mãos entrelaçadas, parte alta das costas arredondada e escápulas afastadas. Destaque os romboides entre a coluna e a borda interna das escápulas. Seta indicando as mãos empurrando para a frente.
+
+### C17. levesc.jpg · Levantador da escápula · olhar para a axila
+Pessoa sentada, vista posterior ou três quartos posterior, mão direita segurando a borda da cadeira para manter o ombro baixo, cabeça girada cerca de 45° para a esquerda e queixo para baixo, como se olhasse para a axila esquerda. Destaque o levantador da escápula do lado direito, do pescoço ao canto de cima da escápula. Seta indicando a flexão da cabeça.
+
+### C18. lat.jpg · Latíssimo do dorso · inclinação lateral com o braço elevado
+Pessoa em pé, vista posterior, braço direito elevado acima da cabeça com o pulso seguro pela outra mão, tronco inclinado suavemente para a esquerda, quadril firme. Destaque o latíssimo do dorso do lado direito, da cintura à axila. Seta indicando a inclinação do tronco.
+
+Observação: o serrátil anterior, o trapézio médio e o trapézio inferior não têm alongamento, porque o foco clínico neles é fortalecer. Se quiser ilustrar os exercícios de fortalecimento depois, salve como `<id>-forca.jpg`.
+
 ---
 
 Dica: peça cada alongamento de uma vez, confira se o braço certo está destacado e, se necessário, peça "mesmo prompt, agora mostrando o braço direito".
